@@ -1,0 +1,30 @@
+[
+  {
+    "nom": "Atelier de conception d’enquêtes",
+    "description": "L’atelier de conception d’enquêtes est un ensemble de documentation (formation à la conception de questionnaire, documentation sur l’offre de services du système d’information de collecte), de processus (spécification/recette, déploiement, etc.) et d’outils permettant aux acteurs de spécifier et configurer un processus de collecte d’enquête dans le système d’information de collecte.",
+    "mode": "web / papier / téléphone / face à face",
+    "utilisation": "enquêtes ménages / enquêtes entreprises",
+    "produits": null
+  },
+  {
+    "nom": "Pogues",
+    "description": "Pogues est une application de conception de modèles de questionnaires développée en open source par l’Insee. Son interface de saisie conviviale permet une conception par l’ajout successif de questions et leur organisation en module ou sous-module. Pogues s’articule de façon interactive avec l’application Eno de génération de modèles de questionnaire. Ce lien Pogues/Eno permet au concepteur d’avoir une vision instantanée du modèle de questionnaire en cours de construction dans le mode de collecte envisagé. Pogues est un outil rattaché au référentiel de métadonnées statistiques RméS.",
+    "mode": "web / papier / téléphone / face à face",
+    "utilisation": "enquêtes ménages / enquêtes entreprises",
+    "produits": "Eno / Public Ennemy"
+  },
+  {
+    "nom": "Portail Coleman",
+    "description": "Le portail Coleman est un site internet de promotion des enquêtes ménage. Il offre aux répondants un affichage d’informations contextualisées à la collecte d’une enquête et permet l’accès sécurisé aux questionnaires internet. Il intègre les fonctions d’authentification et d’assistance des répondants.",
+    "mode": "web",
+    "utilisation": "enquêtes entreprises",
+    "produits": "Plateforme de collecte Stromae"
+  },
+  {
+    "nom": " Portail Coltrane",
+    "description": "Le portail Coltrane est une application internet type « Mes enquêtes » qui affiche la liste des différentes enquêtes, et les dates de début/fin de collecte, auxquelles participe un répondant entreprise. Il permet un accès sécurisé aux questionnaires internet et comprend des fonctions permettant au répondant de mettre à jour ses informations personnelles. Il intègre également les fonctions d’authentification et d’assistance des répondants.",
+    "mode": "web",
+    "utilisation": "enquêtes ménages",
+    "produits": "Plateforme de collecte Stromae"
+  }
+]
