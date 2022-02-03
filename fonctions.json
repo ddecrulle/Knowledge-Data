@@ -1,267 +1,315 @@
  [
-              {
-                "macroservice": "Conception d'enquêtes",
-                "service": "Accompagnement à la conception d’enquêtes",
-                "sousservice":"Accompagnement à la conception du protocole de collecte",
-                "label": "Consulter une présentation de l’offre de services du système d’information de collecte",
-                "utilisateurs": "Maîtrise d’ouvrage d’enquête / Maîtrise d’œuvre statistique",
-                "dispo": "2",
-                "gsbpm": "gsbpm-qualite",
-                "produit": "Atelier de conception d’enquêtes",
-                "description": "Un guide de présentation et d’utilisation de l’offre de services Métallica est mis à disposition et maintenu par l’équipe d’administration des outils Métallica. Il est destiné aux maîtrises d’œuvre d’enquête utilisatrices de la filière et aux équipes conceptrices.",
-                "taches": [
-                  {
-                    "label": "Cette documentation sera enrichie en continue",
-                    "description": "",
-                    "statut": "Disponible"
-                  }
-                ]
-              },
-              {
-                "macroservice": "Conception d'enquêtes",
-                "service": "Accompagnement à la conception d’enquêtes",
-                "sousservice":"Accompagnement à la conception du protocole de collecte",
-                "label": "Configurer le protocole d’une enquête (boîte à outils, calendriers types…)",
-                "utilisateurs": "Maîtrise d’œuvre statistique",
-                "dispo": "1",
-                "gsbpm": "gsbpm-2-3",
-                "produit": "Atelier de conception d’enquêtes",
-                "description": "Pour les opérations techniques (format des fichiers à fournir aux outils, paramétrage disponible pour les courriers, etc.), une boîte à outils facilitant l’utilisation de l’offre de services est mise à disposition. Les outils en question pourraient à terme être pour partie remplacés par une application de gestion des métadonnées permettant de configurer les différents processus techniques (protocole de l’enquête, calendrier, type de courriers, etc.), le tout constituant un atelier de conception d’enquêtes avec les fonctions de conception de questionnaires.",
-                "taches": [
-                  {
-                    "label": "Des outils pour faciliter le travail des intégrateurs dans la génération des questionnaires de production",
-                    "description": "",
-                    "statut": "Disponible"
-                  },
-                  {
-                    "label": "Une configuration de la génération depuis l’interface Pogues (ajout de personnalisation spécifique, option de numérotation, etc.)",
-                    "description": "",
-                    "statut": "Jalon 3"
-                  },
-                  {
-                    "label": "Un atelier de conception d’enquêtes regroupant l’ensemble des fonctions permettant de concevoir un processus de collecte d’une enquête (questionnaires, protocoles, communications,...)",
-                    "description": "",
-                    "statut": "Non planifié"
-                  }
-                ]
-              },
-              {
-                "macroservice": "Conception d'enquêtes",
-                "service": "Accompagnement à la conception d’enquêtes",
-                "sousservice":"Accompagnement à la conception du protocole de collecte",
-                "label": "Disposer de matériaux de formation et d’aide à la conception de questionnaires (DRTI)",
-                "utilisateurs": "Maîtrise d’ouvrage d’enquête",
-                "dispo": "3",
-                "gsbpm": "gsbpm-qualite",
-                "produit": "Atelier de conception d’enquêtes",
-                "description": "La DRTI maintient de la documentation sur la conception de questionnaires (bonnes pratiques, principes généraux) et assure des formations et/ou ateliers méthodologiques destinés aux concepteurs d’enquêtes comme à tout statisticien intéressé par la question.",
-                "taches": [
-                  {
-                    "label": "Une documentation sous forme de Wiki est accessible directement depuis Pogues. Un document de travail sur les questionnaires auto-administrés de la DMCSI  expose les principes de conception de questionnaires auto-administrés : https://www.insee.fr/fr/statistiques/6010788.",
-                    "description": "",
-                    "statut": "Disponible"
-                  },
-                  {
-                    "label": "Materiel de formation pour le langage VTL ",
-                    "description": "",
-                    "statut": "Jalon 3"
-                  }
-                ]
-              },
-              {
-                "macroservice": "Conception d'enquêtes",
-                "service": "Accompagnement à la conception d’enquêtes",
-                "sousservice":"Accompagnement à la conception du protocole de collecte",
-                "label": "Disposer de matériaux de formation aux outils de conception de questionnaires (Unité qualité)",
-                "utilisateurs": "Maîtrise d’ouvrage d’enquête / Maîtrise d’œuvre statistique",
-                "dispo": "1",
-                "gsbpm": "gsbpm-qualite",
-                "produit": "Atelier de conception d’enquêtes",
-                "description": "L’unité Qualité maintient de la documentation sur les outils de conception de questionnaires et assurent des formations (programmées ou à la demande) sur ces mêmes outils à destination des équipes de conception de questionnaires et des maîtrises d’œuvre d’enquêtes.",
-                "taches": [
-                  {
-                    "label": "Une formation Pogues est proposée aux concepteurs d’enquête et la DMCSI assure un accompagnement des équipes de conception.",
-                    "description": "",
-                    "statut": "Disponible"
-                  }
-                ]
-              },
-              {
-                "macroservice": "Conception d'enquêtes",
-                "service": "Atelier de conception du modèle de questionnaires pour différents usages",
-                "sousservice":"Outil de conception du modèle de questionnaires",
-                "label": "Spécifier un modèle de questionnaire",
-                "utilisateurs": "Maîtrise d’ouvrage d’enquête / Maîtrise d’œuvre statistique",
-                "dispo": "2",
-                "gsbpm": "gsbpm-2-3",
-                "produit": "Pogues",
-                "description": "L’outil de spécification de questionnaires (Pogues) propose une interface permettant de spécifier un questionnaire à partir de ses métadonnées (questions, listes de codes, contrôles…). Il est maintenu par l’Unité Qualité.",
-                "taches": [
-                  {
-                    "label": "Support des modes web et papier",
-                    "description": "",
-                    "statut": "Disponible"
-                  },
-                  {
-                    "label": "Ajout du mode téléphone",
-                    "description": "",
-                    "statut": "Jalon 2"
-                  },
-                  {
-                    "label": "Premier branchement au référentiel de métadonnées statistiques pour récuparation de listes de codes",
-                    "description": "",
-                    "statut": "Jalon 3"
-                  },
-                  {
-                    "label": "Ajout du mode face-à-face, du support multimode et une première intégration du TCM",
-                    "description": "",
-                    "statut": "Jalon 3"
-                  },
-                  {
-                    "label": "Première vision « omnimode » avec une même spécification qui se décline « automatiquement » sur les différents modes",
-                    "description": "",
-                    "statut": "Jalon 3"
-                  },
-                  {
-                    "label": "Première version d’une gestion de questions mutualisées (gestion des enquêtes « à plateforme »)",
-                    "description": "",
-                    "statut": "Jalon 3"
-                  },
-                  {
-                    "label": "Gestion de modèles de questionnaires complexe, type plateforme TIC, TCM modulaire, ou questionnaire complémentaire modulaire EEC",
-                    "description": "",
-                    "statut": "Non planifié"
-                  }
-                ]
-              },
-              {
-                "macroservice": "Conception d'enquêtes",
-                "service": "Atelier de conception du modèle de questionnaires pour différents usages",
-                "sousservice":"Outil de conception du modèle de questionnaires",
-                "label": "Gérer des listes ou nomenclatures (nomenclatures « externes », moteur de codification…)",
-                "utilisateurs": "Maîtrise d’ouvrage d’enquête / Maîtrise d’oeuvre statistique",
-                "dispo": "0",
-                "gsbpm": "gsbpm-2-3",
-                "produit": "Pogues",
-                "description": "Lors de la spécification d'un questionnaire, les utilisateurs peuvent configurer l'appel à des services externes ou des moteurs de codification (type Sicore).",
-                "taches": [
-                  {
-                    "label": "Première intégration d'un moteur de recherche sur liste, modèle \"bailleur sociaux\"",
-                    "description": "",
-                    "statut": "Jalon 2"
-                  },
-                  {
-                    "label": "Fonctionnalité de recherche sur liste enrichie et consolidée avec la méthodologie",
-                    "description": "",
-                    "statut": "Jalon 3"
-                  },
-                  {
-                    "label": "Premier support d'une codification automatique",
-                    "description": "",
-                    "statut": "Jalon 4"
-                  }
-                ]
-              },
+      {
+        "id":"f1111",
+        "macroserviceLabel": "Conception d'enquêtes",
+        "macroserviceId":"s100",
+        "serviceLabel": "Accompagnement à la conception d’enquêtes",
+        "serviceId":"s110",
+        "sousServiceLabel":"Accompagnement à la conception du protocole de collecte",
+        "sousServiceId":"s111",
+        "label": "Consulter une présentation de l’offre de services du système d’information de collecte",
+        "utilisateurs": [
+            {
+              "id":"u001",
+              "label": "Maîtrise d’ouvrage d’enquête"
+            },
+            {
+              "id":"u002",
+              "label": "Maîtrise d’œuvre statistique"
+            }
+        ],
+        "dispo": "2",
+        "gsbpmLabel": "Gestion de la qualité",
+        "gsbpmId": "gsbpm-qualite",
+        "outilLabel": "Atelier de conception d’enquêtes",
+        "outilId": "o001",
+        "produitLabel": "Conception d’enquêtes",
+        "produitId": "p01",
+        "description": "Un guide de présentation et d’utilisation de l’offre de services Métallica est mis à disposition et maintenu par l’équipe d’administration des outils Métallica. Il est destiné aux maîtrises d’œuvre d’enquête utilisatrices de la filière et aux équipes conceptrices.",
+        "taches": [
           {
-            "macroservice": "Accès aux enquêtes",
-            "service": "Offrir une vitrine de l'enquête en phase avec insee.fr et qui respecte un cadre standardisé commun à toutes les enquêtes ménages",
-            "sousservice":"",
-            "label": "Portail de promotion d'enquête",
-            "utilisateurs": "Répondant",
-            "dispo": "3",
-            "gsbpm": "gsbpm-3-1",
-            "produit": "Portail Coleman",
-            "description": "Un portail de promotion contextualisé à chaque enquête (indépendamment de sa collecte par l'intermédiaire de la nouvelle filière) est mis à disposition sur internet. Il ne requiert aucune authentification et à pour vocation à fournir des informations générales sur l'enquête. Le public ciblé en priorité est celui des enquêtés, mais le grand public y a accès.",
-            "taches": [
-              {
-                "label": "Enquêtes avec un volet internet",
-                "description": "",
-                "statut": "Disponible"
-              },
-              {
-                "label": "Enrichissement des rubriques Infos sur l'enquête et Accessibilité",
-                "description": "",
-                "statut": "Jalon 2"
-              },
-              {
-                "label": "Une amélioration du processus de configuration pour une utilisation autonome par la maîtrise d’oeuvre",
-                "description": "",
-                "statut": "Jalon 3"
-              },
-              {
-                "label": "Un premier circuit formalisé de publication/validation sur le portail de promotion",
-                "description": "",
-                "statut": "Jalon 3"
-              },
-              {
-                "label": "Enquête sans volet internet et à protocole multimode ou multi-séquences",
-                "description": "",
-                "statut": "Jalon 4"
-              },
-              {
-                "label": "Augmenter la modularité pour mieux gérer les enquêtes à MOA externe",
-                "description": "",
-                "statut": "Non planifié"
-              }
-            ]
-          },
-          {
-            "macroservice": "Accès aux enquêtes",
-            "service": "Offrir une vitrine de l'enquête en phase avec insee.fr et qui respecte un cadre standardisé commun à toutes les enquêtes ménages",
-            "sousservice":"",
-            "label": "Portail d'authentification",
-            "utilisateurs": "Répondant",
-            "dispo": "3",
-            "gsbpm": "gsbpm-3-1",
-            "produit": "Portail Coleman / Portail Coltrane",
-            "description": "Des mécanismes d'authentification sont mis en œuvre pour sécuriser l'accès aux enquêtes. Sont également offerts des fonctions permettant de réinitialiser automatiquement un mot de passe perdu avec le niveau de sécurité iduane, ainsi que des fonctionnalités permettant une certaine personnalisation de l'ergonomie et des éléments affichés (charte graphique, logos, etc.) qui permet d'avoir des portails d'authentification contextualisés ménage ou entreprise.",
-            "taches": [
-              {
-                "label": "Première version du service de réinitialisation du mot de passe",
-                "description": "",
-                "statut": "Disponible"
-              },
-              {
-                "label": "Procédure d'homologation de sécurité en continu",
-                "description": "",
-                "statut": "Non planifié"
-              }
-            ]
-          },
-          {
-            "macroservice": "Accès aux enquêtes",
-            "service": "Espace dédié aux enquêtés",
-            "sousservice":"",
-            "label": "Site \"Mon profil\"",
-            "utilisateurs": "Répondant",
-            "dispo": "0",
-            "gsbpm": "gsbpm-3-1",
-            "produit": "Portail Coleman",
-            "description": "Le portail de promotion des enquêtes ménages (portail Coleman promotion) dispose d'un espace authentifié pour permettre aux répondants d'enquêtes à panel de consulter les informations relatives à leurs futures interrogations ou leur permettre de mettre à jour leurs informations de contacts ou la composition du ménage.",
-            "taches": [
-              {
-                "label": "L'opportunité et le périmètre d'un tel espace restent à instruire",
-                "description": "",
-                "statut": "Non planifié"
-              }
-            ]
-          },
-          {
-            "macroservice": "Accès aux enquêtes",
-            "service": "Espace dédié aux enquêtés",
-            "sousservice":"",
-            "label": "Site \"Mes Enquêtes\"",
-            "utilisateurs": "Répondant",
-            "dispo": "3",
-            "gsbpm": "gsbpm-3-1",
-            "produit": "Portail Coltrane",
-            "description": "Le portail des enquêtes entreprise (portail Coltrane) propose un espace \"Mes Enquêtes\" permettant à un contact de visualiser les questionnaires qu'il a à remplir ou encore de mettre à jour ces informations personnelles",
-            "taches": [
-              {
-                "label": "",
-                "description": "",
-                "statut": "Disponible"
-              }
-            ]
+            "id":"t11111",
+            "label": "Cette documentation sera enrichie en continue",
+            "description": "",
+            "statutId": "d",
+            "statutLabel": "Disponible"
           }
+        ]
+      },
+      {
+        "id":"f1112",
+        "macroserviceLabel": "Conception d'enquêtes",
+        "macroserviceID":"s100",
+        "serviceLabel": "Accompagnement à la conception d’enquêtes",
+        "serviceId":"s110",
+        "sousServiceLabel":"Accompagnement à la conception du protocole de collecte",
+        "sousServiceId":"s111",
+        "label": "Configurer le protocole d’une enquête (boîte à outils, calendriers types…)",
+        "utilisateurs": [
+          {
+            "id":"u002",
+            "label": "Maîtrise d’œuvre statistique"
+          }
+        ],
+        "dispo": "1",
+        "gsbpmLabel": "Gestion de la qualité",
+        "gsbpmId": "gsbpm-qualite",
+        "outilLabel": "Atelier de conception d’enquêtes",
+        "outilId": "o001",
+        "produitLabel": "Conception d’enquêtes",
+        "produitId": "p01",
+        "description": "Pour les opérations techniques (format des fichiers à fournir aux outils, paramétrage disponible pour les courriers, etc.), une boîte à outils facilitant l’utilisation de l’offre de services est mise à disposition. Les outils en question pourraient à terme être pour partie remplacés par une application de gestion des métadonnées permettant de configurer les différents processus techniques (protocole de l’enquête, calendrier, type de courriers, etc.), le tout constituant un atelier de conception d’enquêtes avec les fonctions de conception de questionnaires.",
+        "taches": [
+          {
+            "id":"t11121",
+            "label": "Des outils pour faciliter le travail des intégrateurs dans la génération des questionnaires de production",
+            "description": "",
+            "statut": "Disponible"
+          },
+          {
+            "id":"t11122",
+            "label": "Une configuration de la génération depuis l’interface Pogues (ajout de personnalisation spécifique, option de numérotation, etc.)",
+            "description": "",
+            "statut": "Jalon 3"
+          },
+          {
+            "id":"t11122",
+            "label": "Un atelier de conception d’enquêtes regroupant l’ensemble des fonctions permettant de concevoir un processus de collecte d’une enquête (questionnaires, protocoles, communications,...)",
+            "description": "",
+            "statut": "Non planifié"
+          }
+        ]
+      },
+      {
+        "id":"f1113",
+        "macroserviceLabel": "Conception d'enquêtes",
+        "macroserviceID":"s100",
+        "serviceLabel": "Accompagnement à la conception d’enquêtes",
+        "serviceId":"s110",
+        "sousServiceLabel":"Accompagnement à la conception du protocole de collecte",
+        "sousServiceId":"s111",
+        "label": "Disposer de matériaux de formation et d’aide à la conception de questionnaires (DRTI)",
+        "utilisateurs": "Maîtrise d’ouvrage d’enquête",
+        "dispo": "3",
+        "gsbpmLabel": "Gestion de la qualité",
+        "gsbpmId": "gsbpm-qualite",
+        "outilLabel": "Atelier de conception d’enquêtes",
+        "outilId": "o001",
+        "produitLabel": "Conception d’enquêtes",
+        "produitId": "p01",
+        "description": "La DRTI maintient de la documentation sur la conception de questionnaires (bonnes pratiques, principes généraux) et assure des formations et/ou ateliers méthodologiques destinés aux concepteurs d’enquêtes comme à tout statisticien intéressé par la question.",
+        "taches": [
+          {
+            "id":"t11131",
+            "label": "Une documentation sous forme de Wiki est accessible directement depuis Pogues. Un document de travail sur les questionnaires auto-administrés de la DMCSI  expose les principes de conception de questionnaires auto-administrés : https://www.insee.fr/fr/statistiques/6010788.",
+            "description": "",
+            "statut": "Disponible"
+          },
+          {
+            "id":"t11132",
+            "label": "Materiel de formation pour le langage VTL ",
+            "description": "",
+            "statut": "Jalon 3"
+          }
+        ]
+      },
+
+//TODO continuer à partir de là
+
+      {
+        "macroservice": "Conception d'enquêtes",
+        "service": "Accompagnement à la conception d’enquêtes",
+        "sousservice":"Accompagnement à la conception du protocole de collecte",
+        "label": "Disposer de matériaux de formation aux outils de conception de questionnaires (Unité qualité)",
+        "utilisateurs": "Maîtrise d’ouvrage d’enquête / Maîtrise d’œuvre statistique",
+        "dispo": "1",
+        "gsbpm": "gsbpm-qualite",
+        "produit": "Atelier de conception d’enquêtes",
+        "description": "L’unité Qualité maintient de la documentation sur les outils de conception de questionnaires et assurent des formations (programmées ou à la demande) sur ces mêmes outils à destination des équipes de conception de questionnaires et des maîtrises d’œuvre d’enquêtes.",
+        "taches": [
+          {
+            "label": "Une formation Pogues est proposée aux concepteurs d’enquête et la DMCSI assure un accompagnement des équipes de conception.",
+            "description": "",
+            "statut": "Disponible"
+          }
+        ]
+      },
+      {
+        "macroservice": "Conception d'enquêtes",
+        "service": "Atelier de conception du modèle de questionnaires pour différents usages",
+        "sousservice":"Outil de conception du modèle de questionnaires",
+        "label": "Spécifier un modèle de questionnaire",
+        "utilisateurs": "Maîtrise d’ouvrage d’enquête / Maîtrise d’œuvre statistique",
+        "dispo": "2",
+        "gsbpm": "gsbpm-2-3",
+        "produit": "Pogues",
+        "description": "L’outil de spécification de questionnaires (Pogues) propose une interface permettant de spécifier un questionnaire à partir de ses métadonnées (questions, listes de codes, contrôles…). Il est maintenu par l’Unité Qualité.",
+        "taches": [
+          {
+            "label": "Support des modes web et papier",
+            "description": "",
+            "statut": "Disponible"
+          },
+          {
+            "label": "Ajout du mode téléphone",
+            "description": "",
+            "statut": "Jalon 2"
+          },
+          {
+            "label": "Premier branchement au référentiel de métadonnées statistiques pour récuparation de listes de codes",
+            "description": "",
+            "statut": "Jalon 3"
+          },
+          {
+            "label": "Ajout du mode face-à-face, du support multimode et une première intégration du TCM",
+            "description": "",
+            "statut": "Jalon 3"
+          },
+          {
+            "label": "Première vision « omnimode » avec une même spécification qui se décline « automatiquement » sur les différents modes",
+            "description": "",
+            "statut": "Jalon 3"
+          },
+          {
+            "label": "Première version d’une gestion de questions mutualisées (gestion des enquêtes « à plateforme »)",
+            "description": "",
+            "statut": "Jalon 3"
+          },
+          {
+            "label": "Gestion de modèles de questionnaires complexe, type plateforme TIC, TCM modulaire, ou questionnaire complémentaire modulaire EEC",
+            "description": "",
+            "statut": "Non planifié"
+          }
+        ]
+      },
+      {
+        "macroservice": "Conception d'enquêtes",
+        "service": "Atelier de conception du modèle de questionnaires pour différents usages",
+        "sousservice":"Outil de conception du modèle de questionnaires",
+        "label": "Gérer des listes ou nomenclatures (nomenclatures « externes », moteur de codification…)",
+        "utilisateurs": "Maîtrise d’ouvrage d’enquête / Maîtrise d’oeuvre statistique",
+        "dispo": "0",
+        "gsbpm": "gsbpm-2-3",
+        "produit": "Pogues",
+        "description": "Lors de la spécification d'un questionnaire, les utilisateurs peuvent configurer l'appel à des services externes ou des moteurs de codification (type Sicore).",
+        "taches": [
+          {
+            "label": "Première intégration d'un moteur de recherche sur liste, modèle \"bailleur sociaux\"",
+            "description": "",
+            "statut": "Jalon 2"
+          },
+          {
+            "label": "Fonctionnalité de recherche sur liste enrichie et consolidée avec la méthodologie",
+            "description": "",
+            "statut": "Jalon 3"
+          },
+          {
+            "label": "Premier support d'une codification automatique",
+            "description": "",
+            "statut": "Jalon 4"
+          }
+        ]
+      },
+  {
+    "macroservice": "Accès aux enquêtes",
+    "service": "Offrir une vitrine de l'enquête en phase avec insee.fr et qui respecte un cadre standardisé commun à toutes les enquêtes ménages",
+    "sousservice":"",
+    "label": "Portail de promotion d'enquête",
+    "utilisateurs": "Répondant",
+    "dispo": "3",
+    "gsbpm": "gsbpm-3-1",
+    "produit": "Portail Coleman",
+    "description": "Un portail de promotion contextualisé à chaque enquête (indépendamment de sa collecte par l'intermédiaire de la nouvelle filière) est mis à disposition sur internet. Il ne requiert aucune authentification et à pour vocation à fournir des informations générales sur l'enquête. Le public ciblé en priorité est celui des enquêtés, mais le grand public y a accès.",
+    "taches": [
+      {
+        "label": "Enquêtes avec un volet internet",
+        "description": "",
+        "statut": "Disponible"
+      },
+      {
+        "label": "Enrichissement des rubriques Infos sur l'enquête et Accessibilité",
+        "description": "",
+        "statut": "Jalon 2"
+      },
+      {
+        "label": "Une amélioration du processus de configuration pour une utilisation autonome par la maîtrise d’oeuvre",
+        "description": "",
+        "statut": "Jalon 3"
+      },
+      {
+        "label": "Un premier circuit formalisé de publication/validation sur le portail de promotion",
+        "description": "",
+        "statut": "Jalon 3"
+      },
+      {
+        "label": "Enquête sans volet internet et à protocole multimode ou multi-séquences",
+        "description": "",
+        "statut": "Jalon 4"
+      },
+      {
+        "label": "Augmenter la modularité pour mieux gérer les enquêtes à MOA externe",
+        "description": "",
+        "statut": "Non planifié"
+      }
+    ]
+  },
+  {
+    "macroservice": "Accès aux enquêtes",
+    "service": "Offrir une vitrine de l'enquête en phase avec insee.fr et qui respecte un cadre standardisé commun à toutes les enquêtes ménages",
+    "sousservice":"",
+    "label": "Portail d'authentification",
+    "utilisateurs": "Répondant",
+    "dispo": "3",
+    "gsbpm": "gsbpm-3-1",
+    "produit": "Portail Coleman / Portail Coltrane",
+    "description": "Des mécanismes d'authentification sont mis en œuvre pour sécuriser l'accès aux enquêtes. Sont également offerts des fonctions permettant de réinitialiser automatiquement un mot de passe perdu avec le niveau de sécurité iduane, ainsi que des fonctionnalités permettant une certaine personnalisation de l'ergonomie et des éléments affichés (charte graphique, logos, etc.) qui permet d'avoir des portails d'authentification contextualisés ménage ou entreprise.",
+    "taches": [
+      {
+        "label": "Première version du service de réinitialisation du mot de passe",
+        "description": "",
+        "statut": "Disponible"
+      },
+      {
+        "label": "Procédure d'homologation de sécurité en continu",
+        "description": "",
+        "statut": "Non planifié"
+      }
+    ]
+  },
+  {
+    "macroservice": "Accès aux enquêtes",
+    "service": "Espace dédié aux enquêtés",
+    "sousservice":"",
+    "label": "Site \"Mon profil\"",
+    "utilisateurs": "Répondant",
+    "dispo": "0",
+    "gsbpm": "gsbpm-3-1",
+    "produit": "Portail Coleman",
+    "description": "Le portail de promotion des enquêtes ménages (portail Coleman promotion) dispose d'un espace authentifié pour permettre aux répondants d'enquêtes à panel de consulter les informations relatives à leurs futures interrogations ou leur permettre de mettre à jour leurs informations de contacts ou la composition du ménage.",
+    "taches": [
+      {
+        "label": "L'opportunité et le périmètre d'un tel espace restent à instruire",
+        "description": "",
+        "statut": "Non planifié"
+      }
+    ]
+  },
+  {
+    "macroservice": "Accès aux enquêtes",
+    "service": "Espace dédié aux enquêtés",
+    "sousservice":"",
+    "label": "Site \"Mes Enquêtes\"",
+    "utilisateurs": "Répondant",
+    "dispo": "3",
+    "gsbpm": "gsbpm-3-1",
+    "produit": "Portail Coltrane",
+    "description": "Le portail des enquêtes entreprise (portail Coltrane) propose un espace \"Mes Enquêtes\" permettant à un contact de visualiser les questionnaires qu'il a à remplir ou encore de mettre à jour ces informations personnelles",
+    "taches": [
+      {
+        "label": "",
+        "description": "",
+        "statut": "Disponible"
+      }
+    ]
+  }
  ]
