@@ -1,8 +1,7 @@
 {
   "id": "p0",
-  "nodeKey": "outils",
   "label": "Les produits",
-  "outils": [
+  "children": [
     {
       "id": "p01",
       "label": "Conception d’enquêtes",
