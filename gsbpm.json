@@ -1,8 +1,7 @@
 {
   "id": "gsbpm",
-  "nodeKey": "gsbpm",
   "label": "Phases du GSBPM",
-  "gsbpm": [
+  "children": [
     {
       "id": "gsbpm-qualite",
       "label": "Gestion de la qualité",
