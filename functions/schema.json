@@ -1,0 +1,120 @@
+{
+    "bsonType": "object",
+    "required": [
+      "id",
+      "macroserviceLabel",
+      "macroserviceId",
+      "serviceLabel",
+      "serviceId",
+      "sousServiceLabel",
+      "label",
+      "utilisateurs",
+      "dispo",
+      "gsbpmLabel",
+      "gsbpmId",
+      "outils",
+      "produitLabel",
+      "produitId",
+      "description",
+      "taches"
+    ],
+    "properties": {
+      "id": {
+        "bsonType": "string"
+      },
+      "macroserviceLabel": {
+        "bsonType": "string"
+      },
+      "macroserviceId": {
+        "bsonType": "string"
+      },
+      "serviceLabel": {
+        "bsonType": "string"
+      },
+      "serviceId": {
+        "bsonType": "string"
+      },
+      "sousServiceLabel": {
+        "bsonType": "string"
+      },
+      "sousServiceId": {
+        "bsonType": "string"
+      },
+      "label": {
+        "bsonType": "string"
+      },
+      "utilisateurs": {
+        "bsonType": "array",
+        "uniqueItems": true,
+        "items": {
+          "bsonType": "object",
+          "properties": {
+            "id": {
+              "bsonType": "string"
+            },
+            "label": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "dispo": {
+        "bsonType": "int"
+      },
+      "gsbpmLabel": {
+        "bsonType": "string"
+      },
+      "gsbpmId": {
+        "bsonType": "string"
+      },
+      "outils": {
+        "bsonType": "array",
+        "uniqueItems": true,
+        "items": {
+          "bsonType": "object",
+          "properties": {
+            "id": {
+              "bsonType": "string"
+            },
+            "label": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "produitLabel": {
+        "bsonType": "string"
+      },
+      "produitId": {
+        "bsonType": "string"
+      },
+      "description": {
+        "bsonType": "string"
+      },
+      "taches": {
+        "bsonType": "array",
+        "uniqueItems": true,
+        "items": {
+          "bsonType": "object",
+          "properties": {
+            "id": {
+              "bsonType": "string"
+            },
+            "label": {
+              "bsonType": "string"
+            },
+            "description": {
+              "bsonType": "string"
+            },
+            "statutId": {
+              "bsonType": "string"
+            },
+            "statutLabel": {
+              "bsonType": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+  
