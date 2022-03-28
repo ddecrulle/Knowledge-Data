@@ -1,0 +1,12 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/hierarchy/*.json"],
+      "url": "/schema/hierarchy.json"
+    },
+    {
+      "fileMatch": ["/functions/*.json"],
+      "url": "/schema/functions.json"
+    }
+  ]
+}

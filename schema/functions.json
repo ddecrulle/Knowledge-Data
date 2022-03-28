@@ -1,4 +1,6 @@
 {
+  "type": "array",
+  "items": {
     "bsonType": "object",
     "required": [
       "id",
@@ -117,4 +119,4 @@
       }
     }
   }
-  
+}
