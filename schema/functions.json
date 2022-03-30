@@ -61,7 +61,7 @@
         }
       },
       "dispo": {
-        "bsonType": "int"
+        "bsonType": "string"
       },
       "gsbpmLabel": {
         "bsonType": "string"
