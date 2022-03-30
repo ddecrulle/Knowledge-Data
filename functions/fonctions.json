@@ -320,8 +320,6 @@
     "macroserviceId": "s200",
     "serviceLabel": "Offrir une vitrine de l'enquête en phase avec insee.fr et qui respecte un cadre standardisé commun à toutes les enquêtes ménages",
     "serviceId": "s210",
-    "sousServiceLabel": null,
-    "sousServiceId": null,
     "label": "Portail de promotion d'enquête",
     "utilisateurs": [
       {
@@ -392,8 +390,6 @@
     "macroserviceId": "s200",
     "serviceLabel": "Offrir une vitrine de l'enquête en phase avec insee.fr et qui respecte un cadre standardisé commun à toutes les enquêtes ménages",
     "serviceId": "s210",
-    "sousServiceLabel": null,
-    "sousServiceId": null,
     "label": "Portail d'authentification",
     "utilisateurs": [
       {
@@ -440,8 +436,6 @@
     "macroserviceId": "s200",
     "serviceLabel": "Espace dédié aux enquêtés",
     "serviceId": "s220",
-    "sousServiceLabel": null,
-    "sousServiceId": null,
     "label": "Site \"Mon profil\"",
     "utilisateurs": [
       {
@@ -477,8 +471,6 @@
     "macroserviceId": "s200",
     "serviceLabel": "Espace dédié aux enquêtés",
     "serviceId": "s220",
-    "sousServiceLabel": null,
-    "sousServiceId": null,
     "label": "Site \"Mes Enquêtes\"",
     "utilisateurs": [
       {
