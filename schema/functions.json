@@ -1,6 +1,6 @@
 {
   "type": "array",
-  "items": {
+  "item": {
     "bsonType": "object",
     "required": [
       "id",
@@ -8,7 +8,6 @@
       "macroserviceId",
       "serviceLabel",
       "serviceId",
-      "sousServiceLabel",
       "label",
       "utilisateurs",
       "dispo",
