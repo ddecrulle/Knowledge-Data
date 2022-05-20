@@ -1,502 +1,3483 @@
 [
   {
-    "id": "f1111",
-    "macroserviceLabel": "Conception d'enquêtes",
-    "macroserviceId": "s100",
-    "serviceLabel": "Accompagnement à la conception d’enquêtes",
-    "serviceId": "s110",
-    "sousServiceLabel": "Accompagnement à la conception du protocole de collecte",
-    "sousServiceId": "s111",
-    "label": "Consulter une présentation de l’offre de services du système d’information de collecte",
-    "utilisateurs": [
+    "id": "S100",
+    "label": "Macro-service Conception d'enquêtes",
+    "description": "",
+    "service": [
       {
-        "id": "u001",
-        "label": "Maîtrise d’ouvrage d’enquête"
+        "id": "S110",
+        "label": "Accompagnement à la conception d'enquêtes",
+        "description": "",
+        "service": [
+          {
+            "id": "S111",
+            "label": "Accompagnement à la conception du protocole de collecte>",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Consulter une présentation de l'offre de services du système d'information de collecte",
+                "utilisateurs": [
+                  {
+                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 2,
+                "id_gsbpm": "META",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Atelier de conception d'enquêtes " }],
+                "description": "Un guide de présentation et d'utilisation de l'offre de services Métallica est mis à disposition et maintenu par l'équipe d'administration des outils Métallica. Il est destiné aux maîtrises d'œuvre d'enquête utilisatrices de la filière et aux équipes conceptrices.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": "Disponible \u2013 Cette documentation sera enrichie en continue"
+                  }
+                ]
+              },
+              {
+                "label": "Configurer le protocole d'une enquête (boîte à outils, calendriers types\u2026)",
+                "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "dispo": 1,
+                "id_gsbpm": "2.3",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Atelier de conception d'enquêtes " }],
+                "description": "Pour les opérations techniques (format des fichiers à fournir aux outils, paramétrage disponible pour les courriers, etc.), une boîte à outils facilitant l'utilisation de l'offre de services est mise à disposition. Les outils en question pourraient à terme être pour partie remplacés par une application de gestion des métadonnées permettant de configurer les différents processus techniques (protocole de l'enquête, calendrier, type de courriers, etc.), le tout constituant un atelier de conception d'enquêtes avec les fonctions de conception de questionnaires.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": "Disponible \u2013 Des outils pour faciliter le travail des intégrateurs dans la génération des questionnaires de production"
+                  },
+                  {
+                    "label": "",
+                    "description": "Une configuration de la génération depuis l'interface Pogues (ajout de personnalisation spécifique, option de numérotation, etc.)",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Un atelier de conception d'enquêtes regroupant l'ensemble des fonctions permettant de concevoir un processus de collecte d'une enquête (questionnaires, protocoles, communications,...)",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S112",
+            "label": "Accompagnement à la conception du questionnaire>",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Disposer de matériaux de formation et d'aide à la conception de questionnaires (DRTI)",
+                "utilisateurs": [{ "label": "Maîtrise d'ouvrage d'enquête" }],
+                "dispo": 3,
+                "id_gsbpm": "META",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Atelier de conception d'enquêtes " }],
+                "description": "La DRTI maintient de la documentation sur la conception de questionnaires (bonnes pratiques, principes généraux) et assure des formations et/ou ateliers méthodologiques destinés aux concepteurs d'enquêtes comme à tout statisticien intéressé par la question.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une documentation sous forme de Wiki est accessible directement depuis Pogues. Un document de travail sur les questionnaires auto-administrés de la DMCSI  expose les principes de conception de questionnaires auto-administrés :.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Materiel de formation pour le langage VTL",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              },
+              {
+                "label": "Disposer de matériaux de formation aux outils de conception de questionnaires (Unité qualité)",
+                "utilisateurs": [
+                  {
+                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 3,
+                "id_gsbpm": "META",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Atelier de conception d'enquêtes " }],
+                "description": "L'unité Qualité maintient de la documentation sur les outils de conception de questionnaires et assurent des formations (programmées ou à la demande) sur ces mêmes outils à destination des équipes de conception de questionnaires et des maîtrises d'œuvre d'enquêtes.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une formation Pogues est proposée aux concepteurs d'enquête et la DMCSI assure un accompagnement des équipes de conception.",
+                    "label_statut": "Disponible"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "u002",
-        "label": "Maîtrise d’œuvre statistique"
-      }
-    ],
-    "dispo": "2",
-    "gsbpmLabel": "Gestion de la qualité",
-    "gsbpmId": "gsbpm-qualite",
-    "outils": [
-      {
-        "label": "Atelier de conception d’enquêtes",
-        "id": "o001"
-      }
-    ],
-    "produitLabel": "Conception d’enquêtes",
-    "produitId": "p01",
-    "description": "Un guide de présentation et d’utilisation de l’offre de services Métallica est mis à disposition et maintenu par l’équipe d’administration des outils Métallica. Il est destiné aux maîtrises d’œuvre d’enquête utilisatrices de la filière et aux équipes conceptrices.",
-    "taches": [
-      {
-        "id": "t11111",
-        "label": "Cette documentation sera enrichie en continue",
+        "id": "S120",
+        "label": "Atelier de conception du modèle de questionnaires pour différents usages",
         "description": "",
-        "statutId": "d",
-        "statutLabel": "Disponible"
+        "service": [
+          {
+            "id": "S121",
+            "label": "Outil de conception du modèle de questionnaires>",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Spécifier un modèle de questionnaire",
+                "utilisateurs": [
+                  {
+                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 2,
+                "id_gsbpm": "2.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Pogues " }],
+                "description": "L'outil de spécification de questionnaires (Pogues) propose une interface permettant de spécifier un questionnaire à partir de ses métadonnées (questions, listes de codes, contrôles\u2026). Il est maintenu par l'Unité Qualité.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Support des modes web, téléphone et papier. Une première version d'un éditeur VTL est disponible.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Premier branchement au référentiel de métadonnées statistiques pour récuparation de listes de codes.",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Ajout du mode face-à-face, du support multimode et une première intégration du TCM",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Première vision « omnimode » avec une même spécification qui se décline « automatiquement » sur les différents modes.",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Première version d'une gestion de questions mutualisées (gestion des enquêtes « à plateforme »)",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Gestion de modèles de questionnaires complexe, type plateforme TIC, TCM modulaire, ou questionnaire complémentaire modulaire EEC.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Gérer des listes ou nomenclatures (nomenclatures « externes », moteur de codification\u2026)",
+                "utilisateurs": [
+                  {
+                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'oeuvre statistique"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "2.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Pogues " }],
+                "description": "Lors de la spécification d'un questionnaire, les utilisateurs peuvent configurer l'appel à des services externes ou des moteurs de codification (type Sicore).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Première intégration d'un moteur de recherche sur liste, pays, nationalité et départements .",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Fonctionnalité de recherche sur liste enrichie et consolidée avec la méthodologie",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Premier support d'une codification automatique.",
+                    "label_statut": "Jalon 4"
+                  }
+                ]
+              },
+              {
+                "label": "Visualiser le modèle de questionnaire pour les différents modes disponibles (web, papier, enquêteur)",
+                "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "dispo": 2,
+                "id_gsbpm": "2.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Pogues " }],
+                "description": "L'outil de spécification de questionnaires (Pogues) propose des fonctionnalités permettant de visualiser le rendu issu du générateur de supports de collecte (Eno), dans le mode sélectionné, d'un questionnaire spécifié.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Ajout du mode téléphone",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Ajout du mode face-à-face et du contexte « Gestionnaire reprise entreprise » (Generic)",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              },
+              {
+                "label": "Offrir une visualisation contextualisée du modèle de questionnaire (y compris aide à la création du fichier de personnalisation) pour les différents modes disponibles (web, papier, enquêteur)",
+                "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "dispo": 0,
+                "id_gsbpm": "2.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Public Ennemy " }],
+                "description": "Associé à l'outil de spécification de questionnaires, un module applicatif permet de visualiser le rendu des questionnaires, selon le mode sélectionné, personnalisés à partir de données fournies.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Mise à disposition d'une visualisation contextualisée d'un questionnaire en conception",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              },
+              {
+                "label": "Permettre la validation du questionnaire : relecture des spécifications, vérifications des filtres",
+                "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "dispo": 1,
+                "id_gsbpm": "2.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Pogues" }, { "id": "Eno " }],
+                "description": "L'outil de spécification de questionnaires propose un certain nombre de fonctionnalités permettant de valider une spécification : génération d'une spécification littérale, possibilité de tester filtres et contrôles spécifiés\u2026",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une première version de génération des spécifications est disponible.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Amélioration de l'outil de génération de spécification",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Ajout d'un analyseur syntaxique à l'interface Pogues (permet une validation syntaxique des expressions de filtres et contrôles dès l'interface graphique)",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              },
+              {
+                "label": "Produire le dictionnaire des variables pour la préparation des fichiers bruts de collecte (traitements avals)",
+                "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "dispo": 0,
+                "id_gsbpm": "2.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Pogues" }, { "id": "Eno " }],
+                "description": "L'outil de spécification, en s'appuyant sur le moteur de génération Eno, permet la production d'un dictionnaire des variables du questionnaire spécifié, utilisable tant à des fins de documentation que pour la configuration d'autres processus (chaîne aval par exemple).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une première version d'un dictionnaire de variables produit à partir de la spécification de questionnaires.",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S122",
+            "label": "Outil de génération de questionnaires",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Produire des supports de collecte sur la base de spécifications formelles de questionnaires (questionnaire web, papier, face à face, téléphonique, spécification de numérisation (code barre)\u2026)",
+                "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "dispo": 2,
+                "id_gsbpm": "3.1",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Eno " }],
+                "description": "Le moteur de génération Eno permet de produire des supports de collecte qui peuvent être techniques (questionnaires pour le web, le papier, les enquêteurs\u2026) ou documentaires (spécification). N.B. : Lorsque le support technique produit ne constitue pas en lui-même le questionnaire, celui-ci s'appuie sur un service ad-hoc (cf. Service Collecte Web, Papier, Enquêteurs) pour rendre le questionnaire utilisable et personnalisable.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Format web, papier pour les questionnaires enquêteurs téléphoniques .",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Format pour les questionnaires enquêteurs face à face",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Première implémentation du TCM",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Génération de spécifications pour la numérisation des questionnaires papier.",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Migration technologique vers Java (refonte technologique du cœur du générateur)",
+                    "label_statut": "Non planifié"
+                  },
+                  {
+                    "label": "",
+                    "description": "Génération de spécifications pour la numérisation (à coordonner entreprise/ménage).",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S123",
+            "label": "Outil de spécification des contrôles qualité post-collecte>",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Spécifier les traitements de contrôle qualité à appliquer aux questionnaires collectés",
+                "utilisateurs": [
+                  { "label": "Maîtrise d'œuvre statistique   Méthodologie" }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "2.5",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Atelier de conception d'enquêtes " }],
+                "description": "Un module applicatif dédié permet de spécifier les contrôles qualité à appliquer après la collecte aux variables collectées. Ces spécifications pilotent des traitements batchs qui exécutent effectivement ces contrôles.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Première implémentation de métadonnées actives sur les traitements type contrôle qualité",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Produire des indicateurs de qualité du questionnaire",
+                "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "dispo": 0,
+                "id_gsbpm": "3.1",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Pixies " }],
+                "description": "Un module applicatif dédié permet de spécifier les indicateurs qualité mobilisés durant le processus de collecte (complétude, relecture nécessaire, etc.). Les possibilités en termes de choix et de configuration de l'indicateur sont sous la responsabilité de DRTI (questions d'ordre méthodologique) et de la DMOAE (accompagnement/formation des enquêteurs). Ces spécifications pilotent des traitements qui calculent effectivement l'indicateur qualité.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Premier indicateur de complétude pour permettre les reprises de questionnaires incomplets dans les tests Logement.",
+                    "label_statut": "Jalon 4"
+                  },
+                  {
+                    "label": "",
+                    "description": "Premier indicateur de qualité (identification de questionnaire à reprendre).",
+                    "label_statut": "Jalon 4"
+                  },
+                  {
+                    "label": "",
+                    "description": "Interface permettant de spécifier pour chaque enquête les différents indicateurs à mobiliser durant le procesus de collecte",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S130",
+        "label": "Atelier de constitution des opérations éditiques",
+        "description": "",
+        "service": [
+          {
+            "id": "S131",
+            "label": "Outil de paramétrage et visualisation des documents>",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Choisir les modèles parmi l'offre standard",
+                "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "dispo": 1,
+                "id_gsbpm": "3.1",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Protools " }],
+                "description": "L'offre standard de courriers (modèles de lettre-avis, de relance, de remerciements...) offre un certain nombre de modèles de lettres correspondant aux différents protocoles proposés dans le cadre du programme multimode. A l'instar de ce qui existe déjà pour les enquêtes entreprises, ces lettres seront \"pré-labellisées\" (si les courriers de l'enquête s'appuient sur cette offre, ils feront l'objet d'un examen allégé lors du passage au comité du label).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "De premiers courriers candidats à la standardisation pour des protocoles avec mode web ou téléphone. Une extension de l'offre au cas plus complexe du protocole Logement",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Intégration avec l'éditique sur les différents modèles de courrier enquêtes ménage",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Offre \"pré-labellisée\"",
+                    "label_statut": "Non planifié"
+                  },
+                  {
+                    "label": "",
+                    "description": "Mise en place d'un outil d'administration ad-hoc de cette offre de courrier. Opportunité et périmètre à instruire",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Paramétrer en fonction des métadonnées de l'enquête",
+                "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "dispo": 0,
+                "id_gsbpm": "3.1",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Protools " }],
+                "description": "Les outils de constitution des courriers s'appuient sur des métadonnées décrivant le protocole de l'enquête, fournies par les maîtrises d'œuvre d'enquêtes ou directement récupérées depuis le référentiel de métadonnées statistiques, afin de configurer les courriers visualisés ou imprimés/envoyés.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Le lien avec le référentiel de métadonnées statistiques reste à étudier. Le périmètre précis d'une telle fonctionnalité reste à instruire (jusqu'à imposer le choix d'un modèle de courrier ?)",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Offrir une visualisation contextualisée",
+                "utilisateurs": [
+                  {
+                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 1,
+                "id_gsbpm": "2.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Public Ennemy " }],
+                "description": "Public Ennemy, en plus d'une visualisation contextualisée des questionnaires, offrira des services analogues sur les courriers permettant une visualisation du rendu pdf avec données personnalisées dans un courrier.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "id": "f1112",
-    "macroserviceLabel": "Conception d'enquêtes",
-    "macroserviceId": "s100",
-    "serviceLabel": "Accompagnement à la conception d’enquêtes",
-    "serviceId": "s110",
-    "sousServiceLabel": "Accompagnement à la conception du protocole de collecte",
-    "sousServiceId": "s111",
-    "label": "Configurer le protocole d’une enquête (boîte à outils, calendriers types…)",
-    "utilisateurs": [
+    "id": "S200",
+    "label": "Macro-service Accès aux enquêtes",
+    "description": "",
+    "service": [
       {
-        "id": "u002",
-        "label": "Maîtrise d’œuvre statistique"
-      }
-    ],
-    "dispo": "1",
-    "gsbpmLabel": "Gestion de la qualité",
-    "gsbpmId": "gsbpm-qualite",
-    "outils": [
-      {
-        "label": "Atelier de conception d’enquêtes",
-        "id": "o001"
-      }
-    ],
-    "produitLabel": "Conception d’enquêtes",
-    "produitId": "p01",
-    "description": "Pour les opérations techniques (format des fichiers à fournir aux outils, paramétrage disponible pour les courriers, etc.), une boîte à outils facilitant l’utilisation de l’offre de services est mise à disposition. Les outils en question pourraient à terme être pour partie remplacés par une application de gestion des métadonnées permettant de configurer les différents processus techniques (protocole de l’enquête, calendrier, type de courriers, etc.), le tout constituant un atelier de conception d’enquêtes avec les fonctions de conception de questionnaires.",
-    "taches": [
-      {
-        "id": "t11121",
-        "label": "Des outils pour faciliter le travail des intégrateurs dans la génération des questionnaires de production",
+        "id": "S210",
+        "label": "Offrir une vitrine de l'enquête en phase avec insee.fr et qui respecte un cadre standardisé commun à toutes les enquêtes ménages >",
         "description": "",
-        "statutId": "d",
-        "statutLabel": "Disponible"
+        "fonction": [
+          {
+            "label": "Portail de promotion d'enquête",
+            "utilisateurs": [{ "label": "Répondant" }],
+            "dispo": 3,
+            "id_gsbpm": "3.1",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Portail Coleman " }],
+            "description": "Un portail de promotion contextualisé à chaque enquête (indépendamment de sa collecte par l'intermédiaire de la nouvelle filière) est mis à disposition sur internet. Il ne requiert aucune authentification et à pour vocation à fournir des informations générales sur l'enquête. Le public ciblé en priorité est celui des enquêtés, mais le grand public y a accès.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Enquêtes avec un volet internet. Enrichissement de rubriques informatives (courriers aux enquêtés, résultats de l'enquête précédente et lien vers insee.fr) sur l'enquête et l'accessibilité",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Une amélioration du processus de configuration pour une utilisation autonome par la maîtrise d'oeuvre.",
+                "label_statut": "Jalon 3"
+              },
+              {
+                "label": "",
+                "description": "Un premier circuit formalisé de publication/validation sur le portail de promotion.",
+                "label_statut": "Jalon 3"
+              },
+              {
+                "label": "",
+                "description": "Enquête sans volet internet et à protocole multimode ou multi-séquences.",
+                "label_statut": "Jalon 4"
+              },
+              {
+                "label": "",
+                "description": "Augmenter la modularité pour mieux gérer les enquêtes à MOA externe",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Portail d'authentification",
+            "utilisateurs": [{ "label": "Répondant" }],
+            "dispo": 3,
+            "id_gsbpm": "3.1",
+            "id_produit": "Plateformes de collecte",
+            "outils": [
+              { "id": " Portail Coleman " },
+              { "id": " Portail Coltrane " }
+            ],
+            "description": "Des mécanismes d'authentification sont mis en œuvre pour sécuriser l'accès aux enquêtes. Sont également offerts des fonctions permettant de réinitialiser automatiquement un mot de passe perdu avec le niveau de sécurité iduane, ainsi que des fonctionnalités permettant une certaine personnalisation de l'ergonomie et des éléments affichés (charte graphique, logos, etc.) qui permet d'avoir des portails d'authentification contextualisés ménage ou entreprise.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Première version du service de réinitialisation du mot de passe.",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Procédure d'homologation de sécurité en continu",
+                "label_statut": "Non planifié"
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "t11122",
-        "label": "Une configuration de la génération depuis l’interface Pogues (ajout de personnalisation spécifique, option de numérotation, etc.)",
+        "id": "S220",
+        "label": "Espace dédié aux enquêtés >",
         "description": "",
-        "statutId": "j3",
-        "statutLabel": "Jalon 3"
+        "fonction": [
+          {
+            "label": "Site \"Mon profil\"",
+            "utilisateurs": [{ "label": "Répondant" }],
+            "dispo": 0,
+            "id_gsbpm": "3.1",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Portail Coleman " }],
+            "description": "Le portail de promotion des enquêtes ménages (portail Coleman promotion) dispose d'un espace authentifié pour permettre aux répondants d'enquêtes à panel de consulter les informations relatives à leurs futures interrogations ou leur permettre de mettre à jour leurs informations de contacts ou la composition du ménage.",
+            "taches": [
+              {
+                "label": "",
+                "description": "L'opportunité et le périmètre d'un tel espace restent à instruire",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Site \"Mes Enquêtes\"",
+            "utilisateurs": [{ "label": "Répondant" }],
+            "dispo": 3,
+            "id_gsbpm": "3.1",
+            "id_produit": "NotAvailable",
+            "outils": [{ "id": " Portail Coltrane " }],
+            "description": "Le portail des enquêtes entreprise (portail Coltrane) propose un espace \"Mes Enquêtes\" permettant à un contact de visualiser les questionnaires qu'il a à remplir ou encore de mettre à jour ces informations personnelles.",
+            "taches": [
+              {
+                "label": "",
+                "description": "",
+                "label_statut": ""
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "t11122",
-        "label": "Un atelier de conception d’enquêtes regroupant l’ensemble des fonctions permettant de concevoir un processus de collecte d’une enquête (questionnaires, protocoles, communications,...)",
+        "id": "S230",
+        "label": "Outil de configuration du site de promotion des enquêtes >",
         "description": "",
-        "statutId": "np",
-        "statutLabel": "Non planifié"
+        "fonction": [
+          {
+            "label": "Outil de configuration du site de promotion des enquêtes : de la conception à l'intégration",
+            "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+            "dispo": 0,
+            "id_gsbpm": "3.1",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Portail Coleman " }],
+            "description": "Une interface est mise à disposition des équipes de maîtrise d'œuvre et de conception d'enquête pour configurer, ou récupérer depuis le référentiel de métadonnées statistiques, les informations figurant sur le portail de promotion des enquêtes ménages.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Une première interface technique de configuration",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Une amélioration du processus de configuration pour une utilisation autonome par la maîtrise d'oeuvre.",
+                "label_statut": "Jalon 3"
+              },
+              {
+                "label": "",
+                "description": "Interface finalisée et branchement avec le référentiel de métadonnées statistiques",
+                "label_statut": "Non planifié"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "id": "f1113",
-    "macroserviceLabel": "Conception d'enquêtes",
-    "macroserviceId": "s100",
-    "serviceLabel": "Accompagnement à la conception d’enquêtes",
-    "serviceId": "s110",
-    "sousServiceLabel": "Accompagnement à la conception du protocole de collecte",
-    "sousServiceId": "s111",
-    "label": "Disposer de matériaux de formation et d’aide à la conception de questionnaires (DRTI)",
-    "utilisateurs": [
+    "id": "S300",
+    "label": "Macro service Collecte Web",
+    "description": "",
+    "service": [
       {
-        "id": "u001",
-        "label": "Maîtrise d’ouvrage d’enquête"
-      }
-    ],
-    "dispo": "3",
-    "gsbpmLabel": "Gestion de la qualité",
-    "gsbpmId": "gsbpm-qualite",
-    "outils": [
-      {
-        "label": "Atelier de conception d’enquêtes",
-        "id": "o001"
-      }
-    ],
-    "produitLabel": "Conception d’enquêtes",
-    "produitId": "p01",
-    "description": "La DRTI maintient de la documentation sur la conception de questionnaires (bonnes pratiques, principes généraux) et assure des formations et/ou ateliers méthodologiques destinés aux concepteurs d’enquêtes comme à tout statisticien intéressé par la question.",
-    "taches": [
-      {
-        "id": "t11131",
-        "label": "Une documentation sous forme de Wiki est accessible directement depuis Pogues. Un document de travail sur les questionnaires auto-administrés de la DMCSI  expose les principes de conception de questionnaires auto-administrés : https://www.insee.fr/fr/statistiques/6010788.",
+        "id": "S310",
+        "label": "Présenter et permettre l'accès aux questionnaires en ligne",
         "description": "",
-        "statutId": "d",
-        "statutLabel": "Disponible"
+        "service": [
+          {
+            "id": "S311",
+            "label": "Lister les questionnaires",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Afficher la liste des questionnaires",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 3,
+                "id_gsbpm": "4.3",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Portail Coltrane " }],
+                "description": "L'enquêté dispose de la liste des questionnaires auxquels il a déjà répondu, en cours de remplissage ou à renseigner. Fonctionnalité primordiale dans le cas des enquêtes entreprises, celle-ci ne serait utile que pour un panel multi thématique (instruction à mener)",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Portail Mes enquêtes pour la sphère entreprise",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Portail « Ménages », opportunité à instruire",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Valider la sélection de questionnaires",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 3,
+                "id_gsbpm": "4.3",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Portail Coltrane " }],
+                "description": "L'enquêté, à partir d'une liste de questionnaires qui lui sont associés, peut accéder, relire ou reprendre un questionnaire.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Portail Mes enquêtes pour la sphère entreprise",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Portail « Ménages », opportunité à instruire",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S312",
+            "label": "Consulter un questionnaire web (ou des annexes)",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Afficher questionnaire",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 3,
+                "id_gsbpm": "4.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Plateforme de collecte Stromae " }],
+                "description": "L'enquêté, une fois authentifié, peut visualiser son questionnaire ou les annexes associés.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Mutualisé ménage/entreprise (même architecture)",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques restent à mener",
+                    "label_statut": "Non planifié"
+                  },
+                  {
+                    "label": "",
+                    "description": "Meilleure scalabilité horizontale (stockage orienté document). Des études techniques restent à mener.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Expédier questionnaire",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 3,
+                "id_gsbpm": "4.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Plateforme de collecte Stromae " }],
+                "description": "L'enquêté peut valider son questionnaire, ce qui a pour effet de clore définitivement la collecte. Le droit de rectification peut s'exercer par le biais du service d'assistance.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Mutualisé ménage/entreprise (même architecture, même fonctionnement)",
+                    "label_statut": "Disponible"
+                  }
+                ]
+              },
+              {
+                "label": "Disposer d'une image (PDF) du questionnaire renseigné",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 2,
+                "id_gsbpm": "4.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Plateforme de collecte Stromae " }],
+                "description": "L'enquêté dispose d'un accès aux réponses qu'il a fournies sous la forme d'un PDF récapitulatif.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Entreprise",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Ménage : la qualité du PDF produit ne satisfait pas les critères du domaine ménage, à améliorer pour proposer une fonctionnalité équivalente dans le contexte ménage.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S313",
+            "label": "Saisir un questionnaire",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Renseigner pour la première fois un questionnaire",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 3,
+                "id_gsbpm": "4.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Plateforme de collecte Stromae " }],
+                "description": "L'enquêté saisit les réponses à son questionnaire, soit partiellement, soit en totalité.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Mutualisé ménage/entreprise (même architecture)Suite à une migration technique pour le domaine ménage la plateforme Stromae V2 est plus stable et dispose d'une meilleur tenue à la charge.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques restent à mener",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Enregistrer (l'état d') un questionnaire",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 3,
+                "id_gsbpm": "4.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Plateforme de collecte Stromae " }],
+                "description": "L'enquêté peut interrompre le remplissage du questionnaire pour le reprendre ultérieurement, les données collectées sont sauvegardées régulièrement pendant le questionnement et peuvent l'être formellement lorsque le répondant quitte le questionnaire",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Mutualisé ménage/entreprise (même architecture)Suite à une migration technique pour le domaine ménage la plateforme Stromae V2 est plus stable et dispose d'une meilleur tenue à la charge.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques (migration entreprise) et métier (cycle de vie questionnaire ménage vs cycle de vie questionnaire entreprise) restent à mener",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Reprendre un questionnaire",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 3,
+                "id_gsbpm": "4.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Plateforme de collecte Stromae " }],
+                "description": "Après une interruption, l'enquêté peut reprendre le remplissage du questionnaire à l'endroit où il s'était arrêté (ou au début du questionnaire au choix). Il peut accéder aux réponses qu'il a préalablement fournies par retours arrière successifs au sein de son questionnaire.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Mutualisé ménage/entreprise (même architecture)Suite à une migration technique pour le domaine ménage, la plateforme de collecte StromaeV2 apporte plus de stabilité et une meilleure tenue à la charge.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques (migration entreprise) restent à mener",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Appeler des services d'accès à des ressources externes : listes, nomenclatures, y compris volumineuses (navigation sur liste\u2026) ou ressources multimédia (sons, vidéos\u2026)",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 1,
+                "id_gsbpm": "4.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Plateforme de collecte Stromae " }],
+                "description": "L'enquêté peut mobiliser des ressources externes type ressources multimédias (vidéo, sons) ou des services d'aides à la saisie (nomenclatures, navigation sur liste).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Domaine ménage: Navigation sur liste et autocomplétion suite à la migration technique.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Domaine ménage : Accès à un moteur de codification",
+                    "label_statut": "Jalon 4"
+                  },
+                  {
+                    "label": "",
+                    "description": "Domaine ménage. Interfaçage avec un autre questionnaire type « carnet de collecte ».",
+                    "label_statut": "Jalon 4"
+                  },
+                  {
+                    "label": "",
+                    "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques (migration entreprise) restent à mener.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Afficher de l'aide contextuelle",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 3,
+                "id_gsbpm": "4.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Plateforme de collecte Stromae " }],
+                "description": "Pour les questions ou les modalités nécessitant des consignes ou des précisions, l'enquêté bénéficie de textes sous forme d'infos-bulles ou de consignes affichées dans une forme distinctive par rapport au texte de la question, selon les préconisations portées par DRTI.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "L'aide contextuelle est apportée par l'affichage « d'info-bulles » accessible et compatible également avec un affichage sur smartphone(suite à migration technique, nouvelle plateforme de collecte internet)",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques (migration entreprise) restent à mener.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Visualiser les réponses ne satisfaisant pas les critères de qualité (format, vraisemblance\u2026)",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 3,
+                "id_gsbpm": "4.3",
+                "id_produit": "Atelier de conception d'enquêtes",
+                "outils": [{ "id": " Plateforme de collecte Stromae " }],
+                "description": "Des contrôles de format ou de cohérence sont exécutés en cours de collecte et permettent de signaler au répondant les réponses à corriger.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Mutualisé ménage/entreprise (même architecture).Pour le Domaine ménage : Mis à niveau en termes d'accessibilité (suite à migration technique)",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques (migration entreprise) restent à mener.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "t11132",
-        "label": "Materiel de formation pour le langage VTL ",
+        "id": "S320",
+        "label": "Fournir une preuve de dépôt d'un questionnaire complété",
         "description": "",
-        "statutId": "j3",
-        "statutLabel": "Jalon 3"
+        "fonction": [
+          {
+            "label": "Générer la preuve en PDF automatiquement",
+            "utilisateurs": [{ "label": "Répondant" }],
+            "dispo": 3,
+            "id_gsbpm": "4.3",
+            "id_produit": "Atelier de conception d'enquêtes",
+            "outils": [{ "id": " Plateforme de collecte Stromae " }],
+            "description": "Dès que le questionnaire est validé, une preuve de dépôt de celui-ci est générée.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Ménage/entreprise",
+                "label_statut": "Disponible"
+              }
+            ]
+          },
+          {
+            "label": "Fournir la preuve en PDF pour téléchargement",
+            "utilisateurs": [{ "label": "Répondant" }],
+            "dispo": 3,
+            "id_gsbpm": "4.3",
+            "id_produit": "Atelier de conception d'enquêtes",
+            "outils": [{ "id": " Plateforme de collecte Stromae " }],
+            "description": "Le questionnaire validé, la preuve de dépôt générée, l'enquêté a la possibilité de la télécharger.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Ménage/entreprise",
+                "label_statut": "Disponible"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "id": "f1114",
-    "macroserviceLabel": "Conception d'enquêtes",
-    "macroserviceId": "s100",
-    "serviceLabel": "Accompagnement à la conception d’enquêtes",
-    "serviceId": "s110",
-    "sousServiceLabel": "Accompagnement à la conception du protocole de collecte",
-    "sousServiceId": "s111",
-    "label": "Disposer de matériaux de formation aux outils de conception de questionnaires (Unité qualité)",
-    "utilisateurs": [
+    "id": "S400",
+    "label": "Macro-service Collecte papier",
+    "description": "",
+    "service": [
       {
-        "id": "u001",
-        "label": "Maîtrise d’ouvrage d’enquête"
+        "id": "S410",
+        "label": "Mettre à disposition des questionnaires papier >",
+        "description": "",
+        "fonction": [
+          {
+            "label": "Interfaçage avec les services éditiques pour génération/impression/envoi des questionnaires papier",
+            "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+            "dispo": 3,
+            "id_gsbpm": "3.1",
+            "id_produit": "Services de préparation de collecte",
+            "outils": [{ "id": " Radiohead " }],
+            "description": "Le module de communication RadioHead prend en charge des modèles de document, type \"questionnaire papier\", issus d'une génération depuis les outils de spécifications de questionnaire. Interfacé avec les services éditiques, le module de communication permet donc la personnalisation, de ces questionnaires papier, leur impression/mise sous pli et envoi.",
+            "taches": [
+              {
+                "label": "",
+                "description": "",
+                "label_statut": ""
+              },
+              {
+                "label": "",
+                "description": "Migration vers un module ad-hoc (Radiohead).",
+                "label_statut": "Jalon 3"
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "u002",
-        "label": "Maîtrise d’œuvre statistique"
-      }
-    ],
-    "dispo": "1",
-    "gsbpmLabel": "Gestion de la qualité",
-    "gsbpmId": "gsbpm-qualite",
-    "outils": [
-      {
-        "label": "Atelier de conception d’enquêtes",
-        "id": "o001"
-      }
-    ],
-    "produitLabel": "Conception d’enquêtes",
-    "produitId": "p01",
-    "description": "L’unité Qualité maintient de la documentation sur les outils de conception de questionnaires et assurent des formations (programmées ou à la demande) sur ces mêmes outils à destination des équipes de conception de questionnaires et des maîtrises d’œuvre d’enquêtes.",
-    "taches": [
-      {
-        "id": "t11141",
-        "label": "Une formation Pogues est proposée aux concepteurs d’enquête et la DMCSI assure un accompagnement des équipes de conception.",
+        "id": "S420",
+        "label": "Numériser de manière standardisée >",
         "description": "",
-        "statutId": "d",
-        "statutLabel": "Disponible"
+        "fonction": [
+          {
+            "label": "Numériser des questionnaires papier",
+            "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+            "dispo": 2,
+            "id_gsbpm": "4.4",
+            "id_produit": "NotAvailable",
+            "outils": [{ "id": " Atelier numérisation " }],
+            "description": "Le PENM, soit à partir des outils offerts par son atelier de numérisation, soit par le dialogue avec un prestataire, fournit aux maîtrises d'œuvre d'enquête, dans un format exploitable, la liste des questionnaires saisis.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Atelier de numérisation (avec une configuration manuelle de la numérisation)",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Ebauche d'une offre de services consolidée sur la numérisation.",
+                "label_statut": "Jalon 3"
+              },
+              {
+                "label": "",
+                "description": ". Interfaçage avec les services de livraison de données Métallica afin d'avoir des données multimodes consolidées, et un suivi (nb de questionnaires reçus, numérisés,...)",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Fournir la liste des questionnaires saisis",
+            "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+            "dispo": 2,
+            "id_gsbpm": "4.4",
+            "id_produit": "NotAvailable",
+            "outils": [{ "id": " Atelier numérisation " }],
+            "description": "Le PENM, soit à partir des outils offerts par son atelier de numérisation, soit par le dialogue avec un prestataire, fournit aux maîtrises d'œuvre d'enquête, dans un format exploitable, la liste des questionnaires saisis.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Atelier de numérisation",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": ". Interfaçage avec les services de livraison de données Métallica afin d'avoir des données multimodes consolidées",
+                "label_statut": "Non planifié"
+              },
+              {
+                "label": "",
+                "description": "Faire peser sur le seul PENM la responsabilité de la gestion des prestataires de saisie en matière d'enquêtes ménages reste à étudier et à valider",
+                "label_statut": "Non planifiée"
+              }
+            ]
+          },
+          {
+            "label": "Fournir les données issues de la saisie",
+            "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+            "dispo": 1,
+            "id_gsbpm": "4.4",
+            "id_produit": "NotAvailable",
+            "outils": [{ "id": " Atelier numérisation " }],
+            "description": "L'atelier numérisation, soit à partir de ses outils propres, soit par le recours à un prestataire, fournit aux maîtrises d'œuvre d'enquête, dans un format exploitable, les données de collecte issues de l'opération de saisie.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Atelier de numérisation",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Interfaçage avec les services de livraison de données Métallica afin d'avoir des données multimodes consolidées",
+                "label_statut": "Non planifié"
+              },
+              {
+                "label": "",
+                "description": "Intégrer dans l'offre de l'atelier de numérisation la responsabilité de la gestion des prestataires de saisie. L'opportunité reste à étudier et à valider",
+                "label_statut": "Non planifiée"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "id": "f1121",
-    "macroserviceLabel": "Conception d'enquêtes",
-    "macroserviceId": "s100",
-    "serviceLabel": "Accompagnement à la conception d’enquêtes",
-    "serviceId": "s110",
-    "sousServiceLabel": "Accompagnement à la conception de questionnaires",
-    "sousServiceId": "s112",
-    "label": "Spécifier un modèle de questionnaire",
-    "utilisateurs": [
+    "id": "S500",
+    "label": "Macro-service Collecte enquêteurs",
+    "description": "",
+    "service": [
       {
-        "id": "u001",
-        "label": "Maîtrise d’ouvrage d’enquête"
+        "id": "S510",
+        "label": "Offrir aux enquêteurs un service dédié à la passation de questionnaires d'enquêtes",
+        "description": "",
+        "service": [
+          {
+            "id": "S511",
+            "label": "Accéder à un espace dédié à la formation (appropriation des questionnaires)",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Mettre à disposition des questionnaires de formation (vierges ou préremplis)",
+                "utilisateurs": [
+                  { "label": "Enquêteur   Site de gestion locale" }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.2",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Les outils (brique Queen du poste enquêteur Sabiane collecte) permettent d'utiliser un questionnaire enquêteur dans un contexte de formation (sans fonctions de suivi/organisation notamment). Cela inclut la gestion de données de formation qui peuvent être conservées sans interférer avec les données de collecte.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Première version d'un contexte de formation dans Sabiane",
+                    "label_statut": "Disponible"
+                  }
+                ]
+              },
+              {
+                "label": "Réinitialiser automatiquement (pas de persistance) les questionnaires de formation",
+                "utilisateurs": [
+                  { "label": "Enquêteur   Site de gestion locale" }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.2",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Les données de formation peuvent être réinitialisées par l'utilisateur du questionnaire de formation ou par un responsable local / national de la formation. A noter qu'elles peuvent également être conservées.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Besoin métier à préciser.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Ajouter/supprimer des questionnaires de formation d'une enquête donnée pour initialiser",
+                "utilisateurs": [
+                  {
+                    "label": "Maîtrise d'œuvre informatique   Administrateur de la collecte"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.2",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Batch Sabiane " }],
+                "description": "Les outils mis à disposition des intégrateurs et des équipes d'administration, traitements batchs notamment, permettent d'initialiser/supprimer massivement les données de formation « questionnaire enquêteur ».",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Outiller la mise en place de session de formation",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion locale   Site de gestion nationale   Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.2",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Massive Attack " }],
+                "description": "Des outils facilitant la mise en œuvre des sessions de formation (initialisation des comptes et des données notamment) sont mis à disposition des équipes de formation (nationales ou locales) afin de faciliter leur autonomie dans la mise en œuvre de leur formation.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Un premier outil permettant l'initialisation de comptes sur la base d'un jeu de données modèles.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Evolution de l'outil pour faciliter la construction des jeux de données (contextualisation locale)",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S512",
+            "label": "Collecter les données>",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Accéder aux questionnaires des unités enquêtées",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Les outils du poste Enquêteur (Sabiane collecte) permettent d'accéder à des questionnaires d'enquête avec des fonctions de recherche, de tri et de filtres.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Renseigner un questionnaire",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Les questionnaires enquêteur permettent de saisir des données de collecte soit en totalité, soit partiellement.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Des questionnaires enquêteurs adaptés au contexte téléphonique",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Des questionnaires enquêteurs adaptés au contexte face à face",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Intégration dans l'application questionnaire des « retour qualité » (ou « bloc qualité ») de l'enquêteur",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Enregistrer (l'état d') un questionnaire",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "L'enquêteur peut interrompre le remplissage du questionnaire (sans en abandonner la collecte) pour le reprendre ultérieurement, les données collectées sont sauvegardées régulièrement pendant le questionnement. À noter que cet enregistrement ne nécessite pas de connexion internet. Les données sont sauvegardées en local et peuvent être synchronisées ultérieurement.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Reprendre un questionnaire",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Après une interruption, l'enquêteur peut reprendre le remplissage du questionnaire à l'endroit où il s'était arrêté (ou au début du questionnaire au choix). Il peut accéder aux réponses qu'il a préalablement renseignées par retours arrière successifs au sein du questionnaire.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Possibilité de ré-ouvrir un questionnaire, mais sans workflowet particulier de reprise/modification, ni d'ergonomie particulière (données traitées comme des données antérieures, ouverture du questionnaire au début, ...)",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Processus de reprise/modification du questionnaire web complètement implémenté (processus métier à préciser).",
+                    "label_statut": "Jalon 4"
+                  }
+                ]
+              },
+              {
+                "label": "Abandonner un questionnaire",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Un enquêteur peut abandonner définitivement un questionnaire. Il peut, à tout moment, interrompre définitivement un questionnaire et renseigner un motif d'abandon (refus, autres\u2026).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une première liste de motifs d'abandon pour des enquêtes téléphoniques",
+                    "label_statut": "Disponible"
+                  }
+                ]
+              },
+              {
+                "label": "Appeler des services d'accès à des ressources externes : listes, nomenclatures, y compris volumineuses (navigation sur liste\u2026) ou ressources multimédia (sons, vidéos\u2026)",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Les questionnaires enquêteur permettent de mobiliser des ressources externes type ressources multimédias (vidéo, sons) ou des services d'aides à la saisie (nomenclatures, navigation sur listes) en proposant un fonctionnement hors-ligne (éventuellement minimal).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Fonctionnalité de recherche sur liste.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Accès à des ressources multimédia type fichiers sons.",
+                    "label_statut": "Jalon 4"
+                  }
+                ]
+              },
+              {
+                "label": "Accéder aux instructions et documents de collecte (de manière globale ou contextualisée)",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Les outils du poste enquêteur permettent d'accéder à différentes ressources documentaires, tels que des instructions relatives à la collecte d'une enquête donnée ou encore des consignes d'ordre générale.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Visualiser les réponses ne satisfaisant pas les critères de qualité (format, vraisemblance\u2026)",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Des contrôles de format ou de cohérence sont exécutés en cours de collecte et permettent de signaler à l'enquêteur les réponses ne satisfaisant pas aux critères de qualité en cours de collecte.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "u002",
-        "label": "Maîtrise d’œuvre statistique"
-      }
-    ],
-    "dispo": "2",
-    "gsbpmLabel": "Conception de la collecte",
-    "gsbpmId": "gsbpm-2-3",
-    "outils": [
-      {
-        "label": "Pogues",
-        "id": "o002"
-      }
-    ],
-    "produitLabel": "Conception d’enquêtes",
-    "produitId": "p01",
-    "description": "L’outil de spécification de questionnaires (Pogues) propose une interface permettant de spécifier un questionnaire à partir de ses métadonnées (questions, listes de codes, contrôles…). Il est maintenu par l’Unité Qualité.",
-    "taches": [
-      {
-        "id": "t11211",
-        "label": "Support des modes web et papier",
+        "id": "S520",
+        "label": "Offrir aux enquêteurs un service dédié au suivi et l'organisation de la collecte",
         "description": "",
-        "statutId": "d",
-        "statutLabel": "Disponible"
-      },
-      {
-        "id": "t11212",
-        "label": "Ajout du mode téléphone",
-        "description": "",
-        "statutId": "j2",
-        "statutLabel": "Jalon 2"
-      },
-      {
-        "id": "t11213",
-        "label": "Premier branchement au référentiel de métadonnées statistiques pour récuparation de listes de codes",
-        "description": "",
-        "statutId": "j3",
-        "statutLabel": "Jalon 3"
-      },
-      {
-        "id": "t11214",
-        "label": "Ajout du mode face-à-face, du support multimode et une première intégration du TCM",
-        "description": "",
-        "statutId": "j3",
-        "statutLabel": "Jalon 3"
-      },
-      {
-        "id": "t11215",
-        "label": "Première vision « omnimode » avec une même spécification qui se décline « automatiquement » sur les différents modes",
-        "description": "",
-        "statutId": "j3",
-        "statutLabel": "Jalon 3"
-      },
-      {
-        "id": "t11216",
-        "label": "Première version d’une gestion de questions mutualisées (gestion des enquêtes « à plateforme »)",
-        "description": "",
-        "statutId": "j3",
-        "statutLabel": "Jalon 3"
-      },
-      {
-        "id": "t11217",
-        "label": "Gestion de modèles de questionnaires complexe, type plateforme TIC, TCM modulaire, ou questionnaire complémentaire modulaire EEC",
-        "description": "",
-        "statutId": "np",
-        "statutLabel": "Non planifié"
+        "service": [
+          {
+            "id": "S521",
+            "label": "Offrir un contexte de formation",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Ajouter/supprimer des données de formation",
+                "utilisateurs": [
+                  {
+                    "label": "Maîtrise d'œuvre informatique   Administrateur de la collecte"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.2",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Batch Sabiane " }],
+                "description": "Les outils mis à disposition des intégrateurs et administrateurs Métallica, traitements batchs notamment, permettent d'ajouter/supprimer massivement des données de formations (formation à l'outil comme formation à une enquête).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S522",
+            "label": "Faciliter les échanges avec les enquêtés>",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Écrire et envoyer un mail à partir des données de contact",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Le poste de collecte enquêteur permet des envois de mails contextualisés (appel au service de message avec adresses mail et objet renseignés)",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "L'enquêteur utilise sa messagerie personnelle sans contextualisation en l'absence de fonctionnelle dédiée.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Proposer un agenda avec des plages de disponibilité aux enquêtés (appels, enquêtes)",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "L'application Sabiane collecte offre à l'enquêteur des fonctionnalités dédiées à faciliter la prise de rendez-vous avec le répondant (calendrier, plages de disponibilité, etc.)",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": " Contenu à instruire. Outils spécifiques ou fonctionnalités de type « Agenda Outlook » ?",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S523",
+            "label": "Accéder à des fonctionnalités de repérage associées à un mode de collecte >",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Renseigner/modifier le résultat d'un repérage ou d'un essai de contact",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Le poste de collecte enquêteur permet de renseigner les informations relatives au repérage (face à face) ou à un essai de contact (face à face et téléphone) adaptées au mode de l'enquête. Il permet tant d'enregistrer des tentatives de repérage ou essais de contact que des résultats définitifs pour ces phases de repérage/contact (issue de repérage/contact) Une application mobile reprenant ces fonctions est également (en plus du poste de collecte) mise à disposition des enquêteurs pour plus de mobilité (contexte d'un enquêteur dans la rue par exemple).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  },
+                  {
+                    "label": "",
+                    "description": "Les fonctions de repérage relatives à une enquête en face à face",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Application mobile dédiée. A instruire",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Mettre à jour les informations de contact des enquêtés",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Le poste de collecte enquêteur permet de renseigner/mettre à jour les informations de contact d'une unité d'enquête. Une application mobile contenant ces fonctions est également mise à disposition des enquêteurs pour plus de mobilité.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  },
+                  {
+                    "label": "",
+                    "description": "Possibilité de modifier les coordonnées d'un enquêté en dehors d'un questionnaire statistique.",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "« Service » équivalent à celui d'une fiche-adresse papier.",
+                    "label_statut": "Non planifié"
+                  },
+                  {
+                    "label": "",
+                    "description": "Interfaçage avec un référentiel d'unités enquêtées pour suivi des coordonnées d'UE (fonctions pour les panels)",
+                    "label_statut": "Jalon 4"
+                  },
+                  {
+                    "label": "",
+                    "description": "Application mobile dédiée. A instruire",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S524",
+            "label": "Suivre la collecte >",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Visualiser le réalisé et le reste à faire selon différents critères de tri (sélectionner une ou plusieurs enquêtes)",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Le poste de collecte enquêteur permet aux enquêteurs de visualiser les unités enquêtées collectées et celles restantes à faire. Il offre également des fonctions de tri/filtrage en fonction des enquêtes.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Visualiser le reste à faire selon les critères de priorisation éventuels",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Les fonctions d'affichage des unités enquêtées permettent de prendre en compte des critères de priorité, fixés par la maîtrise d'ouvrage ou les gestionnaires.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  },
+                  {
+                    "label": "",
+                    "description": "Consolidation des critères entre enquêtes.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Visualiser les dernières mises à jour dans le reste à faire (ex : ajout de nouvelles unités pour une collecte qui démarre, suppression automatique d'unités réalisées avec un autre mode)",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Le poste de collecte enquêteur permet de visualiser (sous forme de notifications techniques) les dernières mises à jour sur les unités enquêtées (ajout, suppression, commentaires) qu'elles proviennent de l'enquêteur lui-même ou d'une mise à jour du système central.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Accéder à l'historique des informations pour une unité enquêtée sélectionnée (ex : essais de contact, envoi de courriers\u2026)",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Le poste de collecte enquêteur permet de visualiser un historique des différents événements relatifs à la collecte d'une unité enquêtée (prise de contact, envoi de courriers...).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Première couverture d'un cycle de vie d'unité enquêtée type \"enquête téléphonique\" (hors envoi de courriers).",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Couverture d'un cycle de vie d'unité enquêtée type \"enquête face-à-face\" (hors envoi de courriers)",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Suivi et historique des demandes d'envoi de courriers. A coordonner avec les évolutions côté éditique (Oppossum ?)",
+                    "label_statut": "A planifier"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S525",
+            "label": "Organiser la collecte>",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Permettre la visualisation cartographique des unités enquêtées pour optimiser les déplacements",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Le poste de collecte enquêteur offre la possibilité de visualiser une carte indiquant le positionnement d'une adresse de contact. Les services techniques mis en œuvre sont mutualisés avec les fonctions similaire de Crabe (impression de cartes sur les fiches adresses papier).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Organiser des tournées : sélectionner et visualiser une liste d'unités à collecter à une date choisie",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Le poste de collecte enquêteur permet de visualiser les unités enquêtées à collecter pour une date donnée à des fins de planification.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Besoin métier à préciser",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Demander l'envoi d'une communication (lettre/mail avis, lettres/mails de relance, SMS\u2026)",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Le poste de collecte enquêteur permet de demander l'envoi ou le réenvoi d'un document de collecte (par courrier papier, par mail ou par SMS) à une unité enquêtée. Cette demande devra faire l'objet d'une validation par un gestionnaire en DEM.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Disponible pour l'envoi unitaire de courrier (relance/lettre-avis) depuis le poste enquêteur.",
+                    "label_statut": "Jalon 4"
+                  }
+                ]
+              },
+              {
+                "label": "Modifier le statut d'une unité d'enquête (y compris terminée, déchet, déménagement, absence de l'enquêteur\u2026)",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Le poste de collecte enquêteur et le questionnaire enquêteur permettent de modifier le statut d'une unité d'enquête ou d'un questionnaire (cycle de vie d'une unité enquêtée et workflow de reprise/modification des questionnaires).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Sur un périmètre hors modification/reprise questionnaire",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Couverture de la modification/reprise questionnaire enquêteur",
+                    "label_statut": "Jalon 4"
+                  }
+                ]
+              },
+              {
+                "label": "Créer de nouvelles unités enquêtées (éclatement...) ou fusionner des unités existantes (cas des panels)",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane collecte " }],
+                "description": "Le poste de collecte enquêteur permet la collecte d'unité enquêtée nouvelle (suite à éclatement de budget ou de ménages) ou le regroupement (fusion dans un panel) d'unités enquêtées et ce même dans un contexte hors-ligne.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Possibilité de collecter, à la volée et même hors-ligne, des nouvelles unités enquetées (type éclatement de Logement, de ménage, etc.)",
+                    "label_statut": "Jalon 4"
+                  },
+                  {
+                    "label": "",
+                    "description": "Possibilité de gérer les regroupements d'unités enquêtées",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "id": "f1211",
-    "macroserviceLabel": "Conception d'enquêtes",
-    "macroserviceId": "s100",
-    "serviceLabel": "Atelier de conception du modèle de questionnaires pour différents usages",
-    "serviceId": "s120",
-    "sousServiceLabel": "Outil de conception du modèle de questionnaires",
-    "sousServiceId": "s121",
-    "label": "Gérer des listes ou nomenclatures (nomenclatures « externes », moteur de codification…)",
-    "utilisateurs": [
+    "id": "S600",
+    "label": "Macro-Service Contrôle qualité",
+    "description": "",
+    "service": [
       {
-        "id": "u001",
-        "label": "Maîtrise d’ouvrage d’enquête"
+        "id": "S610",
+        "label": "Mise à disposition de paradonnées >",
+        "description": "",
+        "fonction": [
+          {
+            "label": "Livrer les paradonnées des enquêtes autoadministrées",
+            "utilisateurs": [
+              {
+                "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+              }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "4.4",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Batch Coleman " }],
+            "description": "Les données relatives au déroulement d'un questionnement (paradonnées) enregistrées par le questionnaire internet sont mises à disposition dans un entrepôt. A noter que ces données peuvent être exploitées à des fins de maîtrise d'œuvre ou de conception dans le cadre de tests d'enquête ou de questionnaire. Elles sont mises à disposition en cours de collecte afin de permettre le pilotage du processus (ex: echantillonnage des non-répondants sur la base de paradonnées web).",
+            "taches": [
+              {
+                "label": "",
+                "description": "",
+                "label_statut": "Jalon 2"
+              },
+              {
+                "label": "",
+                "description": "Mise à disposition des paradonnées dans un entrepôt",
+                "label_statut": "Jalon 4"
+              }
+            ]
+          },
+          {
+            "label": "Livrer les paradonnées des enquêtes avec enquêteurs",
+            "utilisateurs": [
+              {
+                "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+              }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "4.4",
+            "id_produit": "NotAvailable",
+            "outils": [{ "id": " Batch Sabiane " }],
+            "description": "Les données relatives au déroulement d'un questionnement(paradonnées) enregistrées par le questionnaire enquêteur sont mis à disposition dans un entrepôt.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Première offre de paradonnées enquêteurs.",
+                "label_statut": "Jalon 3"
+              },
+              {
+                "label": "",
+                "description": "Enrichissement des indicateurs fournis et usages autres que la maitrise d'oeuvre statistique. Des instructions métiers et méthodologiques restent à mener.",
+                "label_statut": "Non planifié"
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "u002",
-        "label": "Maîtrise d’œuvre statistique"
-      }
-    ],
-    "dispo": "0",
-    "gsbpmLabel": "Conception de la collecte",
-    "gsbpmId": "gsbpm-2-3",
-    "outils": [
-      {
-        "label": "Pogues",
-        "id": "o002"
-      }
-    ],
-    "produitLabel": "Conception d’enquêtes",
-    "produitId": "p01",
-    "description": "Lors de la spécification d'un questionnaire, les utilisateurs peuvent configurer l'appel à des services externes ou des moteurs de codification (type Sicore).",
-    "taches": [
-      {
-        "id": "t12111",
-        "label": "Première intégration d'un moteur de recherche sur liste, modèle \"bailleur sociaux\"",
+        "id": "S620",
+        "label": "Offrir des possibilités de requêtages riches/libres sur les paradonnées",
         "description": "",
-        "statutId": "j2",
-        "statutLabel": "Jalon 2"
+        "fonction": [
+          {
+            "label": "Analyser les paradonnées à l'issue de la collecte",
+            "utilisateurs": [
+              {
+                "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+              }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "5.3",
+            "id_produit": "NotAvailable",
+            "outils": [{ "id": " Parliament " }],
+            "description": "L'entrepôt de paradonnées (Parliament) fournit une offre d'indicateurs standards (type tableau de bord) et permet un requêtage libre sur les paradonnées pour la construction d'indicateurs ad-hoc (les paradonnées enquêteur individuelles sont réservées aux seuls maîtrises d'œuvre).",
+            "taches": [
+              {
+                "label": "",
+                "description": "Expérimentation de l'entrepôt pour les \"paradonnées Web\" avec l'équipe conceptrice de l'enquête Logement",
+                "label_statut": "Jalon 4"
+              },
+              {
+                "label": "",
+                "description": "Mise en oeuvre d'un entrepôt (version stabilisée).",
+                "label_statut": "Non planifié"
+              },
+              {
+                "label": "",
+                "description": "Paradonnées enquêteurs : opportunité d'un requêtage libre à instruire (anonymisation, sécurité...)",
+                "label_statut": "Non planifié"
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "t12112",
-        "label": "Fonctionnalité de recherche sur liste enrichie et consolidée avec la méthodologie",
+        "id": "S630",
+        "label": "Visualisation de questionnaires à contrôler >",
         "description": "",
-        "statutId": "j3",
-        "statutLabel": "Jalon 3"
+        "fonction": [
+          {
+            "label": "Relire des questionnaires internet sans possibilité de modification",
+            "utilisateurs": [
+              {
+                "label": "Site de gestion nationale   Maîtrise d'œuvre statistique"
+              }
+            ],
+            "dispo": 3,
+            "id_gsbpm": "5.3",
+            "id_produit": "Atelier de conception d'enquêtes",
+            "outils": [{ "id": " Plateforme de collecte Stromae " }],
+            "description": "La plateforme de collecte internet offre un accès type « site miroir » permettant aux équipes de gestion et de maîtrise d'œuvre statistique de visualiser des questionnaires de répondants internet sans possibilité de modification.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Pour le domaine entreprise",
+                "label_statut": "Opérationnel"
+              },
+              {
+                "label": "",
+                "description": "Des instructions sur le procesus métier restent à conduire pour le domaine ménages",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Relire des questionnaires « enquêteurs » sans possibilité de modification",
+            "utilisateurs": [
+              {
+                "label": "Site de gestion nationale   Site de gestion locale   Enquêteur   Maîtrise d'œuvre statistique"
+              }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "5.3",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Sabiane collecte " }],
+            "description": "Le questionnaire enquêteur dispose d'un mode « lecture seule » qui empêche les modifications mais permet une relecture par un enquêteur, un gestionnaire, ou tout autre utilisateur habilité.",
+            "taches": [
+              {
+                "label": "",
+                "description": "",
+                "label_statut": ""
+              }
+            ]
+          },
+          {
+            "label": "Identifier les questionnaires à vérifier",
+            "utilisateurs": [
+              {
+                "label": "Site de gestion locale   Maîtrise d'œuvre statistique"
+              }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "5.3",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Sabiane gestion " }],
+            "description": "L'outil de gestion DEM permet d'identifier les questionnaires à vérifier selon des critères spécifiques à l'enquête. Il permet également de gérer le cycle de relecture de ces questionnaires (à relire/relu).",
+            "taches": [
+              {
+                "label": "",
+                "description": "Pour l'accompagnement/formation enquêteur (contrôle qualité gestion)",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Avec le contrôle qualité statistique (MOA enquête)",
+                "label_statut": "Non planifié"
+              },
+              {
+                "label": "",
+                "description": "Opportunité de mutualisation de ces fonctions ménage/entreprise",
+                "label_statut": "Non planifié"
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "t12113",
-        "label": "Premier support d'une codification automatique",
+        "id": "S640",
+        "label": "Reprendre/Corriger un questionnaire",
         "description": "",
-        "statutId": "j4",
-        "statutLabel": "Jalon 4"
+        "fonction": [
+          {
+            "label": "Modifier les valeurs d'un questionnaire enquêteur",
+            "utilisateurs": [
+              {
+                "label": "Site de gestion locale   Maîtrise d'œuvre statistique"
+              }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "5.4",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Sabiane collecte " }],
+            "description": "Les gestionnaires peuvent modifier/corriger les réponses d'un questionnaire enquêteur dans le cadre d'un processus clairement formalisé. Sabiane collecte permet d'historiser les différentes modifications et leur contexte (en interview, par un gestionnaire\u2026).",
+            "taches": [
+              {
+                "label": "",
+                "description": "L'attendu métier reste à instruire et le processus à préciser (reprise de questionnaire internet ?)",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Modifier les valeurs d'un questionnaire web",
+            "utilisateurs": [
+              {
+                "label": "Site de gestion locale   Site de gestion nationale   Maîtrise d'œuvre statistique"
+              }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "5.4",
+            "id_produit": "Services de traitement d'enquêtes",
+            "outils": [{ "id": " Generic " }, { "id": " Genesis " }],
+            "description": "Les gestionnaires disposent d'un outil leur permettant de visualiser dans une ergonomie adaptée des questionnaires à corriger. Une couche de contrôle post-collecte permet de mettre en avant les variables à instruire. Les gestionnaires peuvent modifier/corriger les réponses d'un questionnaire web, ces modifications sont historisées.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Domaine entreprise avec l'application Generic.",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "L'attendu métier côté ménage reste à instruire (modification par le gestionnaire ou par l'enquêteur ?)",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Ajouter un commentaire lié à une unité enquêtée",
+            "utilisateurs": [
+              {
+                "label": "Site de gestion locale   Site de gestion nationale   Maîtrise d'œuvre statistique   Enquêteur"
+              }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "5.4",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Sabiane collecte " }],
+            "description": "Le questionnaire enquêteur, utilisé dans un contexte de collecte par l'enquêteur ou dans un contexte de gestion par le gestionnaire DEM, permet la saisie de commentaires sur l'unité enquêté (informations de disponibilité ou signalement de difficultés rencontrées) et pour chaque question (informations sur le contexte particulier de collecte d'une réponse).",
+            "taches": [
+              {
+                "label": "",
+                "description": "Commentaires enquêteurs de niveau UE.",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Commentaires DEM et commentaires au niveau question.",
+                "label_statut": "Jalon 3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S650",
+        "label": "Fournir des aggrégats destinés au contrôle de gestion",
+        "description": "",
+        "fonction": [
+          {
+            "label": "Produire des aggrégats 'résultat d'une opération de collecte'",
+            "utilisateurs": [{ "label": "Maîtrise d'oeuvre statistique" }],
+            "dispo": 0,
+            "id_gsbpm": "5.4",
+            "id_produit": "NotAvailable",
+            "outils": [{ "id": " Batch Infocentre " }],
+            "description": "En fin de collecte, à partir des évènements enregistrés pendant la période de collecte (cycle de vie d'une unité enquêtée implémenté dans les outils) des aggrégats renseignant sur le 'résultat de l'opération de collecte' sont construits pour chaque unité enquêtée (à des fins d'alimentation de l'infocentre).",
+            "taches": [
+              {
+                "label": "",
+                "description": "Production des aggrégats pour une collecte téléphonique.",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Production des aggrégats pour une collecte face-à-face.",
+                "label_statut": "Jalon 3"
+              },
+              {
+                "label": "",
+                "description": "Production des aggrégats pour une collecte multimode. La définition métier précise de tels aggrégats reste à instruire.",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Fournir des indicateurs de performance",
+            "utilisateurs": [
+              {
+                "label": "Maîtrise d'oeuvre statistique   Site den gestion locale   Site de gestion nationale"
+              }
+            ],
+            "dispo": 3,
+            "id_gsbpm": "5.4",
+            "id_produit": "Services de traitement d'enquêtes",
+            "outils": [{ "id": " Infocentre " }],
+            "description": "Un infocentre permet la production d'indicateurs de performance et de contrôle de gestion servant de support au management des enquêteurs.",
+            "taches": [
+              {
+                "label": "",
+                "description": "",
+                "label_statut": "Disponible"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S660",
+        "label": "Mise en place d'enquêtes de satisfaction >",
+        "description": "",
+        "fonction": [
+          {
+            "label": "Mettre en œuvre de manière standardisée des enquêtes de satisfaction",
+            "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+            "dispo": 0,
+            "id_gsbpm": "8.1",
+            "id_produit": "NotAvailable",
+            "outils": [{ "id": " Batch Sabiane " }],
+            "description": "Le déploiement d'une enquête de satisfaction est un service offert par la nouvelle filière : mise en œuvre et déploiement en partie automatisé et intégration dans la nouvelle filière. Le protocole et le questionnement de telles enquêtes sont standardisés dans la nouvelle filière. Elles offrent des mécanismes d'évaluation tant sur le processus pour la maîtrise d'œuvre statistique que pour la qualité et connaissance du contexte pour la maîtrise d'ouvrage d'enquête.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Périmètre et protocole de telles enquêtes à arrêter. Intégration des Capost existants dans la nouvelle filière à planifier.",
+                "label_statut": "Non planifiée"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "id": "f2101",
-    "macroserviceLabel": "Accès aux enquêtes",
-    "macroserviceId": "s200",
-    "serviceLabel": "Offrir une vitrine de l'enquête en phase avec insee.fr et qui respecte un cadre standardisé commun à toutes les enquêtes ménages",
-    "serviceId": "s210",
-    "label": "Portail de promotion d'enquête",
-    "utilisateurs": [
+    "id": "S700",
+    "label": "Macro-service Assistance",
+    "description": "",
+    "service": [
       {
-        "id": "u003",
-        "label": "Répondant"
-      }
-    ],
-    "dispo": "3",
-    "gsbpmLabel": "Réutilisation et élaboration de l’instrument de collecte",
-    "gsbpmId": "gsbpm-3-1",
-    "outils": [
-      {
-        "label": "Portail Coleman",
-        "id": "o003"
-      }
-    ],
-    "produitLabel": "Plateforme de collecte",
-    "produitId": "p02",
-    "description": "Un portail de promotion contextualisé à chaque enquête (indépendamment de sa collecte par l'intermédiaire de la nouvelle filière) est mis à disposition sur internet. Il ne requiert aucune authentification et à pour vocation à fournir des informations générales sur l'enquête. Le public ciblé en priorité est celui des enquêtés, mais le grand public y a accès.",
-    "taches": [
-      {
-        "id": "t21011",
-        "label": "Enquêtes avec un volet internet",
+        "id": "S710",
+        "label": "Fournir des outils pour assister les répondants web",
         "description": "",
-        "statutId": "d",
-        "statutLabel": "Disponible"
+        "service": [
+          {
+            "id": "S711",
+            "label": "Optimiser l'assistance aux répondants web",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Afficher une FAQ consolidée (générique/spécifique à l'enquête)",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 3,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [
+                  { "id": " Portail Coleman " },
+                  { "id": " Portail Coltrane " }
+                ],
+                "description": "Un ensemble de \"questions/réponses\" est proposé sur les portails de promotion Coleman et Coltrane à destination des internautes. Il se décompose en deux parties, une générale à l'ensemble des enquêtes ménages et une spécifique à l'enquête concernée.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Alimenter une FAQ générale (indépendante des enquêtes)",
+                "utilisateurs": [
+                  { "label": "Assistance   Administrateur du SI" }
+                ],
+                "dispo": 1,
+                "id_gsbpm": "4.3",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Protools " }],
+                "description": "Une interface permet aux services d'assistance et d'administration d'administrer le contenu d'une FAQ générale.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Alimenter une FAQ spécifique par enquête selon un cadre général (modèle de FAQ)",
+                "utilisateurs": [
+                  {
+                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 1,
+                "id_gsbpm": "4.3",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Protools " }],
+                "description": "Une interface permet aux services de maîtrise d'ouvrage et d'oeuvre statistique d'administrer le contenu d'une FAQ spécifique à leur enquête.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Produire des statistiques de consultation de la FAQ",
+                "utilisateurs": [
+                  {
+                    "label": "Assistance   Administrateur du SI   Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [
+                  { "id": " Portail Coleman " },
+                  { "id": " Portail Coltrane " }
+                ],
+                "description": "Des statistiques de consultation des FAQ sont mis à disposition des acteurs du SI collecte (nombre de connexions, questions les plus consultées,...)",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Proposer un widget conversationnel",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Widget d'assistance " }],
+                "description": "Un widget conversationnel permet d'offrir aux répondants un dialogue interactif en vue d'une fourniture d'informations sélectionnées ou contextualisées.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une première intégration d'un widget conversationnel dans les services d'accès aux enquêtes ménage.",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              },
+              {
+                "label": "Alimenter/Configurer le widget",
+                "utilisateurs": [{ "label": "Assistance" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Widget d'assistance " }],
+                "description": "Une interface permet aux services d'assistance de simplement configurer et alimenter le widget d'assistance (avec une sélection parmi les questions les plus fréquentes par exemple).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Proposer un chatbot",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " Chatbot " }],
+                "description": "Un automate, type chatbot, apporte une assistance interactive à partir de questions libres.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une première intégration d'un chatbot dans les services d'accès aux enquêtes ménage.",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S712",
+            "label": "Orienter les enquêtés vers l'assistance de manière homogène entre enquêtes",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Permettre l'accès aux différents canaux d'assistance sur le portail d'enquêtes",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 3,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [
+                  { "id": " Portail Coleman " },
+                  { "id": " Portail Coltrane " }
+                ],
+                "description": "Le portail permet d'accéder aux différents canaux d'assistance (formulaire, service de réinitialisation du mot de passe, widget, chatbot,...).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Pour les canaux d'assistance mis en oeuvre",
+                    "label_statut": "Disponible"
+                  }
+                ]
+              },
+              {
+                "label": "Indiquer les différents canaux d'assistance sur les courriers",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 3,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [
+                  { "id": " Batch Coleman " },
+                  { "id": " Batch Sabiane " }
+                ],
+                "description": "Sur les courriers, il est mentionné les différents canaux pour contacter l'assistance : téléphone, mail et courrier, ainsi que les liens internet pour se renseigner sur l'enquête et sur l'Insee.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              },
+              {
+                "label": "Mettre en place un serveur vocal interactif (SVI)",
+                "utilisateurs": [{ "label": "Répondant" }],
+                "dispo": 2,
+                "id_gsbpm": "4.3",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " SVI " }],
+                "description": "Un serveur vocal interactif permet la prise en charge des appels téléphoniques de répondants, en fonction de l'enquête concernée, afin de leur communiquer de l'information ou de les orienter vers le bon interlocuteur dans le circuit d'assistance (assistance technique ou métier notamment).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Domaine entreprise",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Première implémentation d'un scénario SVI simple.",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Extension des scénarios SVI pour couvrir différents cas d'enquêtes.",
+                    "label_statut": "Jalon 4"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "t21012",
-        "label": "Enrichissement des rubriques Infos sur l'enquête et Accessibilité",
+        "id": "S720",
+        "label": "Fournir des outils destinés à faciliter l'assistance des enquêtés",
         "description": "",
-        "statutId": "j2",
-        "statutLabel": "Jalon 2"
+        "fonction": [
+          {
+            "label": "Rechercher une unité enquêtée et afficher son état",
+            "utilisateurs": [
+              { "label": "Assistance   Site de gestion nationale" }
+            ],
+            "dispo": 3,
+            "id_gsbpm": "4.3",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Moog " }, { "id": " Coltrane pilotage " }],
+            "description": "A l'aide de l'identifiant de connexion ou de l'identifiant de l'unité enquêtée uniquement pour le site de gestion nationale, il est possible d'afficher l'historique des différents statuts pour une unité enquêtée.",
+            "taches": [
+              {
+                "label": "",
+                "description": "",
+                "label_statut": ""
+              }
+            ]
+          },
+          {
+            "label": "Consulter un questionnaire comme un enquêté",
+            "utilisateurs": [
+              { "label": "Site de gestion locale   Site de gestion nationale" }
+            ],
+            "dispo": 2,
+            "id_gsbpm": "4.3",
+            "id_produit": "Plateformes de collecte",
+            "outils": [
+              { "id": " Portail Coleman " },
+              { "id": " Portail Coltrane " },
+              { "id": " Sabiane collecte " }
+            ],
+            "description": "Une fonctionnalité de type 'site miroir' permet aux gestionnaires de visualiser un questionnaire internet d'un répondant sans le modifier, à des fins notamment de contrôle qualité et d'accompagnement du répondant.",
+            "taches": [
+              {
+                "label": "",
+                "description": "",
+                "label_statut": ""
+              },
+              {
+                "label": "",
+                "description": "Intégrer la relecture de questionnaires internet dans le processus d'enquête ménage ?",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Automatiser la réinitialisation du mot de passe",
+            "utilisateurs": [{ "label": "Répondant" }],
+            "dispo": 3,
+            "id_gsbpm": "4.3",
+            "id_produit": "Plateformes de collecte",
+            "outils": [
+              { "id": " Portail Coleman " },
+              { "id": " Portail Coltrane " }
+            ],
+            "description": "Un service de réinitialisation du mot de passe est proposé au répondant en cas d'oubli de celui-ci. Le nouveau peut lui être envoyé par messagerie ou par courrier postal.",
+            "taches": [
+              {
+                "label": "",
+                "description": "",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Migration technique du service pour une internalisation à Coleman (auparavant service transversale).",
+                "label_statut": "Jalon 3"
+              },
+              {
+                "label": "",
+                "description": "Enrichissement de l'offre à partir d'une solution type \"Mélopée\" pour la récupération d'un mot de passe sans adresse mail pré-renseignée",
+                "label_statut": "Non planifié"
+              },
+              {
+                "label": "",
+                "description": "Amélioration de la procédure de récupération de compte en cas de perte d'identifiants",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Permettre la réinitialisation du mot de passe d'un répondant",
+            "utilisateurs": [
+              { "label": "Assistance   Site de gestion nationale" }
+            ],
+            "dispo": 3,
+            "id_gsbpm": "4.3",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Moog " }],
+            "description": "A partir de Moog, l'assistance ou un gestionnaire dispose d'une fonctionnalité pour réinitialiser le mot de passe d'un enquêté, le nouveau étant transmis automatiquement par message ou par courrier postal.",
+            "taches": [
+              {
+                "label": "",
+                "description": "",
+                "label_statut": "Disponible"
+              }
+            ]
+          },
+          {
+            "label": "Mettre à disposition des descriptions de procédures types (droit accès\u2026)",
+            "utilisateurs": [
+              {
+                "label": "Assistance   Site de gestion nationale   site de gestion locale"
+              }
+            ],
+            "dispo": 1,
+            "id_gsbpm": "4.3",
+            "id_produit": "Plateformes de collecte",
+            "outils": [
+              { "id": " Portail Coleman " },
+              { "id": " Portail Coltrane " }
+            ],
+            "description": "De la documentation d'assistance à destination de répondants, type procédure de réinitialisation de son mot de passe ou base de connaissance, sont mises à disposition sur le portail.",
+            "taches": [
+              {
+                "label": "",
+                "description": "De la documentation est disponible sur les portails Coleman et Coltrane",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Enrichir cette documentation. Consolider les éléments \"techniques\" entre les domaines entreprise et ménage.",
+                "label_statut": "Non planifié"
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "t21013",
-        "label": "Une amélioration du processus de configuration pour une utilisation autonome par la maîtrise d’oeuvre",
+        "id": "S730",
+        "label": "Fournir des outils destinés à faciliter l'assistance des enquêteurs",
         "description": "",
-        "statutId": "j3",
-        "statutLabel": "Jalon 3"
-      },
-      {
-        "id": "t21014",
-        "label": "Un premier circuit formalisé de publication/validation sur le portail de promotion",
-        "description": "",
-        "statutId": "j3",
-        "statutLabel": "Jalon 3"
-      },
-      {
-        "id": "t21015",
-        "label": "Enquête sans volet internet et à protocole multimode ou multi-séquences",
-        "description": "",
-        "statutId": "j4",
-        "statutLabel": "Jalon 4"
-      },
-      {
-        "id": "t21016",
-        "label": "Augmenter la modularité pour mieux gérer les enquêtes à MOA externe",
-        "description": "",
-        "statutId": "np",
-        "statutLabel": "Non planifié"
+        "fonction": [
+          {
+            "label": "Disposer d'un processus d'assistance auprès des enquêteurs documenté et outillé",
+            "utilisateurs": [
+              {
+                "label": "Enquêteur   Site de gestion locale   Site de gestion nationale"
+              }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "4.3",
+            "id_produit": "Plateformes de collecte",
+            "outils": [
+              { "id": " Sabiane collecte " },
+              { "id": " Sabiane gestion " }
+            ],
+            "description": "Un processus formalisé et documenté permet d'assurer l'assistance des enquêteurs à plusieurs niveaux selon la complexité rencontrée. Des outils collaboratifs, type réseau social d'entreprise ou moteur de chat, sont mobilisés pour faciliter les échanges entre enquêteurs et l'assistance.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Une première formalisation et documentation d'un processus d'assistance auprès des enquêteurs.",
+                "label_statut": "Jalon 3"
+              },
+              {
+                "label": "",
+                "description": "Mise en place d'outils collaboratifs à des fins d'assistances des enquêteurs.",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Notifier une information aux enquêteurs (par enquête, par région\u2026)",
+            "utilisateurs": [
+              { "label": "Site de gestion locale   Site de gestion nationale" }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "4.3",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Sabiane gestion " }],
+            "description": "Les gestionnaires peuvent envoyer des notifications thématiques aux enquêteurs d'une région ou d'une enquête.",
+            "taches": [
+              {
+                "label": "",
+                "description": "De premières notifications thématiques par les gestionnaires.",
+                "label_statut": "Jalon 4"
+              }
+            ]
+          },
+          {
+            "label": "Consulter un questionnaire comme un enquêteur",
+            "utilisateurs": [
+              { "label": "Site de gestion locale   Site de gestion nationale" }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "4.3",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Sabiane collecte " }],
+            "description": "Une fonctionnalité de type 'site miroir' permet aux gestionnaires de visualiser un questionnaire enquêteur sans le modifier, à des fins notamment de contrôle qualité et d'accompagnement du répondant.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Relecture de questionnaires enquêteurs .",
+                "label_statut": "Disponible"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "id": "f2102",
-    "macroserviceLabel": "Accès aux enquêtes",
-    "macroserviceId": "s200",
-    "serviceLabel": "Offrir une vitrine de l'enquête en phase avec insee.fr et qui respecte un cadre standardisé commun à toutes les enquêtes ménages",
-    "serviceId": "s210",
-    "label": "Portail d'authentification",
-    "utilisateurs": [
+    "id": "S800",
+    "label": "Macro-service Pilotage des activités d'enquêtes",
+    "description": "",
+    "service": [
       {
-        "id": "u003",
-        "label": "Répondant"
-      }
-    ],
-    "dispo": "3",
-    "gsbpmLabel": "Réutilisation et élaboration de l’instrument de collecte",
-    "gsbpmId": "gsbpm-3-1",
-    "outils": [
-      {
-        "label": "Portail Coleman",
-        "id": "o003"
+        "id": "S810",
+        "label": "Disposer d'un référentiel des unités enquêtées (UE) >",
+        "description": "",
+        "service": [
+          {
+            "id": "S811",
+            "label": "Offrir une information cohérente et consolidée sur les UE quel que soit le mode de collecte",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Visualiser/mettre à jour des données de contact",
+                "utilisateurs": [
+                  { "label": "Répondant   Enquêteur   Site de gestion locale" }
+                ],
+                "dispo": 1,
+                "id_gsbpm": "4.1",
+                "id_produit": "Plateformes de collecte",
+                "outils": [
+                  { "id": " Moog " },
+                  { "id": " Sabiane gestion " },
+                  { "id": " Sabiane collecte " },
+                  { "id": " Portail Coltrane " },
+                  { "id": " Coltrane pilotage " },
+                  { "id": " Portail Coleman " }
+                ],
+                "description": "Les différents acteurs peuvent mettre à jour les coordonnées d'un répondant suite à une interaction : le répondant lui-même lors d'une connexion, l'enquêteur lors d'un entretien, le gestionnaire ou assimilés lors d'un échange d'assistance.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Le portail entreprise permet la mise à jour des coordonnées d'un répondant. L'application enquêteur permet la mise à jour des coordonnées d'un répondant.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Consolidation des fonctions côté portail ménage et applications des acteurs gestionnaires locaux et nationaux. Interfaçage avec Gaïa ",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Conserver informations personnelles et réponses d'UE d'une séquence / campagne de collecte à l'autre pour réutilisation (données antérieures)",
+                "utilisateurs": [
+                  {
+                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.1",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Crabe " }],
+                "description": "Le référentiel d'unité enquêtées est mis à jour automatiquement par les différents outils collectant de l'information sur l'unité, qu'il s'agisse d'outils de collecte (coordonnées et données collectées) que des outils plus orientés gestion (coordonnées).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Le référentiel est mis à jour automatiquement pour les enquêtes à protocole de réintorragation simple (type Camme).",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Le référentiel est mis à jour automatiquement pour les enquêtes à protocole multimode séquentiel simple (type TIC).",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Le référentiel est mis à jour automatiquement pour les enquêtes à protocole de réintorragation complexe (type Logement, SRCV).",
+                    "label_statut": "Jalon 4"
+                  },
+                  {
+                    "label": "",
+                    "description": "La consolidation avec des données antérieures est automatisée (avec mise en place d'un référentiel sur ces données ad-hoc).",
+                    "label_statut": "Jalon 4"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S812",
+            "label": "Constituer les échantillons de collecte y compris ajout de sur échantillons",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Créer/Modifier des échantillons de collecte",
+                "utilisateurs": [
+                  {
+                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.1",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Crabe " }],
+                "description": "Le référentiel d'unités enquêtées permet la création et la modification d'échantillons de collecte à partir d'échantillons statistiques issus des applications d'échantillonnage ou d'autres sources.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Création d'échantillons à partir de métadonnées issues de collectes précédentes à protocole \"simple\" (périmètre Camme).",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Création d'échantillons à partir de métadonnées issues de collectes précédentes à protocole séquentiel multimode (périmètre TIC, \"tests Logement\").",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Création d'échantillons à partir de métadonnées d'enquêtes (\"configurer\" la création en fonction de l'enquête) et issues de collectes précédentes à protocole multimode complexe (type Logement, SRCV)",
+                    "label_statut": "Jalon 4"
+                  }
+                ]
+              },
+              {
+                "label": "Outiller la production d'échantillon de collecte",
+                "utilisateurs": [
+                  {
+                    "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'œuvre statistique   Maîtrise d'œuvre informatique"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.1",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Crabe " }],
+                "description": "Le référentiel d'unités enquêtées disposent d'outils visant à faciliter la sélection et la construction des échantillons de collecte, type non-répondants à relancer, échantillons de séquences ou vagues successives, etc."
+              }
+            ]
+          },
+          {
+            "id": "S813",
+            "label": "Automatiser les processus entre séquences / campagnes de collecte",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Automatiser l'alimentation des outils de collecte",
+                "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
+                "dispo": 0,
+                "id_gsbpm": "4.1",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Protools " }],
+                "description": "Les outils de collecte enquêteur (Sabiane gestion et Sabiane collecte) et web (plateforme de collecte Stromae) sont alimentés automatiquement à partir des échantillons de collecte définis dans le référentiel d'unités enquêtées.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Les outils de collecte sont alimentés par des mécanismes peu automatisés.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Automatisation de l'alimentation des outils de collecte pour des protocoles à réinterrogation simple (type Camme).",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Consolidation des interfaces de chargement des outils de collecte (web et enquêteurs) pour une utilisation plus simple et homogène.",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              },
+              {
+                "label": "Automatiser l'alimentation des applications de gestion des enquêteurs",
+                "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
+                "dispo": 0,
+                "id_gsbpm": "4.1",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Protools " }],
+                "description": "L'application de gestion de la charge des enquêteurs, Opale, est alimentée automatiquement à partir des échantillons de collecte définis dans le référentiel d'unités enquêtées.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une première « sortie » pour Opale est produite par Crabe. Celle-ci doit être enrichie « manuellement » de pré-affectations dans le cas des enquêtes téléphoniques.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Automatiser l'alimentation du système Opale à partir d'échantillons mis à disposition du référentiel.",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              },
+              {
+                "label": "Automatiser la production en masse de support papier pour les enquêteurs",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.1",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Crabe " }],
+                "description": "Le référentiel d'unités d'enquêtes produit des échantillons de collecte contenant toutes les informations nécessaires à la production des supports papier pour les enquêteurs, type fiche de suivi de collecte, liste de gestion ou fiche-adresse papier.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Les fiche-adresse papier sont produites automatiquement pour une collecte face-à-face.",
+                    "label_statut": "Jalon 2"
+                  },
+                  {
+                    "label": "",
+                    "description": "Extension aux fiches de suivi.",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
-        "label": "Portail Coltrane",
-        "id": "o004"
-      }
-    ],
-    "produitLabel": "Plateforme de collecte",
-    "produitId": "p02",
-    "description": "Des mécanismes d'authentification sont mis en œuvre pour sécuriser l'accès aux enquêtes. Sont également offerts des fonctions permettant de réinitialiser automatiquement un mot de passe perdu avec le niveau de sécurité iduane, ainsi que des fonctionnalités permettant une certaine personnalisation de l'ergonomie et des éléments affichés (charte graphique, logos, etc.) qui permet d'avoir des portails d'authentification contextualisés ménage ou entreprise.",
-    "taches": [
-      {
-        "id": "t21021",
-        "label": "Première version du service de réinitialisation du mot de passe",
+        "id": "S820",
+        "label": "Disposer d'un référentiel des enquêteurs >",
         "description": "",
-        "statutId": "d",
-        "statutLabel": "Disponible"
+        "fonction": [
+          {
+            "label": "Mettre à jour (y compris ajout/suppression) les informations relatives aux enquêteurs en cours de collecte",
+            "utilisateurs": [{ "label": "Site de gestion locale" }],
+            "dispo": 3,
+            "id_gsbpm": "4.3",
+            "id_produit": "Services de préparation de collecte",
+            "outils": [{ "id": " Opale " }],
+            "description": "L'application de gestion de la charge enquêteur permet la mise à jour des informations relatives aux enquêteurs, l'ajout (ou suppression) d'un enquêteur (éventuellement 'temporaire') en cours de collecte.",
+            "taches": [
+              {
+                "label": "",
+                "description": "",
+                "label_statut": "Disponible"
+              }
+            ]
+          },
+          {
+            "label": "Alimenter automatiquement les outils de collecte à partir du référentiel d'enquêteurs",
+            "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
+            "dispo": 0,
+            "id_gsbpm": "4.3",
+            "id_produit": "NotAvailable",
+            "outils": [{ "id": " Batch Sabiane " }],
+            "description": "Les outils de collecte, Sabiane (gestion et collecte) sont mis à jour automatiquement à partir du référentiel d'enquêteurs.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Des mécanismes de synchronisation quotidien s'appuyant sur des API.",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Une synchronisation instantannée des informations à partir du référentiel d'unités enquêtées.",
+                "label_statut": "Non planifié"
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "t21022",
-        "label": "Procédure d'homologation de sécurité en continu",
+        "id": "S830",
+        "label": "Piloter l'activité des enquêteurs >",
         "description": "",
-        "statutId": "np",
-        "statutLabel": "Non planifié"
+        "fonction": [
+          {
+            "label": "Visualiser l'état d'une unité enquêtée affectée à un enquêteur",
+            "utilisateurs": [{ "label": "Site de gestion locale" }],
+            "dispo": 0,
+            "id_gsbpm": "4.3",
+            "id_produit": "Plateformes de collecte",
+            "outils": [{ "id": " Sabiane gestion " }],
+            "description": "L'application de gestion permet de sélectionner, rechercher et filtrer les unités enquêtées des enquêteurs, et d'en afficher l'état (préparée/repérée/contactée/enquêtée/mode de réponse...).",
+            "taches": [
+              {
+                "label": "",
+                "description": "Pour les états liés à une collecte téléphonique.",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Disponible pour les états liés à une collecte face-à-face.",
+                "label_statut": "Jalon 3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S840",
+        "label": "Offrir un service dédié au suivi et à la mise en œuvre des collectes",
+        "description": "",
+        "service": [
+          {
+            "id": "S841",
+            "label": "Service d'envoi de communications en masse",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Permettre l'envoi automatisé et centralisé de communication auprès des répondants",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion nationale   Maîtrise d'oeuvre statistisque"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "NotAvailable",
+                "outils": [{ "id": " RadioHead " }],
+                "description": "Un module de communication dédié permet l'envoi de communication \"en masse\" quel qu'en soit le type, courriers papiers, mails ou SMS.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une première version du service (Radiohead) couvrant l'envoi de courrier papié et mail pour des protocoles simples (tests Logement, Tic, Camme)",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Extension de la couverture des communications (mails, papiers) à des protocoles plus comlexes (ENL, SRCV,...)",
+                    "label_statut": "Jalon 4"
+                  },
+                  {
+                    "label": "",
+                    "description": "Extension de la couverture aux documents à destination des enquêteurs (type fiche-adresse papier, liste de gestion, fiche de suivi,...).",
+                    "label_statut": "Jalon 4"
+                  },
+                  {
+                    "label": "",
+                    "description": "Support de l'envoi de SMS.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Permettre la production en masse de support papier pour les enquêteurs",
+                "utilisateurs": [{ "label": "Enquêteur" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Radiohead " }],
+                "description": "Les supports papier pour les enquêteurs, type fiche de suivi de collecte, sont produits en masse (en mobilisant les chaînes éditiques) à partir des échantillons de collecte.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Impression en masse des fiche-adresse papier pour une collecte face-à-face à partir du module dédié (migration fonctionnelle depuis le référentiel d'UE).",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              },
+              {
+                "label": "Permettre le suivi des envois de communication aux répondants ou support papier aux enquêteurs",
+                "utilisateurs": [{ "label": "Maîtris" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Radiohead " }],
+                "description": "Le module de communication prend en charge la mise à disposition (sous forme d'API et d'interface utilisateur) d'informations de suivi sur le déroulement des opérations de communication (date de déclenchement, date d'envoi, statut individuel type plis non distribués ou mails non remis) etc.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Eléments de suivi pour les opérations éditique papier..",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S842",
+            "label": "Suivi local des collectes avec enquêteurs>",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Consulter les tableaux de suivi locaux et multimodes standards pour une enquête",
+                "utilisateurs": [{ "label": "Site de gestion locale" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane gestion " }],
+                "description": "L'application de gestion (Sabiane gestion) propose des tableaux de bord et indicateurs (taux d'avancement, taux de collecte) standards (proposer à l'identique à toutes les enquêtes selon leur protocole) pour permettre le suivi local des collectes multimodes (potentiel résultat du web inclus) d'enquête.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Suivi local d'une collecte téléphonique simple.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Suivi local d'une collecte face-à-face.",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Suivi local d'une collecte multimode.",
+                    "label_statut": "Jalon 4"
+                  }
+                ]
+              },
+              {
+                "label": "Consulter des indicateurs / tableaux de suivi spécifiques à une enquête pour assurer la représentativité des réponses (ex : hauts patrimoines)",
+                "utilisateurs": [{ "label": "Site de gestion locale" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane gestion " }],
+                "description": "L'application de gestion Sabiane gestion, à partir d'une configuration encadrée (possibilités limités) permet de consulter des tableaux de suivi et indicateurs spécifiques à une enquête (suivi du 'taux de remplissage' de variables significatives ou de strates).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Visualiser la liste des unités enquêtées pour une enquête",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion locale   Site de gestion nationale"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane gestion " }],
+                "description": "L'application de gestion (Sabiane gestion) offre des fonctions de recherches et de filtres sur les unités enquêtées en fonction de leur répartition locale et/ou par enquête, ainsi que des fonctions de visualisation des informations relatives à ces unités (état).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S843",
+            "label": "Suivi national des collectes, quel que soit le mode",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Consulter des tableaux de suivi nationaux et multimodes standards",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion nationale   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 1,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Moog " }],
+                "description": "L'application Moog permet de visualiser des tableaux standards de suivi national pour des collectes multimodes.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Des tableaux de suivi national uniquement pour les collectes web.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Des tableaux de suivi national pour les collectes multimodes (consolidation collectes enquêteur et web).",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Consulter des indicateurs / tableaux de suivi spécifiques à une enquête pour assurer la représentativité des réponses",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion nationale   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Moog " }],
+                "description": "L'application de suivi national (Moog), à partir d'une configuration encadrée (possibilités limitées) permet de consulter des tableaux de suivi et indicateurs spécifiques à une enquête (suivi du 'taux de remplissage' de variables significatives ou de strates).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Extraire les données de suivi pour un usage self",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion nationale   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 1,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Moog " }],
+                "description": "L'application de suivi national (Moog) offre des fonctions d'export des informations de suivi pour traitement en \"self\".",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Des fonctions (non automatisées, en back-office, pas accessibles aux utilisateurs au sein de l'application) permettent de premières extractions.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Des fonctions d'export automatisées et accessibles aux utilisateurs depuis l'application.",
+                    "label_statut": "Jalon 3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S844",
+            "label": "Mise en œuvre des collectes avec enquêteurs",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Permettre l'envoi automatisé de communication auprès des répondants par les gestionnaires",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion locale   Site de gestion nationale"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [
+                  { "id": " Sabiane gestion " },
+                  { "id": " Radiohead " }
+                ],
+                "description": "Si le protocole de l'enquête le permet, le gestionnaire peut déclencher l'envoi d'un courrier standard (type lettre-avis, relance, courrier de courtoisie), mail ou SMS à un répondant depuis son application de gestion.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Processus métier à préciser (quels courriers ? Dans quels cas ?)",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Suivre les demandes d'envoi de communication 'enquêteur'",
+                "utilisateurs": [{ "label": "Site de gestion locale" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [
+                  { "id": " Sabiane gestion " },
+                  { "id": " Radiohead " }
+                ],
+                "description": "L'application de gestion (Sabiane gestion) permet de visualiser les demandes d'envoi et de communication (courriers, mails, SMS) demandées par les enquêteurs.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Gérer l'accès des enquêteurs aux unités enquêtées",
+                "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Protools " }],
+                "description": "L'outil d'administration de la collecte (Protools) permet de définir les dates de visibilité des unités enquêtées au sein des postes de collecte enquêteur (en plus de l'affectation d'une UE à un enquêteur).",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une date de visibilité est implémentée, mais aucune interface ne permet sa configuration par les acteurs de la collecte.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Configuration au sein de l'outil Protools (conception Protools à finaliser).",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Clore une collecte",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion nationale   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [{ "id": " Protools " }],
+                "description": "L'outil d'administration de la collecte Protools permet de définir les dates de fins de collecte et de clôre formellement la collecte enquêteur, les unités enquêtées concernées n'apparraissant plus dans les outils.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une date de visibilité est implémentée, mais aucune interface ne permet sa configuration par les acteurs de la collecte.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Configuration date de fin de collecte au sein d'un outil (conception Protools à finaliser). Associer à la fin d'une collecte des traitements de nettoyage.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S845",
+            "label": "Mise en œuvre des collectes sans enquêteurs",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Ouvrir une collecte (mettre à jour des métadonnées)",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion nationale   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 1,
+                "id_gsbpm": "4.3",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [
+                  { "id": " Protools " },
+                  { "id": " Coltrane pilotage " }
+                ],
+                "description": "L'outil d'administration de la collecte permet de définir les dates de début de collecte et de lancer formellement une collecte internet, les questionnaires devenant accessibles pour les répondants.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une date de début de collecte est implémentée, mais elle ne peut être configuré directement par les acteurs de la collecte.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Configuration date de début de collecte au sein d'un outil (conception Protools à finaliser).",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Clore une collecte (mettre à jour des métadonnées)",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion nationale   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 1,
+                "id_gsbpm": "4.3",
+                "id_produit": "Services de préparation de collecte",
+                "outils": [
+                  { "id": " Protools " },
+                  { "id": " Coltrane pilotage " }
+                ],
+                "description": "L'outil d'administration de la collecte permet de définir les dates de fins de collecte et de clôre formellement une collecte internet, les questionnaires n'étant plus accessibles pour les répondants.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Une date de fin de collecte est implémentée, mais elle ne peut être configuré directement par les acteurs de la collecte.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Configuration date de fin de collecte au sein d'un outil (conception Protools à finaliser). Associer à la fin d'une collecte des traitements de nettoyage.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S846",
+            "label": "Mise en oeuvre des collectes multimodes (complémentaire)",
+            "description": "",
+            "fonction": [
+              {
+                "label": "Intégrer les PND",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion nationale   Maîtrise d'œuvre statistique   Enquêteurs"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [
+                  { "id": " Moog " },
+                  { "id": " Coltrane pilotage " },
+                  { "id": " Sabiane Collecte " },
+                  { "id": " Sabiane Gestion " }
+                ],
+                "description": "Les applications offrant du suivi national (Moog pour le web ménage, Coltrane Pilotage pour le web entreprise, à définir pour une collecte multimode) ou local (type application enquêteurs Sabiane Collecte) intègrent automatiquement les remontées éditiques de plis non distribués signalés par La Poste.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Intégration des PND pour le web ménage.",
+                    "label_statut": "Jalon 3"
+                  },
+                  {
+                    "label": "",
+                    "description": "Intégration des PND dans les applications enquêteurs.",
+                    "label_statut": "Jalon 4"
+                  },
+                  {
+                    "label": "",
+                    "description": "L'intégration des PND dans les outils Sabiane gestion et Coltrane-Pilotage reste à étudier .",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Intégrer les retours de mail (@ erronées)",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion nationale   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Moog " }, { "id": " Coltrane pilotage " }],
+                "description": "Les applications offrant du suivi national (Moog pour le web ménage, Coltrane Pilotage pour le web entreprise, à définir pour une collecte multimode) ou local (type application enquêteurs Sabiane Collecte) intègrent automatiquement les retours de mails non délivrés.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Faisabilité technique à instruire.",
+                    "label_statut": "Non planifié"
+                  },
+                  {
+                    "label": "",
+                    "description": "L'intégration des adresses mails invalides dans l'outil Sabiane gestion reste à étudier (pertinence).",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Intégrer les listes de questionnaires papier numérisés (identifiants date) pour un suivi national",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion nationale   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Moog " }, { "id": " Coltrane pilotage " }],
+                "description": "Les applications offrant du suivi national, Moog dans le contexte ménage, Coltrane pilotage dans celui entreprise, intègrent automatiquement les questionnaires papier reçus et numérisés.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "A instruire techniquement.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Intégrer les listes de questionnaires papier numérisés (identifiants date) pour un suivi local",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion nationale   Site de gestion locale"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Sabiane gestion " }],
+                "description": "L'application de suivi local (Sabiane gestion) intègre automatiquement les réponses issues de questionnaire papier.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Instruction technique nécessaire.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Envoyer des communications aux répondants (papier, mail ou sms) en masse",
+                "utilisateurs": [
+                  {
+                    "label": "Site de gestion nationale   Maîtrise d'œuvre statistique"
+                  }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Moog " }, { "id": " Coltrane pilotage " }],
+                "description": "Les applications de pilotage/suivi de collecte nationale permettent l'envoi de communication de masse (lettre de relance notamment) aux répondants.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Des possibilités d'export permettent la constitution des fichiers pour l'envoi de courrier de masse.",
+                    "label_statut": "Disponible"
+                  },
+                  {
+                    "label": "",
+                    "description": "Une plus grande automatisation de la constitution des répondants à contacter (pour relance ou autres).",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              },
+              {
+                "label": "Intégrer les signalements de l'assistance",
+                "utilisateurs": [
+                  { "label": "Assistance   Site de gestion nationale" }
+                ],
+                "dispo": 0,
+                "id_gsbpm": "4.3",
+                "id_produit": "Plateformes de collecte",
+                "outils": [{ "id": " Moog " }],
+                "description": "L'assistance peut signaler le refus de répondre d'un répondant. Ce signalement est pris en compte automatiquement et le répondant ne sera ni contacté par un enquêteur, ni relancé.",
+                "taches": [
+                  {
+                    "label": "",
+                    "description": "Instruire le besoin métier précis.",
+                    "label_statut": "Non planifié"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S850",
+        "label": "Offrir un service de normalisation des coordonnées",
+        "description": "",
+        "fonction": [
+          {
+            "label": "Standardiser et normaliser les adresses avant un envoi courrier papier",
+            "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
+            "dispo": 1,
+            "id_gsbpm": "4.3",
+            "id_produit": "Plateformes de collecte",
+            "outils": [
+              { "id": " Batch Sabiane " },
+              { "id": " Batch Coleman " },
+              { "id": " Batch Coltrane " }
+            ],
+            "description": "Avant lancement de la production éditique, les chaînes applicatives sollicitent un service externe (RNVP) garantissant la normalisation des adresses conformément aux normes postales (norme Afnor) et offrant des services de correction/standardisation pour en améliorer la qualité.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Le service RNVP est sollicité automatiquement à chaque envoi postal dans le domaine entreprise.",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Le service RNVP peut-être sollicité manuellement avant les envois postaux dans le domaine ménage.",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Intégrer les corrections d'adresses RNVP dans les référentiels de contacts ou d'unité enquêtée.",
+                "label_statut": "Non planifié"
+              },
+              {
+                "label": "",
+                "description": "Automatiser davantage le processus ménage. Des instructions sur les bonnes conditions de mobilisation du service RNVP reste à définir (stratégie de scoring notamment).",
+                "label_statut": "Non planifié"
+              },
+              {
+                "label": "",
+                "description": "A instruire la possibilité de se passer de ce service et d'intégrer une normalisation dès le référentiel d'unités d'enquêtes plutôt qu'au sein des processus afférents.",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Standardiser et normaliser les coordonnées au sein des échantillons",
+            "utilisateurs": [
+              {
+                "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'oeuvre statistique"
+              }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "4.3",
+            "id_produit": "Services de préparation de collecte",
+            "outils": [{ "id": " Crabe " }],
+            "description": "Les adresses postales et mails sont standardisées et corrigées dès la constitution des bases de sondage, ou lors de la constitution des échantillons de collecte (Crabe).",
+            "taches": [
+              {
+                "label": "",
+                "description": "A instruire avec les équipes concernées. Au niveau base de sondage ou échantillon de collecte ? Articulation avec Gaïa à instruire.",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Enrichir les coordonnées au sein des échantillons",
+            "utilisateurs": [
+              {
+                "label": "Maîtrise d'ouvrage d'enquête   Maîtrise d'oeuvre statistique"
+              }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "4.3",
+            "id_produit": "Services de préparation de collecte",
+            "outils": [{ "id": " Crabe " }],
+            "description": "Les adresses postales et mails sont enrichies à partir de service externe, type La Poste sur les fichiers des démanagements, afin d'améliorer la qualité des coordonnées au sein des échantillons de collecte.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Les services d'enrichissement de La Poste sur la base d'un fichier de déménagement sont industrialisés et mobilisable pour tout type d'opérations de collecte.",
+                "label_statut": "Jalon 4"
+              }
+            ]
+          },
+          {
+            "label": "Offrir un service de standardisation lors de la collecte de coordonnées",
+            "utilisateurs": [{ "label": "Enquêteur   Répondant" }],
+            "dispo": 1,
+            "id_gsbpm": "4.3",
+            "id_produit": "Atelier de conception d'enquêtes",
+            "outils": [
+              { "id": " Sabiane collecte " },
+              { "id": " Plateforme de collecte Stromae " },
+              { "id": " Portail Coltrane " }
+            ],
+            "description": "Au sein des questionnaires web et enquêteurs et des interfaces de gestion des données personnelles pour les répondants, un service de standardisation/correction de l'adresse postale et/ou mail est mobilisée afin d'aider le répondant à fournir des adresses de qualité.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Des champs structurés et contrôlés sont proposés au sein des questionnaires et du Portail Coltrane afin d'assurer la collecte d'une adresse structurée (champ voie, libellé de voie, etc.)",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Mobilisation d'un service de correction d'adresse en interactif à instruire techniquement. Articulation avec Gaïa à instruire.",
+                "label_statut": "Non planifié"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "id": "f2201",
-    "macroserviceLabel": "Accès aux enquêtes",
-    "macroserviceId": "s200",
-    "serviceLabel": "Espace dédié aux enquêtés",
-    "serviceId": "s220",
-    "label": "Site \"Mon profil\"",
-    "utilisateurs": [
+    "id": "S900",
+    "label": "Macro-Service Administration de l'offre de services",
+    "description": "",
+    "service": [
       {
-        "id": "u003",
-        "label": "Répondant"
-      }
-    ],
-    "dispo": "0",
-    "gsbpmLabel": "Réutilisation et élaboration de l’instrument de collecte",
-    "gsbpmId": "gsbpm-3-1",
-    "outils": [
-      {
-        "label": "Portail Coleman",
-        "id": "o003"
-      }
-    ],
-    "produitLabel": "Plateforme de collecte",
-    "produitId": "p02",
-    "description": "Le portail de promotion des enquêtes ménages (portail Coleman promotion) dispose d'un espace authentifié pour permettre aux répondants d'enquêtes à panel de consulter les informations relatives à leurs futures interrogations ou leur permettre de mettre à jour leurs informations de contacts ou la composition du ménage.",
-    "taches": [
-      {
-        "id": "t22011",
-        "label": "L'opportunité et le périmètre d'un tel espace restent à instruire",
+        "id": "S910",
+        "label": "Permettre une administration de l'ensemble de l'offre de services de manière homogène et cohérente >",
         "description": "",
-        "statutId": "np",
-        "statutLabel": "Non planifié"
+        "fonction": [
+          {
+            "label": "Donner des droits dans les applications du SI collecte",
+            "utilisateurs": [{ "label": "Administrateur du SI" }],
+            "dispo": 0,
+            "id_gsbpm": "2.6",
+            "id_produit": "Services de préparation de collecte",
+            "outils": [{ "id": " Protools " }],
+            "description": "L'application Protools permet d'administrer globalement les droits des utilisateurs sur l'ensemble des applications du système d'information de collecte.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Disponible.",
+                "label_statut": "Jalon 4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S920",
+        "label": "Permettre une mise en production de l'offre de services >",
+        "description": "",
+        "fonction": [
+          {
+            "label": "Créer une nouvelle enquête",
+            "utilisateurs": [
+              {
+                "label": "Administrateur du SI   Maîtrise d'œuvre informatique   Maîtrise d'œuvre statistique   Maîtrise d'ouvrage d'enquête"
+              }
+            ],
+            "dispo": 1,
+            "id_gsbpm": "3.4",
+            "id_produit": "Services de préparation de collecte",
+            "outils": [{ "id": " Protools " }],
+            "description": "Une application permet de créer une enquête dans le système d'information de collecte.",
+            "taches": [
+              {
+                "label": "",
+                "description": "La création d'une enquête dans le SI de collecte est possible par traitement batch.",
+                "label_statut": "Disponible"
+              },
+              {
+                "label": "",
+                "description": "Une première automatisation des traitements informatiques pour la création d'une enquête.",
+                "label_statut": "Jalon 3"
+              },
+              {
+                "label": "",
+                "description": "Interface premettant la création automatique d'une enquête",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Paramétrer une enquête (ex : dates de début et fin de collecte)",
+            "utilisateurs": [
+              {
+                "label": "Administrateur de la collecte   Maîtrise d'œuvre statistique   Maîtrise d'œuvre informatique"
+              }
+            ],
+            "dispo": 0,
+            "id_gsbpm": "3.4",
+            "id_produit": "Services de préparation de collecte",
+            "outils": [{ "id": " Protools " }],
+            "description": "Les outils permettent le paramétrage d'une enquête (différentes dates relatives à l'enquête pilotant les outils du SI notamment), même en cours de collecte.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Métier à instruire.",
+                "label_statut": "Non planifié"
+              }
+            ]
+          },
+          {
+            "label": "Offrir un processus consolidé de lancement d'enquête (un seul processus pour l'ensemble des briques de l'offre)",
+            "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
+            "dispo": 0,
+            "id_gsbpm": "3.4",
+            "id_produit": "Services de préparation de collecte",
+            "outils": [{ "id": " Protools " }],
+            "description": "Les outils du SI de collecte s'appuient sur une seule interface de chargement, quelque soit le mode, le type d'enquête ou de processus (production, test, formation,...). Une chaîne de traitements techniques (type batch) se charge de charger et configurer les différents outils du SI collecte.",
+            "taches": [
+              {
+                "label": "",
+                "description": "Une interface de chargement consolidée entre la collecte enquêteur (Sabiane) et la collecte web ménage (Coleman).",
+                "label_statut": "Jalon 3"
+              },
+              {
+                "label": "",
+                "description": "Un processus de lancement d'enquête multimodes consolidé",
+                "label_statut": "Jalon 4"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "id": "f2201",
-    "macroserviceLabel": "Accès aux enquêtes",
-    "macroserviceId": "s200",
-    "serviceLabel": "Espace dédié aux enquêtés",
-    "serviceId": "s220",
-    "label": "Site \"Mes Enquêtes\"",
-    "utilisateurs": [
+    "id": "S1000",
+    "label": "Macro-Service Agrégation / Échanges de données",
+    "description": "",
+    "fonction": [
       {
-        "id": "u003",
-        "label": "Répondant"
-      }
-    ],
-    "dispo": "3",
-    "gsbpmLabel": "Réutilisation et élaboration de l’instrument de collecte",
-    "gsbpmId": "gsbpm-3-1",
-    "outils": [
+        "label": "Réconcilier les données collectées selon les modes",
+        "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
+        "dispo": 0,
+        "id_gsbpm": "5.8",
+        "id_produit": "Services de traitement d'enquêtes",
+        "outils": [{ "id": " Kraftwerk " }],
+        "description": "Les données livrées par le SI de collecte sont consolidées quel que soit le mode utilisé pour la collecte ou les processus de contrôle qualité mobilisés. Les règles de consolidation visent à produire une base statistique pour exploitation statistique « aval ». Elles s'appuient sur des métadonnées actives (arbre des variables de l'enquête, règles algorithmique de consolidation\u2026)",
+        "taches": [
+          {
+            "label": "",
+            "description": "Mise en production d'une première version Kraftwerk de traitements de consolidation pilotés par un méta-language (VTL).",
+            "label_statut": "Disponible"
+          },
+          {
+            "label": "",
+            "description": "Première automatisation de l'aval d'enquêtes « simples » (CAMME, TIC, tests Logement)",
+            "label_statut": "Jalon 3"
+          },
+          {
+            "label": "",
+            "description": "Branchement sur des métadonnées actives.",
+            "label_statut": "Non planifié"
+          },
+          {
+            "label": "",
+            "description": "Automatisation de l'aval des enquêtes « comlexes » (SRCV, EEC,...)",
+            "label_statut": "Non planifié"
+          }
+        ]
+      },
       {
-        "label": "Portail Coltrane",
-        "id": "o004"
-      }
-    ],
-    "produitLabel": "Plateforme de collecte",
-    "produitId": "p02",
-    "description": "Le portail des enquêtes entreprise (portail Coltrane) propose un espace \"Mes Enquêtes\" permettant à un contact de visualiser les questionnaires qu'il a à remplir ou encore de mettre à jour ces informations personnelles",
-    "taches": [
-      {
-        "id": "t22011",
-        "label": "",
-        "description": "",
-        "statutId": "d",
-        "statutLabel": "Disponible"
+        "label": "Communiquer, le cas échéant, avec d'autres systèmes de collecte (RP, SSP, prestataires externes\u2026)",
+        "utilisateurs": [{ "label": "Administrateur du SI" }],
+        "dispo": 0,
+        "id_gsbpm": "5.8",
+        "id_produit": "NotAvailable",
+        "outils": [{ "id": " Batch Protools " }],
+        "description": "Chaque brique du SI de collecte est en mesure de communiquer avec un système externe. Dans le cas, par exemple, d'une collecte complétée par un SI externe type carnet de collecte, du recours à un prestataire pour partie du processus, ou encore dans le cas d'architecture hybride, avec des outils de gestion de la collecte hors Sabiane.",
+        "taches": [
+          {
+            "label": "",
+            "description": "Dans le cas, par exemple, d'une collecte complétée par un SI externe type carnet de collecte, du recours à un prestataire pour partie du processus, ou encore dans le cas d'architecture hybride, avec des outils de gestion de la collecte hors Sabiane.",
+            "label_statut": "Chaque brique du SI de collecte est en mesure de communiquer avec un système externe"
+          },
+          {
+            "label": "",
+            "description": "",
+            "label_statut": "Non planifié"
+          }
+        ]
       }
     ]
   }
