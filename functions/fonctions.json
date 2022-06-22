@@ -2494,7 +2494,7 @@
             "description": "",
             "fonction": [
               {
-                "id": "S812",
+                "id": "F812",
                 "label": "Visualiser/mettre à jour des données de contact",
                 "utilisateurs": [
                   { "label": "Répondant   Enquêteur   Site de gestion locale" }
@@ -2525,7 +2525,7 @@
                 ]
               },
               {
-                "id": "S813",
+                "id": "F813",
                 "label": "Conserver informations personnelles et réponses d'UE d'une séquence / campagne de collecte à l'autre pour réutilisation (données antérieures)",
                 "utilisateurs": [
                   {
@@ -2568,7 +2568,7 @@
             "description": "",
             "fonction": [
               {
-                "id": "S813",
+                "id": "F813",
                 "label": "Créer/Modifier des échantillons de collecte",
                 "utilisateurs": [
                   {
@@ -2599,7 +2599,7 @@
                 ]
               },
               {
-                "id": "S814",
+                "id": "F814",
                 "label": "Outiller la production d'échantillon de collecte",
                 "utilisateurs": [
                   {
@@ -2620,7 +2620,7 @@
             "description": "",
             "fonction": [
               {
-                "id": "S814",
+                "id": "F814",
                 "label": "Automatiser l'alimentation des outils de collecte",
                 "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
                 "dispo": 0,
@@ -2647,7 +2647,7 @@
                 ]
               },
               {
-                "id": "S815",
+                "id": "F815",
                 "label": "Automatiser l'alimentation des applications de gestion des enquêteurs",
                 "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
                 "dispo": 0,
@@ -2669,7 +2669,7 @@
                 ]
               },
               {
-                "id": "S816",
+                "id": "F816",
                 "label": "Automatiser la production en masse de support papier pour les enquêteurs",
                 "utilisateurs": [{ "label": "Enquêteur" }],
                 "dispo": 0,
@@ -2700,7 +2700,7 @@
         "description": "",
         "fonction": [
           {
-            "id": "S821",
+            "id": "F821",
             "label": "Mettre à jour (y compris ajout/suppression) les informations relatives aux enquêteurs en cours de collecte",
             "utilisateurs": [{ "label": "Site de gestion locale" }],
             "dispo": 3,
@@ -2717,7 +2717,7 @@
             ]
           },
           {
-            "id": "S822",
+            "id": "F822",
             "label": "Alimenter automatiquement les outils de collecte à partir du référentiel d'enquêteurs",
             "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
             "dispo": 0,
@@ -2746,7 +2746,7 @@
         "description": "",
         "fonction": [
           {
-            "id": "S831",
+            "id": "F831",
             "label": "Visualiser l'état d'une unité enquêtée affectée à un enquêteur",
             "utilisateurs": [{ "label": "Site de gestion locale" }],
             "dispo": 0,
@@ -2780,7 +2780,7 @@
             "description": "",
             "fonction": [
               {
-                "id": "S842",
+                "id": "F842",
                 "label": "Permettre l'envoi automatisé et centralisé de communication auprès des répondants",
                 "utilisateurs": [
                   {
@@ -2816,7 +2816,7 @@
                 ]
               },
               {
-                "id": "S843",
+                "id": "F843",
                 "label": "Permettre la production en masse de support papier pour les enquêteurs",
                 "utilisateurs": [{ "label": "Enquêteur" }],
                 "dispo": 0,
@@ -2833,7 +2833,7 @@
                 ]
               },
               {
-                "id": "S844",
+                "id": "F844",
                 "label": "Permettre le suivi des envois de communication aux répondants ou support papier aux enquêteurs",
                 "utilisateurs": [{ "label": "Maîtris" }],
                 "dispo": 0,
@@ -2852,12 +2852,12 @@
             ]
           },
           {
-            "id": "S842",
+            "id": "Z842",
             "label": "Suivi local des collectes avec enquêteurs>",
             "description": "",
             "fonction": [
               {
-                "id": "S842",
+                "id": "F842",
                 "label": "Consulter les tableaux de suivi locaux et multimodes standards pour une enquête",
                 "utilisateurs": [{ "label": "Site de gestion locale" }],
                 "dispo": 0,
@@ -2884,7 +2884,7 @@
                 ]
               },
               {
-                "id": "S843",
+                "id": "F843",
                 "label": "Consulter des indicateurs / tableaux de suivi spécifiques à une enquête pour assurer la représentativité des réponses (ex : hauts patrimoines)",
                 "utilisateurs": [{ "label": "Site de gestion locale" }],
                 "dispo": 0,
@@ -2901,7 +2901,7 @@
                 ]
               },
               {
-                "id": "S844",
+                "id": "F844",
                 "label": "Visualiser la liste des unités enquêtées pour une enquête",
                 "utilisateurs": [
                   {
@@ -2929,7 +2929,7 @@
             "description": "",
             "fonction": [
               {
-                "id": "S843",
+                "id": "F843",
                 "label": "Consulter des tableaux de suivi nationaux et multimodes standards",
                 "utilisateurs": [
                   {
@@ -2955,7 +2955,7 @@
                 ]
               },
               {
-                "id": "S844",
+                "id": "F844",
                 "label": "Consulter des indicateurs / tableaux de suivi spécifiques à une enquête pour assurer la représentativité des réponses",
                 "utilisateurs": [
                   {
@@ -2976,7 +2976,7 @@
                 ]
               },
               {
-                "id": "S845",
+                "id": "F845",
                 "label": "Extraire les données de suivi pour un usage self",
                 "utilisateurs": [
                   {
@@ -3009,7 +3009,7 @@
             "description": "",
             "fonction": [
               {
-                "id": "S844",
+                "id": "F844",
                 "label": "Permettre l'envoi automatisé de communication auprès des répondants par les gestionnaires",
                 "utilisateurs": [
                   {
@@ -3033,7 +3033,7 @@
                 ]
               },
               {
-                "id": "S845",
+                "id": "F845",
                 "label": "Suivre les demandes d'envoi de communication 'enquêteur'",
                 "utilisateurs": [{ "label": "Site de gestion locale" }],
                 "dispo": 0,
@@ -3053,7 +3053,7 @@
                 ]
               },
               {
-                "id": "S846",
+                "id": "F846",
                 "label": "Gérer l'accès des enquêteurs aux unités enquêtées",
                 "utilisateurs": [{ "label": "Maîtrise d'œuvre statistique" }],
                 "dispo": 0,
@@ -3075,7 +3075,7 @@
                 ]
               },
               {
-                "id": "S847",
+                "id": "F847",
                 "label": "Clore une collecte",
                 "utilisateurs": [
                   {
@@ -3108,7 +3108,7 @@
             "description": "",
             "fonction": [
               {
-                "id": "S845",
+                "id": "F845",
                 "label": "Ouvrir une collecte (mettre à jour des métadonnées)",
                 "utilisateurs": [
                   {
@@ -3137,7 +3137,7 @@
                 ]
               },
               {
-                "id": "S846",
+                "id": "F846",
                 "label": "Clore une collecte (mettre à jour des métadonnées)",
                 "utilisateurs": [
                   {
@@ -3173,7 +3173,7 @@
             "description": "",
             "fonction": [
               {
-                "id": "S846",
+                "id": "F846",
                 "label": "Intégrer les PND",
                 "utilisateurs": [
                   {
@@ -3209,7 +3209,7 @@
                 ]
               },
               {
-                "id": "S847",
+                "id": "F847",
                 "label": "Intégrer les retours de mail (@ erronées)",
                 "utilisateurs": [
                   {
@@ -3235,7 +3235,7 @@
                 ]
               },
               {
-                "id": "S848",
+                "id": "F848",
                 "label": "Intégrer les listes de questionnaires papier numérisés (identifiants date) pour un suivi national",
                 "utilisateurs": [
                   {
@@ -3256,7 +3256,7 @@
                 ]
               },
               {
-                "id": "S849",
+                "id": "F849",
                 "label": "Intégrer les listes de questionnaires papier numérisés (identifiants date) pour un suivi local",
                 "utilisateurs": [
                   {
@@ -3277,7 +3277,7 @@
                 ]
               },
               {
-                "id": "S850",
+                "id": "F850",
                 "label": "Envoyer des communications aux répondants (papier, mail ou sms) en masse",
                 "utilisateurs": [
                   {
@@ -3303,7 +3303,7 @@
                 ]
               },
               {
-                "id": "S851",
+                "id": "F851",
                 "label": "Intégrer les signalements de l'assistance",
                 "utilisateurs": [
                   { "label": "Assistance   Site de gestion nationale" }
@@ -3331,7 +3331,7 @@
         "description": "",
         "fonction": [
           {
-            "id": "S851",
+            "id": "F851",
             "label": "Standardiser et normaliser les adresses avant un envoi courrier papier",
             "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
             "dispo": 1,
@@ -3372,7 +3372,7 @@
             ]
           },
           {
-            "id": "S852",
+            "id": "F852",
             "label": "Standardiser et normaliser les coordonnées au sein des échantillons",
             "utilisateurs": [
               {
@@ -3393,7 +3393,7 @@
             ]
           },
           {
-            "id": "S853",
+            "id": "F853",
             "label": "Enrichir les coordonnées au sein des échantillons",
             "utilisateurs": [
               {
@@ -3414,7 +3414,7 @@
             ]
           },
           {
-            "id": "S854",
+            "id": "F854",
             "label": "Offrir un service de standardisation lors de la collecte de coordonnées",
             "utilisateurs": [{ "label": "Enquêteur   Répondant" }],
             "dispo": 1,
@@ -3454,7 +3454,7 @@
         "description": "",
         "fonction": [
           {
-            "id": "S911",
+            "id": "F911",
             "label": "Donner des droits dans les applications du SI collecte",
             "utilisateurs": [{ "label": "Administrateur du SI" }],
             "dispo": 0,
@@ -3478,7 +3478,7 @@
         "description": "",
         "fonction": [
           {
-            "id": "S921",
+            "id": "F921",
             "label": "Créer une nouvelle enquête",
             "utilisateurs": [
               {
@@ -3509,7 +3509,7 @@
             ]
           },
           {
-            "id": "S922",
+            "id": "F922",
             "label": "Paramétrer une enquête (ex : dates de début et fin de collecte)",
             "utilisateurs": [
               {
@@ -3530,7 +3530,7 @@
             ]
           },
           {
-            "id": "S923",
+            "id": "F923",
             "label": "Offrir un processus consolidé de lancement d'enquête (un seul processus pour l'ensemble des briques de l'offre)",
             "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
             "dispo": 0,
@@ -3561,7 +3561,7 @@
     "description": "",
     "fonction": [
       {
-        "id": "S1010",
+        "id": "F1010",
         "label": "Réconcilier les données collectées selon les modes",
         "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
         "dispo": 0,
@@ -3593,7 +3593,7 @@
         ]
       },
       {
-        "id": "S1020",
+        "id": "F1020",
         "label": "Communiquer, le cas échéant, avec d'autres systèmes de collecte (RP, SSP, prestataires externes\u2026)",
         "utilisateurs": [{ "label": "Administrateur du SI" }],
         "dispo": 0,
