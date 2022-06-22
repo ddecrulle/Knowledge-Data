@@ -2494,7 +2494,7 @@
             "description": "",
             "fonction": [
               {
-                "id": "F812",
+                "id": "F811",
                 "label": "Visualiser/mettre à jour des données de contact",
                 "utilisateurs": [
                   { "label": "Répondant   Enquêteur   Site de gestion locale" }
@@ -2525,7 +2525,7 @@
                 ]
               },
               {
-                "id": "F817",
+                "id": "F812",
                 "label": "Conserver informations personnelles et réponses d'UE d'une séquence / campagne de collecte à l'autre pour réutilisation (données antérieures)",
                 "utilisateurs": [
                   {
@@ -2620,7 +2620,7 @@
             "description": "",
             "fonction": [
               {
-                "id": "F814",
+                "id": "F815",
                 "label": "Automatiser l'alimentation des outils de collecte",
                 "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
                 "dispo": 0,
@@ -2647,7 +2647,7 @@
                 ]
               },
               {
-                "id": "F815",
+                "id": "F816",
                 "label": "Automatiser l'alimentation des applications de gestion des enquêteurs",
                 "utilisateurs": [{ "label": "Maîtrise d'œuvre informatique" }],
                 "dispo": 0,
@@ -2669,7 +2669,7 @@
                 ]
               },
               {
-                "id": "F816",
+                "id": "F817",
                 "label": "Automatiser la production en masse de support papier pour les enquêteurs",
                 "utilisateurs": [{ "label": "Enquêteur" }],
                 "dispo": 0,
