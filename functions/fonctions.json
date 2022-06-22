@@ -696,7 +696,7 @@
             "description": "",
             "fonction": [
               {
-                "id": "F313",
+                "id": "F314",
                 "label": "Afficher questionnaire",
                 "utilisateurs": [{ "label": "Répondant" }],
                 "dispo": 3,
@@ -723,7 +723,7 @@
                 ]
               },
               {
-                "id": "F314",
+                "id": "F315",
                 "label": "Expédier questionnaire",
                 "utilisateurs": [{ "label": "Répondant" }],
                 "dispo": 3,
@@ -740,7 +740,7 @@
                 ]
               },
               {
-                "id": "F315",
+                "id": "F316",
                 "label": "Disposer d'une image (PDF) du questionnaire renseigné",
                 "utilisateurs": [{ "label": "Répondant" }],
                 "dispo": 2,
@@ -769,7 +769,7 @@
             "description": "",
             "fonction": [
               {
-                "id": "F316",
+                "id": "F317",
                 "label": "Renseigner pour la première fois un questionnaire",
                 "utilisateurs": [{ "label": "Répondant" }],
                 "dispo": 3,
@@ -791,7 +791,7 @@
                 ]
               },
               {
-                "id": "F317",
+                "id": "F318",
                 "label": "Enregistrer (l'état d') un questionnaire",
                 "utilisateurs": [{ "label": "Répondant" }],
                 "dispo": 3,
@@ -813,7 +813,7 @@
                 ]
               },
               {
-                "id": "F318",
+                "id": "F319",
                 "label": "Reprendre un questionnaire",
                 "utilisateurs": [{ "label": "Répondant" }],
                 "dispo": 3,
@@ -835,7 +835,7 @@
                 ]
               },
               {
-                "id": "F319",
+                "id": "F320",
                 "label": "Appeler des services d'accès à des ressources externes : listes, nomenclatures, y compris volumineuses (navigation sur liste\u2026) ou ressources multimédia (sons, vidéos\u2026)",
                 "utilisateurs": [{ "label": "Répondant" }],
                 "dispo": 1,
@@ -867,7 +867,7 @@
                 ]
               },
               {
-                "id": "F320",
+                "id": "F321",
                 "label": "Afficher de l'aide contextuelle",
                 "utilisateurs": [{ "label": "Répondant" }],
                 "dispo": 3,
@@ -889,7 +889,7 @@
                 ]
               },
               {
-                "id": "F321",
+                "id": "F322",
                 "label": "Visualiser les réponses ne satisfaisant pas les critères de qualité (format, vraisemblance\u2026)",
                 "utilisateurs": [{ "label": "Répondant" }],
                 "dispo": 3,
@@ -920,7 +920,7 @@
         "description": "",
         "fonction": [
           {
-            "id": "F322",
+            "id": "F323",
             "label": "Générer la preuve en PDF automatiquement",
             "utilisateurs": [{ "label": "Répondant" }],
             "dispo": 3,
@@ -937,7 +937,7 @@
             ]
           },
           {
-            "id": "F323",
+            "id": "F324",
             "label": "Fournir la preuve en PDF pour téléchargement",
             "utilisateurs": [{ "label": "Répondant" }],
             "dispo": 3,
