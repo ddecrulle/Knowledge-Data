@@ -31,7 +31,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": "Disponible \u2013 Cette documentation sera enrichie en continue"
+                    "labelStatus": "Disponible \u2013 Cette documentation sera enrichie en continue"
                   }
                 ]
               },
@@ -48,17 +48,17 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": "Disponible \u2013 Des outils pour faciliter le travail des intégrateurs dans la génération des questionnaires de production"
+                    "labelStatus": "Disponible \u2013 Des outils pour faciliter le travail des intégrateurs dans la génération des questionnaires de production"
                   },
                   {
                     "label": "",
                     "description": "Une configuration de la génération depuis l'interface Pogues (ajout de personnalisation spécifique, option de numérotation, etc.)",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Un atelier de conception d'enquêtes regroupant l'ensemble des fonctions permettant de concevoir un processus de collecte d'une enquête (questionnaires, protocoles, communications,...)",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -82,12 +82,12 @@
                   {
                     "label": "",
                     "description": "Une documentation sous forme de Wiki est accessible directement depuis Pogues. Un document de travail sur les questionnaires auto-administrés de la DMCSI  expose les principes de conception de questionnaires auto-administrés :.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Materiel de formation pour le langage VTL",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               },
@@ -108,7 +108,7 @@
                   {
                     "label": "",
                     "description": "Une formation Pogues est proposée aux concepteurs d'enquête et la DMCSI assure un accompagnement des équipes de conception.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   }
                 ]
               }
@@ -143,32 +143,32 @@
                   {
                     "label": "",
                     "description": "Support des modes web, téléphone et papier. Une première version d'un éditeur VTL est disponible.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Premier branchement au référentiel de métadonnées statistiques pour récuparation de listes de codes.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Ajout du mode face-à-face, du support multimode et une première intégration du TCM",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Première vision « omnimode » avec une même spécification qui se décline « automatiquement » sur les différents modes.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Première version d'une gestion de questions mutualisées (gestion des enquêtes « à plateforme »)",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Gestion de modèles de questionnaires complexe, type plateforme TIC, TCM modulaire, ou questionnaire complémentaire modulaire EEC.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -189,17 +189,17 @@
                   {
                     "label": "",
                     "description": "Première intégration d'un moteur de recherche sur liste, pays, nationalité et départements .",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Fonctionnalité de recherche sur liste enrichie et consolidée avec la méthodologie",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Premier support d'une codification automatique.",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   }
                 ]
               },
@@ -216,12 +216,12 @@
                   {
                     "label": "",
                     "description": "Ajout du mode téléphone",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Ajout du mode face-à-face et du contexte « Gestionnaire reprise entreprise » (Generic)",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               },
@@ -238,7 +238,7 @@
                   {
                     "label": "",
                     "description": "Mise à disposition d'une visualisation contextualisée d'un questionnaire en conception",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               },
@@ -255,17 +255,17 @@
                   {
                     "label": "",
                     "description": "Une première version de génération des spécifications est disponible.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Amélioration de l'outil de génération de spécification",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Ajout d'un analyseur syntaxique à l'interface Pogues (permet une validation syntaxique des expressions de filtres et contrôles dès l'interface graphique)",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               },
@@ -282,7 +282,7 @@
                   {
                     "label": "",
                     "description": "Une première version d'un dictionnaire de variables produit à partir de la spécification de questionnaires.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               }
@@ -306,32 +306,32 @@
                   {
                     "label": "",
                     "description": "Format web, papier pour les questionnaires enquêteurs téléphoniques .",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Format pour les questionnaires enquêteurs face à face",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Première implémentation du TCM",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Génération de spécifications pour la numérisation des questionnaires papier.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Migration technologique vers Java (refonte technologique du cœur du générateur)",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   },
                   {
                     "label": "",
                     "description": "Génération de spécifications pour la numérisation (à coordonner entreprise/ménage).",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -357,7 +357,7 @@
                   {
                     "label": "",
                     "description": "Première implémentation de métadonnées actives sur les traitements type contrôle qualité",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -374,17 +374,17 @@
                   {
                     "label": "",
                     "description": "Premier indicateur de complétude pour permettre les reprises de questionnaires incomplets dans les tests Logement.",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   },
                   {
                     "label": "",
                     "description": "Premier indicateur de qualité (identification de questionnaire à reprendre).",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   },
                   {
                     "label": "",
                     "description": "Interface permettant de spécifier pour chaque enquête les différents indicateurs à mobiliser durant le procesus de collecte",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -415,22 +415,22 @@
                   {
                     "label": "",
                     "description": "De premiers courriers candidats à la standardisation pour des protocoles avec mode web ou téléphone. Une extension de l'offre au cas plus complexe du protocole Logement",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Intégration avec l'éditique sur les différents modèles de courrier enquêtes ménage",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Offre \"pré-labellisée\"",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   },
                   {
                     "label": "",
                     "description": "Mise en place d'un outil d'administration ad-hoc de cette offre de courrier. Opportunité et périmètre à instruire",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -447,7 +447,7 @@
                   {
                     "label": "",
                     "description": "Le lien avec le référentiel de métadonnées statistiques reste à étudier. Le périmètre précis d'une telle fonctionnalité reste à instruire (jusqu'à imposer le choix d'un modèle de courrier ?)",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -468,7 +468,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               }
@@ -501,27 +501,27 @@
               {
                 "label": "",
                 "description": "Enquêtes avec un volet internet. Enrichissement de rubriques informatives (courriers aux enquêtés, résultats de l'enquête précédente et lien vers insee.fr) sur l'enquête et l'accessibilité",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Une amélioration du processus de configuration pour une utilisation autonome par la maîtrise d'oeuvre.",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               },
               {
                 "label": "",
                 "description": "Un premier circuit formalisé de publication/validation sur le portail de promotion.",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               },
               {
                 "label": "",
                 "description": "Enquête sans volet internet et à protocole multimode ou multi-séquences.",
-                "label_statut": "Jalon 4"
+                "labelStatus": "Jalon 4"
               },
               {
                 "label": "",
                 "description": "Augmenter la modularité pour mieux gérer les enquêtes à MOA externe",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -541,12 +541,12 @@
               {
                 "label": "",
                 "description": "Première version du service de réinitialisation du mot de passe.",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Procédure d'homologation de sécurité en continu",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           }
@@ -570,7 +570,7 @@
               {
                 "label": "",
                 "description": "L'opportunité et le périmètre d'un tel espace restent à instruire",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -587,7 +587,7 @@
               {
                 "label": "",
                 "description": "",
-                "label_statut": ""
+                "labelStatus": ""
               }
             ]
           }
@@ -611,17 +611,17 @@
               {
                 "label": "",
                 "description": "Une première interface technique de configuration",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Une amélioration du processus de configuration pour une utilisation autonome par la maîtrise d'oeuvre.",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               },
               {
                 "label": "",
                 "description": "Interface finalisée et branchement avec le référentiel de métadonnées statistiques",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           }
@@ -657,12 +657,12 @@
                   {
                     "label": "",
                     "description": "Portail Mes enquêtes pour la sphère entreprise",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Portail « Ménages », opportunité à instruire",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -679,12 +679,12 @@
                   {
                     "label": "",
                     "description": "Portail Mes enquêtes pour la sphère entreprise",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Portail « Ménages », opportunité à instruire",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -708,17 +708,17 @@
                   {
                     "label": "",
                     "description": "Mutualisé ménage/entreprise (même architecture)",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques restent à mener",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   },
                   {
                     "label": "",
                     "description": "Meilleure scalabilité horizontale (stockage orienté document). Des études techniques restent à mener.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -735,7 +735,7 @@
                   {
                     "label": "",
                     "description": "Mutualisé ménage/entreprise (même architecture, même fonctionnement)",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   }
                 ]
               },
@@ -752,12 +752,12 @@
                   {
                     "label": "",
                     "description": "Entreprise",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Ménage : la qualité du PDF produit ne satisfait pas les critères du domaine ménage, à améliorer pour proposer une fonctionnalité équivalente dans le contexte ménage.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -781,12 +781,12 @@
                   {
                     "label": "",
                     "description": "Mutualisé ménage/entreprise (même architecture)Suite à une migration technique pour le domaine ménage la plateforme Stromae V2 est plus stable et dispose d'une meilleur tenue à la charge.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques restent à mener",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -803,12 +803,12 @@
                   {
                     "label": "",
                     "description": "Mutualisé ménage/entreprise (même architecture)Suite à une migration technique pour le domaine ménage la plateforme Stromae V2 est plus stable et dispose d'une meilleur tenue à la charge.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques (migration entreprise) et métier (cycle de vie questionnaire ménage vs cycle de vie questionnaire entreprise) restent à mener",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -825,12 +825,12 @@
                   {
                     "label": "",
                     "description": "Mutualisé ménage/entreprise (même architecture)Suite à une migration technique pour le domaine ménage, la plateforme de collecte StromaeV2 apporte plus de stabilité et une meilleure tenue à la charge.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques (migration entreprise) restent à mener",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -847,22 +847,22 @@
                   {
                     "label": "",
                     "description": "Domaine ménage: Navigation sur liste et autocomplétion suite à la migration technique.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Domaine ménage : Accès à un moteur de codification",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   },
                   {
                     "label": "",
                     "description": "Domaine ménage. Interfaçage avec un autre questionnaire type « carnet de collecte ».",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   },
                   {
                     "label": "",
                     "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques (migration entreprise) restent à mener.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -879,12 +879,12 @@
                   {
                     "label": "",
                     "description": "L'aide contextuelle est apportée par l'affichage « d'info-bulles » accessible et compatible également avec un affichage sur smartphone(suite à migration technique, nouvelle plateforme de collecte internet)",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques (migration entreprise) restent à mener.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -901,12 +901,12 @@
                   {
                     "label": "",
                     "description": "Mutualisé ménage/entreprise (même architecture).Pour le Domaine ménage : Mis à niveau en termes d'accessibilité (suite à migration technique)",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Offre ménage/entreprise complètement consolidée (une seule infrastructure) : des études techniques (migration entreprise) restent à mener.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -932,7 +932,7 @@
               {
                 "label": "",
                 "description": "Ménage/entreprise",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               }
             ]
           },
@@ -949,7 +949,7 @@
               {
                 "label": "",
                 "description": "Ménage/entreprise",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               }
             ]
           }
@@ -980,12 +980,12 @@
               {
                 "label": "",
                 "description": "",
-                "label_statut": ""
+                "labelStatus": ""
               },
               {
                 "label": "",
                 "description": "Migration vers un module ad-hoc (Radiohead).",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               }
             ]
           }
@@ -1009,17 +1009,17 @@
               {
                 "label": "",
                 "description": "Atelier de numérisation (avec une configuration manuelle de la numérisation)",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Ebauche d'une offre de services consolidée sur la numérisation.",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               },
               {
                 "label": "",
                 "description": ". Interfaçage avec les services de livraison de données Métallica afin d'avoir des données multimodes consolidées, et un suivi (nb de questionnaires reçus, numérisés,...)",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -1036,17 +1036,17 @@
               {
                 "label": "",
                 "description": "Atelier de numérisation",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": ". Interfaçage avec les services de livraison de données Métallica afin d'avoir des données multimodes consolidées",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               },
               {
                 "label": "",
                 "description": "Faire peser sur le seul PENM la responsabilité de la gestion des prestataires de saisie en matière d'enquêtes ménages reste à étudier et à valider",
-                "label_statut": "Non planifiée"
+                "labelStatus": "Non planifiée"
               }
             ]
           },
@@ -1063,17 +1063,17 @@
               {
                 "label": "",
                 "description": "Atelier de numérisation",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Interfaçage avec les services de livraison de données Métallica afin d'avoir des données multimodes consolidées",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               },
               {
                 "label": "",
                 "description": "Intégrer dans l'offre de l'atelier de numérisation la responsabilité de la gestion des prestataires de saisie. L'opportunité reste à étudier et à valider",
-                "label_statut": "Non planifiée"
+                "labelStatus": "Non planifiée"
               }
             ]
           }
@@ -1111,7 +1111,7 @@
                   {
                     "label": "",
                     "description": "Première version d'un contexte de formation dans Sabiane",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   }
                 ]
               },
@@ -1130,7 +1130,7 @@
                   {
                     "label": "",
                     "description": "Besoin métier à préciser.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -1151,7 +1151,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -1172,12 +1172,12 @@
                   {
                     "label": "",
                     "description": "Un premier outil permettant l'initialisation de comptes sur la base d'un jeu de données modèles.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Evolution de l'outil pour faciliter la construction des jeux de données (contextualisation locale)",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -1201,7 +1201,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -1218,17 +1218,17 @@
                   {
                     "label": "",
                     "description": "Des questionnaires enquêteurs adaptés au contexte téléphonique",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Des questionnaires enquêteurs adaptés au contexte face à face",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Intégration dans l'application questionnaire des « retour qualité » (ou « bloc qualité ») de l'enquêteur",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -1245,7 +1245,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -1262,12 +1262,12 @@
                   {
                     "label": "",
                     "description": "Possibilité de ré-ouvrir un questionnaire, mais sans workflowet particulier de reprise/modification, ni d'ergonomie particulière (données traitées comme des données antérieures, ouverture du questionnaire au début, ...)",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Processus de reprise/modification du questionnaire web complètement implémenté (processus métier à préciser).",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   }
                 ]
               },
@@ -1284,7 +1284,7 @@
                   {
                     "label": "",
                     "description": "Une première liste de motifs d'abandon pour des enquêtes téléphoniques",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   }
                 ]
               },
@@ -1301,12 +1301,12 @@
                   {
                     "label": "",
                     "description": "Fonctionnalité de recherche sur liste.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Accès à des ressources multimédia type fichiers sons.",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   }
                 ]
               },
@@ -1323,7 +1323,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -1340,7 +1340,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               }
@@ -1375,7 +1375,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               }
@@ -1399,7 +1399,7 @@
                   {
                     "label": "",
                     "description": "L'enquêteur utilise sa messagerie personnelle sans contextualisation en l'absence de fonctionnelle dédiée.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -1416,7 +1416,7 @@
                   {
                     "label": "",
                     "description": " Contenu à instruire. Outils spécifiques ou fonctionnalités de type « Agenda Outlook » ?",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -1440,17 +1440,17 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   },
                   {
                     "label": "",
                     "description": "Les fonctions de repérage relatives à une enquête en face à face",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Application mobile dédiée. A instruire",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -1467,27 +1467,27 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   },
                   {
                     "label": "",
                     "description": "Possibilité de modifier les coordonnées d'un enquêté en dehors d'un questionnaire statistique.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "« Service » équivalent à celui d'une fiche-adresse papier.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   },
                   {
                     "label": "",
                     "description": "Interfaçage avec un référentiel d'unités enquêtées pour suivi des coordonnées d'UE (fonctions pour les panels)",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   },
                   {
                     "label": "",
                     "description": "Application mobile dédiée. A instruire",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -1511,7 +1511,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -1528,12 +1528,12 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   },
                   {
                     "label": "",
                     "description": "Consolidation des critères entre enquêtes.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -1550,7 +1550,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -1567,17 +1567,17 @@
                   {
                     "label": "",
                     "description": "Première couverture d'un cycle de vie d'unité enquêtée type \"enquête téléphonique\" (hors envoi de courriers).",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Couverture d'un cycle de vie d'unité enquêtée type \"enquête face-à-face\" (hors envoi de courriers)",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Suivi et historique des demandes d'envoi de courriers. A coordonner avec les évolutions côté éditique (Oppossum ?)",
-                    "label_statut": "A planifier"
+                    "labelStatus": "A planifier"
                   }
                 ]
               }
@@ -1601,7 +1601,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -1618,7 +1618,7 @@
                   {
                     "label": "",
                     "description": "Besoin métier à préciser",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -1635,7 +1635,7 @@
                   {
                     "label": "",
                     "description": "Disponible pour l'envoi unitaire de courrier (relance/lettre-avis) depuis le poste enquêteur.",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   }
                 ]
               },
@@ -1652,12 +1652,12 @@
                   {
                     "label": "",
                     "description": "Sur un périmètre hors modification/reprise questionnaire",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Couverture de la modification/reprise questionnaire enquêteur",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   }
                 ]
               },
@@ -1674,12 +1674,12 @@
                   {
                     "label": "",
                     "description": "Possibilité de collecter, à la volée et même hors-ligne, des nouvelles unités enquetées (type éclatement de Logement, de ménage, etc.)",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   },
                   {
                     "label": "",
                     "description": "Possibilité de gérer les regroupements d'unités enquêtées",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -1716,12 +1716,12 @@
               {
                 "label": "",
                 "description": "",
-                "label_statut": "Jalon 2"
+                "labelStatus": "Jalon 2"
               },
               {
                 "label": "",
                 "description": "Mise à disposition des paradonnées dans un entrepôt",
-                "label_statut": "Jalon 4"
+                "labelStatus": "Jalon 4"
               }
             ]
           },
@@ -1742,12 +1742,12 @@
               {
                 "label": "",
                 "description": "Première offre de paradonnées enquêteurs.",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               },
               {
                 "label": "",
                 "description": "Enrichissement des indicateurs fournis et usages autres que la maitrise d'oeuvre statistique. Des instructions métiers et méthodologiques restent à mener.",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           }
@@ -1775,17 +1775,17 @@
               {
                 "label": "",
                 "description": "Expérimentation de l'entrepôt pour les \"paradonnées Web\" avec l'équipe conceptrice de l'enquête Logement",
-                "label_statut": "Jalon 4"
+                "labelStatus": "Jalon 4"
               },
               {
                 "label": "",
                 "description": "Mise en oeuvre d'un entrepôt (version stabilisée).",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               },
               {
                 "label": "",
                 "description": "Paradonnées enquêteurs : opportunité d'un requêtage libre à instruire (anonymisation, sécurité...)",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           }
@@ -1813,12 +1813,12 @@
               {
                 "label": "",
                 "description": "Pour le domaine entreprise",
-                "label_statut": "Opérationnel"
+                "labelStatus": "Opérationnel"
               },
               {
                 "label": "",
                 "description": "Des instructions sur le procesus métier restent à conduire pour le domaine ménages",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -1839,7 +1839,7 @@
               {
                 "label": "",
                 "description": "",
-                "label_statut": ""
+                "labelStatus": ""
               }
             ]
           },
@@ -1860,17 +1860,17 @@
               {
                 "label": "",
                 "description": "Pour l'accompagnement/formation enquêteur (contrôle qualité gestion)",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Avec le contrôle qualité statistique (MOA enquête)",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               },
               {
                 "label": "",
                 "description": "Opportunité de mutualisation de ces fonctions ménage/entreprise",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           }
@@ -1898,7 +1898,7 @@
               {
                 "label": "",
                 "description": "L'attendu métier reste à instruire et le processus à préciser (reprise de questionnaire internet ?)",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -1919,12 +1919,12 @@
               {
                 "label": "",
                 "description": "Domaine entreprise avec l'application Generic.",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "L'attendu métier côté ménage reste à instruire (modification par le gestionnaire ou par l'enquêteur ?)",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -1945,12 +1945,12 @@
               {
                 "label": "",
                 "description": "Commentaires enquêteurs de niveau UE.",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Commentaires DEM et commentaires au niveau question.",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               }
             ]
           }
@@ -1974,17 +1974,17 @@
               {
                 "label": "",
                 "description": "Production des aggrégats pour une collecte téléphonique.",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Production des aggrégats pour une collecte face-à-face.",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               },
               {
                 "label": "",
                 "description": "Production des aggrégats pour une collecte multimode. La définition métier précise de tels aggrégats reste à instruire.",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -2005,7 +2005,7 @@
               {
                 "label": "",
                 "description": "",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               }
             ]
           }
@@ -2029,7 +2029,7 @@
               {
                 "label": "",
                 "description": "Périmètre et protocole de telles enquêtes à arrêter. Intégration des Capost existants dans la nouvelle filière à planifier.",
-                "label_statut": "Non planifiée"
+                "labelStatus": "Non planifiée"
               }
             ]
           }
@@ -2068,7 +2068,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -2087,7 +2087,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -2108,7 +2108,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -2132,7 +2132,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -2149,7 +2149,7 @@
                   {
                     "label": "",
                     "description": "Une première intégration d'un widget conversationnel dans les services d'accès aux enquêtes ménage.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               },
@@ -2166,7 +2166,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -2183,7 +2183,7 @@
                   {
                     "label": "",
                     "description": "Une première intégration d'un chatbot dans les services d'accès aux enquêtes ménage.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               }
@@ -2210,7 +2210,7 @@
                   {
                     "label": "",
                     "description": "Pour les canaux d'assistance mis en oeuvre",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   }
                 ]
               },
@@ -2230,7 +2230,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               },
@@ -2247,17 +2247,17 @@
                   {
                     "label": "",
                     "description": "Domaine entreprise",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Première implémentation d'un scénario SVI simple.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Extension des scénarios SVI pour couvrir différents cas d'enquêtes.",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   }
                 ]
               }
@@ -2285,7 +2285,7 @@
               {
                 "label": "",
                 "description": "",
-                "label_statut": ""
+                "labelStatus": ""
               }
             ]
           },
@@ -2308,12 +2308,12 @@
               {
                 "label": "",
                 "description": "",
-                "label_statut": ""
+                "labelStatus": ""
               },
               {
                 "label": "",
                 "description": "Intégrer la relecture de questionnaires internet dans le processus d'enquête ménage ?",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -2333,22 +2333,22 @@
               {
                 "label": "",
                 "description": "",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Migration technique du service pour une internalisation à Coleman (auparavant service transversale).",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               },
               {
                 "label": "",
                 "description": "Enrichissement de l'offre à partir d'une solution type \"Mélopée\" pour la récupération d'un mot de passe sans adresse mail pré-renseignée",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               },
               {
                 "label": "",
                 "description": "Amélioration de la procédure de récupération de compte en cas de perte d'identifiants",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -2367,7 +2367,7 @@
               {
                 "label": "",
                 "description": "",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               }
             ]
           },
@@ -2391,12 +2391,12 @@
               {
                 "label": "",
                 "description": "De la documentation est disponible sur les portails Coleman et Coltrane",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Enrichir cette documentation. Consolider les éléments \"techniques\" entre les domaines entreprise et ménage.",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           }
@@ -2427,12 +2427,12 @@
               {
                 "label": "",
                 "description": "Une première formalisation et documentation d'un processus d'assistance auprès des enquêteurs.",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               },
               {
                 "label": "",
                 "description": "Mise en place d'outils collaboratifs à des fins d'assistances des enquêteurs.",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -2451,7 +2451,7 @@
               {
                 "label": "",
                 "description": "De premières notifications thématiques par les gestionnaires.",
-                "label_statut": "Jalon 4"
+                "labelStatus": "Jalon 4"
               }
             ]
           },
@@ -2470,7 +2470,7 @@
               {
                 "label": "",
                 "description": "Relecture de questionnaires enquêteurs .",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               }
             ]
           }
@@ -2515,12 +2515,12 @@
                   {
                     "label": "",
                     "description": "Le portail entreprise permet la mise à jour des coordonnées d'un répondant. L'application enquêteur permet la mise à jour des coordonnées d'un répondant.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Consolidation des fonctions côté portail ménage et applications des acteurs gestionnaires locaux et nationaux. Interfaçage avec Gaïa ",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -2541,22 +2541,22 @@
                   {
                     "label": "",
                     "description": "Le référentiel est mis à jour automatiquement pour les enquêtes à protocole de réintorragation simple (type Camme).",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Le référentiel est mis à jour automatiquement pour les enquêtes à protocole multimode séquentiel simple (type TIC).",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Le référentiel est mis à jour automatiquement pour les enquêtes à protocole de réintorragation complexe (type Logement, SRCV).",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   },
                   {
                     "label": "",
                     "description": "La consolidation avec des données antérieures est automatisée (avec mise en place d'un référentiel sur ces données ad-hoc).",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   }
                 ]
               }
@@ -2584,17 +2584,17 @@
                   {
                     "label": "",
                     "description": "Création d'échantillons à partir de métadonnées issues de collectes précédentes à protocole \"simple\" (périmètre Camme).",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Création d'échantillons à partir de métadonnées issues de collectes précédentes à protocole séquentiel multimode (périmètre TIC, \"tests Logement\").",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Création d'échantillons à partir de métadonnées d'enquêtes (\"configurer\" la création en fonction de l'enquête) et issues de collectes précédentes à protocole multimode complexe (type Logement, SRCV)",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   }
                 ]
               },
@@ -2632,17 +2632,17 @@
                   {
                     "label": "",
                     "description": "Les outils de collecte sont alimentés par des mécanismes peu automatisés.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Automatisation de l'alimentation des outils de collecte pour des protocoles à réinterrogation simple (type Camme).",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Consolidation des interfaces de chargement des outils de collecte (web et enquêteurs) pour une utilisation plus simple et homogène.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               },
@@ -2659,12 +2659,12 @@
                   {
                     "label": "",
                     "description": "Une première « sortie » pour Opale est produite par Crabe. Celle-ci doit être enrichie « manuellement » de pré-affectations dans le cas des enquêtes téléphoniques.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Automatiser l'alimentation du système Opale à partir d'échantillons mis à disposition du référentiel.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               },
@@ -2681,12 +2681,12 @@
                   {
                     "label": "",
                     "description": "Les fiche-adresse papier sont produites automatiquement pour une collecte face-à-face.",
-                    "label_statut": "Jalon 2"
+                    "labelStatus": "Jalon 2"
                   },
                   {
                     "label": "",
                     "description": "Extension aux fiches de suivi.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               }
@@ -2712,7 +2712,7 @@
               {
                 "label": "",
                 "description": "",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               }
             ]
           },
@@ -2729,12 +2729,12 @@
               {
                 "label": "",
                 "description": "Des mécanismes de synchronisation quotidien s'appuyant sur des API.",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Une synchronisation instantannée des informations à partir du référentiel d'unités enquêtées.",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           }
@@ -2758,12 +2758,12 @@
               {
                 "label": "",
                 "description": "Pour les états liés à une collecte téléphonique.",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Disponible pour les états liés à une collecte face-à-face.",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               }
             ]
           }
@@ -2796,22 +2796,22 @@
                   {
                     "label": "",
                     "description": "Une première version du service (Radiohead) couvrant l'envoi de courrier papié et mail pour des protocoles simples (tests Logement, Tic, Camme)",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Extension de la couverture des communications (mails, papiers) à des protocoles plus comlexes (ENL, SRCV,...)",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   },
                   {
                     "label": "",
                     "description": "Extension de la couverture aux documents à destination des enquêteurs (type fiche-adresse papier, liste de gestion, fiche de suivi,...).",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   },
                   {
                     "label": "",
                     "description": "Support de l'envoi de SMS.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -2828,7 +2828,7 @@
                   {
                     "label": "",
                     "description": "Impression en masse des fiche-adresse papier pour une collecte face-à-face à partir du module dédié (migration fonctionnelle depuis le référentiel d'UE).",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               },
@@ -2845,7 +2845,7 @@
                   {
                     "label": "",
                     "description": "Eléments de suivi pour les opérations éditique papier..",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               }
@@ -2869,17 +2869,17 @@
                   {
                     "label": "",
                     "description": "Suivi local d'une collecte téléphonique simple.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Suivi local d'une collecte face-à-face.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Suivi local d'une collecte multimode.",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   }
                 ]
               },
@@ -2896,7 +2896,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -2917,7 +2917,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": ""
+                    "labelStatus": ""
                   }
                 ]
               }
@@ -2945,12 +2945,12 @@
                   {
                     "label": "",
                     "description": "Des tableaux de suivi national uniquement pour les collectes web.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Des tableaux de suivi national pour les collectes multimodes (consolidation collectes enquêteur et web).",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -2971,7 +2971,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -2992,12 +2992,12 @@
                   {
                     "label": "",
                     "description": "Des fonctions (non automatisées, en back-office, pas accessibles aux utilisateurs au sein de l'application) permettent de premières extractions.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Des fonctions d'export automatisées et accessibles aux utilisateurs depuis l'application.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   }
                 ]
               }
@@ -3028,7 +3028,7 @@
                   {
                     "label": "",
                     "description": "Processus métier à préciser (quels courriers ? Dans quels cas ?)",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -3048,7 +3048,7 @@
                   {
                     "label": "",
                     "description": "",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -3065,12 +3065,12 @@
                   {
                     "label": "",
                     "description": "Une date de visibilité est implémentée, mais aucune interface ne permet sa configuration par les acteurs de la collecte.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Configuration au sein de l'outil Protools (conception Protools à finaliser).",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -3091,12 +3091,12 @@
                   {
                     "label": "",
                     "description": "Une date de visibilité est implémentée, mais aucune interface ne permet sa configuration par les acteurs de la collecte.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Configuration date de fin de collecte au sein d'un outil (conception Protools à finaliser). Associer à la fin d'une collecte des traitements de nettoyage.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -3127,12 +3127,12 @@
                   {
                     "label": "",
                     "description": "Une date de début de collecte est implémentée, mais elle ne peut être configuré directement par les acteurs de la collecte.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Configuration date de début de collecte au sein d'un outil (conception Protools à finaliser).",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -3156,12 +3156,12 @@
                   {
                     "label": "",
                     "description": "Une date de fin de collecte est implémentée, mais elle ne peut être configuré directement par les acteurs de la collecte.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Configuration date de fin de collecte au sein d'un outil (conception Protools à finaliser). Associer à la fin d'une collecte des traitements de nettoyage.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -3194,17 +3194,17 @@
                   {
                     "label": "",
                     "description": "Intégration des PND pour le web ménage.",
-                    "label_statut": "Jalon 3"
+                    "labelStatus": "Jalon 3"
                   },
                   {
                     "label": "",
                     "description": "Intégration des PND dans les applications enquêteurs.",
-                    "label_statut": "Jalon 4"
+                    "labelStatus": "Jalon 4"
                   },
                   {
                     "label": "",
                     "description": "L'intégration des PND dans les outils Sabiane gestion et Coltrane-Pilotage reste à étudier .",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -3225,12 +3225,12 @@
                   {
                     "label": "",
                     "description": "Faisabilité technique à instruire.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   },
                   {
                     "label": "",
                     "description": "L'intégration des adresses mails invalides dans l'outil Sabiane gestion reste à étudier (pertinence).",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -3251,7 +3251,7 @@
                   {
                     "label": "",
                     "description": "A instruire techniquement.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -3272,7 +3272,7 @@
                   {
                     "label": "",
                     "description": "Instruction technique nécessaire.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -3293,12 +3293,12 @@
                   {
                     "label": "",
                     "description": "Des possibilités d'export permettent la constitution des fichiers pour l'envoi de courrier de masse.",
-                    "label_statut": "Disponible"
+                    "labelStatus": "Disponible"
                   },
                   {
                     "label": "",
                     "description": "Une plus grande automatisation de la constitution des répondants à contacter (pour relance ou autres).",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               },
@@ -3317,7 +3317,7 @@
                   {
                     "label": "",
                     "description": "Instruire le besoin métier précis.",
-                    "label_statut": "Non planifié"
+                    "labelStatus": "Non planifié"
                   }
                 ]
               }
@@ -3347,27 +3347,27 @@
               {
                 "label": "",
                 "description": "Le service RNVP est sollicité automatiquement à chaque envoi postal dans le domaine entreprise.",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Le service RNVP peut-être sollicité manuellement avant les envois postaux dans le domaine ménage.",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Intégrer les corrections d'adresses RNVP dans les référentiels de contacts ou d'unité enquêtée.",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               },
               {
                 "label": "",
                 "description": "Automatiser davantage le processus ménage. Des instructions sur les bonnes conditions de mobilisation du service RNVP reste à définir (stratégie de scoring notamment).",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               },
               {
                 "label": "",
                 "description": "A instruire la possibilité de se passer de ce service et d'intégrer une normalisation dès le référentiel d'unités d'enquêtes plutôt qu'au sein des processus afférents.",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -3388,7 +3388,7 @@
               {
                 "label": "",
                 "description": "A instruire avec les équipes concernées. Au niveau base de sondage ou échantillon de collecte ? Articulation avec Gaïa à instruire.",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -3409,7 +3409,7 @@
               {
                 "label": "",
                 "description": "Les services d'enrichissement de La Poste sur la base d'un fichier de déménagement sont industrialisés et mobilisable pour tout type d'opérations de collecte.",
-                "label_statut": "Jalon 4"
+                "labelStatus": "Jalon 4"
               }
             ]
           },
@@ -3430,12 +3430,12 @@
               {
                 "label": "",
                 "description": "Des champs structurés et contrôlés sont proposés au sein des questionnaires et du Portail Coltrane afin d'assurer la collecte d'une adresse structurée (champ voie, libellé de voie, etc.)",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Mobilisation d'un service de correction d'adresse en interactif à instruire techniquement. Articulation avec Gaïa à instruire.",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           }
@@ -3466,7 +3466,7 @@
               {
                 "label": "",
                 "description": "Disponible.",
-                "label_statut": "Jalon 4"
+                "labelStatus": "Jalon 4"
               }
             ]
           }
@@ -3494,17 +3494,17 @@
               {
                 "label": "",
                 "description": "La création d'une enquête dans le SI de collecte est possible par traitement batch.",
-                "label_statut": "Disponible"
+                "labelStatus": "Disponible"
               },
               {
                 "label": "",
                 "description": "Une première automatisation des traitements informatiques pour la création d'une enquête.",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               },
               {
                 "label": "",
                 "description": "Interface premettant la création automatique d'une enquête",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -3525,7 +3525,7 @@
               {
                 "label": "",
                 "description": "Métier à instruire.",
-                "label_statut": "Non planifié"
+                "labelStatus": "Non planifié"
               }
             ]
           },
@@ -3542,12 +3542,12 @@
               {
                 "label": "",
                 "description": "Une interface de chargement consolidée entre la collecte enquêteur (Sabiane) et la collecte web ménage (Coleman).",
-                "label_statut": "Jalon 3"
+                "labelStatus": "Jalon 3"
               },
               {
                 "label": "",
                 "description": "Un processus de lancement d'enquête multimodes consolidé",
-                "label_statut": "Jalon 4"
+                "labelStatus": "Jalon 4"
               }
             ]
           }
@@ -3573,22 +3573,22 @@
           {
             "label": "",
             "description": "Mise en production d'une première version Kraftwerk de traitements de consolidation pilotés par un méta-language (VTL).",
-            "label_statut": "Disponible"
+            "labelStatus": "Disponible"
           },
           {
             "label": "",
             "description": "Première automatisation de l'aval d'enquêtes « simples » (CAMME, TIC, tests Logement)",
-            "label_statut": "Jalon 3"
+            "labelStatus": "Jalon 3"
           },
           {
             "label": "",
             "description": "Branchement sur des métadonnées actives.",
-            "label_statut": "Non planifié"
+            "labelStatus": "Non planifié"
           },
           {
             "label": "",
             "description": "Automatisation de l'aval des enquêtes « comlexes » (SRCV, EEC,...)",
-            "label_statut": "Non planifié"
+            "labelStatus": "Non planifié"
           }
         ]
       },
@@ -3605,12 +3605,12 @@
           {
             "label": "",
             "description": "Dans le cas, par exemple, d'une collecte complétée par un SI externe type carnet de collecte, du recours à un prestataire pour partie du processus, ou encore dans le cas d'architecture hybride, avec des outils de gestion de la collecte hors Sabiane.",
-            "label_statut": "Chaque brique du SI de collecte est en mesure de communiquer avec un système externe"
+            "labelStatus": "Chaque brique du SI de collecte est en mesure de communiquer avec un système externe"
           },
           {
             "label": "",
             "description": "",
-            "label_statut": "Non planifié"
+            "labelStatus": "Non planifié"
           }
         ]
       }
