@@ -1,5 +1,5 @@
 {
-  "id": "gsbpm",
+  "id": "children",
   "label": "Phases du GSBPM",
   "children": [
     {
@@ -11,7 +11,7 @@
       "id": "gsbpm-2",
       "label": "Concevoir",
       "description": "Cette phase décrit les activités de développement et de conception et tous les travaux de recherche pratiques connexes nécessaires pour définir les produits, concepts, méthodes, instruments de collecte et processus opérationnels statistiques. Elle englobe tous les éléments de conception nécessaires pour définir ou affiner les produits ou services statistiques mis à jour dans l’étude de cas. Elle précise toutes les métadonnées pertinentes prêtes à être utilisées ultérieurement dans le processus de production statistique ainsi que les procédures d’assurance de la qualité. Pour les produits statistiques élaborés à intervalles réguliers, cette phase intervient lors de la première itération, et chaque fois que des mesures propres à améliorer le processus sont identifiées dans la phase d’évaluation de l’itération précédente.",
-      "gsbpm": [
+      "children": [
         {
           "id": "gsbpm-2-1",
           "label": "Conception des descriptions de variables",
@@ -33,7 +33,7 @@
       "id": "gsbpm-3",
       "label": "Construire",
       "description": "Cette phase permet d’élaborer et de mettre à l’essai le produit retenu jusqu’à ce qu’il soit prêt à être utilisé dans des conditions réelles. Les produits de la phase de « conception » orientent les choix de processus, d’instruments, d’informations et de services réutilisables qui sont regroupés et configurés à ce stade pour créer l’environnement opérationnel complet permettant de lancer le processus. De nouveaux services sont élaborés par exception, pour combler les lacunes constatées dans le catalogue de services existant provenant de l’organisme lui-même ou de l’extérieur. Ces nouveaux services sont conçus de façon à être en grande partie réutilisables dans l’architecture de production statistique.",
-      "gsbpm": [
+      "children": [
         {
           "id": "gsbpm-3-1",
           "label": "Réutilisation et élaboration de l’instrument de collecte",
