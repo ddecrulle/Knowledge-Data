@@ -1,6 +1,7 @@
 {
   "id": "u0",
   "label": "Les utilisateurs",
+  "description": "test",
   "children": [
     {
       "id": "u001",
