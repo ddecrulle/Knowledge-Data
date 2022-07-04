@@ -1,15 +1,15 @@
 {
-  "bsonType": "object",
+  "type": "object",
   "required": ["id", "label"],
   "properties": {
     "id": {
-      "bsonType": "string"
+      "type": "string"
     },
     "label": {
-      "bsonType": "string"
+      "type": "string"
     },
     "description": {
-      "bsonType": "string"
+      "type": "string"
     },
     "children": {
       "type": "array",

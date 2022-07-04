@@ -1,119 +1,65 @@
 {
+  "description": "Schéma pour valider un JSON en entrée de Knowledge, l'élément de haut niveau est un tableau de service",
   "type": "array",
-  "item": {
-    "bsonType": "object",
-    "required": [
-      "id",
-      "macroserviceLabel",
-      "macroserviceId",
-      "serviceLabel",
-      "serviceId",
-      "label",
-      "utilisateurs",
-      "dispo",
-      "gsbpmLabel",
-      "gsbpmId",
-      "outils",
-      "produitLabel",
-      "produitId",
-      "description",
-      "taches"
-    ],
-    "properties": {
-      "id": {
-        "bsonType": "string"
-      },
-      "macroserviceLabel": {
-        "bsonType": "string"
-      },
-      "macroserviceId": {
-        "bsonType": "string"
-      },
-      "serviceLabel": {
-        "bsonType": "string"
-      },
-      "serviceId": {
-        "bsonType": "string"
-      },
-      "sousServiceLabel": {
-        "bsonType": "string"
-      },
-      "sousServiceId": {
-        "bsonType": "string"
-      },
-      "label": {
-        "bsonType": "string"
-      },
-      "utilisateurs": {
-        "bsonType": "array",
-        "uniqueItems": true,
-        "items": {
-          "bsonType": "object",
-          "properties": {
-            "id": {
-              "bsonType": "string"
-            },
-            "label": {
-              "bsonType": "string"
-            }
-          }
+  "items": { "$ref": "#/definitions/serviceType" },
+  "definitions": {
+    "serviceType": {
+      "type": "object",
+      "required": ["id", "label", "description"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "service": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/serviceType" }
+        },
+        "function": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/functionType" }
         }
-      },
-      "dispo": {
-        "bsonType": "string"
-      },
-      "gsbpmLabel": {
-        "bsonType": "string"
-      },
-      "gsbpmId": {
-        "bsonType": "string"
-      },
-      "outils": {
-        "bsonType": "array",
-        "uniqueItems": true,
-        "items": {
-          "bsonType": "object",
-          "properties": {
-            "id": {
-              "bsonType": "string"
-            },
-            "label": {
-              "bsonType": "string"
-            }
-          }
-        }
-      },
-      "produitLabel": {
-        "bsonType": "string"
-      },
-      "produitId": {
-        "bsonType": "string"
-      },
-      "description": {
-        "bsonType": "string"
-      },
-      "taches": {
-        "bsonType": "array",
-        "uniqueItems": true,
-        "items": {
-          "bsonType": "object",
-          "properties": {
-            "id": {
-              "bsonType": "string"
-            },
-            "label": {
-              "bsonType": "string"
-            },
-            "description": {
-              "bsonType": "string"
-            },
-            "statutId": {
-              "bsonType": "string"
-            },
-            "statutLabel": {
-              "bsonType": "string"
-            }
-          }
+      }
+    },
+    "functionType": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "users": {
+          "type": "array",
+          "item": {}
+        },
+        "dispo": {
+          "type": "number",
+          "enum": [0, 1, 2, 3]
+        },
+        "idGsbpm": {
+          "type": "string"
+        },
+        "idProduct": {
+          "type": "string"
+        },
+        "tools": {
+          "type": "array",
+          "item": {}
+        },
+        "description": {
+          "type": "string"
+        },
+        "taks": {
+          "type": "array",
+          "item": {}
         }
       }
     }
