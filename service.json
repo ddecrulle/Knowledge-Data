@@ -8,7 +8,7 @@
     "service": [
       {
         "id": "s110",
-        "label": "Accompagnement à la conception d’enquêtes",
+        "label": "Accompagnement à la conception d'enquêtes",
         "description": "",
         "niveau": 2,
         "gsbpm": null,
@@ -21,12 +21,12 @@
             "gsbpm": null,
             "fonction": [
               {
-                "label": "Consulter une présentation de l’offre de services du système d’information de collecte",
-                "utilisateurs": "Maîtrise d’ouvrage d’enquête / Maîtrise d’œuvre statistique",
+                "label": "Consulter une présentation de l'offre de services du système d'information de collecte",
+                "utilisateurs": "Maîtrise d'ouvrage d'enquête / Maîtrise d'œuvre statistique",
                 "dispo": "2",
                 "gsbpm": "gsbpm-qualite",
-                "produit": "Atelier de conception d’enquêtes",
-                "description": "Un guide de présentation et d’utilisation de l’offre de services Métallica est mis à disposition et maintenu par l’équipe d’administration des outils Métallica. Il est destiné aux maîtrises d’œuvre d’enquête utilisatrices de la filière et aux équipes conceptrices.",
+                "produit": "Atelier de conception d'enquêtes",
+                "description": "Un guide de présentation et d'utilisation de l'offre de services Métallica est mis à disposition et maintenu par l'équipe d'administration des outils Métallica. Il est destiné aux maîtrises d'œuvre d'enquête utilisatrices de la filière et aux équipes conceptrices.",
                 "taches": [
                   {
                     "label": "Cette documentation sera enrichie en continue",
@@ -36,12 +36,12 @@
                 ]
               },
               {
-                "label": "Configurer le protocole d’une enquête (boîte à outils, calendriers types…)",
-                "utilisateurs": "Maîtrise d’œuvre statistique",
+                "label": "Configurer le protocole d'une enquête (boîte à outils, calendriers types…)",
+                "utilisateurs": "Maîtrise d'œuvre statistique",
                 "dispo": "1",
                 "gsbpm": "gsbpm-2-3",
-                "produit": "Atelier de conception d’enquêtes",
-                "description": "Pour les opérations techniques (format des fichiers à fournir aux outils, paramétrage disponible pour les courriers, etc.), une boîte à outils facilitant l’utilisation de l’offre de services est mise à disposition. Les outils en question pourraient à terme être pour partie remplacés par une application de gestion des métadonnées permettant de configurer les différents processus techniques (protocole de l’enquête, calendrier, type de courriers, etc.), le tout constituant un atelier de conception d’enquêtes avec les fonctions de conception de questionnaires.",
+                "produit": "Atelier de conception d'enquêtes",
+                "description": "Pour les opérations techniques (format des fichiers à fournir aux outils, paramétrage disponible pour les courriers, etc.), une boîte à outils facilitant l'utilisation de l'offre de services est mise à disposition. Les outils en question pourraient à terme être pour partie remplacés par une application de gestion des métadonnées permettant de configurer les différents processus techniques (protocole de l'enquête, calendrier, type de courriers, etc.), le tout constituant un atelier de conception d'enquêtes avec les fonctions de conception de questionnaires.",
                 "taches": [
                   {
                     "label": "Des outils pour faciliter le travail des intégrateurs dans la génération des questionnaires de production",
@@ -49,12 +49,12 @@
                     "statut": "Disponible"
                   },
                   {
-                    "label": "Une configuration de la génération depuis l’interface Pogues (ajout de personnalisation spécifique, option de numérotation, etc.)",
+                    "label": "Une configuration de la génération depuis l'interface Pogues (ajout de personnalisation spécifique, option de numérotation, etc.)",
                     "description": "",
                     "statut": "Jalon 3"
                   },
                   {
-                    "label": "Un atelier de conception d’enquêtes regroupant l’ensemble des fonctions permettant de concevoir un processus de collecte d’une enquête (questionnaires, protocoles, communications,...)",
+                    "label": "Un atelier de conception d'enquêtes regroupant l'ensemble des fonctions permettant de concevoir un processus de collecte d'une enquête (questionnaires, protocoles, communications,...)",
                     "description": "",
                     "statut": "Non planifié"
                   }
@@ -70,12 +70,12 @@
             "gsbpm": "gsbpm-qualite",
             "fonction": [
               {
-                "label": "Disposer de matériaux de formation et d’aide à la conception de questionnaires (DRTI)",
-                "utilisateurs": "Maîtrise d’ouvrage d’enquête",
+                "label": "Disposer de matériaux de formation et d'aide à la conception de questionnaires (DRTI)",
+                "utilisateurs": "Maîtrise d'ouvrage d'enquête",
                 "dispo": "3",
                 "gsbpm": "gsbpm-qualite",
-                "produit": "Atelier de conception d’enquêtes",
-                "description": "La DRTI maintient de la documentation sur la conception de questionnaires (bonnes pratiques, principes généraux) et assure des formations et/ou ateliers méthodologiques destinés aux concepteurs d’enquêtes comme à tout statisticien intéressé par la question.",
+                "produit": "Atelier de conception d'enquêtes",
+                "description": "La DRTI maintient de la documentation sur la conception de questionnaires (bonnes pratiques, principes généraux) et assure des formations et/ou ateliers méthodologiques destinés aux concepteurs d'enquêtes comme à tout statisticien intéressé par la question.",
                 "taches": [
                   {
                     "label": "Une documentation sous forme de Wiki est accessible directement depuis Pogues. Un document de travail sur les questionnaires auto-administrés de la DMCSI  expose les principes de conception de questionnaires auto-administrés : https://www.insee.fr/fr/statistiques/6010788.",
@@ -91,14 +91,14 @@
               },
               {
                 "label": "Disposer de matériaux de formation aux outils de conception de questionnaires (Unité qualité)",
-                "utilisateurs": "Maîtrise d’ouvrage d’enquête / Maîtrise d’œuvre statistique",
+                "utilisateurs": "Maîtrise d'ouvrage d'enquête / Maîtrise d'œuvre statistique",
                 "dispo": "1",
                 "gsbpm": "gsbpm-qualite",
-                "produit": "Atelier de conception d’enquêtes",
-                "description": "L’unité Qualité maintient de la documentation sur les outils de conception de questionnaires et assurent des formations (programmées ou à la demande) sur ces mêmes outils à destination des équipes de conception de questionnaires et des maîtrises d’œuvre d’enquêtes.",
+                "produit": "Atelier de conception d'enquêtes",
+                "description": "L'unité Qualité maintient de la documentation sur les outils de conception de questionnaires et assurent des formations (programmées ou à la demande) sur ces mêmes outils à destination des équipes de conception de questionnaires et des maîtrises d'œuvre d'enquêtes.",
                 "taches": [
                   {
-                    "label": "Une formation Pogues est proposée aux concepteurs d’enquête et la DMCSI assure un accompagnement des équipes de conception.",
+                    "label": "Une formation Pogues est proposée aux concepteurs d'enquête et la DMCSI assure un accompagnement des équipes de conception.",
                     "description": "",
                     "statut": "Disponible"
                   }
@@ -124,11 +124,11 @@
             "fonction": [
               {
                 "label": "Spécifier un modèle de questionnaire",
-                "utilisateurs": "Maîtrise d’ouvrage d’enquête / Maîtrise d’œuvre statistique",
+                "utilisateurs": "Maîtrise d'ouvrage d'enquête / Maîtrise d'œuvre statistique",
                 "dispo": "2",
                 "gsbpm": "gsbpm-2-3",
                 "produit": "Pogues",
-                "description": "L’outil de spécification de questionnaires (Pogues) propose une interface permettant de spécifier un questionnaire à partir de ses métadonnées (questions, listes de codes, contrôles…). Il est maintenu par l’Unité Qualité.",
+                "description": "L'outil de spécification de questionnaires (Pogues) propose une interface permettant de spécifier un questionnaire à partir de ses métadonnées (questions, listes de codes, contrôles…). Il est maintenu par l'Unité Qualité.",
                 "taches": [
                   {
                     "label": "Support des modes web et papier",
@@ -156,7 +156,7 @@
                     "statut": "Jalon 3"
                   },
                   {
-                    "label": "Première version d’une gestion de questions mutualisées (gestion des enquêtes « à plateforme »)",
+                    "label": "Première version d'une gestion de questions mutualisées (gestion des enquêtes « à plateforme »)",
                     "description": "",
                     "statut": "Jalon 3"
                   },
@@ -169,7 +169,7 @@
               },
               {
                 "label": "Gérer des listes ou nomenclatures (nomenclatures « externes », moteur de codification…)",
-                "utilisateurs": "Maîtrise d’ouvrage d’enquête / Maîtrise d’oeuvre statistique",
+                "utilisateurs": "Maîtrise d'ouvrage d'enquête / Maîtrise d'oeuvre statistique",
                 "dispo": "0",
                 "gsbpm": "gsbpm-2-3",
                 "produit": "Pogues",
@@ -231,7 +231,7 @@
                 "statut": "Jalon 2"
               },
               {
-                "label": "Une amélioration du processus de configuration pour une utilisation autonome par la maîtrise d’oeuvre",
+                "label": "Une amélioration du processus de configuration pour une utilisation autonome par la maîtrise d'oeuvre",
                 "description": "",
                 "statut": "Jalon 3"
               },
@@ -318,7 +318,7 @@
   {
     "id": "s003",
     "label": "Collecte Web",
-    "description": "Champ : Sont exclus les parties accès (présentation de l’enquête, authentification…) et assistance, traitées par ailleurs.",
+    "description": "Champ : Sont exclus les parties accès (présentation de l'enquête, authentification…) et assistance, traitées par ailleurs.",
     "niveau": 1,
     "gsbpm": "gsbpm-4-3"
   }
