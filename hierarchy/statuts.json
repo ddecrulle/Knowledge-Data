@@ -3,19 +3,19 @@
   "label": "Le statut",
   "children": [
     {
-      "id": "d",
+      "id": "statut-d",
       "label": "Disponible"
     },
     {
-      "id": "j3",
+      "id": "statut-j3",
       "label": "Jalon 3"
     },
     {
-      "id": "j4",
+      "id": "statut-j4",
       "label": "Jalon 4"
     },
     {
-      "id": "np",
+      "id": "statut-np",
       "label": "Non planifié"
     }
   ]
