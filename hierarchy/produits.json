@@ -107,7 +107,10 @@
           "id": "products-P0305",
           "label": "Batch Coltrane"
         },
-        { "id": "products-P0306", "label": "Opale" },
+        { 
+          "id": "products-P0306",
+          "label": "Opale" 
+        },
         {
           "id": "products-P0307",
           "label": "Batch Protools"

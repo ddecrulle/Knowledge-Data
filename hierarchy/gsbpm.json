@@ -26,6 +26,11 @@
           "id": "gsbpm-2-5",
           "label": "Conception du traitement et de l'analyse",
           "description": "Ce sous-processus englobe la conception de la méthode de traitement statistique qui doit être appliquée au cours des phases de « traitement » et d'« analyse ». Il peut comprendre la définition des routines de codage, d'édition, d'imputation, d'estimation, d'intégration, de validation et de finalisation des ensembles de données."
+        },
+        {
+          "id": "gsbpm-2-6",
+          "label": "Conception des systèmes de production et du déroulement des travaux",
+          "description":"Ce sous-processus détermine le déroulement des travaux du stade de la collecte au stade de la diffusion des données, en faisant le tour de tous les processus requis par l’ensemble du cycle statistique, et en veillant à ce que ces derniers puissent s’enchaîner efficacement sans lacunes ni redondances. Divers systèmes et bases de données sont nécessaires tout au long du cycle. En général, on réutilise les mêmes processus et techniques pour de nombreux processus de production statistique, de sorte qu’il faut commencer par examiner les produits existants (par exemple, des services, des systèmes et des bases de données) pour voir s’ils conviennent en l’espèce, et dans les cas où ils ne donnent pas entièrement satisfaction, chercher de nouvelles solutions. Ce sous-processus devrait aussi permettre d’étudier les modalités d’interaction du personnel avec ces systèmes et de définir les responsabilités de chaque agent et le stade auquel il intervient."
         }
       ]
     },
@@ -38,6 +43,16 @@
           "id": "gsbpm-3-1",
           "label": "Réutilisation et élaboration de l'instrument de collecte",
           "description": "Ce sous-processus décrit les activités visant à concevoir les instruments à utiliser au cours de la phase de « collecte ». L'instrument de collecte est produit ou élaboré d'après le cahier des charges établi au cours de la phase de « conception ». Une collecte peut faire appel à un ou plusieurs modes de réception des données, par exemple des interrogatoires directs ou des entretiens téléphoniques; des questionnaires sur support papier, sur support électronique ou sur Internet; des plates-formes SDMX. On peut aussi utiliser comme instruments de collecte les routines d'extraction de données utilisées pour réunir des informations issues d'ensembles de données statistiques ou administratifs existants. Ce sous-processus prévoit aussi la préparation et la mise à l'essai du contenu et du fonctionnement de l'instrument choisi (par exemple, mise à l'essai des questions figurant dans un questionnaire). Il est recommandé d'étudier le lien direct entre les instruments de collecte et le système de métadonnées statistiques, de façon à faciliter le recueil de métadonnées pendant la phase de collecte. La corrélation des métadonnées et des données au point de saisie permet de réduire la charge de travail lors des phases suivantes. La saisie des paramètres de mesure de la collecte de données (paradonnées) revêt aussi de l'importance pour ce sous-processus."
+        },
+        {
+          "id": "gsbpm-3-2",
+          "label": "Élaboration ou renforcement des composantes du processus",
+          "description": "Ce sous-processus décrit les activités visant à élaborer de nouveaux services et composantes ou à renforcer les composantes et services existants pour les phases de « traitement » et d’« analyse », telles qu’elles ont été conçues lors de la phase de « conception ». Parmi ces services on peut citer les usages et fonctionnalités des tableaux, les services d’information, les fonctions de transformation, les organigrammes des tâches, les services de gestion des fournisseurs et des métadonnées."
+        },
+        {
+          "id": "gsbpm-3-4",
+          "label": "Configuration du déroulement des travaux",
+          "description":"Ce sous-processus permet de configurer le déroulement des travaux, les systèmes et les transformations utilisés dans le cadre des processus de production statistique, de la collecte des données à leur diffusion. Il fait en sorte que le déroulement des travaux défini lors du sous-processus 2.6 (Conception de systèmes de production et du déroulement des travaux) fonctionne dans la pratique."
         }
       ]
     },
@@ -47,48 +62,64 @@
       "description": "Cette phase recueille ou réunit toute l'information nécessaire (données et métadonnées), en utilisant différents modes de collecte, et la charge dans l'environnement approprié pour des traitements supplémentaires. Pour la production de statistiques régulières, cette phase est exécutée à chaque itération.",
       "children": [
         {
+          "id": "gsbpm-4-1",
+          "label": "Création d’un cadre et sélection d’un échantillon",
+          "description": "C’est au titre de ce sous-processus que l’on établit le cadre et sélectionne l’échantillon pour cette itération de la collecte comme indiqué dans le sous-processus 2.4 (Conception du cadre et de l’échantillon). Il en est de même pour la coordination d’échantillons entre reprises du même processus de production statistique (qui permet par exemple de gérer les chevauchements ou les rotations) et entre différents processus mettant en œuvre un cadre ou un registre commun (le but étant par exemple de gérer les chevauchements ou de répartir la charge de travail des répondants). Les questions d’assurance et d’agrément qualité du cadre et de l’échantillon retenu relèvent aussi de ce sous-processus bien que la tenue des registres sur lesquels reposent les cadres de plusieurs processus de production statistique soit considérée à part. La partie échantillonnage de ce sous-processus n’est généralement pas utile lorsque l’on n’utilise que des sources préexistantes (par exemple, des sources administratives) car les processus de ce type créent généralement des cadres à partir des données disponibles puis suivent la méthode du recensement."
+        },
+        {
           "id": "gsbpm-4-2",
           "label": "Organisation de la collecte",
-          "description": "Cette sous-phase s'assure que les personnes, les processus et la technologie sont prêts pour la collecte des données et des métadonnées, dans tous les modes prévus. Il prend un certain temps, car il inclut la stratégie, la planification et la formation requises afin de traiter le cas précis du processus d'activité statistique considéré. Lorsque le processus est répété régulièrement, certaines de ces activités (ou toutes) peuvent ne pas être explicitement requises à chaque itération. Pour les processus ponctuels ou nouveaux, ces activités peuvent prendre du temps."
+          "description": "Ce sous-processus fait en sorte que les personnes, les processus et les technologies soient prêts à collecter des données et des métadonnées sous tous les modes désignés. Il prend un certain temps, car il comprend les activités liées à la stratégie, la planification et la formation menées pour préparer le processus de production statistique en question. Dans les cas où le processus se répète à intervalles réguliers, certaines de ces activités (voire leur totalité) peuvent ne pas être explicitement requises pour chaque itération. En cas de processus ponctuel ou de nouveau processus, ces activités peuvent durer longtemps."
         },
         {
           "id": "gsbpm-4-3",
           "label": "Réalisation de la collecte",
-          "description": "Ce sous-processus est celui où la collecte est mise en oeuvre, avec les différents outils de collecte utilisés pour recueillir ou rassembler les données. Il comprend le premier contact avec les enquêtés et toutes les actions ultérieures de suivi ou de rappel."
+          "description": "Ce sous-processus est celui dans le cadre duquel la collecte est mise en œuvre, les différents instruments étant utilisés pour collecter ou recueillir l’information, qui peut prendre la forme de micro données brutes ou d’agrégats produits à la source, et de toutes les métadonnées associées. Il comprend le contact initial avec les fournisseurs et les mesures de suivi ou de rappel ultérieures éventuelles. Il peut inclure l’entrée manuelle des données au point de contact, ou la gestion du travail d’enquête, suivant la source et le mode de collecte. C’est à ce stade que l’on enregistre la date à laquelle les fournisseurs ont été contactés, la manière dont cela a été fait, et si les intéressés ont répondu. Ce sous-processus englobe aussi la gestion des fournisseurs prenant part à la collecte en cours, pour faire en sorte que la relation entre l’organisme de statistique et les fournisseurs de données reste positive, ainsi que l’enregistrement des observations, demandes de renseignements et plaintes, et des réponses qui leur sont apportées. Pour les sources administratives et autres sources non statistiques, ce processus est rapide : soit le fournisseur est contacté pour qu’il envoie l’information, soit il l’envoie comme prévu. Une fois que la collecte a atteint ses objectifs, elle se termine et fait l’objet d’un rapport. Il est possible de procéder à une première validation de la structure et de l’intégrité de l’information reçue dans le cadre de ce sous-processus, par exemple en vérifiant que les fichiers sont dans le bon format et contiennent les champs prévus. Tout le travail de validation des contenus s’effectue lors de la phase de traitement."
         },
         {
           "id": "gsbpm-4-4",
-          "label": "Finaliser la collecte",
-          "description": "Ce sous-processus inclut le chargement des données et des métadonnées collectées dans un environnement électronique approprié aux traitements ultérieurs. Il peut inclure une acquisition manuelle ou automatique des données, par exemple en ayant recours à du personnel de saisie ou à les outils de reconnaissance optique des caractères pour extraire des données des questionnaires papier, ou en convertissant les formats des fichiers reçus d'autres organisations.Il peut également inclure l'analyse des métadonnées du processus (paradonnées) associées à la collecte afin des'assurer que les activités de collecte ont satisfait aux exigences. Dans les cas où il y a un outil de collecte physique qui n'est pas nécessaire pour les traitements ultérieurs, comme un questionnaire papier, cette sous-phase en gère l'archivage."
+          "label": "Finalisation la collecte",
+          "description": "Ce sous-processus englobe le téléchargement des données et métadonnées recueillies dans un environnement électronique adapté pour la suite du traitement. Il peut comprendre la saisie manuelle ou automatique des données, ce qui suppose par exemple la collaboration d’employés de bureau ou le recours à des outils de reconnaissance des caractères optiques pour extraire l’information des questionnaires sur support papier, ou la conversion des formats des fichiers reçus d’autres organismes. Il peut aussi prévoir l’analyse des métadonnées de processus (paradonnées) associées à la collecte si l’on veut s’assurer que les activités de collecte sont conformes aux prescriptions. Si on utilise un instrument de collecte physique, comme un questionnaire sur support papier, qui ne sert plus ensuite lors du traitement, c’est au cours de ce sous-processus que le document en question est archivé."
         }
       ]
     },
     {
       "id": "gsbpm-5",
-      "label": "Traiter les données",
-      "description": "Cette phase décrit l'apurement des données et leur préparation pour l'analyse. Elle est composée de sous-phases qui vérifient, apurent et transforment les données en entrée afin qu'elles puissent être analysées et diffusées en tant que produits statistiques. Cette phase peut être réitérée plusieurs fois si nécessaire. Pour les produits statistiques qui sortent régulièrement, cette phase a lieu à chaque itération. Les sous-phases de cette phase peuvent s'appliquer aux données provenant de sources à la fois statistiques et non statistiques (avec l'exception possible de la sous-phase 5.6 « Calculer les pondérations », qui est en général spécifique aux données d'enquête).",
+      "label": "Traiter",
+      "description": "Cette phase décrit le nettoyage des données et leur préparation aux fins d’analyse. Elle regroupe les sous-processus permettant de vérifier, de nettoyer et de transformer les données d’entrée afin de pouvoir les analyser et les diffuser comme produits statistiques. Elle peut être répétée plusieurs fois si nécessaire. Pour les produits statistiques élaborés régulièrement, cette phase intervient à chaque itération. Les sous-processus de cette phase peuvent s’appliquer aux données provenant de sources statistiques comme de sources non statistiques (exception faite éventuellement du sous-processus 5.6 (Calcul des coefficients de pondération) qui est généralement spécifique aux données d’enquête).",
       "children": [
         {
+          "id": "gsbpm-5-2",
+          "label": "Classification et codage",
+          "description": "Ce sous-processus comprend la classification et le codage des données d’entrée. Par exemple, des routines de codage automatiques (ou manuelles) peuvent assigner des codes numériques aux réponses données de façon textuelle suivant un système de classification prédéterminé."
+        },
+        {
           "id": "gsbpm-5-3",
-          "label": "Contrôler et qualifier les données",
-          "description": "Cette sous-phase examine les données collectées afin de tenter d’identifier les problèmes potentiels, les erreurs et les écarts tels que les valeurs aberrantes, les non-réponses partielles et les erreurs de codage. On y fait également référence comme processus de validation des données en entrée. Il peut être exécuté de manière itérative, en validant les données vis-à-vis de règles prédéfinies, généralement dans un ordre défini. Il peut appliquer aux données des marqueurs pour une vérification et un redressement automatique ou manuel des données. Ce processus peut s'appliquer à des données provenant de tout type de source, avant et après intégration. Bien que la validation soit traitée comme une partie de la phase « Traiter les données », dans la pratique certains éléments de la validation peuvent se dérouler au moment des activités de collecte, en particulier dans les modes de collecte comme la collecte sur internet. Le rôle de cette sous-phase est la détection d'erreurs réelles ou potentielles, mais toutes les activités correctives qui modifient effectivement les données ont lieu dans la sous-phase 5.4."
+          "label": "Examen et validation",
+          "description": "C’est dans le cadre de ce sous-processus que les données sont examinées dans le but d’identifier les problèmes, erreurs et disparités potentiels comme les valeurs aberrantes, les cas de non-réponse et les erreurs de codage. On parle aussi d’étape de validation des données d’entrée. Ce sous-processus peut se dérouler de façon itérative, la validation s’opérant d’après des règles d’édition prédéterminées, habituellement dans l’ordre qui a été fixé. Il peut désigner des données en vue d’une inspection ou d’une édition automatiques ou manuelles. L’examen et la validation peuvent porter sur des données provenant de sources de toutes catégories, avant et après l’opération d’intégration. Même si la validation relève en principe de la phase de « traitement », dans la pratique, certains éléments de validation peuvent se tenir en même temps que les activités de collecte, en particulier pour des modes comme la collecte par Internet. Si ce sous-processus permet de détecter les erreurs effectives ou potentielles, toutes les activités de correction qui modifient effectivement les données se rattachent au sous-processus 5.4."
         },
         {
           "id": "gsbpm-5-4",
-          "label": "Redresser et imputer les données",
-          "description": "Lorsque les données sont considérées comme incorrectes, manquantes ou non fiables, de nouvelles valeurs peuvent être insérées au cours de cette sous-phase. Les termes « imputer » recouvrent un certain nombre de méthodes pour accomplir cette opération, souvent sur la base de règles."
+          "label": "Édition et imputation des données",
+          "description": "Dans les cas où les données sont jugées incorrectes, manquent ou ne sont pas fiables, de nouvelles valeurs peuvent être introduites dans le cadre de ce sous-processus. Les termes édition et imputation recouvrent diverses méthodes permettant de réaliser ces opérations, l’approche suivie étant souvent fondée sur des règles."
+        },
+        {
+          "id": "gsbpm-5-8",
+          "label": "Finalisation des fichiers de données",
+          "description": "Ce sous-processus regroupe les résultats des autres sous-processus de la même phase pour produire un fichier de données (le plus souvent de macrodonnées) qui sert d’intrant pour la phase d’«analyse». Parfois, cela peut être un fichier intermédiaire plutôt qu’un fichier définitif, en particulier pour les processus d’activité où les délais sont très serrés et où il est demandé de produire à la fois des estimations préliminaires et des estimations définitives"
         }
+
       ]
      },
      {
       "id": "gsbpm-8",
-      "label": "Évaluer",
-      "description": "Cette phase gère l'évaluation d'une instance particulière d'un processus statistique donné, par opposition au processus transversal de gestion de la qualité statistique qui est plus général. Elle prend logiquement place à la fin de l'instance sous revue du processus, mais s'appuie sur les contributions récoltées tout au long de ses différentes phases. Elle inclut l'évaluation du succès d'une instance spécifique du processus statistique, en se basant sur un ensemble de contributions quantitatives et qualitatives ainsi qu'en identifiant et en priorisant les améliorations potentielles.",
+      "label": "Évaluation",
+      "description": "Cette phase fait référence à l’évaluation d’un cas particulier de processus de production statistique, à ne pas confondre avec le processus fondamental de gestion de la qualité statistique décrit à la section VI qui aborde la question de façon plus générale. Elle se tient logiquement au dernier stade du déroulement du processus mais repose sur des intrants réunis tout au long des diverses phases. Elle peut consister à évaluer le succès du cycle statistique particulier en s’appuyant sur divers intrants quantitatifs et qualitatifs et en identifiant et en hiérarchisant les améliorations possibles qui pourraient lui être apportées.",
       "children": [
         {
           "id": "gsbpm-8-1",
-          "label": "Recueillir les contributions d'évaluation",
-          "description": "Le matériel d’évaluation peut être produit dans n’importe quelle autre phase ou sous-phase. Il peut prendre plusieurs formes, dont les commentaires des utilisateurs, des métadonnées de traitement (paradonnées), des mesures prises sur le système et les suggestions du personnel. Un rapport sur les améliorations réalisées par rapport à un plan d'action convenu lors d'une itération précédente peut également contribuer à l'évaluation des itérations ultérieures. Cette sous-phase rassemble l'ensemble de ces intrants et les rend disponibles pour la personne ou pour l'équipe en charge de l'évaluation."
+          "label": "Recueil des produits d’évaluation",
+          "description": "es supports d’évaluation peuvent être produits au cours de n’importe quel autre phase ou sous-processus. Ils peuvent prendre diverses formes, réactions des utilisateurs, métadonnées de processus (paradonnées), paramètres de mesure des systèmes ou suggestions du personnel par exemple. Le compte rendu des progrès réalisés au regard d’un plan d’action convenu lors d’une précédente itération peut aussi constituer un intrant pour les évaluations des itérations suivantes. Ce sous-processus regroupe ces différents apports et les met à la disposition de la personne ou de l’équipe chargée de l’évaluation."
         }
       ]
     }
