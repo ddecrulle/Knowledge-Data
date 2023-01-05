@@ -9,7 +9,8 @@
       "children": [
         {
           "id": "products-P0101",
-          "label": "Stromae - Orchestrateur web"
+          "label": "Stromae",
+          "description": "Orchestrateur web"
         },
         {
           "id": "products-P0102",
