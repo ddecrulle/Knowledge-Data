@@ -19,19 +19,23 @@
         },
         {
           "id": "products-P0103",
-          "label": "Pogues - Atelier de conception de questionnaire"
+          "label": "Pogues",
+          "description": "Atelier de conception de questionnaire"
         },
         {
           "id": "products-P0104",
-          "label": "Lunatic - Bibliothèque de composants"
+          "label": "Lunatic",
+          "description": "Bibliothèque de composants"
         },
         {
           "id": "products-P0105",
-          "label": "Eno - Générateur d'instruments de collecte"
+          "label": "Eno",
+          "description": "Générateur d'instruments de collecte"
         },
         {
           "id": "products-P0106",
-          "label": "Public Enemy - Outil de personnalisation d'un instrument de collecte"
+          "label": "Public Enemy",
+          "description": "Outil de personnalisation d'un instrument de collecte"
         }
       ]
     },
@@ -42,45 +46,55 @@
       "children": [
         {
           "id": "products-P0201",
-          "label": "Coleman - plateforme de collecte web"
+          "label": "Coleman",
+          "description": "Plateforme de collecte web"
         },
         {
           "id": "products-P0202",
-          "label": "Moog"
+          "label": "Moog",
+          "description": " "
         },
         {
           "id": "products-P0203",
-          "label": "Sabiane - plateforme de collecte enquêteur"
+          "label": "Sabiane",
+          "description": "Plateforme de collecte enquêteur"
         },
         {
           "id": "products-P0204",
-          "label": "RadioHead - module de communication"
+          "label": "RadioHead",
+          "description": "Module de communication"
         },
         {
           "id": "products-P0205",
-          "label": "Atelier de numérisation"
+          "label": "Atelier de numérisation",
+          "description": ""
         },
         {
           "id": "products-P0206",
-          "label": "Sabiane - gestion"
+          "label": "Sabiane",
+          "description": "Gestion"
         },
         {
           "id": "products-P0209",
-          "label": "Coltrane"
+          "label": "Coltrane",
+          "description": "Plateforme de collecte entreprises"
         },
         {
           "id": "products-P0210",
-          "label": "Massive Attack"
+          "label": "Massive Attack",
+          "description": ""
         },
         {
           "id": "products-P0211",
-          "label": "Widget d’assistance"
+          "label": "Widget d’assistance",
+          "description": ""
         },
         {
           "id": "products-P0212",
-          "label": "SVI - Serveur vocal interactif"
+          "label": "SVI",
+          "description": "Serveur vocal interactif"
         },
-        { "id": "products-P0213", "label": "Chatbot" }
+        { "id": "products-P0213", "label": "Chatbot", "description": "Chatbot" }
       ]
     },
     {
@@ -90,32 +104,39 @@
       "children": [
         {
           "id": "products-P0301",
-          "label": "Crabe-REM - Référentiel d'unités de collecte"
+          "label": "Crabe-REM",
+          "description": "Référentiel d'unités de collecte"
         },
         {
           "id": "products-P0302",
-          "label": "Protools - orchestrateur de protocoles"
+          "label": "Protools",
+          "description": "Orchestrateur de protocoles"
         },
 
         {
           "id": "products-P0303",
-          "label": "Batch Sabiane"
+          "label": "Batch Sabiane",
+          "description": ""
         },
         {
           "id": "products-P0304",
-          "label": "Batch Coleman"
+          "label": "Batch Coleman",
+          "description": ""
         },
         {
           "id": "products-P0305",
-          "label": "Batch Coltrane"
+          "label": "Batch Coltrane",
+          "description": ""
         },
-        { 
+        {
           "id": "products-P0306",
-          "label": "Opale" 
+          "label": "Opale",
+          "description": ""
         },
         {
           "id": "products-P0307",
-          "label": "Batch Protools"
+          "label": "Batch Protools",
+          "description": ""
         }
       ]
     },
