@@ -99,7 +99,7 @@
     },
     {
       "id": "products-P03",
-      "label": "Services de préparation de collecte",
+      "label": "Organisation de la collecte",
       "description": "...",
       "children": [
         {
@@ -142,7 +142,7 @@
     },
     {
       "id": "products-P04",
-      "label": "Services de traitements d'enquêtes",
+      "label": "Traitements des enquêtes",
       "description": "...",
       "children": [
         {
