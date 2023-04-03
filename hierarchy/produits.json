@@ -6,6 +6,8 @@
       "id": "products-P01",
       "label": "Atelier de conception d'enquêtes",
       "description": "L'atelier de conception d'enquêtes est un ensemble de documentation (formation à la conception de questionnaire, documentation sur l'offre de services du système d'information de collecte), de processus (spécification/recette, déploiement, etc.) et d'outils permettant aux acteurs de spécifier et configurer un processus de collecte d'enquête dans le système d'information de collecte.",
+      "iconUrl": "https://raw.githubusercontent.com/ddecrulle/Knowledge-Data/main/static/concevoir.svg",
+      "color": "#52d3f7",
       "children": [
         {
           "id": "products-P0101",
@@ -43,6 +45,8 @@
       "id": "products-P02",
       "label": "Plateformes de collecte",
       "description": "Le produit plateformes de collecte est un service de présentation et d'accès/utilisation du questionnaire autoadministré (web et papier) ou géré par l'enquêteur",
+      "iconUrl": "https://raw.githubusercontent.com/ddecrulle/Knowledge-Data/main/static/collecter.svg",
+      "color": "#cb61ae",
       "children": [
         {
           "id": "products-P0201",
@@ -101,6 +105,8 @@
       "id": "products-P03",
       "label": "Organisation de la collecte",
       "description": "...",
+      "iconUrl": "https://raw.githubusercontent.com/ddecrulle/Knowledge-Data/blob/main/static/construire.svg",
+      "color": "#ff7e33",
       "children": [
         {
           "id": "products-P0301",
@@ -144,6 +150,8 @@
       "id": "products-P04",
       "label": "Traitements des enquêtes",
       "description": "...",
+      "iconUrl": "https://raw.githubusercontent.com/ddecrulle/Knowledge-Data/blob/main/static/traiter.svg",
+      "color": "#69c462",
       "children": [
         {
           "id": "products-P0401",
