@@ -566,7 +566,6 @@
               {
                 "id": "F313",
                 "label": "Visualiser les questionnaires à répondre pour un contexte type entreprise",
-                "users": ["users-U003"],
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
@@ -594,13 +593,12 @@
             "function": [
               {
                 "id": "F312-1",
-                "label": "Afficher questionnaire",
-                "users": ["users-U003"],
-                "dispo": true,
+                "label": "Visualiser les questionnaires à répondre pour un contexte type ménage",
+                "dispo": false,
                 "gsbpm": "gsbpm-4-3",
-                "idProduct": "products-P01",
-                "products": ["products-P0101"],
-                "description": "L'enquêté, une fois authentifié, peut visualiser son questionnaire ou les annexes associés.",
+                "idProduct": "products-P02",
+                "products": ["products-P0214"],
+                "description": "Un portail \"Mes Enquêtes\" est mis à disposition sur internet. Il requiert une authentification et permet la présentation de plusieurs questionnaires, éventuellement de différentes natures (questionnaire internet + carnet de collecte par exemple), pour une même enquête.",
                 "tasks": [
                   {
                     "label": "",
@@ -621,13 +619,12 @@
               },
               {
                 "id": "F311-2",
-                "label": "Expédier questionnaire",
-                "users": ["users-U003"],
+                "label": "Authentifier un répondant",
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
-                "idProduct": "products-P01",
-                "products": ["products-P0101"],
-                "description": "L'enquêté peut valider son questionnaire, ce qui a pour effet de clore définitivement la collecte. Le droit de rectification peut s'exercer par le biais du service d'assistance.",
+                "idProduct": "products-P02",
+                "products": ["products-P0215"],
+                "description": "Des mécanismes d'authentification sont mis en œuvre pour sécuriser l'accès aux enquêtes. Ils reposent sur l'utilisation d'un couple d'identifiant/mot de passe. Des fonctions permettant de réinitialiser automatiquement un mot de passe perdu avec le niveau de sécurité idoine.",
                 "tasks": [
                   {
                     "label": "",
@@ -638,13 +635,12 @@
               },
               {
                 "id": "F311-3",
-                "label": "Disposer d'une image (PDF) du questionnaire renseigné",
-                "users": ["users-U003"],
+                "label": "Mettre à jour ses informations personnelles pour un contexte type ménage",
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
-                "idProduct": "products-P01",
-                "products": ["products-P0101"],
-                "description": "L'enquêté dispose d'un accès aux réponses qu'il a fournies sous la forme d'un PDF récapitulatif.",
+                "idProduct": "products-P02",
+                "products": ["products-P0217"],
+                "description": "Le portail \"Mes Enquêtes\" est mis à disposition sur internet. Il requiert une authentification et permet à un enquêté de visualiser et mettre à jour ses informations personnelles utilisées dans les échanges lors du processus d'enquêtes (ouverture, relance, etc.).",
                 "tasks": [
                   {
                     "label": "",
@@ -667,13 +663,12 @@
             "function": [
               {
                 "id": "F313-1",
-                "label": "Renseigner pour la première fois un questionnaire",
-                "users": ["users-U003"],
+                "label": "Mettre à jour les données de contact pour un contexte type entreprise",
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
-                "idProduct": "products-P01",
-                "products": ["products-P0101"],
-                "description": "L'enquêté saisit les réponses à son questionnaire, soit partiellement, soit en totalité.",
+                "idProduct": "products-P02",
+                "products": ["products-P0217"],
+                "description": "Le portail \"Mes Enquêtes\" est mis à disposition sur internet. Il requiert une authentification et permet à un contact de visualiser et mettre à jour ses informations utilisées dans les échanges lors du processus d'enquêtes (ouverture, relance, etc.). Dans ce contexte entreprise, les données de contact sont plus riches (par exemple : fonction exercée dans l'entreprise etc.) et sont mutualisées pour l'ensemble des enquêtes.",
                 "tasks": [
                   {
                     "label": "",
@@ -689,13 +684,12 @@
               },
               {
                 "id": "F313-2",
-                "label": "Enregistrer (l'état d') un questionnaire",
-                "users": ["users-U003"],
-                "dispo": true,
+                "label": "Contextualiser l'accès à un questionnaire en fonction d'un protocole multimode complexe",
+                "dispo": false,
                 "gsbpm": "gsbpm-4-3",
-                "idProduct": "products-P01",
-                "products": ["products-P0101"],
-                "description": "L'enquêté peut interrompre le remplissage du questionnaire pour le reprendre ultérieurement, les données collectées sont sauvegardées régulièrement pendant le questionnement et peuvent l'être formellement lorsque le répondant quitte le questionnaire",
+                "idProduct": "products-P02",
+                "products": ["products-P0215"],
+                "description": "L'authentification aboutit à l'affichage d'un message contextualisé au protocole et à la temporalité (en l'occurence l'enquêté se présente trop tard) pour le bouton d'accès au questionnaire.",
                 "tasks": [
                   {
                     "label": "",
@@ -711,13 +705,12 @@
               },
               {
                 "id": "F313-3",
-                "label": "Reprendre un questionnaire",
-                "users": ["users-U003"],
+                "label": "Envoyer des questionnaires papier",
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
-                "idProduct": "products-P01",
-                "products": ["products-P0101"],
-                "description": "Après une interruption, l'enquêté peut reprendre le remplissage du questionnaire à l'endroit où il s'était arrêté (ou au début du questionnaire au choix). Il peut accéder aux réponses qu'il a préalablement fournies par retours arrière successifs au sein de son questionnaire.",
+                "idProduct": "products-P02",
+                "products": ["products-P0204"],
+                "description": "Un service intégré avec des services éditiques dédiés permet la personnalisation, l'impression/mise sous pli et l'envoi de questionnaires papier.",
                 "tasks": [
                   {
                     "label": "",
