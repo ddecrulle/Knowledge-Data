@@ -50,43 +50,63 @@
       "children": [
         {
           "id": "products-P0201",
-          "label": "Coleman",
-          "description": "Plateforme de collecte web"
+          "label": "Platine - Promotion",
+          "description": "Portail de promotion de la collecte web"
+        },
+        {
+          "id": "products-P0214",
+          "label": "Platine - Mes Enquêtes",
+          "description": "Portail de présentation de plusieurs questionnaires"
+        },
+        {
+          "id": "products-P0215",
+          "label": "Platine - Authentification",
+          "description": "Page assurant le mécanisme d'authentification d'accès au questionnaire"
+        },
+        {
+          "id": "products-P0216",
+          "label": "Platine - Collecte",
+          "description": "Service d'accès à des questionnaires web"
+        },
+        {
+          "id": "products-P0217",
+          "label": "Platine - Pilotage",
+          "description": "Page permettant la visualisation et la mise à jour des informations personnelles"
         },
         {
           "id": "products-P0202",
           "label": "Moog",
-          "description": " "
+          "description": "Outil de suivi et de gestion de la collecte web"
         },
         {
           "id": "products-P0203",
-          "label": "Sabiane",
+          "label": "Sabiane - Collecte",
           "description": "Plateforme de collecte enquêteur"
         },
         {
+          "id": "products-P0206",
+          "label": "Sabiane - Gestion",
+          "description": "Outil de suivi et de gestion de la collecte enquêteur"
+        },
+        {
+          "id": "products-P0210",
+          "label": "Massive Attack",
+          "description": "Outil de génération de données pour les formations enquêteurs"
+        },
+        {
           "id": "products-P0204",
-          "label": "Messhugah",
+          "label": "Meshuggah",
           "description": "Module de communication"
         },
         {
           "id": "products-P0205",
           "label": "Atelier de numérisation",
-          "description": ""
-        },
-        {
-          "id": "products-P0206",
-          "label": "Sabiane",
-          "description": "Gestion"
+          "description": "Outil de saisie numérique des questionnaires papiers"
         },
         {
           "id": "products-P0209",
           "label": "Coltrane",
           "description": "Plateforme de collecte entreprises"
-        },
-        {
-          "id": "products-P0210",
-          "label": "Massive Attack",
-          "description": ""
         },
         {
           "id": "products-P0211",
@@ -103,7 +123,7 @@
     },
     {
       "id": "products-P03",
-      "label": "Organisation de la collecte",
+      "label": "Préparation de la collecte",
       "description": "...",
       "iconUrl": "https://raw.githubusercontent.com/ddecrulle/Knowledge-Data/main/static/construire.svg",
       "color": "#ff7e33",
