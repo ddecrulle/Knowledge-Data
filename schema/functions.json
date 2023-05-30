@@ -38,21 +38,28 @@
         },
         "users": {
           "type": "array",
-          "item": {}
+          "item": {
+            "id": {
+              "type": "string"
+            }
+          }
         },
         "dispo": {
-          "type": "number",
-          "enum": [0, 1, 2, 3]
+          "type": "boolean"
         },
-        "idGsbpm": {
+        "gsbpm": {
           "type": "string"
         },
         "idProduct": {
           "type": "string"
         },
-        "tools": {
+        "products": {
           "type": "array",
-          "item": {}
+          "item": {
+            "id": {
+              "type": "string"
+            }
+          }
         },
         "description": {
           "type": "string"
