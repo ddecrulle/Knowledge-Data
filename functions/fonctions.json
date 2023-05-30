@@ -468,13 +468,12 @@
         "function": [
           {
             "id": "F210-1",
-            "label": "Portail de promotion d'enquête",
-            "users": ["users-U003"],
+            "label": "Alimenter / personnaliser en autonomie le portail de promotion d’une enquête",
             "dispo": true,
             "gsbpm": "gsbpm-3-1",
             "idProduct": "products-P02",
             "products": ["products-P0201"],
-            "description": "Un portail de promotion contextualisé à chaque enquête (indépendamment de sa collecte par l'intermédiaire de la nouvelle filière) est mis à disposition sur internet. Il ne requiert aucune authentification et à pour vocation à fournir des informations générales sur l'enquête. Le public ciblé en priorité est celui des enquêtés, mais le grand public y a accès.",
+            "description": "Une interface permet de personnaliser, configurer et visualiser le portail de promotion de son enquête.",
             "tasks": [
               {
                 "label": "",
@@ -505,13 +504,12 @@
           },
           {
             "id": "F210-2",
-            "label": "Portail d'authentification",
-            "users": ["users-U003"],
+            "label": "Paramétrer l'accès à un questionnaire en fonction d'un contexte d'utilisation",
             "dispo": true,
             "gsbpm": "gsbpm-3-1",
             "idProduct": "products-P02",
-            "products": ["products-P0201", "products-P0209"],
-            "description": "Des mécanismes d'authentification sont mis en œuvre pour sécuriser l'accès aux enquêtes. Sont également offerts des fonctions permettant de réinitialiser automatiquement un mot de passe perdu avec le niveau de sécurité iduane, ainsi que des fonctionnalités permettant une certaine personnalisation de l'ergonomie et des éléments affichés (charte graphique, logos, etc.) qui permet d'avoir des portails d'authentification contextualisés ménage ou entreprise.",
+            "products": ["products-P0215"],
+            "description": "La page d'authenfication offre des possibilités de contextualisation  (charte graphique, logos, etc., type contexte ménage/entreprise/SSM...).",
             "tasks": [
               {
                 "label": "",
@@ -521,81 +519,6 @@
               {
                 "label": "",
                 "description": "Procédure d'homologation de sécurité en continu",
-                "labelStatus": "Non planifié"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "services-S220",
-        "label": "Espace dédié aux enquêtés",
-        "description": "",
-        "function": [
-          {
-            "id": "F220-1",
-            "label": "Site \"Mon profil\"",
-            "users": ["users-U003"],
-            "dispo": false,
-            "gsbpm": "gsbpm-3-1",
-            "idProduct": "products-P02",
-            "products": ["products-P0201"],
-            "description": "Le portail de promotion des enquêtes ménages (portail Coleman promotion) dispose d'un espace authentifié pour permettre aux répondants d'enquêtes à panel de consulter les informations relatives à leurs futures interrogations ou leur permettre de mettre à jour leurs informations de contacts ou la composition du ménage.",
-            "tasks": [
-              {
-                "label": "",
-                "description": "L'opportunité et le périmètre d'un tel espace restent à instruire",
-                "labelStatus": "Non planifié"
-              }
-            ]
-          },
-          {
-            "id": "F220-2",
-            "label": "Site \"Mes Enquêtes\"",
-            "users": ["users-U003"],
-            "dispo": true,
-            "gsbpm": "gsbpm-3-1",
-            "idProduct": "products-P02",
-            "products": ["products-P0209"],
-            "description": "Le portail des enquêtes entreprise (portail Coltrane) propose un espace \"Mes Enquêtes\" permettant à un contact de visualiser les questionnaires qu'il a à remplir ou encore de mettre à jour ces informations personnelles.",
-            "tasks": [
-              {
-                "label": "",
-                "description": "",
-                "labelStatus": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "services-S230",
-        "label": "Outil de configuration du site de promotion des enquêtes >",
-        "description": "",
-        "function": [
-          {
-            "id": "F230-1",
-            "label": "Outil de configuration du site de promotion des enquêtes : de la conception à l'intégration",
-            "users": ["users-U002"],
-            "dispo": false,
-            "gsbpm": "gsbpm-3-1",
-            "idProduct": "products-P02",
-            "products": ["products-P0201"],
-            "description": "Une interface est mise à disposition des équipes de maîtrise d'œuvre et de conception d'enquête pour configurer, ou récupérer depuis le référentiel de métadonnées statistiques, les informations figurant sur le portail de promotion des enquêtes ménages.",
-            "tasks": [
-              {
-                "label": "",
-                "description": "Une première interface technique de configuration",
-                "labelStatus": "Disponible"
-              },
-              {
-                "label": "",
-                "description": "Une amélioration du processus de configuration pour une utilisation autonome par la maîtrise d'oeuvre.",
-                "labelStatus": "Jalon 3"
-              },
-              {
-                "label": "",
-                "description": "Interface finalisée et branchement avec le référentiel de métadonnées statistiques",
                 "labelStatus": "Non planifié"
               }
             ]
@@ -621,13 +544,12 @@
             "function": [
               {
                 "id": "F311-1",
-                "label": "Afficher la liste des questionnaires",
-                "users": ["users-U003"],
+                "label": "Promouvoir la réponse à une enquête",
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0209"],
-                "description": "L'enquêté dispose de la liste des questionnaires auxquels il a déjà répondu, en cours de remplissage ou à renseigner. Fonctionnalité primordiale dans le cas des enquêtes entreprises, celle-ci ne serait utile que pour un panel multi thématique (instruction à mener)",
+                "products": ["products-P0201"],
+                "description": "Le portail de promotion contextualisé à chaque enquête est mis à  disposition sur internet. Il ne requiert aucune authentification et à pour vocation à fournir des informations générales sur l'enquête. Le public ciblé en priorité est celui des enquêtés, mais le grand public y a accès.",
                 "tasks": [
                   {
                     "label": "",
@@ -643,13 +565,13 @@
               },
               {
                 "id": "F313",
-                "label": "Valider la sélection de questionnaires",
+                "label": "Visualiser les questionnaires à répondre pour un contexte type entreprise",
                 "users": ["users-U003"],
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0209"],
-                "description": "L'enquêté, à partir d'une liste de questionnaires qui lui sont associés, peut accéder, relire ou reprendre un questionnaire.",
+                "products": ["products-P0214"],
+                "description": "Un portail \"Mes Enquêtes\" est mis à disposition sur internet. Il requiert une authentification et permet à un contact de visualiser les questionnaires qu'il a à remplir ou à compléter.",
                 "tasks": [
                   {
                     "label": "",
