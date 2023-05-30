@@ -726,13 +726,12 @@
               },
               {
                 "id": "F313-4",
-                "label": "Appeler des services d'accès à des ressources externes : listes, nomenclatures, y compris volumineuses (navigation sur liste…) ou ressources multimédia (sons, vidéos…)",
-                "users": ["users-U003"],
+                "label": "Permettre l'accès à des questionnaires en ligne",
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
-                "idProduct": "products-P01",
-                "products": ["products-P0101"],
-                "description": "L'enquêté peut mobiliser des ressources externes type ressources multimédias (vidéo, sons) ou des services d'aides à la saisie (nomenclatures, navigation sur liste).",
+                "idProduct": "products-P02",
+                "products": ["products-P0216"],
+                "description": "Un service permettant d'accéder à des questionnaires en ligne, en s'appuyant sur une authentification préalable, et prenant en charge la sauvegarde des réponses fournies.",
                 "tasks": [
                   {
                     "label": "",
@@ -758,13 +757,12 @@
               },
               {
                 "id": "F313-5",
-                "label": "Afficher de l'aide contextuelle",
-                "users": ["users-U003"],
+                "label": "Permettre l’accès à des questionnaires \"enquêteur\"",
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
-                "idProduct": "products-P01",
-                "products": ["products-P0101"],
-                "description": "Pour les questions ou les modalités nécessitant des consignes ou des précisions, l'enquêté bénéficie de textes sous forme d'infos-bulles ou de consignes affichées dans une forme distinctive par rapport au texte de la question, selon les préconisations portées par DRTI.",
+                "idProduct": "products-P02",
+                "products": ["products-P0203"],
+                "description": "L’outil du poste Enquêteur (Sabiane collecte) permet d’accéder à des questionnaires d’enquête avec des fonctions de recherche, de tri et de filtres.",
                 "tasks": [
                   {
                     "label": "",
@@ -780,13 +778,12 @@
               },
               {
                 "id": "F313-6",
-                "label": "Visualiser les réponses ne satisfaisant pas les critères de qualité (format, vraisemblance…)",
-                "users": ["users-U003"],
+                "label": "Permettre une collecte enquêteur \"hors-ligne\"",
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
-                "idProduct": "products-P01",
-                "products": ["products-P0101"],
-                "description": "Des contrôles de format ou de cohérence sont exécutés en cours de collecte et permettent de signaler au répondant les réponses à corriger.",
+                "idProduct": "products-P02",
+                "products": ["products-P0102","products-P0203"],
+                "description": "L’outil du poste Enquêteur (Sabiane collecte) et le questionnaire enquêteur (Queen) fonctionnent sans accès à internet (les données sont conservées en local jusqu’à la prochaine synchronisation et les applicatifs fonctionnent sans accès à internet).",
                 "tasks": [
                   {
                     "label": "",
@@ -811,13 +808,12 @@
         "function": [
           {
             "id": "F320-1",
-            "label": "Générer la preuve en PDF automatiquement",
-            "users": ["users-U003"],
-            "dispo": true,
+            "label": "Reprendre un questionnaire issu d’un mode de collecte différent",
+            "dispo": false,
             "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P01",
-            "products": ["products-P0101"],
-            "description": "Dès que le questionnaire est validé, une preuve de dépôt de celui-ci est générée.",
+            "idProduct": "products-P02",
+            "products": ["products-P0203"],
+            "description": "Processus de reprise/modification du questionnaire enquêteur complètement implémenté (processus métier à préciser).",
             "tasks": [
               {
                 "label": "",
