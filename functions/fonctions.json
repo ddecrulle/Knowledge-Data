@@ -782,7 +782,7 @@
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0102","products-P0203"],
+                "products": ["products-P0203"],
                 "description": "L’outil du poste Enquêteur (Sabiane collecte) et le questionnaire enquêteur (Queen) fonctionnent sans accès à internet (les données sont conservées en local jusqu’à la prochaine synchronisation et les applicatifs fonctionnent sans accès à internet).",
                 "tasks": [
                   {
@@ -824,13 +824,12 @@
           },
           {
             "id": "F320-2",
-            "label": "Fournir la preuve en PDF pour téléchargement",
-            "users": ["users-U003"],
-            "dispo": true,
+            "label": "Proposer un agenda avec des plages de disponibilité aux enquêtés (appels, enquêtes)",
+            "dispo": false,
             "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P01",
-            "products": ["products-P0101"],
-            "description": "Le questionnaire validé, la preuve de dépôt générée, l'enquêté a la possibilité de la télécharger.",
+            "idProduct": "products-P02",
+            "products": ["products-P0203"],
+            "description": "L’application Sabiane collecte offre à l’enquêteur des fonctionnalités dédiées à faciliter la prise de rendez-vous avec le répondant (calendrier, plages de disponibilité, etc.)",
             "tasks": [
               {
                 "label": "",
@@ -855,13 +854,12 @@
         "function": [
           {
             "id": "F410-1",
-            "label": "Interfaçage avec les services éditiques pour génération/impression/envoi des questionnaires papier",
-            "users": ["users-U002"],
+            "label": "Renseigner/modifier le résultat d’un repérage ou d’un essai de contact",
             "dispo": true,
-            "gsbpm": "gsbpm-3-1",
+            "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
-            "products": ["products-P0204"],
-            "description": "Le module de communication RadioHead prend en charge des modèles de document, type questionnaire papier, issus d'une génération depuis les outils de spécifications de questionnaire. Interfacé avec les services éditiques, le module de communication permet donc la personnalisation, de ces questionnaires papier, leur impression/mise sous pli et envoi.",
+            "products": ["products-P0203"],
+            "description": "Le poste de collecte enquêteur permet de renseigner les informations relatives au repérage ou à un essai de contact adaptées au protocole de l’enquête. Il permet tant d’enregistrer des tentatives que des résultats définitifs. Il permet également de renseigner/mettre à jour les informations de contact d’une unité d’enquêtée.",
             "tasks": [
               {
                 "label": "",
@@ -879,13 +877,12 @@
         "function": [
           {
             "id": "F420-1",
-            "label": "Numériser des questionnaires papier",
-            "users": ["users-U002"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-4",
+            "label": "Renseigner/modifier le résultat d’un repérage ou d’un essai de contact à partir d’une application mobile",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-2",
             "idProduct": "products-P02",
-            "products": ["products-P0205"],
-            "description": "Le PENM, soit à partir des outils offerts par son atelier de numérisation, soit par le dialogue avec un prestataire, fournit aux maîtrises d'œuvre d'enquête, dans un format exploitable, la liste des questionnaires saisis.",
+            "products": ["products-P0218"],
+            "description": "Une application mobile, reprenant les fonctions de repérage ou d’essai de contact, permet de géolocaliser les unités d'enquêtes. Elle permet également de renseigner/mettre à jour les informations de contact d’une unité d’enquêtée.",
             "tasks": [
               {
                 "label": "",
@@ -906,13 +903,12 @@
           },
           {
             "id": "F420-2",
-            "label": "Fournir la liste des questionnaires saisis",
-            "users": ["users-U002"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-4",
+            "label": "Disposer d’indicateurs de suivi de collecte",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
-            "products": ["products-P0205"],
-            "description": "Le PENM, soit à partir des outils offerts par son atelier de numérisation, soit par le dialogue avec un prestataire, fournit aux maîtrises d'œuvre d'enquête, dans un format exploitable, la liste des questionnaires saisis.",
+            "products": ["products-P0203"],
+            "description": "LLe poste de collecte enquêteur permet aux enquêteurs de visualiser les unités enquêtées collectées et celles restantes à faire.",
             "tasks": [
               {
                 "label": "",
@@ -933,13 +929,12 @@
           },
           {
             "id": "F420-3",
-            "label": "Fournir les données issues de la saisie",
-            "users": ["users-U002"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-4",
+            "label": "Prioriser la collecte d'unités enquêtés pour une enquête",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
-            "products": ["products-P0205"],
-            "description": "L'atelier numérisation, soit à partir de ses outils propres, soit par le recours à un prestataire, fournit aux maîtrises d'œuvre d'enquête, dans un format exploitable, les données de collecte issues de l'opération de saisie.",
+            "products": ["products-P0203"],
+            "description": "Les fonctions d'affichage des unités enquêtées permettent de prendre en compte des critères de priorité, fixés par la maîtrise d'ouvrage ou les gestionnaires.",
             "tasks": [
               {
                 "label": "",
@@ -979,13 +974,12 @@
             "function": [
               {
                 "id": "F511-1",
-                "label": "Mettre à disposition des questionnaires de formation (vierges ou préremplis)",
-                "users": ["users-U004", "users-U005"],
+                "label": "Disposer de services facilitant l’organisation de tournée",
                 "dispo": false,
-                "gsbpm": "gsbpm-4-2",
+                "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
                 "products": ["products-P0203"],
-                "description": "Les outils (brique Queen du poste enquêteur Sabiane collecte) permettent d'utiliser un questionnaire enquêteur dans un contexte de formation (sans fonctions de suivi/organisation notamment). Cela inclut la gestion de données de formation qui peuvent être conservées sans interférer avec les données de collecte.",
+                "description": "Le poste de collecte enquêteur offre des services facilitant l'organisation de tournées pour les enquêteurs (positionnement cartographique, optimisation de trajet, etc.).",
                 "tasks": [
                   {
                     "label": "",
@@ -996,13 +990,12 @@
               },
               {
                 "id": "F511-2",
-                "label": "Réinitialiser automatiquement (pas de persistance) les questionnaires de formation",
-                "users": ["users-U004", "users-U005"],
+                "label": "Demander l’envoi d’une communication (lettre/mail avis, lettres/mails de relance, SMS…)",
                 "dispo": false,
-                "gsbpm": "gsbpm-4-2",
+                "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
                 "products": ["products-P0203"],
-                "description": "Les données de formation peuvent être réinitialisées par l'utilisateur du questionnaire de formation ou par un responsable local / national de la formation. A noter qu'elles peuvent également être conservées.",
+                "description": "Le poste de collecte enquêteur permet de demander l'envoi d'une communication ou le réenvoi d'un document de collecte (par courrier papier, par mail ou par SMS) à une unité enquêtée.",
                 "tasks": [
                   {
                     "label": "",
@@ -1013,13 +1006,12 @@
               },
               {
                 "id": "F511-3",
-                "label": "Ajouter/supprimer des questionnaires de formation d'une enquête donnée pour initialiser",
-                "users": ["users-U007", "users-U008"],
+                "label": "Gérer des protocoles de collecte ménage complexes",
                 "dispo": false,
-                "gsbpm": "gsbpm-4-2",
-                "idProduct": "products-P03",
-                "products": ["products-P0303"],
-                "description": "Les outils mis à disposition des intégrateurs et des équipes d'administration, traitements batchs notamment, permettent d'initialiser/supprimer massivement les données de formation « questionnaire enquêteur ».",
+                "gsbpm": "gsbpm-4-3",
+                "idProduct": "products-P02",
+                "products": ["products-P0203"],
+                "description": "Le poste de collecte enquêteur permet la gestion des cas complexes, tels que les éclatements de budget/ménage ou les regroupements d'unités enquêtés (fusion dans un panel).",
                 "tasks": [
                   {
                     "label": "",
@@ -1030,18 +1022,12 @@
               },
               {
                 "id": "F511-4",
-                "label": "Outiller la mise en place de session de formation",
-                "users": [
-                  "users-U005",
-                  "users-U009",
-                  "users-U001",
-                  "users-U002"
-                ],
-                "dispo": false,
-                "gsbpm": "gsbpm-4-2",
+                "label": "Proposer une assistance en ligne automatisée",
+                "dispo": true,
+                "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0210"],
-                "description": "Des outils facilitant la mise en œuvre des sessions de formation (initialisation des comptes et des données notamment) sont mis à disposition des équipes de formation (nationales ou locales) afin de faciliter leur autonomie dans la mise en œuvre de leur formation.",
+                "products": ["products-P0201"],
+                "description": "Un ensemble d'outils, type \"foire aux questions\", chatbot, permettent d'offrir des réponses automatiques aux répondants en quête d'assistance lors de la collecte d'une enquête (quelque soit le mode).",
                 "tasks": [
                   {
                     "label": "",
@@ -1064,13 +1050,12 @@
             "function": [
               {
                 "id": "F512-1",
-                "label": "Accéder aux questionnaires des unités enquêtées",
-                "users": ["users-U004"],
+                "label": "Produire des statistiques de consultation de l’assistance en ligne",
                 "dispo": false,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "Les outils du poste Enquêteur (Sabiane collecte) permettent d'accéder à des questionnaires d'enquête avec des fonctions de recherche, de tri et de filtres.",
+                "products": ["products-P0201"],
+                "description": "Des statistiques de consultation des éléments d'assistance en ligne (type FAQ ou chatbot) sont mises à disposition à des fins d'audit d'efficience et d'amélioration des processus de collecte. (type nombre de connexions, questions les plus consultées,...)",
                 "tasks": [
                   {
                     "label": "",
@@ -1081,13 +1066,12 @@
               },
               {
                 "id": "F512-2",
-                "label": "Renseigner un questionnaire",
-                "users": ["users-U004"],
+                "label": "Alimenter/Configurer les éléments d’assistance en ligne",
                 "dispo": false,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "Les questionnaires enquêteur permettent de saisir des données de collecte soit en totalité, soit partiellement.",
+                "products": ["products-P0201"],
+                "description": "Une interface permet aux services d'assistance de simplement configurer et alimenter les éléments d'assistance en ligne (foire aux questions, chatbot,...).",
                 "tasks": [
                   {
                     "label": "",
@@ -1108,13 +1092,12 @@
               },
               {
                 "id": "F512-3",
-                "label": "Enregistrer (l'état d') un questionnaire",
-                "users": ["users-U004"],
-                "dispo": false,
+                "label": "Proposer une assistance automatisée par téléphone",
+                "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "L'enquêteur peut interrompre le remplissage du questionnaire (sans en abandonner la collecte) pour le reprendre ultérieurement, les données collectées sont sauvegardées régulièrement pendant le questionnement. À noter que cet enregistrement ne nécessite pas de connexion internet. Les données sont sauvegardées en local et peuvent être synchronisées ultérieurement.",
+                "products": ["products-P0212"],
+                "description": "Un serveur vocal interactif (SVI) permet la prise en charge des appels téléphoniques de répondants, en fonction de l'enquête concernée, afin de leur communiquer de l'information ou de les orienter vers l' interlocuteur adéquat dans le circuit d'assistance (assistance technique ou métier notamment).",
                 "tasks": [
                   {
                     "label": "",
@@ -1125,13 +1108,12 @@
               },
               {
                 "id": "F512-4",
-                "label": "Reprendre un questionnaire",
-                "users": ["users-U004"],
+                "label": "Produire des statistiques d'utilisation du serveur vocal interactif",
                 "dispo": false,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "Après une interruption, l'enquêteur peut reprendre le remplissage du questionnaire à l'endroit où il s'était arrêté (ou au début du questionnaire au choix). Il peut accéder aux réponses qu'il a préalablement renseignées par retours arrière successifs au sein du questionnaire.",
+                "products": ["products-P0212"],
+                "description": "Des statistiques d'utilisation du serveur vocal interactif sont mises à disposition à des fins de mesures.",
                 "tasks": [
                   {
                     "label": "",
@@ -1147,13 +1129,12 @@
               },
               {
                 "id": "F512-5",
-                "label": "Abandonner un questionnaire",
-                "users": ["users-U004"],
+                "label": "Proposer une assistance personnalisée",
                 "dispo": false,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
                 "products": ["products-P0203"],
-                "description": "Un enquêteur peut abandonner définitivement un questionnaire. Il peut, à tout moment, interrompre définitivement un questionnaire et renseigner un motif d'abandon (refus, autres...).",
+                "description": "Des services d'assistance, organisés en deux niveaux (premier niveau : questions techniques et d'accès aux outils, deuxième niveau : questions sur le questionnaire ou l'enquête), permettent de répondre aux répondants les plus en difficultés. Ils sont joignables par mail au travers d'un formulaire d'assistance accessible sur le portail Platine, ou par téléphone (les modalités de contact par téléphone pouvant varier selon les protocoles d'enquête).",
                 "tasks": [
                   {
                     "label": "",
@@ -1164,13 +1145,12 @@
               },
               {
                 "id": "F512-6",
-                "label": "Appeler des services d'accès à des ressources externes : listes, nomenclatures, y compris volumineuses (navigation sur liste) ou ressources multimédia (sons, vidéos...)",
-                "users": ["users-U004"],
-                "dispo": false,
+                "label": "Gérer la collecte d'une unité enquêtée par internet",
+                "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "Les questionnaires enquêteur permettent de mobiliser des ressources externes type ressources multimédias (vidéo, sons) ou des services d'aides à la saisie (nomenclatures, navigation sur listes) en proposant un fonctionnement hors-ligne (éventuellement minimal).",
+                "products": ["products-P0202"],
+                "description": "L'outil Moog permet de modifier le statut d'une unité enquêtée par internet (unitairement et en \"masse\").",
                 "tasks": [
                   {
                     "label": "",
@@ -1186,13 +1166,12 @@
               },
               {
                 "id": "F512-7",
-                "label": "Accéder aux instructions et documents de collecte (de manière globale ou contextualisée)",
-                "users": ["users-U004"],
-                "dispo": false,
+                "label": "Visualiser les données de contact",
+                "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "Les outils du poste enquêteur permettent d'accéder à différentes ressources documentaires, tels que des instructions relatives à la collecte d'une enquête donnée ou encore des consignes d'ordre générale.",
+                "products": ["products-P0202"],
+                "description": "L’outil Moog permet d’afficher les données de contact d’une d’une unité enquêtée par internet (civilité, adresse, mail).",
                 "tasks": [
                   {
                     "label": "",
@@ -1203,13 +1182,12 @@
               },
               {
                 "id": "F512-8",
-                "label": "Visualiser les réponses ne satisfaisant pas les critères de qualité (format, vraisemblance…)",
-                "users": ["users-U004"],
-                "dispo": false,
+                "label": "Afficher l'historique des statuts d'une unité enquêtée à des fins d'assistance",
+                "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "Des contrôles de format ou de cohérence sont exécutés en cours de collecte et permettent de signaler à l'enquêteur les réponses ne satisfaisant pas aux critères de qualité en cours de collecte.",
+                "products": ["products-P0202"],
+                "description": "L'outil Moog permet d'afficher des informations relatives à une unité enquêtée aux services d'assistance.",
                 "tasks": [
                   {
                     "label": "",

@@ -123,7 +123,14 @@
           "label": "SVI",
           "description": "Serveur vocal interactif"
         },
-        { "id": "products-P0213", "label": "Chatbot", "description": "Chatbot" }
+        { "id": "products-P0213",
+          "label": "Chatbot",
+          "description": "Chatbot"
+        },
+        { "id": "products-P0218",
+          "label": "Mapex",
+          "description": "Application mobile d'aide à l'organisation du travail des enquêteurs"
+        }
       ]
     },
     {
