@@ -38,6 +38,11 @@
           "id": "products-P0106",
           "label": "Public Enemy",
           "description": "Outil de personnalisation d'un instrument de collecte"
+        },
+        {
+          "id": "products-P0107",
+          "label": "Documentation",
+          "description": "Supports variés destinés aux utilisateurs"
         }
       ]
     },
