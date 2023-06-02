@@ -29,6 +29,15 @@
     },
     "functionType": {
       "type": "object",
+      "required": [
+        "id",
+        "label",
+        "description",
+        "dispo",
+        "gsbpm",
+        "idProduct",
+        "products"
+      ],
       "properties": {
         "id": {
           "type": "string"
@@ -64,7 +73,7 @@
         "description": {
           "type": "string"
         },
-        "taks": {
+        "tasks": {
           "type": "array",
           "item": {}
         }

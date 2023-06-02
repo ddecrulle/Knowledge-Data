@@ -1255,7 +1255,7 @@
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0202","products-P0209"],
+                "products": ["products-P0202", "products-P0209"],
                 "description": "Une fonctionnalité de type \"site miroir\" permet aux gestionnaires de visualiser un questionnaire internet d'un répondant sans le modifier, à des fins d'accompagnement du répondant.",
                 "tasks": [
                   {
@@ -1278,7 +1278,7 @@
                 "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0201","products-P0214"],
+                "products": ["products-P0201", "products-P0214"],
                 "description": "Un service de réinitialisation du mot de passe est proposé au répondant en cas d'oubli de celui-ci. Le nouveau lui est transmis automatiquement par messagerie ou par courrier postal.",
                 "tasks": [
                   {

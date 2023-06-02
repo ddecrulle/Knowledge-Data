@@ -30,7 +30,7 @@
         {
           "id": "gsbpm-2-6",
           "label": "Conception des systèmes de production et du déroulement des travaux",
-          "description":"Ce sous-processus détermine le déroulement des travaux du stade de la collecte au stade de la diffusion des données, en faisant le tour de tous les processus requis par l’ensemble du cycle statistique, et en veillant à ce que ces derniers puissent s’enchaîner efficacement sans lacunes ni redondances. Divers systèmes et bases de données sont nécessaires tout au long du cycle. En général, on réutilise les mêmes processus et techniques pour de nombreux processus de production statistique, de sorte qu’il faut commencer par examiner les produits existants (par exemple, des services, des systèmes et des bases de données) pour voir s’ils conviennent en l’espèce, et dans les cas où ils ne donnent pas entièrement satisfaction, chercher de nouvelles solutions. Ce sous-processus devrait aussi permettre d’étudier les modalités d’interaction du personnel avec ces systèmes et de définir les responsabilités de chaque agent et le stade auquel il intervient."
+          "description": "Ce sous-processus détermine le déroulement des travaux du stade de la collecte au stade de la diffusion des données, en faisant le tour de tous les processus requis par l’ensemble du cycle statistique, et en veillant à ce que ces derniers puissent s’enchaîner efficacement sans lacunes ni redondances. Divers systèmes et bases de données sont nécessaires tout au long du cycle. En général, on réutilise les mêmes processus et techniques pour de nombreux processus de production statistique, de sorte qu’il faut commencer par examiner les produits existants (par exemple, des services, des systèmes et des bases de données) pour voir s’ils conviennent en l’espèce, et dans les cas où ils ne donnent pas entièrement satisfaction, chercher de nouvelles solutions. Ce sous-processus devrait aussi permettre d’étudier les modalités d’interaction du personnel avec ces systèmes et de définir les responsabilités de chaque agent et le stade auquel il intervient."
         }
       ]
     },
@@ -52,7 +52,7 @@
         {
           "id": "gsbpm-3-4",
           "label": "Configuration du déroulement des travaux",
-          "description":"Ce sous-processus permet de configurer le déroulement des travaux, les systèmes et les transformations utilisés dans le cadre des processus de production statistique, de la collecte des données à leur diffusion. Il fait en sorte que le déroulement des travaux défini lors du sous-processus 2.6 (Conception de systèmes de production et du déroulement des travaux) fonctionne dans la pratique."
+          "description": "Ce sous-processus permet de configurer le déroulement des travaux, les systèmes et les transformations utilisés dans le cadre des processus de production statistique, de la collecte des données à leur diffusion. Il fait en sorte que le déroulement des travaux défini lors du sous-processus 2.6 (Conception de systèmes de production et du déroulement des travaux) fonctionne dans la pratique."
         }
       ]
     },
@@ -108,10 +108,9 @@
           "label": "Finalisation des fichiers de données",
           "description": "Ce sous-processus regroupe les résultats des autres sous-processus de la même phase pour produire un fichier de données (le plus souvent de macrodonnées) qui sert d’intrant pour la phase d’«analyse». Parfois, cela peut être un fichier intermédiaire plutôt qu’un fichier définitif, en particulier pour les processus d’activité où les délais sont très serrés et où il est demandé de produire à la fois des estimations préliminaires et des estimations définitives"
         }
-
       ]
-     },
-     {
+    },
+    {
       "id": "gsbpm-8",
       "label": "Évaluation",
       "description": "Cette phase fait référence à l’évaluation d’un cas particulier de processus de production statistique, à ne pas confondre avec le processus fondamental de gestion de la qualité statistique décrit à la section VI qui aborde la question de façon plus générale. Elle se tient logiquement au dernier stade du déroulement du processus mais repose sur des intrants réunis tout au long des diverses phases. Elle peut consister à évaluer le succès du cycle statistique particulier en s’appuyant sur divers intrants quantitatifs et qualitatifs et en identifiant et en hiérarchisant les améliorations possibles qui pourraient lui être apportées.",

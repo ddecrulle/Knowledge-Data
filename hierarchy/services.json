@@ -1,433 +1,430 @@
 {
-	"id": "services",
-	"label": "Les services",
-	"children": [
-		{
-			"id": "services-S100",
-			"label": "Conception d'enquêtes",
-			"description": "",
-			"children": [
-				{
-					"id": "services-S110",
-					"label": "Accompagnement à la conception d'enquêtes",
-					"description": "",
-					"children": [
-						{
-							"id": "services-S111",
-							"label": "Accompagnement à la conception du protocole de collecte",
-							"description": ""
-						},
-						{
-							"id": "services-S112",
-							"label": "Accompagnement à la conception du protocole de collecte",
-							"description": ""
-						}
-					]
-				},
-				{
-					"id": "services-S120",
-					"label": "Atelier de conception du modèle de questionnaires pour différents usages",
-					"description": "",
-					"children": [
-						{
-							"id": "services-S121",
-							"label": "Outil de conception du modèle de questionnaires",
-							"description": ""
-						},
-						{
-							"id": "services-S122",
-							"label": "Outil de génération de questionnaires",
-							"description": "",
-							"children":[
-								{
-									"id": "services-S122-1",
-									"label": "Produire des supports de collecte sur la base de spécifications formelles de questionnaires (questionnaire web, papier, face à face, téléphonique, spécification de numérisation (code barre)\u2026)",
-									"description": ""
-								}
-							]
-						},
-						{
-							"id": "services-S123",
-							"label": "Outil de spécification des contrôles qualité post-collecte",
-							"description": "",
-							"children": [
-							  {
-								"id": "services-S123-1",
-								"label": "Spécifier les traitements de contrôle qualité à appliquer aux questionnaires collectés",
-								"description": ""
-							  },
-							  {
-								"id": "services-S123-2",
-								"label": "Produire des indicateurs de qualité du questionnaire",
-								"description": ""
-							  }
-							]
-						}
-
-					]
-				},
-				{
-					"id": "services-S130",
-					"label": "Atelier de constitution des opérations éditiques",
-					"description": "",
-					"children": [
-						{
-							"id": "services-S131",
-							"label": "Outil de paramétrage et visualisation des documents>",
-							"description": ""
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": "services-S200",
-			"label": "Accès aux enquêtes",
-			"description": "",
-			"children": [
-				{
-					"id": "services-S210",
-					"label": "Offrir une vitrine de l'enquête en phase avec insee.fr et qui respecte un cadre standardisé commun à toutes les enquêtes ménages",
-					"description": ""
-				},
-				{
-					"id": "services-S220",
-					"label": "Espace dédié aux enquêtés",
-					"description": ""
-				},
-				{
-					"id": "services-S230",
-					"label": "Outil de configuration du site de promotion des enquêtes",
-					"description": ""
-				}
-			]
-		},
-		{
-			"id": "services-S300",
-			"label": "Macro service Collecte Web",
-			"description": "",
-			"children": [
-				{
-					"id": "services-S310",
-					"label": "Présenter et permettre l'accès aux questionnaires en ligne",
-					"description": "",
-					"children": [
-						{
-							"id": "services-S311",
-							"label": "Lister les questionnaires",
-							"description": ""
-						},
-						{
-							"id": "services-S312",
-							"label": "Consulter un questionnaire web (ou des annexes)",
-							"description": ""
-						},
-						{
-							"id": "services-S313",
-							"label": "Saisir un questionnaire",
-							"description": ""
-						}
-					]
-				},
-				{
-					"id": "services-S320",
-					"label": "Fournir une preuve de dépôt d'un questionnaire complété",
-					"description": ""
-				}
-			]
-		},
-		{
-			"id": "services-S400",
-			"label": "Macro-service Collecte papier",
-			"description": "",
-			"children": [
-				{
-					"id": "services-S410",
-					"label": "Mettre à disposition des questionnaires papier",
-					"description": ""
-				},
-				{
-					"id": "services-S420",
-					"label": "Numériser de manière standardisée",
-					"description": ""
-				}
-			]
-		},
-		{
-			"id": "services-S500",
-			"label": "Macro-service Collecte enquêteurs",
-			"description": "",
-			"children": [
-				{
-					"id": "services-S510",
-					"label": "Offrir aux enquêteurs un service dédié à la passation de questionnaires d'enquêtes",
-					"description": "",
-					"children": [
-						{
-							"id": "services-S511",
-							"label": "Accéder à un espace dédié à la formation (appropriation des questionnaires)",
-							"description": ""
-						},
-						{
-							"id": "services-S512",
-							"label": "Collecter les données",
-							"description": ""
-						}
-					]
-				},
-				{
-					"id": "services-S520",
-					"label": "Offrir aux enquêteurs un service dédié au suivi et l'organisation de la collecte",
-					"description": "",
-					"children": [
-						{
-							"id": "services-S521",
-							"label": "Offrir un contexte de formation",
-							"description": ""
-						},
-						{
-							"id": "services-S522",
-							"label": "Faciliter les échanges avec les enquêtés",
-							"description": ""
-						},
-						{
-							"id": "services-S523",
-							"label": "Accéder à des fonctionnalités de repérage associées à un mode de collecte",
-							"description": ""
-						},
-						{
-							"id": "services-S524",
-							"label": "Suivre la collecte",
-							"description": ""
-						},
-						{
-							"id": "services-S525",
-							"label": "Organiser la collecte",
-							"description": ""
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": "services-S600",
-			"label": "Macro-Service Contrôle qualité",
-			"description": "",
-			"children": [
-				{
-					"id": "services-S610",
-					"label": "Mise à disposition de paradonnées",
-					"description": ""
-				},
-				{
-					"id": "services-S620",
-					"label": "Offrir des possibilités de requêtages riches/libres sur les paradonnées",
-					"description": ""
-				},
-				{
-					"id": "services-S630",
-					"label": "Visualisation de questionnaires à contrôler",
-					"description": ""
-				},
-				{
-					"id": "services-S640",
-					"label": "Reprendre/Corriger un questionnaire",
-					"description": ""
-				},
-				{
-					"id": "services-S650",
-					"label": "Fournir des aggrégats destinés au contrôle de gestion",
-					"description": ""
-				},
-				{
-					"id": "services-S660",
-					"label": "Mise en place d'enquêtes de satisfaction",
-					"description": ""
-				}
-			]
-		},
-		{
-			"id": "services-S700",
-			"label": "Macro-service Assistance",
-			"description": "",
-			"children": [
-				{
-					"id": "services-S710",
-					"label": "Fournir des outils pour assister les répondants web",
-					"description": "",
-					"children": [
-					  {
-						"id": "services-S711",
-						"label": "Optimiser l'assistance aux répondants web",
-						"description": ""
-					  },
-					  {
-						"id": "services-S712",
-						"label": "Orienter les enquêtés vers l'assistance de manière homogène entre enquêtes",
-						"description": ""
-					  }
-					]
-				},
-				{
-					"id": "services-S720",
-					"label": "Fournir des outils destinés à faciliter l'assistance des enquêtés",
-					"description": "",
-					"children" : [
-						{
-							"id": "F720-1",
-							"label": "Rechercher une unité enquêtée et afficher son état",
-							"description": ""
-						},
-						{
-							"id": "services-S720-2",
-							"label": "Consulter un questionnaire comme un enquêté",
-							"description": ""
-						},
-						{
-							"id": "services-S720-3",
-							"label": "Automatiser la réinitialisation du mot de passe",
-							"description": ""
-						},
-						{
-							"id": "services-S720-4",
-							"label": "Permettre la réinitialisation du mot de passe d'un répondant",
-							"description": ""
-						},
-						{
-							"id": "services-S720-5",
-							"label": "Mettre à disposition des descriptions de procédures types (droit accès etc.)",
-							"description": ""
-						}
-					]
-				},
-				{
-					"id": "services-S730",
-					"label": "Fournir des outils destinés à faciliter l'assistance des enquêteurs",
-					"description": "",
-					"children" :[
-						{
-							"id": "services-S730-1",
-							"label": "Disposer d'un processus d'assistance auprès des enquêteurs documenté et outillé",
-							"description": ""
-						},
-						{
-							"id": "services-S730-2",
-							"label": "Notifier une information aux enquêteurs (par enquête, par région...)",
-							"description": ""
-						},
-						{
-							"id": "services-S730-3",
-							"label": "Consulter un questionnaire comme un enquêteur",
-							"description": ""
-						}						
-					]
-				}
-			]
-		},
-		{
-			"id": "services-S800",
-			"label": "Macro-service Pilotage des activités d'enquêtes",
-			"description": "",
-			"children": [
-				{
-					"id": "services-S810",
-					"label": "Disposer d'un référentiel des unités enquêtées (UE)",
-					"description": "",
-					"children": [
-						{
-							"id": "services-S811",
-							"label": "Offrir une information cohérente et consolidée sur les UE quel que soit le mode de collecte",
-							"description": ""
-						},
-						{
-							"id": "services-S812",
-							"label": "Constituer les échantillons de collecte y compris ajout de sur échantillons",
-							"description": ""
-						},
-						{
-						  "id": "services-S813",
-						  "label": "Automatiser les processus entre séquences / campagnes de collecte",
-						  "description": ""
-						}
-					]
-				},
-				{
-					"id": "services-S820",
-					"label": "Disposer d'un référentiel des enquêteurs >",
-					"description": ""
-				},
-				{
-					"id": "services-S830",
-					"label": "Piloter l'activité des enquêteurs",
-					"description": ""
-				},
-				{
-					"id": "services-S840",
-					"label": "Offrir un service dédié au suivi et à la mise en œuvre des collectes",
-					"description": "",
-					"children" :[
-						{
-							"id": "services-S841",
-							"label": "Service d'envoi de communications en masse",
-							"description": ""
-						},
-						{
-						  "id": "services-S842",
-						  "label": "Suivi local des collectes avec enquêteurs>",
-						  "description": ""
-						},
-						{
-							"id": "services-S843",
-							"label": "Suivi national des collectes, quel que soit le mode",
-							"description": ""
-						},
-						{
-							"id": "services-S844",
-							"label": "Mise en œuvre des collectes avec enquêteurs",
-							"description": ""
-						},
-						{
-							"id": "services-S845",
-							"label": "Mise en œuvre des collectes sans enquêteurs",
-							"description": ""
-						},
-						{
-							"id": "services-S846",
-							"label": "Mise en oeuvre des collectes multimodes (complémentaire)",
-							"description": ""
-						}
-
-					]
-				},
-				{
-					"id": "services-S850",
-					"label": "Offrir un service de normalisation des coordonnées",
-					"description": ""
-				}
-			]
-		},
-		{
-			"id": "services-S900",
-			"label": "Macro-Service Administration de l'offre de services",
-			"description": "",
-			"children": [
-				{
-					"id": "services-S910",
-					"label": "Permettre une administration de l'ensemble de l'offre de services de manière homogène et cohérente",
-					"description": ""
-				},
-				{
-					"id": "services-S920",
-					"label": "Permettre une mise en production de l'offre de services >",
-					"description": ""
-				}
-			]
-		},
-		{
-			"id": "services-S1000",
-			"label": "Macro-Service Agrégation / Échanges de données",
-			"description": ""
-			
-		}
-	]
+  "id": "services",
+  "label": "Les services",
+  "children": [
+    {
+      "id": "services-S100",
+      "label": "Conception d'enquêtes",
+      "description": "",
+      "children": [
+        {
+          "id": "services-S110",
+          "label": "Accompagnement à la conception d'enquêtes",
+          "description": "",
+          "children": [
+            {
+              "id": "services-S111",
+              "label": "Accompagnement à la conception du protocole de collecte",
+              "description": ""
+            },
+            {
+              "id": "services-S112",
+              "label": "Accompagnement à la conception du protocole de collecte",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "services-S120",
+          "label": "Atelier de conception du modèle de questionnaires pour différents usages",
+          "description": "",
+          "children": [
+            {
+              "id": "services-S121",
+              "label": "Outil de conception du modèle de questionnaires",
+              "description": ""
+            },
+            {
+              "id": "services-S122",
+              "label": "Outil de génération de questionnaires",
+              "description": "",
+              "children": [
+                {
+                  "id": "services-S122-1",
+                  "label": "Produire des supports de collecte sur la base de spécifications formelles de questionnaires (questionnaire web, papier, face à face, téléphonique, spécification de numérisation (code barre)\u2026)",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "id": "services-S123",
+              "label": "Outil de spécification des contrôles qualité post-collecte",
+              "description": "",
+              "children": [
+                {
+                  "id": "services-S123-1",
+                  "label": "Spécifier les traitements de contrôle qualité à appliquer aux questionnaires collectés",
+                  "description": ""
+                },
+                {
+                  "id": "services-S123-2",
+                  "label": "Produire des indicateurs de qualité du questionnaire",
+                  "description": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "services-S130",
+          "label": "Atelier de constitution des opérations éditiques",
+          "description": "",
+          "children": [
+            {
+              "id": "services-S131",
+              "label": "Outil de paramétrage et visualisation des documents>",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-S200",
+      "label": "Accès aux enquêtes",
+      "description": "",
+      "children": [
+        {
+          "id": "services-S210",
+          "label": "Offrir une vitrine de l'enquête en phase avec insee.fr et qui respecte un cadre standardisé commun à toutes les enquêtes ménages",
+          "description": ""
+        },
+        {
+          "id": "services-S220",
+          "label": "Espace dédié aux enquêtés",
+          "description": ""
+        },
+        {
+          "id": "services-S230",
+          "label": "Outil de configuration du site de promotion des enquêtes",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "services-S300",
+      "label": "Macro service Collecte Web",
+      "description": "",
+      "children": [
+        {
+          "id": "services-S310",
+          "label": "Présenter et permettre l'accès aux questionnaires en ligne",
+          "description": "",
+          "children": [
+            {
+              "id": "services-S311",
+              "label": "Lister les questionnaires",
+              "description": ""
+            },
+            {
+              "id": "services-S312",
+              "label": "Consulter un questionnaire web (ou des annexes)",
+              "description": ""
+            },
+            {
+              "id": "services-S313",
+              "label": "Saisir un questionnaire",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "services-S320",
+          "label": "Fournir une preuve de dépôt d'un questionnaire complété",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "services-S400",
+      "label": "Macro-service Collecte papier",
+      "description": "",
+      "children": [
+        {
+          "id": "services-S410",
+          "label": "Mettre à disposition des questionnaires papier",
+          "description": ""
+        },
+        {
+          "id": "services-S420",
+          "label": "Numériser de manière standardisée",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "services-S500",
+      "label": "Macro-service Collecte enquêteurs",
+      "description": "",
+      "children": [
+        {
+          "id": "services-S510",
+          "label": "Offrir aux enquêteurs un service dédié à la passation de questionnaires d'enquêtes",
+          "description": "",
+          "children": [
+            {
+              "id": "services-S511",
+              "label": "Accéder à un espace dédié à la formation (appropriation des questionnaires)",
+              "description": ""
+            },
+            {
+              "id": "services-S512",
+              "label": "Collecter les données",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "services-S520",
+          "label": "Offrir aux enquêteurs un service dédié au suivi et l'organisation de la collecte",
+          "description": "",
+          "children": [
+            {
+              "id": "services-S521",
+              "label": "Offrir un contexte de formation",
+              "description": ""
+            },
+            {
+              "id": "services-S522",
+              "label": "Faciliter les échanges avec les enquêtés",
+              "description": ""
+            },
+            {
+              "id": "services-S523",
+              "label": "Accéder à des fonctionnalités de repérage associées à un mode de collecte",
+              "description": ""
+            },
+            {
+              "id": "services-S524",
+              "label": "Suivre la collecte",
+              "description": ""
+            },
+            {
+              "id": "services-S525",
+              "label": "Organiser la collecte",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-S600",
+      "label": "Macro-Service Contrôle qualité",
+      "description": "",
+      "children": [
+        {
+          "id": "services-S610",
+          "label": "Mise à disposition de paradonnées",
+          "description": ""
+        },
+        {
+          "id": "services-S620",
+          "label": "Offrir des possibilités de requêtages riches/libres sur les paradonnées",
+          "description": ""
+        },
+        {
+          "id": "services-S630",
+          "label": "Visualisation de questionnaires à contrôler",
+          "description": ""
+        },
+        {
+          "id": "services-S640",
+          "label": "Reprendre/Corriger un questionnaire",
+          "description": ""
+        },
+        {
+          "id": "services-S650",
+          "label": "Fournir des aggrégats destinés au contrôle de gestion",
+          "description": ""
+        },
+        {
+          "id": "services-S660",
+          "label": "Mise en place d'enquêtes de satisfaction",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "services-S700",
+      "label": "Macro-service Assistance",
+      "description": "",
+      "children": [
+        {
+          "id": "services-S710",
+          "label": "Fournir des outils pour assister les répondants web",
+          "description": "",
+          "children": [
+            {
+              "id": "services-S711",
+              "label": "Optimiser l'assistance aux répondants web",
+              "description": ""
+            },
+            {
+              "id": "services-S712",
+              "label": "Orienter les enquêtés vers l'assistance de manière homogène entre enquêtes",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "services-S720",
+          "label": "Fournir des outils destinés à faciliter l'assistance des enquêtés",
+          "description": "",
+          "children": [
+            {
+              "id": "F720-1",
+              "label": "Rechercher une unité enquêtée et afficher son état",
+              "description": ""
+            },
+            {
+              "id": "services-S720-2",
+              "label": "Consulter un questionnaire comme un enquêté",
+              "description": ""
+            },
+            {
+              "id": "services-S720-3",
+              "label": "Automatiser la réinitialisation du mot de passe",
+              "description": ""
+            },
+            {
+              "id": "services-S720-4",
+              "label": "Permettre la réinitialisation du mot de passe d'un répondant",
+              "description": ""
+            },
+            {
+              "id": "services-S720-5",
+              "label": "Mettre à disposition des descriptions de procédures types (droit accès etc.)",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "services-S730",
+          "label": "Fournir des outils destinés à faciliter l'assistance des enquêteurs",
+          "description": "",
+          "children": [
+            {
+              "id": "services-S730-1",
+              "label": "Disposer d'un processus d'assistance auprès des enquêteurs documenté et outillé",
+              "description": ""
+            },
+            {
+              "id": "services-S730-2",
+              "label": "Notifier une information aux enquêteurs (par enquête, par région...)",
+              "description": ""
+            },
+            {
+              "id": "services-S730-3",
+              "label": "Consulter un questionnaire comme un enquêteur",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-S800",
+      "label": "Macro-service Pilotage des activités d'enquêtes",
+      "description": "",
+      "children": [
+        {
+          "id": "services-S810",
+          "label": "Disposer d'un référentiel des unités enquêtées (UE)",
+          "description": "",
+          "children": [
+            {
+              "id": "services-S811",
+              "label": "Offrir une information cohérente et consolidée sur les UE quel que soit le mode de collecte",
+              "description": ""
+            },
+            {
+              "id": "services-S812",
+              "label": "Constituer les échantillons de collecte y compris ajout de sur échantillons",
+              "description": ""
+            },
+            {
+              "id": "services-S813",
+              "label": "Automatiser les processus entre séquences / campagnes de collecte",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "services-S820",
+          "label": "Disposer d'un référentiel des enquêteurs >",
+          "description": ""
+        },
+        {
+          "id": "services-S830",
+          "label": "Piloter l'activité des enquêteurs",
+          "description": ""
+        },
+        {
+          "id": "services-S840",
+          "label": "Offrir un service dédié au suivi et à la mise en œuvre des collectes",
+          "description": "",
+          "children": [
+            {
+              "id": "services-S841",
+              "label": "Service d'envoi de communications en masse",
+              "description": ""
+            },
+            {
+              "id": "services-S842",
+              "label": "Suivi local des collectes avec enquêteurs>",
+              "description": ""
+            },
+            {
+              "id": "services-S843",
+              "label": "Suivi national des collectes, quel que soit le mode",
+              "description": ""
+            },
+            {
+              "id": "services-S844",
+              "label": "Mise en œuvre des collectes avec enquêteurs",
+              "description": ""
+            },
+            {
+              "id": "services-S845",
+              "label": "Mise en œuvre des collectes sans enquêteurs",
+              "description": ""
+            },
+            {
+              "id": "services-S846",
+              "label": "Mise en oeuvre des collectes multimodes (complémentaire)",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "services-S850",
+          "label": "Offrir un service de normalisation des coordonnées",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "services-S900",
+      "label": "Macro-Service Administration de l'offre de services",
+      "description": "",
+      "children": [
+        {
+          "id": "services-S910",
+          "label": "Permettre une administration de l'ensemble de l'offre de services de manière homogène et cohérente",
+          "description": ""
+        },
+        {
+          "id": "services-S920",
+          "label": "Permettre une mise en production de l'offre de services >",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "services-S1000",
+      "label": "Macro-Service Agrégation / Échanges de données",
+      "description": ""
+    }
+  ]
 }
