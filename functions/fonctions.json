@@ -1212,13 +1212,12 @@
             "function": [
               {
                 "id": "F521-1",
-                "label": "Ajouter/supprimer des données de formation",
-                "users": ["users-U007", "users-U008"],
-                "dispo": false,
+                "label": "Extraire les données de gestion d'une collecte par internet",
+                "dispo": true,
                 "gsbpm": "gsbpm-4-2",
-                "idProduct": "products-P03",
-                "products": ["products-P0303"],
-                "description": "Les outils mis à disposition des intégrateurs et administrateurs Métallica, traitements batchs notamment, permettent d'ajouter/supprimer massivement des données de formations (formation à l'outil comme formation à une enquête).",
+                "idProduct": "products-P02",
+                "products": ["products-P0202"],
+                "description": "L'application de suivi national (Moog) offre des fonctions d'export (utilisation manuelle et unitaire) des informations de gestion d'une collecte par internet pour des traitements en \"self\" (type constitution des relances).",
                 "tasks": [
                   {
                     "label": "",
@@ -1236,13 +1235,12 @@
             "function": [
               {
                 "id": "F522-1",
-                "label": "Écrire et envoyer un mail à partir des données de contact",
-                "users": ["users-U004"],
+                "label": "Fournir automatiquement des extractions des données de suivi d'une collecte par internet",
                 "dispo": false,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "Le poste de collecte enquêteur permet des envois de mails contextualisés (appel au service de message avec adresses mail et objet renseignés)",
+                "products": ["products-P0202"],
+                "description": "L'application de suivi national (Moog) fournit automatiquement des extractions des données de suivi d'une collecte par internet pour des traitements en \"self\".",
                 "tasks": [
                   {
                     "label": "",
@@ -1253,13 +1251,12 @@
               },
               {
                 "id": "F515",
-                "label": "Proposer un agenda avec des plages de disponibilité aux enquêtés (appels, enquêtes)",
-                "users": ["users-U004"],
-                "dispo": false,
+                "label": "Consulter un questionnaire non validé comme un enquêté",
+                "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "L'application Sabiane collecte offre à l'enquêteur des fonctionnalités dédiées à faciliter la prise de rendez-vous avec le répondant (calendrier, plages de disponibilité, etc.)",
+                "products": ["products-P0202", "products-P0209"],
+                "description": "Une fonctionnalité de type \"site miroir\" permet aux gestionnaires de visualiser un questionnaire internet d'un répondant sans le modifier, à des fins d'accompagnement du répondant.",
                 "tasks": [
                   {
                     "label": "",
@@ -1277,13 +1274,12 @@
             "function": [
               {
                 "id": "F523-1",
-                "label": "Renseigner/modifier le résultat d'un repérage ou d'un essai de contact",
-                "users": ["users-U004"],
-                "dispo": false,
+                "label": "Automatiser la réinitialisation du mot de passe",
+                "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "Le poste de collecte enquêteur permet de renseigner les informations relatives au repérage (face à face) ou à un essai de contact (face à face et téléphone) adaptées au mode de l'enquête. Il permet tant d'enregistrer des tentatives de repérage ou essais de contact que des résultats définitifs pour ces phases de repérage/contact (issue de repérage/contact) Une application mobile reprenant ces fonctions est également (en plus du poste de collecte) mise à disposition des enquêteurs pour plus de mobilité (contexte d'un enquêteur dans la rue par exemple).",
+                "products": ["products-P0201", "products-P0214"],
+                "description": "Un service de réinitialisation du mot de passe est proposé au répondant en cas d'oubli de celui-ci. Le nouveau lui est transmis automatiquement par messagerie ou par courrier postal.",
                 "tasks": [
                   {
                     "label": "",
@@ -1304,13 +1300,12 @@
               },
               {
                 "id": "F523-2",
-                "label": "Mettre à jour les informations de contact des enquêtés",
-                "users": ["users-U004"],
-                "dispo": false,
+                "label": "Permettre la réinitialisation du mot de passe d’un répondant",
+                "dispo": true,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "Le poste de collecte enquêteur permet de renseigner/mettre à jour les informations de contact d'une unité d'enquête. Une application mobile contenant ces fonctions est également mise à disposition des enquêteurs pour plus de mobilité.",
+                "products": ["products-P0202"],
+                "description": "A partir de Moog, l'assistance ou un gestionnaire dispose d'une fonctionnalité pour réinitialiser le mot de passe d'un enquêté, le nouveau étant transmis automatiquement par message ou par courrier postal.",
                 "tasks": [
                   {
                     "label": "",
@@ -1348,13 +1343,12 @@
             "function": [
               {
                 "id": "F524-1",
-                "label": "Visualiser le réalisé et le reste à faire selon différents critères de tri (sélectionner une ou plusieurs enquêtes)",
-                "users": ["users-U004"],
+                "label": "Mettre à disposition de l'assistance les livrables nécessaires aux réponses de demande de droits accès",
                 "dispo": false,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "Le poste de collecte enquêteur permet aux enquêteurs de visualiser les unités enquêtées collectées et celles restantes à faire. Il offre également des fonctions de tri/filtrage en fonction des enquêtes.",
+                "products": ["products-P0202"],
+                "description": "Afin de pouvoir répondre aux demandes de droits d'accès, modifications, etc. l'application Moog met à disposition des services d'assistance une version papier complétée du questionnaire web.",
                 "tasks": [
                   {
                     "label": "",
@@ -1365,13 +1359,12 @@
               },
               {
                 "id": "F524-2",
-                "label": "Visualiser le reste à faire selon les critères de priorisation éventuels",
-                "users": ["users-U004"],
+                "label": "Notifier une information aux enquêteurs (par enquête, par région…) – Sabiane Gestion",
                 "dispo": false,
                 "gsbpm": "gsbpm-4-3",
                 "idProduct": "products-P02",
-                "products": ["products-P0203"],
-                "description": "Les fonctions d'affichage des unités enquêtées permettent de prendre en compte des critères de priorité, fixés par la maîtrise d'ouvrage ou les gestionnaires.",
+                "products": ["products-P0206"],
+                "description": "Les gestionnaires peuvent envoyer des notifications thématiques aux enquêteurs d'une région ou d'une enquête.",
                 "tasks": [
                   {
                     "label": "",
