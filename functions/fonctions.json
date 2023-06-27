@@ -5,6 +5,24 @@
     "description": "",
     "function": [
       {
+        "id": "F110-1",
+        "label": "Disposer d’un référentiel des unités enquêtées",
+        "dispo": false,
+        "gsbpm": "gsbpm-qualite",
+        "idProduct": "products-P03",
+        "products": ["products-P0301"],
+        "description": "descriptif à revoir"
+      },
+      {
+        "id": "F820-1",
+        "label": "Disposer d’un référentiel des enquêteurs",
+        "dispo": true,
+        "gsbpm": "gsbpm-qualite",
+        "idProduct": "products-P03",
+        "products": ["products-P0306"],
+        "description": "L'application Opale de gestion de la charge enquêteur permet de disposer d'un référentiel des enquêteurs dans lequel sont centralisées les ajouts, modifications et suppression de coordonnées des enquêteurs y compris en cours de collecte."
+      },   
+      {
         "id": "F111-1",
         "label": "Consulter une présentation de l'offre de services du système d'information de collecte",
         "users": ["users-U001", "users-U002"],
@@ -891,33 +909,21 @@
       },
       {
         "id": "F811-2",
-        "label": "Conserver informations personnelles et réponses d'UE d'une séquence / campagne de collecte à l'autre pour réutilisation (données antérieures)",
-        "users": ["users-U001", "users-U002"],
+        "label": "Mettre à jour automatiquement les échantillons à partir des retours de collectes précédentes",
         "dispo": false,
         "idProduct": "products-P03",
         "gsbpm": "gsbpm-4-1",
         "products": ["products-P0301"],
-        "description": "Le référentiel d'unité enquêtées est mis à jour automatiquement par les différents outils collectant de l'information sur l'unité, qu'il s'agisse d'outils de collecte (coordonnées et données collectées) que des outils plus orientés gestion (coordonnées)."
+        "description": "Le référentiel d’unité enquêtées est mis à jour automatiquement par les différents outils collectant de l’information sur l’unité, qu’il s’agisse d’outils de collecte (coordonnées et données collectées) que des outils plus orientés gestion (coordonnées)."
       },
       {
         "id": "F812-1",
         "label": "Créer/Modifier des échantillons de collecte",
-        "users": ["users-U001", "users-U002"],
-        "dispo": false,
+        "dispo": true,
         "idProduct": "products-P03",
         "gsbpm": "gsbpm-4-1",
         "products": ["products-P0301"],
         "description": "Le référentiel d'unités enquêtées permet la création et la modification d'échantillons de collecte à partir d'échantillons statistiques issus des applications d'échantillonnage ou d'autres sources."
-      },
-      {
-        "id": "F812-2",
-        "label": "Outiller la production d'échantillon de collecte",
-        "users": ["users-U001", "users-U002", "users-U007"],
-        "dispo": false,
-        "idProduct": "products-P03",
-        "gsbpm": "gsbpm-4-1",
-        "products": ["products-P0301"],
-        "description": "Le référentiel d'unités enquêtées disposent d'outils visant à faciliter la sélection et la construction des échantillons de collecte, type non-répondants à relancer, échantillons de séquences ou vagues successives, etc."
       },
       {
         "id": "F813-1",
@@ -936,16 +942,6 @@
         "gsbpm": "gsbpm-4-1",
         "products": ["products-P0302"],
         "description": "Le référentiel d’unités d’enquêtes produit des échantillons de collecte contenant toutes les informations nécessaires à la production des supports papier pour les enquêteurs, type fiche de suivi de collecte, liste de gestion ou fiche-adresse papier."
-      },
-      {
-        "id": "F820-1",
-        "label": "Mettre à jour (y compris ajout/suppression) les informations relatives aux enquêteurs en cours de collecte",
-        "users": ["users-U005"],
-        "dispo": true,
-        "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
-        "products": ["products-P0306"],
-        "description": "L'application de gestion de la charge enquêteur permet la mise à jour des informations relatives aux enquêteurs, l'ajout (ou suppression) d'un enquêteur (éventuellement 'temporaire') en cours de collecte."
       },
       {
         "id": "F820-2",
@@ -1171,24 +1167,13 @@
         "description": "Avant lancement de la production éditique, les chaînes applicatives sollicitent un service externe (RNVP) garantissant la normalisation des adresses conformément aux normes postales (norme Afnor) et offrant des services de correction/standardisation pour en améliorer la qualité."
       },
       {
-        "id": "F850-2",
-        "label": "Standardiser et normaliser les coordonnées au sein des échantillons",
-        "users": ["users-U001", "users-U002"],
-        "dispo": false,
-        "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
-        "products": ["products-P0301"],
-        "description": "Les adresses postales et mails sont standardisées et corrigées dès la constitution des bases de sondage, ou lors de la constitution des échantillons de collecte (Crabe)."
-      },
-      {
         "id": "F850-3",
         "label": "Enrichir les coordonnées au sein des échantillons",
-        "users": ["users-U001", "users-U002"],
         "dispo": false,
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P03",
         "products": ["products-P0301"],
-        "description": "Les adresses postales et mails sont enrichies à partir de service externe, type La Poste sur les fichiers des démanagements, afin d'améliorer la qualité des coordonnées au sein des échantillons de collecte."
+        "description": "Les adresses postales et mails des échantillons sont enrichies à partir de services externes type La Poste afin d'améliorer la qualité des coordonnées au sein des échantillons de collecte. Ce service permet également d'identifier les déménagements d'unités enquêtées en amont d'une collecte."
       },
       {
         "id": "F850-4",
