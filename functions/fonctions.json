@@ -136,23 +136,21 @@
       },
       {
         "id": "F131-1",
-        "label": "Choisir les modèles parmi l'offre standard",
-        "users": ["users-U002"],
-        "dispo": true,
-        "gsbpm": "gsbpm-3-1",
+        "label": "Configurer la stratégie de communication pour une enquête",
+        "dispo": false,
+        "gsbpm": "gsbpm-3-4",
         "idProduct": "products-P03",
         "products": ["products-P0302"],
-        "description": "L'offre standard de courriers (modèles de lettre-avis, de relance, de remerciements...) offre un certain nombre de modèles de lettres correspondant aux différents protocoles proposés dans le cadre du programme multimode. A l'instar de ce qui existe déjà pour les enquêtes entreprises, ces lettres seront \"pré-labellisées\" (si les courriers de l'enquête s'appuient sur cette offre, ils feront l'objet d'un examen allégé lors du passage au comité du label)."
+        "description": "L'offre standard de communications (modèles de lettre et mails avis, de relance, de remerciements...) offre un certain nombre de modèles de lettres et mails correspondant aux différents protocoles proposés dans le cadre du programme multimode. Ces communications standardisées pourront faire l'objet d'un examen allégé lors du passage au comité du label."
       },
       {
         "id": "F133",
-        "label": "Paramétrer en fonction des métadonnées de l'enquête",
-        "users": ["users-U002"],
+        "label": "Configurer le protocole d'une enquête",
         "dispo": false,
-        "gsbpm": "gsbpm-3-1",
+        "gsbpm": "gsbpm-3-4",
         "idProduct": "products-P03",
         "products": ["products-P0302"],
-        "description": "Les outils de constitution des courriers s'appuient sur des métadonnées décrivant le protocole de l'enquête, fournies par les maîtrises d'œuvre d'enquêtes ou directement récupérées depuis le référentiel de métadonnées statistiques, afin de configurer les courriers visualisés ou imprimés/envoyés."
+        "description": "descriptif à revoir"
       },
       {
         "id": "F134",
@@ -689,12 +687,11 @@
       {
         "id": "F660-1",
         "label": "Mettre en œuvre de manière standardisée des enquêtes de satisfaction",
-        "users": ["users-U002"],
         "dispo": false,
         "gsbpm": "gsbpm-8-1",
         "idProduct": "products-P03",
-        "products": ["products-P0303"],
-        "description": "Le déploiement d'une enquête de satisfaction est un service offert par la nouvelle filière : mise en œuvre et déploiement en partie automatisé et intégration dans la nouvelle filière. Le protocole et le questionnement de telles enquêtes sont standardisés dans la nouvelle filière. Elles offrent des mécanismes d'évaluation tant sur le processus pour la maîtrise d'œuvre statistique que pour la qualité et connaissance du contexte pour la maîtrise d'ouvrage d'enquête."
+        "products": ["products-P0302"],
+        "description": "Le déploiement d’une enquête de qualité auprès des enquêtés est un service offert par la filière d’enquête : mise en œuvre et déploiement en partie automatisés et intégration. Le protocole et le questionnement de telles enquêtes sont standardisés dans la nouvelle filière. Elles offrent des mécanismes d’évaluation tant sur le processus pour la maîtrise d’œuvre statistique que pour la qualité et connaissance du contexte pour la maîtrise d’ouvrage d’enquête."
       },
       {
         "id": "F711-1",
@@ -924,33 +921,21 @@
       },
       {
         "id": "F813-1",
-        "label": "Automatiser l'alimentation des outils de collecte",
-        "users": ["users-U007"],
+        "label": "Automatiser l’intégration des échantillons dans les outils de collecte",
         "dispo": false,
         "idProduct": "products-P03",
         "gsbpm": "gsbpm-4-1",
         "products": ["products-P0302"],
-        "description": "Les outils de collecte enquêteur (Sabiane gestion et Sabiane collecte) et web (plateforme de collecte Stromae) sont alimentés automatiquement à partir des échantillons de collecte définis dans le référentiel d'unités enquêtées."
-      },
-      {
-        "id": "F813-2",
-        "label": "Automatiser l'alimentation des applications de gestion des enquêteurs",
-        "users": ["users-U007"],
-        "dispo": false,
-        "idProduct": "products-P03",
-        "gsbpm": "gsbpm-4-1",
-        "products": ["products-P0302"],
-        "description": "L'application de gestion de la charge des enquêteurs, Opale, est alimentée automatiquement à partir des échantillons de collecte définis dans le référentiel d'unités enquêtées."
+        "description": "Les outils Sabiane et Platine sont alimentés automatiquement à partir des échantillons de collecte définis dans le référentiel d’unités enquêtées."
       },
       {
         "id": "F813-3",
         "label": "Automatiser la production en masse de support papier pour les enquêteurs",
-        "users": ["users-U004"],
         "dispo": false,
         "idProduct": "products-P03",
         "gsbpm": "gsbpm-4-1",
-        "products": ["products-P0301"],
-        "description": "Le référentiel d'unités d'enquêtes produit des échantillons de collecte contenant toutes les informations nécessaires à la production des supports papier pour les enquêteurs, type fiche de suivi de collecte, liste de gestion ou fiche-adresse papier."
+        "products": ["products-P0302"],
+        "description": "Le référentiel d’unités d’enquêtes produit des échantillons de collecte contenant toutes les informations nécessaires à la production des supports papier pour les enquêteurs, type fiche de suivi de collecte, liste de gestion ou fiche-adresse papier."
       },
       {
         "id": "F820-1",
@@ -1093,44 +1078,22 @@
         "description": "L'application de gestion (Sabiane gestion) permet de visualiser les demandes d'envoi et de communication (courriers, mails, SMS) demandées par les enquêteurs."
       },
       {
-        "id": "F844-3",
-        "label": "Gérer l'accès des enquêteurs aux unités enquêtées",
-        "users": ["users-U002"],
-        "dispo": false,
-        "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
-        "products": ["products-P0302"],
-        "description": "L'outil d'administration de la collecte (Protools) permet de définir les dates de visibilité des unités enquêtées au sein des postes de collecte enquêteur (en plus de l'affectation d'une UE à un enquêteur)."
-      },
-      {
         "id": "F844-4",
         "label": "Clore une collecte",
-        "users": ["users-U002", "users-U009"],
         "dispo": false,
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P03",
         "products": ["products-P0302"],
-        "description": "L'outil d'administration de la collecte Protools permet de définir les dates de fins de collecte et de clôre formellement la collecte enquêteur, les unités enquêtées concernées n'apparraissant plus dans les outils."
+        "description": "L'outil d'administration de la collecte Protools permet de déclencher les traitement visant à clore une collecte à partir de métadonnées (fermeture des accès, nettoyage des données etc.)"
       },
       {
         "id": "F845-1",
-        "label": "Ouvrir une collecte (mettre à jour des métadonnées)",
-        "users": ["users-U002", "users-U009"],
+        "label": "Initialiser une collecte",
         "dispo": true,
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P03",
-        "products": ["products-P0302", "products-P0209"],
-        "description": "L'outil d'administration de la collecte permet de définir les dates de début de collecte et de lancer formellement une collecte internet, les questionnaires devenant accessibles pour les répondants."
-      },
-      {
-        "id": "F845-2",
-        "label": "Clore une collecte (mettre à jour des métadonnées)",
-        "users": ["users-U002", "users-U009"],
-        "dispo": true,
-        "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
-        "products": ["products-P0302", "products-P0209"],
-        "description": "L'outil d'administration de la collecte permet de définir les dates de fins de collecte et de clôre formellement une collecte internet, les questionnaires n'étant plus accessibles pour les répondants."
+        "products": ["products-P0302"],
+        "description": "L'outil d'administration de la collecte permet d'initialiser une collecte dans les plateformes Sabiane et Platine à partir de métadonnées (ex : les dates de début et fin de collecte, le libellé de l'opération etc.)."
       },
       {
         "id": "F846-1",
@@ -1240,42 +1203,47 @@
       {
         "id": "F910-1",
         "label": "Donner des droits dans les applications du SI collecte",
-        "users": ["users-U011"],
         "dispo": false,
         "gsbpm": "gsbpm-2-6",
         "idProduct": "products-P03",
         "products": ["products-P0302"],
-        "description": "L'application Protools permet d'administrer globalement les droits des utilisateurs sur l'ensemble des applications du système d'information de collecte."
+        "description": "L’application Protools permet d’administrer globalement les droits des utilisateurs sur l’ensemble des applications du système d’information de collecte."
       },
       {
         "id": "F920-1",
-        "label": "Créer une nouvelle enquête",
-        "users": ["users-U011", "users-U007", "users-U001", "users-U002"],
+        "label": "Instancier une enquête dans les outils de collecte",
         "dispo": true,
         "gsbpm": "gsbpm-3-4",
         "idProduct": "products-P03",
         "products": ["products-P0302"],
-        "description": "Une application permet de créer une enquête dans le système d'information de collecte."
-      },
-      {
-        "id": "F920-2",
-        "label": "Paramétrer une enquête (ex : dates de début et fin de collecte)",
-        "users": ["users-U007", "users-U008", "users-U002"],
-        "dispo": false,
-        "gsbpm": "gsbpm-3-4",
-        "idProduct": "products-P03",
-        "products": ["products-P0302"],
-        "description": "Les outils permettent le paramétrage d'une enquête (différentes dates relatives à l'enquête pilotant les outils du SI notamment), même en cours de collecte."
+        "description": "L'application Protools permet de créer et paramétrer une enquête dans les outils du système d'information de collecte à partir de métadonnées."
       },
       {
         "id": "F920-3",
-        "label": "Offrir un processus consolidé de lancement d'enquête (un seul processus pour l'ensemble des briques de l'offre)",
-        "users": ["users-U007"],
+        "label": "Offrir un processus consolidé de lancement d’enquête à l’aide d’une interface",
         "dispo": false,
         "gsbpm": "gsbpm-3-4",
         "idProduct": "products-P03",
         "products": ["products-P0302"],
-        "description": "Les outils du SI de collecte s'appuient sur une seule interface de chargement, quelque soit le mode, le type d'enquête ou de processus (production, test, formation,...). Une chaîne de traitements techniques (type batch) se charge de charger et configurer les différents outils du SI collecte."
+        "description": "Les outils du SI de collecte s'appuient sur une seule interface de chargement, pilotage et de suivi quelque soit le mode, le type d'enquête ou de processus (production, test, formation,...)."
+      },
+      {
+        "id": "F920-4",
+        "label": "Communiquer avec un système d’information tiers (RP, SSP, prestataires externes...)",
+        "dispo": true,
+        "gsbpm": "gsbpm-5-8",
+        "idProduct": "products-P03",
+        "products": ["products-P0302"],
+        "description": "Le SI de collecte est en mesure de réceptionner des échantillons issus d’un système d’information tiers."
+      },
+      {
+        "id": "F920-5",
+        "label": "Offrir des services accessibles par des utilisateurs externes à l’Insee",
+        "dispo": false,
+        "gsbpm": "gsbpm-5-8",
+        "idProduct": "products-P03",
+        "products": ["products-P0302"],
+        "description": "L’orchestrateur de protocoles Protools et l’ensemble des services qu’il propose sont accessibles par des utilisateurs extérieurs à l’Insee."
       },
       {
         "id": "F1000-1",
