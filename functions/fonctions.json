@@ -21,7 +21,7 @@
         "idProduct": "products-P03",
         "products": ["products-P0306"],
         "description": "L'application Opale de gestion de la charge enquêteur permet de disposer d'un référentiel des enquêteurs dans lequel sont centralisées les ajouts, modifications et suppression de coordonnées des enquêteurs y compris en cours de collecte."
-      },   
+      },
       {
         "id": "F111-1",
         "label": "Consulter une présentation de l'offre de services du système d'information de collecte",
@@ -421,7 +421,7 @@
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P02",
         "products": ["products-P0212"],
-        "description": "Des statistiques d'utilisation du serveur vocal interactif sont mises à disposition à des fins de mesures."
+        "description": "Des statistiques d'utilisation du serveur vocal interactif sont mises à disposition à des fins de mesures pour les concepteurs."
       },
       {
         "id": "F512-5",
@@ -470,7 +470,7 @@
       },
       {
         "id": "F522-1",
-        "label": "Fournir automatiquement des extractions des données de suivi d'une collecte par internet",
+        "label": "Fournir automatiquement des extractions de données de suivi d'une collecte par internet",
         "dispo": false,
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P02",
@@ -524,93 +524,237 @@
       },
       {
         "id": "F524-3",
-        "label": "Visualiser les dernières mises à jour dans le reste à faire (ex : ajout de nouvelles unités pour une collecte qui démarre, suppression automatique d'unités réalisées avec un autre mode)",
-        "users": ["users-U004"],
+        "label": "Notifier une information aux enquêteurs (par enquête, par région…)",
         "dispo": false,
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P02",
-        "products": ["products-P0203"],
-        "description": "Le poste de collecte enquêteur permet de visualiser (sous forme de notifications techniques) les dernières mises à jour sur les unités enquêtées (ajout, suppression, commentaires) qu'elles proviennent de l'enquêteur lui-même ou d'une mise à jour du système central."
+        "products": ["products-P0206"],
+        "description": "Les gestionnaires peuvent envoyer des notifications thématiques aux enquêteurs d'une région ou d'une enquête."
       },
       {
         "id": "F524-4",
-        "label": "Accéder à l'historique des informations pour une unité enquêtée sélectionnée (ex : essais de contact, envoi de courriers...)",
-        "users": ["users-U004"],
-        "dispo": false,
+        "label": "Relire des questionnaires « enquêteurs » sans possibilité de modification",
+        "dispo": true,
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P02",
-        "products": ["products-P0203"],
-        "description": "Le poste de collecte enquêteur permet de visualiser un historique des différents événements relatifs à la collecte d'une unité enquêtée (prise de contact, envoi de courriers...)."
+        "products": ["products-P0206"],
+        "description": "Le questionnaire enquêteur dispose d’un mode « lecture seule » qui empêche les modifications mais permet une relecture par un gestionnaire, ou tout autre utilisateur habilité."
       },
       {
         "id": "F525-1",
-        "label": "Permettre la visualisation cartographique des unités enquêtées pour optimiser les déplacements",
-        "users": ["users-U004"],
+        "label": "Relire des questionnaires issus d’une collecte web sans possibilité de modification",
         "dispo": false,
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P02",
-        "products": ["products-P0203"],
-        "description": "Le poste de collecte enquêteur offre la possibilité de visualiser une carte indiquant le positionnement d'une adresse de contact. Les services techniques mis en œuvre sont mutualisés avec les fonctions similaire de Crabe (impression de cartes sur les fiches adresses papier)."
+        "products": ["products-P0206"],
+        "description": "Le questionnaire issu d'une collecte web dispose d’un mode « lecture seule » qui empêche les modifications mais permet une relecture par un gestionnaire, ou tout autre utilisateur habilité."
       },
       {
         "id": "F525-2",
-        "label": "Organiser des tournées : sélectionner et visualiser une liste d'unités à collecter à une date choisie",
-        "users": ["users-U004"],
-        "dispo": false,
+        "label": "Suivre une unité enquêtée affectée à un enquêteur",
+        "dispo": true,
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P02",
-        "products": ["products-P0203"],
-        "description": "Le poste de collecte enquêteur permet de visualiser les unités enquêtées à collecter pour une date donnée à des fins de planification."
+        "products": ["products-P0206"],
+        "description": "Sabiane gestion permet de sélectionner, rechercher et filtrer les unités enquêtées des enquêteurs, et d'en afficher l'état (préparée/repérée/contactée/enquêtée/mode de réponse...) pour les modes de collecte \"téléphonique\" ou \"face-à-face\"."
       },
       {
         "id": "F525-3",
-        "label": "Demander l'envoi d'une communication (lettre/mail avis, lettres/mails de relance, SMS...)",
-        "users": ["users-U004"],
+        "label": "Consulter les tableaux standards de suivi pour une enquête à protocole simple mobilisant des enquêteurs",
+        "dispo": true,
+        "gsbpm": "gsbpm-4-3",
+        "idProduct": "products-P02",
+        "products": ["products-P0206"],
+        "description": "Sabiane Gestion propose des tableaux de bord et indicateurs (taux d'avancement, taux de collecte) standards (proposés à l'identique à toutes les enquêtes) pour permettre le suivi des collectes d'enquêtes  à protocole simple (sans multimode \"concurrentiel\", sans suivi par strate, sans carnet de collecte, etc.) mobilisant des enquêteurs par téléphone ou en face-à-face."
+      },
+      {
+        "id": "F524-5",
+        "label": "Consulter les tableaux standards de suivi pour une enquête à protocole complexe mobilisant des enquêteurs",
         "dispo": false,
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P02",
-        "products": ["products-P0203"],
-        "description": "Le poste de collecte enquêteur permet de demander l'envoi ou le réenvoi d'un document de collecte (par courrier papier, par mail ou par SMS) à une unité enquêtée. Cette demande devra faire l'objet d'une validation par un gestionnaire en DEM."
+        "products": ["products-P0206"],
+        "description": "Sabiane Gestion propose des tableaux de bord et indicateurs (taux d'avancement, taux de collecte) standards (proposer à l'identique à toutes les enquêtes) pour permettre le suivi des collectes d'enquêtes à protocole complexe (avec multimode \"concurrentiel\" ou carnet de collecte, etc.) mobilisant des enquêteurs."
       },
       {
         "id": "F525-4",
-        "label": "Modifier le statut d'une unité d'enquête (y compris terminée, déchet, déménagement, absence de l'enquêteur...)",
-        "users": ["users-U004"],
-        "dispo": false,
+        "label": "Consulter les tableaux standards de suivi pour une enquête par internet à protocole simple",
+        "dispo": true,
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P02",
-        "products": ["products-P0203"],
-        "description": "Le poste de collecte enquêteur et le questionnaire enquêteur permettent de modifier le statut d'une unité d'enquête ou d'un questionnaire (cycle de vie d'une unité enquêtée et workflow de reprise/modification des questionnaires)."
+        "products": ["products-P0202"],
+        "description": "L'application de suivi national (Moog) permet de visualiser des tableaux standards de suivi national pour des collectes par internet à protocole simple (sans collecte avec enquêteur, ou \"multiple\" questionnaires type carnet de collecte)."
       },
       {
         "id": "F525-5",
-        "label": "Créer de nouvelles unités enquêtées (éclatement...) ou fusionner des unités existantes (cas des panels)",
-        "users": ["users-U004"],
+        "label": "Consulter les tableaux standards de suivi pour une enquête par internet à protocole complexe",
+        "dispo": false,
+        "gsbpm": "gsbpm-4-3",
+        "idProduct": "products-P02",
+        "products": ["products-P0202"],
+        "description": "L'application de suivi national (Moog) permet de visualiser des tableaux standards de suivi national pour des collectes par internet à protocole complexe (avec collecte par enquêteur, ou \"multiple\" questionnaires type carnet de collecte)."
+      },
+      {
+        "id": "F525-6",
+        "label": "Offrir un suivi de l'envoi de courriers pour des collectes internet",
+        "dispo": false,
+        "gsbpm": "gsbpm-4-3",
+        "idProduct": "products-P02",
+        "products": ["products-P0202"],
+        "description": "L'application de suivi national (Moog) permet de suivre l'envoi de courrier pour des collectes internet."
+      },
+      {
+        "id": "F525-7",
+        "label": "Offrir un suivi de l'envoi de mails pour des collectes internet",
+        "dispo": false,
+        "gsbpm": "gsbpm-4-3",
+        "idProduct": "products-P02",
+        "products": ["products-P0202"],
+        "description": "L'application de suivi national (Moog) permet de suivre l'envoi de mails pour des collectes internet."
+      },
+      {
+        "id": "F525-8",
+        "label": "Offrir un suivi de l'envoi de courriers pour des collectes avec enquêteurs",
         "dispo": false,
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P02",
         "products": ["products-P0203"],
-        "description": "Le poste de collecte enquêteur permet la collecte d'unité enquêtée nouvelle (suite à éclatement de budget ou de ménages) ou le regroupement (fusion dans un panel) d'unités enquêtées et ce même dans un contexte hors-ligne."
+        "description": "L'application Sabiane collecte permet à l'enquêteur de suivre l'envoi de courriers pour ses UE."
+      },
+      {
+        "id": "F525-9",
+        "label": "Offrir un suivi de l'envoi de mails pour des collectes avec enquêteurs",
+        "dispo": false,
+        "gsbpm": "gsbpm-4-3",
+        "idProduct": "products-P02",
+        "products": ["products-P0203"],
+        "description": "L'application Sabiane collecte permet à l'enquêteur de suivre l'envoi de mails pour ses UE."
+      },
+      {
+        "id": "F525-10",
+        "label": "Offrir un suivi des questionnaires papier pour les enquêtes internet / papier",
+        "dispo": true,
+        "gsbpm": "gsbpm-4-3",
+        "idProduct": "products-P02",
+        "products": ["products-P0202"],
+        "description": "L'application de suivi national (Moog) permet de suivre les questionnaires papier pour une enquête internet avec un protocole papier."
+      },
+      {
+        "id": "F525-11",
+        "label": "Permettre l'envoi automatisé et centralisé de communication auprès des répondants",
+        "dispo": false,
+        "gsbpm": "gsbpm-4-3",
+        "idProduct": "products-P02",
+        "products": ["products-P0204"],
+        "description": "Un module de communication dédié permet l'envoi de communication \"en masse\" quel qu'en soit le type, courriers papiers, mails ou SMS.."
+      },
+      {
+        "id": "F525-12",
+        "label": "Normaliser les adresses postales des unités enquêtées",
+        "dispo": true,
+        "gsbpm": "gsbpm-4-3",
+        "idProduct": "products-P02",
+        "products": ["products-P0204"],
+        "description": "Avant lancement de la production éditique, les chaînes applicatives sollicitent un service externe (RNVP) garantissant la normalisation des adresses conformément aux normes postales (norme Afnor) et offrant des services de correction/standardisation pour en améliorer la qualité."
+      },
+      {
+        "id": "F525-13",
+        "label": "Permettre l’envoi en lots de support papier pour les enquêteurs",
+        "dispo": false,
+        "gsbpm": "gsbpm-4-3",
+        "idProduct": "products-P02",
+        "products": ["products-P0204"],
+        "description": "Les supports papier pour les enquêteurs, type fiche de suivi de collecte, sont produits en masse (en mobilisant la chaîne éditique) à partir des échantillons de collecte."
+      },
+      {
+        "id": "F525-14",
+        "label": "Suivre les demandes d'envoi de communication par les enquêteurs",
+        "dispo": false,
+        "gsbpm": "gsbpm-4-3",
+        "idProduct": "products-P02",
+        "products": ["products-P0206"],
+        "description": "L'application de gestion (Sabiane gestion) permet de suivre les demandes d'envoi et de communication (courriers, mails, SMS) des enquêteurs."
+      },
+      {
+        "id": "F525-15",
+        "label": "Alimenter automatiquement, y compris en cours de collecte, les outils de collecte à partir du référentiel des enquêteurs",
+        "dispo": true,
+        "gsbpm": "gsbpm-4-3",
+        "idProduct": "products-P02",
+        "products": ["products-P0203", "products-P0206"],
+        "description": "Les outils de collecte Sabiane Gestion et Sabiane Collecte sont mis à jour automatiquement à partir du référentiel des enquêteurs."
       },
       {
         "id": "F610-1",
-        "label": "Livrer les paradonnées des enquêtes autoadministrées",
-        "users": ["users-U001", "users-U002"],
-        "dispo": false,
+        "label": "Numériser des questionnaires papier",
+        "dispo": true,
         "gsbpm": "gsbpm-4-4",
-        "idProduct": "products-P03",
-        "products": ["products-P0304"],
-        "description": "Les données relatives au déroulement d'un questionnement (paradonnées) enregistrées par le questionnaire internet sont mises à disposition dans un entrepôt. A noter que ces données peuvent être exploitées à des fins de maîtrise d'œuvre ou de conception dans le cadre de tests d'enquête ou de questionnaire. Elles sont mises à disposition en cours de collecte afin de permettre le pilotage du processus (ex: echantillonnage des non-répondants sur la base de paradonnées web)."
+        "idProduct": "products-P02",
+        "products": ["products-P0205"],
+        "description": "Le PENM, soit à partir des outils offerts par son atelier de numérisation, soit par le dialogue avec un prestataire, fournit aux maîtrises d'œuvre d'enquête, dans un format exploitable, la liste des questionnaires saisis."
       },
       {
         "id": "F610-2",
-        "label": "Livrer les paradonnées des enquêtes avec enquêteurs",
-        "users": ["users-U001", "users-U002"],
+        "label": "Fournir les données collectées dans le cas d'une collecte web pour traitements post collecte",
+        "dispo": true,
+        "gsbpm": "gsbpm-4-4",
+        "idProduct": "products-P02",
+        "products": ["products-P0217"],
+        "description": "Platine fournit les données collectées d'une collecte web pour permettre les traitements post collecte."
+      },
+      {
+        "id": "F610-3",
+        "label": "Fournir les données collectées dans le cas d'une collecte avec enquêteurs",
+        "dispo": true,
+        "gsbpm": "gsbpm-4-4",
+        "idProduct": "products-P02",
+        "products": ["products-P0206"],
+        "description": "Sabiane fournit les données collectées d'une collecte enquêteurs (face à face et/ou téléphone pour permettre les traitements post collecte."
+      },
+      {
+        "id": "F610-4",
+        "label": "Nettoyer les données de collecte issues de la numérisation des questionnaires papier",
         "dispo": false,
         "gsbpm": "gsbpm-4-4",
-        "idProduct": "products-P03",
-        "products": ["products-P0303"],
-        "description": "Les données relatives au déroulement d'un questionnement(paradonnées) enregistrées par le questionnaire enquêteur sont mis à disposition dans un entrepôt."
+        "idProduct": "products-P02",
+        "products": ["products-P0205"],
+        "description": "à compléter"
+      },
+      {
+        "id": "F610-5",
+        "label": "Nettoyer les données de collecte et de suivi issues d'une collecte web",
+        "dispo": false,
+        "gsbpm": "gsbpm-4-4",
+        "idProduct": "products-P02",
+        "products": ["products-P0217"],
+        "description": "à compléter"
+      },
+      {
+        "id": "F610-6",
+        "label": "Nettoyer les données de collecte et de suivi issues d'une collecte avec enquêteurs",
+        "dispo": false,
+        "gsbpm": "gsbpm-4-4",
+        "idProduct": "products-P02",
+        "products": ["products-P0206"],
+        "description": "à compléter"
+      },
+      {
+        "id": "F610-7",
+        "label": "Mettre à disposition une plate forme dédiée à la formation des enquêteurs",
+        "dispo": true,
+        "gsbpm": "gsbpm-4-2",
+        "idProduct": "products-P02",
+        "products": ["products-P0203"],
+        "description": "Les outils (brique Queen du poste enquêteur Sabiane Collecte) permettent d’utiliser un questionnaire enquêteur dans un contexte de formation (sans fonctions de suivi/organisation notamment). Cela inclut la gestion de données de formation qui peuvent être conservées sans interférer avec les données de collecte."
+      },
+      {
+        "id": "F610-8",
+        "label": "Outiller la mise en place de sessions de formation nationales ou locales",
+        "dispo": true,
+        "gsbpm": "gsbpm-4-2",
+        "idProduct": "products-P02",
+        "products": ["products-P0210"],
+        "description": "Un outil facilitant la mise en œuvre des sessions de formation (initialisation des comptes et des données notamment) est mis à disposition des équipes de formation, nationales ou locales, afin de permettre une mise en œuvre des formations en autonomie."
       },
       {
         "id": "F620-1",
