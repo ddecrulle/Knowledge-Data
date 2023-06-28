@@ -21,7 +21,7 @@
         "idProduct": "products-P03",
         "products": ["products-P0306"],
         "description": "L'application Opale de gestion de la charge enquêteur permet de disposer d'un référentiel des enquêteurs dans lequel sont centralisées les ajouts, modifications et suppression de coordonnées des enquêteurs y compris en cours de collecte."
-      },   
+      },
       {
         "id": "F111-1",
         "label": "Consulter une présentation de l'offre de services du système d'information de collecte",
@@ -681,10 +681,10 @@
         "dispo": true,
         "gsbpm": "gsbpm-4-3",
         "idProduct": "products-P02",
-        "products": ["products-P0203","products-P0206"],
+        "products": ["products-P0203", "products-P0206"],
         "description": "Les outils de collecte Sabiane Gestion et Sabiane Collecte sont mis à jour automatiquement à partir du référentiel des enquêteurs."
       },
-            {
+      {
         "id": "F610-1",
         "label": "Numériser des questionnaires papier",
         "dispo": true,

@@ -5,7 +5,7 @@
   "definitions": {
     "serviceType": {
       "type": "object",
-      "required": ["id", "label", "description"],
+      "required": ["id", "label", "description", "function"],
       "properties": {
         "id": {
           "type": "string"
@@ -15,11 +15,6 @@
         },
         "description": {
           "type": "string"
-        },
-        "service": {
-          "type": "array",
-          "uniqueItems": true,
-          "items": { "$ref": "#/definitions/serviceType" }
         },
         "function": {
           "type": "array",
