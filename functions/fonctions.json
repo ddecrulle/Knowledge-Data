@@ -871,8 +871,8 @@
         "users": ["users-U010", "users-U011"],
         "dispo": true,
         "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
-        "products": ["products-P0302"],
+        "idProduct": "products-P02",
+        "products": ["products-P0201"],
         "description": "Une interface permet aux services d'assistance et d'administration d'administrer le contenu d'une FAQ générale."
       },
       {
@@ -881,8 +881,8 @@
         "users": ["users-U001", "users-U002"],
         "dispo": true,
         "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
-        "products": ["products-P0302"],
+        "idProduct": "products-P02",
+        "products": ["products-P0201"],
         "description": "Une interface permet aux services de maîtrise d'ouvrage et d'oeuvre statistique d'administrer le contenu d'une FAQ spécifique à leur enquête."
       },
       {
@@ -941,8 +941,8 @@
         "users": ["users-U003"],
         "dispo": true,
         "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
-        "products": ["products-P0304", "products-P0303"],
+        "idProduct": "products-P02",
+        "products": ["products-P0204"],
         "description": "Sur les courriers, il est mentionné les différents canaux pour contacter l'assistance : téléphone, mail et courrier, ainsi que les liens internet pour se renseigner sur l'enquête et sur l'Insee."
       },
       {
@@ -1093,8 +1093,8 @@
         "users": ["users-U007"],
         "dispo": false,
         "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
-        "products": ["products-P0303"],
+        "idProduct": "products-P02",
+        "products": ["products-P0206","products-P0203"],
         "description": "Les outils de collecte, Sabiane (gestion et collecte) sont mis à jour automatiquement à partir du référentiel d'enquêteurs."
       },
       {
@@ -1116,24 +1116,14 @@
         "idProduct": "NotAvailable",
         "products": ["products-P0204"],
         "description": "Un module de communication dédié permet l'envoi de communication \"en masse\" quel qu'en soit le type, courriers papiers, mails ou SMS."
-      },
-      {
-        "id": "F841-2",
-        "label": "Permettre la production en masse de support papier pour les enquêteurs",
-        "users": ["users-U004"],
-        "dispo": false,
-        "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
-        "products": ["products-P0204"],
-        "description": "Les supports papier pour les enquêteurs, type fiche de suivi de collecte, sont produits en masse (en mobilisant les chaînes éditiques) à partir des échantillons de collecte."
-      },
+      },      
       {
         "id": "F841-3",
         "label": "Permettre le suivi des envois de communication aux répondants ou support papier aux enquêteurs",
         "users": ["users-U002"],
         "dispo": false,
         "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
+        "idProduct": "products-P02",
         "products": ["products-P0204"],
         "description": "Le module de communication prend en charge la mise à disposition (sous forme d'API et d'interface utilisateur) d'informations de suivi sur le déroulement des opérations de communication (date de déclenchement, date d'envoi, statut individuel type plis non distribués ou mails non remis) etc."
       },
@@ -1203,7 +1193,7 @@
         "users": ["users-U009", "users-U005"],
         "dispo": false,
         "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
+        "idProduct": "products-P02",
         "products": ["products-P0206", "products-P0204"],
         "description": "Si le protocole de l'enquête le permet, le gestionnaire peut déclencher l'envoi d'un courrier standard (type lettre-avis, relance, courrier de courtoisie), mail ou SMS à un répondant depuis son application de gestion."
       },
@@ -1213,7 +1203,7 @@
         "users": ["users-U005"],
         "dispo": false,
         "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
+        "idProduct": "products-P02",
         "products": ["products-P0206", "products-P0204"],
         "description": "L'application de gestion (Sabiane gestion) permet de visualiser les demandes d'envoi et de communication (courriers, mails, SMS) demandées par les enquêteurs."
       },
@@ -1299,17 +1289,7 @@
         "idProduct": "products-P02",
         "products": ["products-P0202"],
         "description": "L'assistance peut signaler le refus de répondre d'un répondant. Ce signalement est pris en compte automatiquement et le répondant ne sera ni contacté par un enquêteur, ni relancé."
-      },
-      {
-        "id": "F850-1",
-        "label": "Standardiser et normaliser les adresses avant un envoi courrier papier",
-        "users": ["users-U007"],
-        "dispo": true,
-        "gsbpm": "gsbpm-4-3",
-        "idProduct": "products-P03",
-        "products": ["products-P0303", "products-P0304", "products-P0305"],
-        "description": "Avant lancement de la production éditique, les chaînes applicatives sollicitent un service externe (RNVP) garantissant la normalisation des adresses conformément aux normes postales (norme Afnor) et offrant des services de correction/standardisation pour en améliorer la qualité."
-      },
+      },     
       {
         "id": "F850-3",
         "label": "Enrichir les coordonnées au sein des échantillons",
@@ -1383,17 +1363,7 @@
         "idProduct": "products-P04",
         "products": ["products-P0403"],
         "description": "Les données livrées par le SI de collecte sont consolidées quel que soit le mode utilisé pour la collecte ou les processus de contrôle qualité mobilisés. Les règles de consolidation visent à produire une base statistique pour exploitation statistique « aval ». Elles s'appuient sur des métadonnées actives (arbre des variables de l'enquête, règles algorithmique de consolidation…)"
-      },
-      {
-        "id": "F1000-2",
-        "label": "Communiquer, le cas échéant, avec d'autres systèmes de collecte (RP, SSP, prestataires externes…)",
-        "users": ["users-U011"],
-        "dispo": false,
-        "gsbpm": "gsbpm-5-8",
-        "idProduct": "products-P03",
-        "products": ["products-P0307"],
-        "description": "Chaque brique du SI de collecte est en mesure de communiquer avec un système externe. Dans le cas, par exemple, d'une collecte complétée par un SI externe type carnet de collecte, du recours à un prestataire pour partie du processus, ou encore dans le cas d'architecture hybride, avec des outils de gestion de la collecte hors Sabiane."
-      }
+      }      
     ]
   }
 ]
