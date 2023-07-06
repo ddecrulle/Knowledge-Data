@@ -1106,17 +1106,7 @@
         "idProduct": "products-P02",
         "products": ["products-P0206"],
         "description": "L'application de gestion permet de sélectionner, rechercher et filtrer les unités enquêtées des enquêteurs, et d'en afficher l'état (préparée/repérée/contactée/enquêtée/mode de réponse...)."
-      },
-      {
-        "id": "F841-1",
-        "label": "Permettre l'envoi automatisé et centralisé de communication auprès des répondants",
-        "users": ["users-U009", "users-U002"],
-        "dispo": false,
-        "gsbpm": "gsbpm-4-3",
-        "idProduct": "NotAvailable",
-        "products": ["products-P0204"],
-        "description": "Un module de communication dédié permet l'envoi de communication \"en masse\" quel qu'en soit le type, courriers papiers, mails ou SMS."
-      },      
+      },     
       {
         "id": "F841-3",
         "label": "Permettre le suivi des envois de communication aux répondants ou support papier aux enquêteurs",
