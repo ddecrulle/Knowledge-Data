@@ -1362,7 +1362,7 @@
             "dispo": true,
             "gsbpm": "gsbpm-5-2",
             "idProduct": "products-P04",
-            "products": ["products-P0401"],
+            "products": ["products-P0403"],
             "description": "En fin de collecte, à partir des évènements enregistrés pendant la période de collecte (cycle de vie d'une unité enquêtée implémenté dans les outils) des aggrégats renseignant sur le 'résultat de l'opération de collecte' sont construits pour chaque unité enquêtée (à des fins d'alimentation de l'infocentre)."
           },
           {
