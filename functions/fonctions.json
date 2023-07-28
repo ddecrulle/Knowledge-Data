@@ -735,12 +735,11 @@
           {
             "id": "F620-1",
             "label": "Analyser les paradonnées à l'issue de la collecte",
-            "users": ["users-U001", "users-U002"],
             "dispo": false,
             "gsbpm": "gsbpm-5-3",
             "idProduct": "products-P04",
             "products": ["products-P0404"],
-            "description": "L'entrepôt de paradonnées (Parliament) fournit une offre d'indicateurs standards (type tableau de bord) et permet un requêtage libre sur les paradonnées pour la construction d'indicateurs ad-hoc (les paradonnées enquêteur individuelles sont réservées aux seuls maîtrises d'œuvre)."
+            "description": "L'entrepôt de paradonnées (Parliament) fournit une offre d'indicateurs standards (type tableau de bord) et permet un requêtage libre sur les paradonnées pour la construction d'indicateurs ad-hoc."
           },
           {
             "id": "F630-1",
@@ -784,13 +783,21 @@
           },
           {
             "id": "F640-2",
-            "label": "Modifier les valeurs d'un questionnaire web",
-            "users": ["users-U005", "users-U009", "users-U002"],
+            "label": "Expertiser les données collectées issues de questionnaires internet",
             "dispo": false,
             "gsbpm": "gsbpm-5-4",
             "idProduct": "products-P04",
-            "products": ["products-P0405", "products-P0402"],
-            "description": "Les gestionnaires disposent d'un outil leur permettant de visualiser dans une ergonomie adaptée des questionnaires à corriger. Une couche de contrôle post-collecte permet de mettre en avant les variables à instruire. Les gestionnaires peuvent modifier/corriger les réponses d'un questionnaire web, ces modifications sont historisées."
+            "products": ["products-P0401"],
+            "description": "Les gestionnaires disposent d’un outil leur permettant de visualiser dans une ergonomie adaptée des questionnaires à corriger. Une couche de contrôle post-collecte permet de mettre en avant les variables à instruire. Les gestionnaires peuvent modifier/corriger les réponses d’un questionnaire web, ces modifications sont historisées."
+          },
+          {
+            "id": "F640-4",
+            "label": "Expertiser les données collectées issues de questionnaires enquêteurs",
+            "dispo": false,
+            "gsbpm": "gsbpm-5-4",
+            "idProduct": "products-P04",
+            "products": ["products-P0401"],
+            "description": "Les gestionnaires disposent d’un outil leur permettant de visualiser dans une ergonomie adaptée des questionnaires à corriger. Une couche de contrôle post-collecte permet de mettre en avant les variables à instruire. Les gestionnaires peuvent modifier/corriger les réponses d’un questionnaire enquêteur, ces modifications sont historisées."
           },
           {
             "id": "F640-3",
@@ -1341,21 +1348,19 @@
         "description": "",
         "function": [
           {
-            "id": "services-S123-2",
-            "label": "Produire des indicateurs de qualité du questionnaire",
-            "users": ["users-U002"],
-            "dispo": false,
-            "gsbpm": "gsbpm-3-1",
+            "id": "F650-3",
+            "label": "Produire des indicateurs et autres variables calculées à partir des données issues de la collecte",
+            "dispo": true,
+            "gsbpm": "gsbpm-2-5",
             "idProduct": "products-P04",
-            "products": ["products-P0402"],
-            "description": "Un module applicatif dédié permet de spécifier les indicateurs qualité mobilisés durant le processus de collecte (complétude, relecture nécessaire, etc.). Les possibilités en termes de choix et de configuration de l'indicateur sont sous la responsabilité de DRTI (questions d'ordre méthodologique) et de la DMOAE (accompagnement/formation des enquêteurs). Ces spécifications pilotent des traitements qui calculent effectivement l'indicateur qualité."
+            "products": ["products-P0401"],
+            "description": "L'outil Kraftwerk permet de produire des indicateurs et autres variables calculées à partir des données issues de la collecte (métadonnées, paradonnées et données collectées) et de spécifications VTL."
           },
           {
             "id": "F650-1",
-            "label": "Produire des aggrégats 'résultat d'une opération de collecte'",
-            "users": ["users-U002"],
-            "dispo": false,
-            "gsbpm": "gsbpm-5-4",
+            "label": "Produire des aggrégats résultat d'une opération de collecte",
+            "dispo": true,
+            "gsbpm": "gsbpm-5-2",
             "idProduct": "products-P04",
             "products": ["products-P0401"],
             "description": "En fin de collecte, à partir des évènements enregistrés pendant la période de collecte (cycle de vie d'une unité enquêtée implémenté dans les outils) des aggrégats renseignant sur le 'résultat de l'opération de collecte' sont construits pour chaque unité enquêtée (à des fins d'alimentation de l'infocentre)."
@@ -1363,18 +1368,25 @@
           {
             "id": "F650-2",
             "label": "Fournir des indicateurs de performance",
-            "users": ["users-U009", "users-U005", "users-U002"],
             "dispo": true,
-            "gsbpm": "gsbpm-5-4",
+            "gsbpm": "gsbpm-5-5",
             "idProduct": "products-P04",
-            "products": ["products-P0401"],
+            "products": ["products-P0406"],
             "description": "Un infocentre permet la production d'indicateurs de performance et de contrôle de gestion servant de support au management des enquêteurs."
+          },
+          {
+            "id": "F650-4",
+            "label": "Disposer d’un référentiel des données collectées",
+            "dispo": false,
+            "gsbpm": "gsbpm-5-8",
+            "idProduct": "products-P04",
+            "products": ["products-P0402"],
+            "description": "à compléter"
           },
           {
             "id": "F1000-1",
             "label": "Réconcilier les données collectées selon les modes",
-            "users": ["users-U007"],
-            "dispo": false,
+            "dispo": true,
             "gsbpm": "gsbpm-5-8",
             "idProduct": "products-P04",
             "products": ["products-P0403"],
