@@ -1353,7 +1353,7 @@
             "dispo": true,
             "gsbpm": "gsbpm-2-5",
             "idProduct": "products-P04",
-            "products": ["products-P0401"],
+            "products": ["products-P0403"],
             "description": "L'outil Kraftwerk permet de produire des indicateurs et autres variables calculées à partir des données issues de la collecte (métadonnées, paradonnées et données collectées) et de spécifications VTL."
           },
           {
