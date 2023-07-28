@@ -189,7 +189,7 @@
       "children": [
         {
           "id": "products-P0401",
-          "label": "Alimentation Infocentre"
+          "label": "Perret"
         },
         {
           "id": "products-P0402",
@@ -206,6 +206,10 @@
         {
           "id": "products-P0405",
           "label": "Generic"
+        },
+        {
+          "id": "products-P0406",
+          "label": "Infocentre"
         }
       ]
     }

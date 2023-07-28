@@ -104,6 +104,11 @@
           "description": "Dans les cas où les données sont jugées incorrectes, manquent ou ne sont pas fiables, de nouvelles valeurs peuvent être introduites dans le cadre de ce sous-processus. Les termes édition et imputation recouvrent diverses méthodes permettant de réaliser ces opérations, l’approche suivie étant souvent fondée sur des règles."
         },
         {
+          "id": "gsbpm-5-5",
+          "label": "Calcul de nouvelles variables et unités",
+          "description": "Des outils pour créer automatiquement de nouvelles variables ou d'unités à enquêter dans des collectes ultérieures à partir d'une spécification formelle (métadonnées actives)"
+        },
+        {
           "id": "gsbpm-5-8",
           "label": "Finalisation des fichiers de données",
           "description": "Ce sous-processus regroupe les résultats des autres sous-processus de la même phase pour produire un fichier de données (le plus souvent de macrodonnées) qui sert d’intrant pour la phase d’«analyse». Parfois, cela peut être un fichier intermédiaire plutôt qu’un fichier définitif, en particulier pour les processus d’activité où les délais sont très serrés et où il est demandé de produire à la fois des estimations préliminaires et des estimations définitives"
@@ -118,7 +123,7 @@
         {
           "id": "gsbpm-8-1",
           "label": "Recueil des produits d’évaluation",
-          "description": "es supports d’évaluation peuvent être produits au cours de n’importe quel autre phase ou sous-processus. Ils peuvent prendre diverses formes, réactions des utilisateurs, métadonnées de processus (paradonnées), paramètres de mesure des systèmes ou suggestions du personnel par exemple. Le compte rendu des progrès réalisés au regard d’un plan d’action convenu lors d’une précédente itération peut aussi constituer un intrant pour les évaluations des itérations suivantes. Ce sous-processus regroupe ces différents apports et les met à la disposition de la personne ou de l’équipe chargée de l’évaluation."
+          "description": "Des supports d’évaluation peuvent être produits au cours de n’importe quel autre phase ou sous-processus. Ils peuvent prendre diverses formes, réactions des utilisateurs, métadonnées de processus (paradonnées), paramètres de mesure des systèmes ou suggestions du personnel par exemple. Le compte rendu des progrès réalisés au regard d’un plan d’action convenu lors d’une précédente itération peut aussi constituer un intrant pour les évaluations des itérations suivantes. Ce sous-processus regroupe ces différents apports et les met à la disposition de la personne ou de l’équipe chargée de l’évaluation."
         }
       ]
     }
