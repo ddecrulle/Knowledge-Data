@@ -43,6 +43,16 @@
           "id": "products-P0107",
           "label": "Documentation",
           "description": "Supports variés destinés aux utilisateurs"
+        },
+        {
+          "id": "products-P0108",
+          "label": "Knowledge",
+          "description": "Présentation de l'offre de services"
+        },
+        {
+          "id": "products-P0110",
+          "label": "ACDC",
+          "description": "Atelier de conception de protocole"
         }
       ]
     },
