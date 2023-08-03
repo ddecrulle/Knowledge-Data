@@ -271,7 +271,7 @@
           {
             "id": "F210-1",
             "label": "Alimenter / personnaliser en autonomie le portail de promotion d’une enquête",
-            "dispo": true,
+            "dispo": false,
             "gsbpm": "gsbpm-3-1",
             "idProduct": "products-P02",
             "products": ["products-P0201"],
@@ -280,7 +280,7 @@
           {
             "id": "F210-2",
             "label": "Paramétrer l'accès à un questionnaire en fonction d'un contexte d'utilisation",
-            "dispo": true,
+            "dispo": false,
             "gsbpm": "gsbpm-3-1",
             "idProduct": "products-P02",
             "products": ["products-P0215"],
@@ -428,7 +428,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0203"],
-            "description": "LLe poste de collecte enquêteur permet aux enquêteurs de visualiser les unités enquêtées collectées et celles restantes à faire."
+            "description": "Le poste de collecte enquêteur permet aux enquêteurs de visualiser les unités enquêtées collectées et celles restantes à faire."
           },
           {
             "id": "F420-3",
@@ -469,7 +469,7 @@
           {
             "id": "F511-4",
             "label": "Proposer une assistance en ligne automatisée",
-            "dispo": true,
+            "dispo": false,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0201"],
@@ -514,7 +514,7 @@
           {
             "id": "F512-5",
             "label": "Proposer une assistance personnalisée",
-            "dispo": false,
+            "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0203"],
@@ -551,7 +551,7 @@
             "id": "F521-1",
             "label": "Extraire les données de gestion d'une collecte par internet",
             "dispo": true,
-            "gsbpm": "gsbpm-4-2",
+            "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202"],
             "description": "L'application de suivi national (Moog) offre des fonctions d'export (utilisation manuelle et unitaire) des informations de gestion d'une collecte par internet pour des traitements en \"self\" (type constitution des relances)."
@@ -600,15 +600,6 @@
             "idProduct": "products-P02",
             "products": ["products-P0202"],
             "description": "Afin de pouvoir répondre aux demandes de droits d'accès, modifications, etc. l'application Moog met à disposition des services d'assistance une version papier complétée du questionnaire web."
-          },
-          {
-            "id": "F524-2",
-            "label": "Notifier une information aux enquêteurs (par enquête, par région…) – Sabiane Gestion",
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0206"],
-            "description": "Les gestionnaires peuvent envoyer des notifications thématiques aux enquêteurs d'une région ou d'une enquête."
           },
           {
             "id": "F524-3",
