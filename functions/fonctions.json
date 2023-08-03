@@ -156,12 +156,110 @@
           {
             "id": "F850-4",
             "label": "Offrir un service de standardisation lors de la collecte de coordonnées",
-            "users": ["users-U003", "users-U004"],
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101", "products-P0102"],
+            "description": "Au sein des questionnaires web et enquêteurs et des interfaces de gestion des données personnelles pour les répondants, un service de standardisation/correction de l'adresse postale et/ou mail est mobilisée afin d'aider le répondant à fournir des adresses de qualité."
+          },
+          {
+            "id": "F138-1",
+            "label": "Afficher un questionnaire dans le contexte d’une enquête web",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P01",
-            "products": ["products-P0203", "products-P0101", "products-P0209"],
-            "description": "Au sein des questionnaires web et enquêteurs et des interfaces de gestion des données personnelles pour les répondants, un service de standardisation/correction de l'adresse postale et/ou mail est mobilisée afin d'aider le répondant à fournir des adresses de qualité."
+            "products": ["products-P0101"],
+            "description": "L’enquêté, une fois authentifié, peut visualiser son questionnaire ou les annexes associés."
+          },
+          {
+            "id": "F138-2",
+            "label": "Expédier un questionnaire complété dans le contexte d’une enquête web",
+            "dispo": true,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "L’enquêté peut valider son questionnaire, ce qui a pour effet de clore définitivement la collecte. Les droits de consultation, modification etc. peuvent s’exercer par le biais du service d’assistance."
+          },
+          {
+            "id": "F138-3",
+            "label": "Disposer d’une image (PDF) du questionnaire renseigné",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "L’enquêté dispose d’un accès aux réponses qu’il a fournies sous la forme d’un PDF récapitulatif."
+          },
+          {
+            "id": "F138-4",
+            "label": "Renseigner pour la première fois un questionnaire",
+            "dispo": true,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "L’enquêté saisit les réponses à son questionnaire, soit partiellement, soit en totalité."
+          },
+          {
+            "id": "F138-5",
+            "label": "Enregistrer l’état d’un questionnaire",
+            "dispo": true,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "L’enquêté peut interrompre le remplissage du questionnaire pour le reprendre ultérieurement, les données collectées sont sauvegardées régulièrement pendant le questionnement et peuvent l’être formellement lorsque le répondant quitte le questionnaire."
+          },
+          {
+            "id": "F138-6",
+            "label": "Reprendre un questionnaire",
+            "dispo": true,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "Après une interruption, l’enquêté peut reprendre le remplissage du questionnaire à l’endroit où il s’était arrêté (ou au début du questionnaire au choix). Il peut accéder aux réponses qu’il a préalablement fournies par retours arrière successifs au sein de son questionnaire."
+          },
+          {
+            "id": "F138-7",
+            "label": "Appeler des services d’accès à des listes, nomenclatures, y compris volumineuses (navigation sur liste…)",
+            "dispo": true,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "L’enquêté peut mobiliser des ressources externes type « aides à la saisie » (nomenclatures, navigation sur liste)."
+          },
+          {
+            "id": "F138-8",
+            "label": "Appeler des services d’accès à des ressources multimédia (sons, vidéos…)",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "L’enquêté peut mobiliser des ressources externes type ressources multimédias (vidéo, sons)."
+          },
+          {
+            "id": "F138-9",
+            "label": "Afficher de l’aide contextuelle",
+            "dispo": true,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "Pour les questions ou les modalités nécessitant des consignes ou des précisions, l’enquêté bénéficie de textes sous forme d’infos-bulles ou de consignes affichées dans une forme distinctive par rapport au texte de la question, selon les préconisations portées par DRTI."
+          },
+          {
+            "id": "F138-10",
+            "label": "Visualiser les réponses ne satisfaisant pas les critères de qualité (format, vraisemblance…)",
+            "dispo": true,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "Des contrôles de format ou de cohérence sont exécutés en cours de collecte et permettent de signaler au répondant les réponses à corriger."
+          },
+          {
+            "id": "F138-11",
+            "label": "Générer automatiquement la preuve de dépôt au format PDF d’un questionnaire validé sur internet",
+            "dispo": true,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "Dès que le questionnaire est validé, une preuve de dépôt de celui-ci est générée. Cette preuve de dépôt est téléchargeable par l’enquêté."
           }
         ]
       },
@@ -758,12 +856,11 @@
           {
             "id": "F630-1",
             "label": "Relire des questionnaires internet sans possibilité de modification",
-            "users": ["users-U009", "users-U002"],
             "dispo": true,
             "gsbpm": "gsbpm-5-3",
             "idProduct": "products-P01",
             "products": ["products-P0101"],
-            "description": "La plateforme de collecte internet offre un accès type « site miroir » permettant aux équipes de gestion et de maîtrise d'œuvre statistique de visualiser des questionnaires de répondants internet sans possibilité de modification."
+            "description": "La plateforme de collecte internet offre un accès type «site miroir» permettant aux équipes de gestion et de maîtrise d’œuvre statistique de visualiser des questionnaires de répondants internet sans possibilité de modification."
           },
           {
             "id": "F630-2",
