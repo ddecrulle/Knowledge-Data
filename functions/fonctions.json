@@ -260,6 +260,15 @@
             "idProduct": "products-P01",
             "products": ["products-P0101"],
             "description": "Dès que le questionnaire est validé, une preuve de dépôt de celui-ci est générée. Cette preuve de dépôt est téléchargeable par l’enquêté."
+          },
+          {
+            "id": "F630-1",
+            "label": "Relire des questionnaires internet sans possibilité de modification",
+            "dispo": true,
+            "gsbpm": "gsbpm-5-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "La plateforme de collecte internet offre un accès type «site miroir» permettant aux équipes de gestion et de maîtrise d’œuvre statistique de visualiser des questionnaires de répondants internet sans possibilité de modification."
           }
         ]
       },
@@ -834,453 +843,6 @@
             "idProduct": "products-P02",
             "products": ["products-P0210"],
             "description": "Un outil facilitant la mise en œuvre des sessions de formation (initialisation des comptes et des données notamment) est mis à disposition des équipes de formation, nationales ou locales, afin de permettre une mise en œuvre des formations en autonomie."
-          },
-          {
-            "id": "F620-1",
-            "label": "Analyser les paradonnées à l'issue de la collecte",
-            "dispo": false,
-            "gsbpm": "gsbpm-5-3",
-            "idProduct": "products-P04",
-            "products": ["products-P0404"],
-            "description": "L'entrepôt de paradonnées (Parliament) fournit une offre d'indicateurs standards (type tableau de bord) et permet un requêtage libre sur les paradonnées pour la construction d'indicateurs ad-hoc."
-          },
-          {
-            "id": "F630-1",
-            "label": "Relire des questionnaires internet sans possibilité de modification",
-            "dispo": true,
-            "gsbpm": "gsbpm-5-3",
-            "idProduct": "products-P01",
-            "products": ["products-P0101"],
-            "description": "La plateforme de collecte internet offre un accès type «site miroir» permettant aux équipes de gestion et de maîtrise d’œuvre statistique de visualiser des questionnaires de répondants internet sans possibilité de modification."
-          },
-          {
-            "id": "F630-2",
-            "label": "Relire des questionnaires « enquêteurs» sans possibilité de modification",
-            "users": ["users-U009", "users-U005", "users-U004", "users-U002"],
-            "dispo": false,
-            "gsbpm": "gsbpm-5-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0203"],
-            "description": "Le questionnaire enquêteur dispose d'un mode « lecture seule» qui empêche les modifications mais permet une relecture par un enquêteur, un gestionnaire, ou tout autre utilisateur habilité."
-          },
-          {
-            "id": "F630-3",
-            "label": "Identifier les questionnaires à vérifier",
-            "users": ["users-U009", "users-U002"],
-            "dispo": false,
-            "gsbpm": "gsbpm-5-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0206"],
-            "description": "L'outil de gestion DEM permet d'identifier les questionnaires à vérifier selon des critères spécifiques à l'enquête. Il permet également de gérer le cycle de relecture de ces questionnaires (à relire/relu)."
-          },
-          {
-            "id": "F640-1",
-            "label": "Modifier les valeurs d'un questionnaire enquêteur",
-            "users": ["users-U009", "users-U002"],
-            "dispo": false,
-            "gsbpm": "gsbpm-5-4",
-            "idProduct": "products-P02",
-            "products": ["products-P0203"],
-            "description": "Les gestionnaires peuvent modifier/corriger les réponses d'un questionnaire enquêteur dans le cadre d'un processus clairement formalisé. Sabiane collecte permet d'historiser les différentes modifications et leur contexte (en interview, par un gestionnaire…)."
-          },
-          {
-            "id": "F640-2",
-            "label": "Expertiser les données collectées issues de questionnaires internet",
-            "dispo": false,
-            "gsbpm": "gsbpm-5-4",
-            "idProduct": "products-P04",
-            "products": ["products-P0401"],
-            "description": "Les gestionnaires disposent d’un outil leur permettant de visualiser dans une ergonomie adaptée des questionnaires à corriger. Une couche de contrôle post-collecte permet de mettre en avant les variables à instruire. Les gestionnaires peuvent modifier/corriger les réponses d’un questionnaire web, ces modifications sont historisées."
-          },
-          {
-            "id": "F640-4",
-            "label": "Expertiser les données collectées issues de questionnaires enquêteurs",
-            "dispo": false,
-            "gsbpm": "gsbpm-5-4",
-            "idProduct": "products-P04",
-            "products": ["products-P0401"],
-            "description": "Les gestionnaires disposent d’un outil leur permettant de visualiser dans une ergonomie adaptée des questionnaires à corriger. Une couche de contrôle post-collecte permet de mettre en avant les variables à instruire. Les gestionnaires peuvent modifier/corriger les réponses d’un questionnaire enquêteur, ces modifications sont historisées."
-          },
-          {
-            "id": "F640-3",
-            "label": "Ajouter un commentaire lié à une unité enquêtée",
-            "users": ["users-U009", "users-U005", "users-U004", "users-U002"],
-            "dispo": false,
-            "gsbpm": "gsbpm-5-4",
-            "idProduct": "products-P02",
-            "products": ["products-P0203"],
-            "description": "Le questionnaire enquêteur, utilisé dans un contexte de collecte par l'enquêteur ou dans un contexte de gestion par le gestionnaire DEM, permet la saisie de commentaires sur l'unité enquêté (informations de disponibilité ou signalement de difficultés rencontrées) et pour chaque question (informations sur le contexte particulier de collecte d'une réponse)."
-          },
-          {
-            "id": "F711-1",
-            "label": "Afficher une FAQ consolidée (générique/spécifique à l'enquête)",
-            "users": ["users-U003"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0209", "products-P0201"],
-            "description": "Un ensemble de \"questions/réponses\" est proposé sur les portails de promotion Coleman et Coltrane à destination des internautes. Il se décompose en deux parties, une générale à l'ensemble des enquêtes ménages et une spécifique à l'enquête concernée."
-          },
-          {
-            "id": "F711-2",
-            "label": "Alimenter une FAQ générale (indépendante des enquêtes)",
-            "users": ["users-U010", "users-U011"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0201"],
-            "description": "Une interface permet aux services d'assistance et d'administration d'administrer le contenu d'une FAQ générale."
-          },
-          {
-            "id": "F711-3",
-            "label": "Alimenter une FAQ spécifique par enquête selon un cadre général (modèle de FAQ)",
-            "users": ["users-U001", "users-U002"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0201"],
-            "description": "Une interface permet aux services de maîtrise d'ouvrage et d'oeuvre statistique d'administrer le contenu d'une FAQ spécifique à leur enquête."
-          },
-          {
-            "id": "F711-4",
-            "label": "Produire des statistiques de consultation de la FAQ",
-            "users": ["users-U010", "users-U011", "users-U001", "users-U002"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0209", "products-P0201"],
-            "description": "Des statistiques de consultation des FAQ sont mis à disposition des acteurs du SI collecte (nombre de connexions, questions les plus consultées,...)"
-          },
-          {
-            "id": "F711-5",
-            "label": "Proposer un widget conversationnel",
-            "users": ["users-U003"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0211"],
-            "description": "Un widget conversationnel permet d'offrir aux répondants un dialogue interactif en vue d'une fourniture d'informations sélectionnées ou contextualisées."
-          },
-          {
-            "id": "F711-6",
-            "label": "Alimenter/Configurer le widget",
-            "users": ["users-U010"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0211"],
-            "description": "Une interface permet aux services d'assistance de simplement configurer et alimenter le widget d'assistance (avec une sélection parmi les questions les plus fréquentes par exemple)."
-          },
-          {
-            "id": "F711-7",
-            "label": "Proposer un chatbot",
-            "users": ["users-U003"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0213"],
-            "description": "Un automate, type chatbot, apporte une assistance interactive à partir de questions libres."
-          },
-          {
-            "id": "F712-1",
-            "label": "Permettre l'accès aux différents canaux d'assistance sur le portail d'enquêtes",
-            "users": ["users-U003"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0209", "products-P0201"],
-            "description": "Le portail permet d'accéder aux différents canaux d'assistance (formulaire, service de réinitialisation du mot de passe, widget, chatbot,...)."
-          },
-          {
-            "id": "F712-2",
-            "label": "Indiquer les différents canaux d'assistance sur les courriers",
-            "users": ["users-U003"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0204"],
-            "description": "Sur les courriers, il est mentionné les différents canaux pour contacter l'assistance : téléphone, mail et courrier, ainsi que les liens internet pour se renseigner sur l'enquête et sur l'Insee."
-          },
-          {
-            "id": "F712-3",
-            "label": "Mettre en place un serveur vocal interactif (SVI)",
-            "users": ["users-U003"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0212"],
-            "description": "Un serveur vocal interactif permet la prise en charge des appels téléphoniques de répondants, en fonction de l'enquête concernée, afin de leur communiquer de l'information ou de les orienter vers le bon interlocuteur dans le circuit d'assistance (assistance technique ou métier notamment)."
-          },
-          {
-            "id": "F720-1",
-            "label": "Rechercher une unité enquêtée et afficher son état",
-            "users": ["users-U010", "users-U009"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0202", "products-P0209"],
-            "description": "A l'aide de l'identifiant de connexion ou de l'identifiant de l'unité enquêtée uniquement pour le site de gestion nationale, il est possible d'afficher l'historique des différents statuts pour une unité enquêtée."
-          },
-          {
-            "id": "services-S720-2",
-            "label": "Consulter un questionnaire comme un enquêté",
-            "users": ["users-U009", "users-U005"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0209", "products-P0201", "products-P0203"],
-            "description": "Une fonctionnalité de type 'site miroir' permet aux gestionnaires de visualiser un questionnaire internet d'un répondant sans le modifier, à des fins notamment de contrôle qualité et d'accompagnement du répondant."
-          },
-          {
-            "id": "services-S720-3",
-            "label": "Automatiser la réinitialisation du mot de passe",
-            "users": ["users-U003"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0201", "products-P0209"],
-            "description": "Un service de réinitialisation du mot de passe est proposé au répondant en cas d'oubli de celui-ci. Le nouveau peut lui être envoyé par messagerie ou par courrier postal."
-          },
-          {
-            "id": "services-S720-4",
-            "label": "Permettre la réinitialisation du mot de passe d'un répondant",
-            "users": ["users-U010", "users-U009"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0202"],
-            "description": "A partir de Moog, l'assistance ou un gestionnaire dispose d'une fonctionnalité pour réinitialiser le mot de passe d'un enquêté, le nouveau étant transmis automatiquement par message ou par courrier postal."
-          },
-          {
-            "id": "services-S720-5",
-            "label": "Mettre à disposition des descriptions de procédures types (droit accès etc.)",
-            "users": ["users-U009", "users-U010", "users-U005"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0209", "products-P0201"],
-            "description": "De la documentation d'assistance à destination de répondants, type procédure de réinitialisation de son mot de passe ou base de connaissance, sont mises à disposition sur le portail."
-          },
-          {
-            "id": "services-S730-1",
-            "label": "Disposer d'un processus d'assistance auprès des enquêteurs documenté et outillé",
-            "users": ["users-U003", "users-U005", "users-U009"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0203", "products-P0206"],
-            "description": "Un processus formalisé et documenté permet d'assurer l'assistance des enquêteurs à plusieurs niveaux selon la complexité rencontrée. Des outils collaboratifs, type réseau social d'entreprise ou moteur de chat, sont mobilisés pour faciliter les échanges entre enquêteurs et l'assistance."
-          },
-          {
-            "id": "services-S730-2",
-            "label": "Notifier une information aux enquêteurs (par enquête, par région...)",
-            "users": ["users-U009", "users-U005"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0206"],
-            "description": "Les gestionnaires peuvent envoyer des notifications thématiques aux enquêteurs d'une région ou d'une enquête."
-          },
-          {
-            "id": "services-S730-3",
-            "label": "Consulter un questionnaire comme un enquêteur",
-            "users": ["users-U009", "users-U005"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0203"],
-            "description": "Une fonctionnalité de type 'site miroir' permet aux gestionnaires de visualiser un questionnaire enquêteur sans le modifier, à des fins notamment de contrôle qualité et d'accompagnement du répondant."
-          },
-          {
-            "id": "F811-1",
-            "label": "Visualiser/mettre à jour des données de contact",
-            "users": ["users-U005", "users-U003", "users-U004"],
-            "dispo": true,
-            "idProduct": "products-P02",
-            "gsbpm": "gsbpm-4-1",
-            "products": [
-              "products-P0202",
-              "products-P0206",
-              "products-P0203",
-              "products-P0209",
-              "products-P0201"
-            ],
-            "description": "Les différents acteurs peuvent mettre à jour les coordonnées d'un répondant suite à une interaction : le répondant lui-même lors d'une connexion, l'enquêteur lors d'un entretien, le gestionnaire ou assimilés lors d'un échange d'assistance."
-          },
-          {
-            "id": "F820-2",
-            "label": "Alimenter automatiquement les outils de collecte à partir du référentiel d'enquêteurs",
-            "users": ["users-U007"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0206", "products-P0203"],
-            "description": "Les outils de collecte, Sabiane (gestion et collecte) sont mis à jour automatiquement à partir du référentiel d'enquêteurs."
-          },
-          {
-            "id": "F830-1",
-            "label": "Visualiser l'état d'une unité enquêtée affectée à un enquêteur",
-            "users": ["users-U005"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0206"],
-            "description": "L'application de gestion permet de sélectionner, rechercher et filtrer les unités enquêtées des enquêteurs, et d'en afficher l'état (préparée/repérée/contactée/enquêtée/mode de réponse...)."
-          },
-          {
-            "id": "F841-3",
-            "label": "Permettre le suivi des envois de communication aux répondants ou support papier aux enquêteurs",
-            "users": ["users-U002"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0204"],
-            "description": "Le module de communication prend en charge la mise à disposition (sous forme d'API et d'interface utilisateur) d'informations de suivi sur le déroulement des opérations de communication (date de déclenchement, date d'envoi, statut individuel type plis non distribués ou mails non remis) etc."
-          },
-          {
-            "id": "F842-1",
-            "label": "Consulter les tableaux de suivi locaux et multimodes standards pour une enquête",
-            "users": ["users-U005"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0206"],
-            "description": "L'application de gestion (Sabiane gestion) propose des tableaux de bord et indicateurs (taux d'avancement, taux de collecte) standards (proposer à l'identique à toutes les enquêtes selon leur protocole) pour permettre le suivi local des collectes multimodes (potentiel résultat du web inclus) d'enquête."
-          },
-          {
-            "id": "F842-2",
-            "label": "Consulter des indicateurs / tableaux de suivi spécifiques à une enquête pour assurer la représentativité des réponses (ex : hauts patrimoines)",
-            "users": ["users-U005"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0206"],
-            "description": "L'application de gestion Sabiane gestion, à partir d'une configuration encadrée (possibilités limités) permet de consulter des tableaux de suivi et indicateurs spécifiques à une enquête (suivi du 'taux de remplissage' de variables significatives ou de strates)."
-          },
-          {
-            "id": "F842-3",
-            "label": "Visualiser la liste des unités enquêtées pour une enquête",
-            "users": ["users-U009", "users-U005"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0206"],
-            "description": "L'application de gestion (Sabiane gestion) offre des fonctions de recherches et de filtres sur les unités enquêtées en fonction de leur répartition locale et/ou par enquête, ainsi que des fonctions de visualisation des informations relatives à ces unités (état)."
-          },
-          {
-            "id": "F843-1",
-            "label": "Consulter des tableaux de suivi nationaux et multimodes standards",
-            "users": ["users-U002", "users-U009"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0202"],
-            "description": "L'application Moog permet de visualiser des tableaux standards de suivi national pour des collectes multimodes."
-          },
-          {
-            "id": "F843-2",
-            "label": "Consulter des indicateurs / tableaux de suivi spécifiques à une enquête pour assurer la représentativité des réponses",
-            "users": ["users-U002", "users-U009"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0202"],
-            "description": "L'application de suivi national (Moog), à partir d'une configuration encadrée (possibilités limitées) permet de consulter des tableaux de suivi et indicateurs spécifiques à une enquête (suivi du 'taux de remplissage' de variables significatives ou de strates)."
-          },
-          {
-            "id": "F843-3",
-            "label": "Extraire les données de suivi pour un usage self",
-            "users": ["users-U002", "users-U009"],
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0202"],
-            "description": "L'application de suivi national (Moog) offre des fonctions d'export des informations de suivi pour traitement en \"self\"."
-          },
-          {
-            "id": "F844-1",
-            "label": "Permettre l'envoi automatisé de communication auprès des répondants par les gestionnaires",
-            "users": ["users-U009", "users-U005"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0206", "products-P0204"],
-            "description": "Si le protocole de l'enquête le permet, le gestionnaire peut déclencher l'envoi d'un courrier standard (type lettre-avis, relance, courrier de courtoisie), mail ou SMS à un répondant depuis son application de gestion."
-          },
-          {
-            "id": "F844-2",
-            "label": "Suivre les demandes d'envoi de communication 'enquêteur'",
-            "users": ["users-U005"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0206", "products-P0204"],
-            "description": "L'application de gestion (Sabiane gestion) permet de visualiser les demandes d'envoi et de communication (courriers, mails, SMS) demandées par les enquêteurs."
-          },
-          {
-            "id": "F846-1",
-            "label": "Intégrer les PND",
-            "users": ["users-U009", "users-U002", "users-U004"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": [
-              "products-P0202",
-              "products-P0209",
-              "products-P0203",
-              "products-P0206"
-            ],
-            "description": "Les applications offrant du suivi national (Moog pour le web ménage, Coltrane Pilotage pour le web entreprise, à définir pour une collecte multimode) ou local (type application enquêteurs Sabiane Collecte) intègrent automatiquement les remontées éditiques de plis non distribués signalés par La Poste."
-          },
-          {
-            "id": "F846-2",
-            "label": "Intégrer les retours de mail (@ erronées)",
-            "users": ["users-U002", "users-U009"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0202", "products-P0209"],
-            "description": "Les applications offrant du suivi national (Moog pour le web ménage, Coltrane Pilotage pour le web entreprise, à définir pour une collecte multimode) ou local (type application enquêteurs Sabiane Collecte) intègrent automatiquement les retours de mails non délivrés."
-          },
-          {
-            "id": "F846-3",
-            "label": "Intégrer les listes de questionnaires papier numérisés (identifiants date) pour un suivi national",
-            "users": ["users-U002", "users-U009"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0202", "products-P0209"],
-            "description": "Les applications offrant du suivi national, Moog dans le contexte ménage, Coltrane pilotage dans celui entreprise, intègrent automatiquement les questionnaires papier reçus et numérisés."
-          },
-          {
-            "id": "F846-4",
-            "label": "Intégrer les listes de questionnaires papier numérisés (identifiants date) pour un suivi local",
-            "users": ["users-U009", "users-U005"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0206"],
-            "description": "L'application de suivi local (Sabiane gestion) intègre automatiquement les réponses issues de questionnaire papier."
-          },
-          {
-            "id": "F846-5",
-            "label": "Envoyer des communications aux répondants (papier, mail ou sms) en masse",
-            "users": ["users-U002", "users-U009"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0202", "products-P0209"],
-            "description": "Les applications de pilotage/suivi de collecte nationale permettent l'envoi de communication de masse (lettre de relance notamment) aux répondants."
-          },
-          {
-            "id": "F846-6",
-            "label": "Intégrer les signalements de l'assistance",
-            "users": ["users-U010", "users-U009"],
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0202"],
-            "description": "L'assistance peut signaler le refus de répondre d'un répondant. Ce signalement est pris en compte automatiquement et le répondant ne sera ni contacté par un enquêteur, ni relancé."
           }
         ]
       },
@@ -1493,6 +1055,33 @@
             "idProduct": "products-P04",
             "products": ["products-P0403"],
             "description": "Les données livrées par le SI de collecte sont consolidées quel que soit le mode utilisé pour la collecte ou les processus de contrôle qualité mobilisés. Les règles de consolidation visent à produire une base statistique pour exploitation statistique « aval ». Elles s'appuient sur des métadonnées actives (arbre des variables de l'enquête, règles algorithmique de consolidation…)"
+          },
+          {
+            "id": "F620-1",
+            "label": "Analyser les paradonnées à l'issue de la collecte",
+            "dispo": false,
+            "gsbpm": "gsbpm-5-3",
+            "idProduct": "products-P04",
+            "products": ["products-P0404"],
+            "description": "L'entrepôt de paradonnées (Parliament) fournit une offre d'indicateurs standards (type tableau de bord) et permet un requêtage libre sur les paradonnées pour la construction d'indicateurs ad-hoc."
+          },
+          {
+            "id": "F640-2",
+            "label": "Expertiser les données collectées issues de questionnaires internet",
+            "dispo": false,
+            "gsbpm": "gsbpm-5-4",
+            "idProduct": "products-P04",
+            "products": ["products-P0401"],
+            "description": "Les gestionnaires disposent d’un outil leur permettant de visualiser dans une ergonomie adaptée des questionnaires à corriger. Une couche de contrôle post-collecte permet de mettre en avant les variables à instruire. Les gestionnaires peuvent modifier/corriger les réponses d’un questionnaire web, ces modifications sont historisées."
+          },
+          {
+            "id": "F640-4",
+            "label": "Expertiser les données collectées issues de questionnaires enquêteurs",
+            "dispo": false,
+            "gsbpm": "gsbpm-5-4",
+            "idProduct": "products-P04",
+            "products": ["products-P0401"],
+            "description": "Les gestionnaires disposent d’un outil leur permettant de visualiser dans une ergonomie adaptée des questionnaires à corriger. Une couche de contrôle post-collecte permet de mettre en avant les variables à instruire. Les gestionnaires peuvent modifier/corriger les réponses d’un questionnaire enquêteur, ces modifications sont historisées."
           }
         ]
       }
