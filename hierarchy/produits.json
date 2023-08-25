@@ -39,7 +39,7 @@
           "label": "Pogues",
           "description": "Atelier de conception de questionnaire"
         },
-                {
+        {
           "id": "products-P0106",
           "label": "Public Enemy",
           "description": "Outil de personnalisation d'un instrument de collecte"
@@ -53,7 +53,7 @@
           "id": "products-P0101",
           "label": "Stromae",
           "description": "Orchestrateur web"
-        }        
+        }
       ]
     },
     {
@@ -81,13 +81,7 @@
         {
           "id": "products-P0218",
           "label": "**Mapex**",
-          "description": "Application mobile d'aide à l'organisation du travail des enquêteurs. Les principales fonctionnalités sont
-* Repérage sur téléphone
-* Envoi de sms ou d'appel directement depuis l'application
-* Lancement du GPS vers l'adresse de l'enquêté
-* Ajout de rendez-vous au calendrier
-
-N'attendez plus, essayez la [démo](https://mapex.demo.insee.io) !"
+          "description": "Application mobile d'aide à l'organisation du travail des enquêteurs. Les principales fonctionnalités sont \n* Repérage sur téléphone \n* Envoi de sms ou d'appel directement depuis l'application \n* Lancement du GPS vers l'adresse de l'enquêté \n* Ajout de rendez-vous au calendrier \nN'attendez plus, essayez la [démo](https://mapex.demo.insee.io) !"
         },
         {
           "id": "products-P0210",
@@ -148,7 +142,7 @@ N'attendez plus, essayez la [démo](https://mapex.demo.insee.io) !"
           "id": "products-P0211",
           "label": "Widget d’assistance",
           "description": ""
-        }        
+        }
       ]
     },
     {
@@ -206,7 +200,6 @@ N'attendez plus, essayez la [démo](https://mapex.demo.insee.io) !"
           "id": "products-P0401",
           "label": "Perret"
         }
-        
       ]
     }
   ]
