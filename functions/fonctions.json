@@ -1008,7 +1008,7 @@
       },
       {
         "id": "services-S4",
-        "label": "Traitement d'enquêtes",
+        "label": "Traitements post-collecte" ,
         "description": "",
         "function": [
           {
@@ -1021,9 +1021,18 @@
             "description": "L'outil Kraftwerk permet de produire des indicateurs et autres variables calculées à partir des données issues de la collecte (métadonnées, paradonnées et données collectées) et de spécifications VTL."
           },
           {
+            "id": "F650-5",
+            "label": "Traiter de manière standardiser les données issues du Tronc Commun des Ménages (TCM)",
+            "dispo": true,
+            "gsbpm": "gsbpm-2-5",
+            "idProduct": "products-P04",
+            "products": ["products-P0403"],
+            "description": "L'outil Kraftwerk intégre un service des traitements standards pour le TCM. "
+          },
+          {
             "id": "F650-1",
             "label": "Produire des aggrégats résultat d'une opération de collecte",
-            "dispo": true,
+            "dispo": false,
             "gsbpm": "gsbpm-5-2",
             "idProduct": "products-P04",
             "products": ["products-P0403"],
@@ -1045,7 +1054,7 @@
             "gsbpm": "gsbpm-5-8",
             "idProduct": "products-P04",
             "products": ["products-P0402"],
-            "description": "à compléter"
+            "description": "A l'issue de la collecte, les réponses des unités enquêtées sont sont stockées dans un référentiel pour pouvoir les remobiliser au besoin."
           },
           {
             "id": "F1000-1",
@@ -1058,12 +1067,12 @@
           },
           {
             "id": "F620-1",
-            "label": "Analyser les paradonnées à l'issue de la collecte",
-            "dispo": false,
-            "gsbpm": "gsbpm-5-3",
+            "label": "Utiliser les paradonnées et données de suivi",
+            "dispo": true,
+            "gsbpm": "gsbpm-5-5",
             "idProduct": "products-P04",
-            "products": ["products-P0404"],
-            "description": "L'entrepôt de paradonnées (Parliament) fournit une offre d'indicateurs standards (type tableau de bord) et permet un requêtage libre sur les paradonnées pour la construction d'indicateurs ad-hoc."
+            "products": ["products-P0403"],
+            "description": "Kraftwerk prend en compte les paradonnées et les données de suivi, et sait traiter entre autres : l'indicatrice pour les questionnaires Web pour indiquer si les enquêtés sont passés dans la question ou si elle a été filtrée; Pour les collectes par enquêteur, les variables MISSING, c'est-à-dire indiquant si l'enquêté n'a pas souhaité répondre, ou s'il ne savait pas répondre; Pour la collecte web, les temps de passation de questionnaire. "
           },
           {
             "id": "F640-2",
