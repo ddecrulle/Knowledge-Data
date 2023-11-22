@@ -171,7 +171,7 @@
     },
     {
       "id": "products-P04",
-      "label": "Traitements des enquêtes",
+      "label": "Traitements post-collecte" ,
       "description": "...",
       "iconUrl": "https://raw.githubusercontent.com/ddecrulle/Knowledge-Data/main/static/traiter.svg",
       "color": "#69c462",
