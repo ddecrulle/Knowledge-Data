@@ -19,15 +19,6 @@
             "description": "Un guide de présentation et d’utilisation de l’offre de services de la filière d’enquêtes est mis à disposition et maintenu par les équipes produit de la filière. Il est destiné à l’ensemble des utilisateurs de la filière."
           },
           {
-            "id": "F111-2",
-            "label": "Configurer le protocole d'une enquête (boîte à outils, calendriers types...)",
-            "dispo": false,
-            "gsbpm": "gsbpm-2-3",
-            "idProduct": "products-P01",
-            "products": ["products-P0110"],
-            "description": "Pour les opérations techniques (format des fichiers à fournir aux outils, paramétrage disponible pour les courriers, etc.), une boîte à outils facilitant l'utilisation de l'offre de services est mise à disposition. Les outils en question pourraient à terme être pour partie remplacés par une application de gestion des métadonnées permettant de configurer les différents processus techniques (protocole de l'enquête, calendrier, type de courriers, etc.), le tout constituant un atelier de conception d'enquêtes avec les fonctions de conception de questionnaires."
-          },
-          {
             "id": "F112-1",
             "label": "Disposer de matériaux de formation et d’aide à la conception de questionnaires",
             "dispo": true,
@@ -56,75 +47,39 @@
           },
           {
             "id": "F121-2",
-            "label": "Gérer des listes ou nomenclatures",
-            "dispo": true,
-            "gsbpm": "gsbpm-2-3",
-            "idProduct": "products-P01",
-            "products": ["products-P0103"],
-            "description": "Lors de la spécification d'un questionnaire, les utilisateurs peuvent configurer l'appel à un moteur de recherche sur liste (ex : pays, nationalités, départements etc.) enrichie et consolidée avec la méthodologie"
-          },
-          {
-            "id": "F121-3",
             "label": "Visualiser le modèle de questionnaire pour les différents modes disponibles (web, papier, enquêteur)",
             "dispo": true,
             "gsbpm": "gsbpm-2-3",
             "idProduct": "products-P01",
             "products": ["products-P0103", "products-P0105"],
-            "description": "L’outil de spécification de questionnaires (Pogues) propose des fonctionnalités permettant de visualiser le questionnaire spécifié avec un rendu issu du générateur de supports de collecte (Eno) dans le mode sélectionné ou le contexte d’utilisation de type « gestionnaire de reprise entreprise »."
+            "description": "Depuis l’outil de spécification de questionnaires (Pogues), il est possible de visualiser le questionnaire spécifié, quel que soit le mode de collecte choisi, grâce au générateur de supports de collecte (Eno) et à un accès à des plateformes de visualisation dédiées à la recette. Avec cette visualisation, les filtres et contrôles peuvent également être testés"
+          },
+          {
+            "id": "F121-3",
+            "label": "Visualiser des spécifications littérales, pour relecture du questionnaire",
+            "dispo": true,
+            "gsbpm": "gsbpm-2-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0103", "products-P0105"],
+            "description": "L’outil de spécification et le générateur permettent de produire une spécification littérale, au format odt, pour une lecture plus globale du questionnaire et de ses composants "
           },
           {
             "id": "F121-4",
-            "label": "Offrir une visualisation contextualisée du modèle de questionnaire (y compris aide à la création du fichier de personnalisation) pour les différents modes disponibles (web, papier, enquêteur)",
+            "label": "Offrir une visualisation contextualisée et personnalisée du questionnaire et, de là, une aide à la création du fichier de personnalisation",
             "dispo": true,
             "gsbpm": "gsbpm-2-3",
             "idProduct": "products-P01",
             "products": ["products-P0106"],
-            "description": "Associé à l’outil de spécification de questionnaires, un module applicatif permet de visualiser le rendu des questionnaires, selon le mode sélectionné, personnalisés à partir de données fournies."
+            "description": "Associé à l’outil de spécification de questionnaires, un module applicatif permet de visualiser le rendu des questionnaires, selon le mode sélectionné (collecte web, à terme enquêteur), selon le contexte (collecte ménages ou entreprises), et avec des données personnalisées."
           },
           {
             "id": "F121-5",
-            "label": "Offrir une visualisation des spécifications pour relecture du questionnaire et vérification des filtres",
-            "dispo": true,
-            "gsbpm": "gsbpm-2-3",
-            "idProduct": "products-P01",
-            "products": ["products-P0103", "products-P0105"],
-            "description": "L’outil de spécification de questionnaires propose un certain nombre de fonctionnalités permettant de valider une spécification : génération d’une spécification littérale, possibilité de tester filtres et contrôles spécifiés…"
-          },
-          {
-            "id": "F121-6",
-            "label": "Produire le dictionnaire des variables pour la préparation des fichiers bruts de collecte (traitements avals)",
+            "label": "Configurer le protocole d'une enquête (boîte à outils, calendriers types...)",
             "dispo": false,
             "gsbpm": "gsbpm-2-3",
             "idProduct": "products-P01",
-            "products": ["products-P0103", "products-P0105"],
-            "description": "L’outil de spécification, en s’appuyant sur le moteur de génération Eno, permet la production d’un dictionnaire des variables du questionnaire spécifié, utilisable tant à des fins de documentation que pour la configuration d’autres processus (chaîne aval par exemple)."
-          },
-          {
-            "id": "services-S122-1",
-            "label": "Produire des supports de collecte sur la base de spécifications formelles de questionnaires (questionnaire web, papier, face à face, téléphonique, spécification de numérisation (code barre)…)",
-            "dispo": true,
-            "gsbpm": "gsbpm-3-1",
-            "idProduct": "products-P01",
-            "products": ["products-P0105"],
-            "description": "Le moteur de génération Eno permet de produire des supports de collecte qui peuvent être techniques (questionnaires pour le web, le papier, les enquêteurs…) ou documentaires (spécification). N.B. : Lorsque le support technique produit ne constitue pas en lui-même le questionnaire, celui-ci s’appuie sur un service ad-hoc (cf. Service Collecte Web, Papier, Enquêteurs) pour rendre le questionnaire utilisable et personnalisable."
-          },
-          {
-            "id": "F137",
-            "label": "Disposer d'une version papier du modèle de questionnaire",
-            "dispo": true,
-            "gsbpm": "gsbpm-3-1",
-            "idProduct": "products-P01",
-            "products": ["products-P0103"],
-            "description": "Mettre à disposition une version papier du modèle de questionnaire décrit dans Pogues pour les enquêtes dont le protocole prévoit l’utilisation de ce mode de collecte."
-          },
-          {
-            "id": "services-S123-1",
-            "label": "Spécifier les traitements de contrôle qualité à appliquer aux questionnaires collectés",
-            "dispo": false,
-            "gsbpm": "gsbpm-2-5",
-            "idProduct": "products-P01",
-            "products": ["products-P0103"],
-            "description": "Un module applicatif dédié permet de spécifier les contrôles qualité à appliquer après la collecte aux variables collectées. Ces spécifications pilotent des traitements batchs qui exécutent effectivement ces contrôles."
+            "products": ["products-P0110"],
+            "description": "Prototype en cours - Pour les opérations techniques (format des fichiers à fournir aux outils, paramétrage disponible pour les courriers, etc.), une boîte à outils facilitant l'utilisation de l'offre de services est mise à disposition. Les outils en question pourraient à terme être pour partie remplacés par une application de gestion des métadonnées permettant de configurer les différents processus techniques (protocole de l'enquête, calendrier, type de courriers, etc.), le tout constituant un atelier de conception d'enquêtes avec les fonctions de conception de questionnaires."
           },
           {
             "id": "F134",
@@ -133,34 +88,34 @@
             "gsbpm": "gsbpm-2-3",
             "idProduct": "products-P01",
             "products": ["products-P0106" , "products-P0110"],
-            "description": " à revoir : ??? offrira des services permettant une visualisation du rendu pdf avec données personnalisées dans un courrier."
+            "description": "Envisagé - un service qui permettrait une visualisation du rendu d'un courrier avec données personnalisées."
           },
           {
-            "id": "F135",
-            "label": "Capter les paradonnées questionnaire des enquêtes autoadministrées",
+            "id": "services-S122-1",
+            "label": "Produire, sur la base de spécifications formelles de questionnaires, des supports de collecte (questionnaires web, face à face, téléphonique, papier - avec spécification de numérisation type code barre",
             "dispo": true,
-            "gsbpm": "gsbpm-2-3",
+            "gsbpm": "gsbpm-3-1",
             "idProduct": "products-P01",
-            "products": ["products-P0101"],
-            "description": "Les données relatives au déroulement d'un questionnement (paradonnées) enregistrées par le questionnaire internet sont mises à disposition dans un entrepôt. A noter que ces données peuvent être exploitées à des fins de maîtrise d'œuvre ou de conception dans le cadre de tests d'enquête ou de questionnaire. Elles sont mises à disposition en cours de collecte afin de permettre le pilotage du processus (ex :  échantillonnage des non-répondants sur la base de paradonnées web)."
+            "products": ["products-P0105"],
+            "description": "Le moteur de génération Eno permet de produire, à partir de la description du questionnaire dans Pogues, des supports de collecte qui peuvent être techniques (questionnaires pour le web, le papier, les enquêteurs…) ou documentaires (spécifications, métadonnées DDI). Le support technique produit ne constitue pas en lui-même le questionnaire : il doit s’appuyer sur un service ad-hoc (cf. Service Collecte Web, Enquêteurs, impression PDF) qui transformera ce support en des questionnaires personnalisés, utilisables par ou auprès des enquêtés."
           },
           {
-            "id": "F136",
-            "label": "Capter les paradonnées questionnaire des enquêtes avec enquêteurs",
+            "id": "services-S123-1",
+            "label": "Spécifier les traitements de contrôle qualité à appliquer aux questionnaires collectés",
             "dispo": false,
-            "gsbpm": "gsbpm-2-3",
+            "gsbpm": "gsbpm-2-5",
             "idProduct": "products-P01",
-            "products": ["products-P0102"],
-            "description": "Les données relatives au déroulement d'un questionnement (paradonnées) enregistrées par le questionnaire enquêteur sont mis à disposition dans un entrepôt."
+            "products": ["products-P0103"],
+            "description": "Envisagé - Un module applicatif dédié permet de spécifier les contrôles qualité à appliquer après la collecte aux variables collectées. Ces spécifications pilotent des traitements batchs qui exécutent effectivement ces contrôles."
           },
           {
-            "id": "F850-4",
-            "label": "Offrir un service de standardisation lors de la collecte de coordonnées",
+            "id": "services-S123-2",
+            "label": "Produire le dictionnaire des variables pour la préparation des fichiers bruts de collecte (traitements avals)",
             "dispo": false,
-            "gsbpm": "gsbpm-4-3",
+            "gsbpm": "gsbpm-2-5",
             "idProduct": "products-P01",
-            "products": ["products-P0101", "products-P0102"],
-            "description": "Au sein des questionnaires web et enquêteurs et des interfaces de gestion des données personnelles pour les répondants, un service de standardisation/correction de l'adresse postale et/ou mail est mobilisée afin d'aider le répondant à fournir des adresses de qualité."
+            "products": ["products-P0103", "products-P0105"],
+            "description": "Envisagé - L’outil de spécification, en s’appuyant sur le moteur de génération Eno, permet la production d’un dictionnaire des variables du questionnaire spécifié, utilisable tant à des fins de documentation que pour la configuration d’autres processus (chaîne aval par exemple)."
           },
           {
             "id": "F138-1",
@@ -173,6 +128,15 @@
           },
           {
             "id": "F138-2",
+            "label": "Afficher un questionnaire dans le contexte d’une enquête enquêteur (face-à-face ou téléphone)",
+            "dispo": true,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0102"],
+            "description": "L’enquêteur peut visualiser et remplir le questionnaire, y compris quand il est hors ligne."
+          },
+          {
+            "id": "F138-3",
             "label": "Expédier un questionnaire complété dans le contexte d’une enquête web",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
@@ -181,7 +145,16 @@
             "description": "L’enquêté peut valider son questionnaire, ce qui a pour effet de clore définitivement la collecte. Les droits de consultation, modification etc. peuvent s’exercer par le biais du service d’assistance."
           },
           {
-            "id": "F138-3",
+            "id": "F138-4",
+            "label": "Transmettre un questionnaire complété dans le contexte d’une enquête enquêteur",
+            "dispo": true,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0102"],
+            "description": "L’enquêteur peut valider le questionnaire avant de le transmettre"
+          },
+          {
+            "id": "F138-5",
             "label": "Disposer d’une image (PDF) du questionnaire renseigné",
             "dispo": false,
             "gsbpm": "gsbpm-4-3",
@@ -190,25 +163,25 @@
             "description": "L’enquêté dispose d’un accès aux réponses qu’il a fournies sous la forme d’un PDF récapitulatif."
           },
           {
-            "id": "F138-4",
-            "label": "Renseigner pour la première fois un questionnaire",
+            "id": "F138-6",
+            "label": "Commencer la saisie d'un questionnaire",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P01",
-            "products": ["products-P0101"],
-            "description": "L’enquêté saisit les réponses à son questionnaire, soit partiellement, soit en totalité."
+            "products": ["products-P0101","products-P0102"],
+            "description": "L’enquêté ou l'enquêteur saisit les réponses au questionnaire, soit partiellement, soit en totalité."
           },
           {
-            "id": "F138-5",
+            "id": "F138-7",
             "label": "Enregistrer l’état d’un questionnaire",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P01",
-            "products": ["products-P0101"],
-            "description": "L’enquêté peut interrompre le remplissage du questionnaire pour le reprendre ultérieurement, les données collectées sont sauvegardées régulièrement pendant le questionnement et peuvent l’être formellement lorsque le répondant quitte le questionnaire."
+            "products": ["products-P0101","products-P0102"],
+            "description": "L’enquêté, l'enquêteur peut interrompre le remplissage du questionnaire pour le reprendre ultérieurement, les données collectées sont sauvegardées régulièrement pendant le questionnement et peuvent l’être formellement lorsque le répondant quitte le questionnaire."
           },
           {
-            "id": "F138-6",
+            "id": "F138-8",
             "label": "Reprendre un questionnaire",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
@@ -217,25 +190,16 @@
             "description": "Après une interruption, l’enquêté peut reprendre le remplissage du questionnaire à l’endroit où il s’était arrêté (ou au début du questionnaire au choix). Il peut accéder aux réponses qu’il a préalablement fournies par retours arrière successifs au sein de son questionnaire."
           },
           {
-            "id": "F138-7",
-            "label": "Appeler des services d’accès à des listes, nomenclatures, y compris volumineuses (navigation sur liste…)",
+            "id": "F138-9",
+            "label": "Reprendre un questionnaire",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P01",
-            "products": ["products-P0101"],
-            "description": "L’enquêté peut mobiliser des ressources externes type « aides à la saisie » (nomenclatures, navigation sur liste)."
+            "products": ["products-P0102"],
+            "description": "Après une interruption, l’enquêteur peut reprendre le remplissage du questionnaire à l’endroit où il s’était arrêté : il peut accéder aux réponses qu’il a préalablement saisies par les menus de navigation."
           },
           {
-            "id": "F138-8",
-            "label": "Appeler des services d’accès à des ressources multimédia (sons, vidéos…)",
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P01",
-            "products": ["products-P0101"],
-            "description": "L’enquêté peut mobiliser des ressources externes type ressources multimédias (vidéo, sons)."
-          },
-          {
-            "id": "F138-9",
+            "id": "F138-10",
             "label": "Afficher de l’aide contextuelle",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
@@ -244,8 +208,8 @@
             "description": "Pour les questions ou les modalités nécessitant des consignes ou des précisions, l’enquêté bénéficie de textes sous forme d’infos-bulles ou de consignes affichées dans une forme distinctive par rapport au texte de la question, selon les préconisations portées par DRTI."
           },
           {
-            "id": "F138-10",
-            "label": "Visualiser les réponses ne satisfaisant pas les critères de qualité (format, vraisemblance…)",
+            "id": "F138-11",
+            "label": "Visualiser les réponses ne satisfaisant pas les critères de qualité spécifiés (format, vraisemblance…)",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P01",
@@ -253,13 +217,49 @@
             "description": "Des contrôles de format ou de cohérence sont exécutés en cours de collecte et permettent de signaler au répondant les réponses à corriger."
           },
           {
-            "id": "F138-11",
+            "id": "F138-12",
             "label": "Générer automatiquement la preuve de dépôt au format PDF d’un questionnaire validé sur internet",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P01",
             "products": ["products-P0101"],
             "description": "Dès que le questionnaire est validé, une preuve de dépôt de celui-ci est générée. Cette preuve de dépôt est téléchargeable par l’enquêté."
+          },
+          {
+            "id": "F135",
+            "label": "Capter les paradonnées questionnaire des enquêtes autoadministrées",
+            "dispo": true,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "Les données relatives au déroulement d'un questionnement (paradonnées) enregistrées par le questionnaire internet sont mises à disposition dans un entrepôt. A noter que ces données peuvent être exploitées à des fins de maîtrise d'œuvre ou de conception dans le cadre de tests d'enquête ou de questionnaire. Elles sont mises à disposition en cours de collecte afin de permettre le pilotage du processus (ex :  échantillonnage des non-répondants sur la base de paradonnées web)."
+          },
+            {
+            "id": "F136",
+            "label": "Capter les paradonnées questionnaire des enquêtes avec enquêteur",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0102"],
+            "description": "Les données relatives au déroulement d'un questionnement (paradonnées) enregistrées par le questionnaire enquêteur sont mis à disposition dans un entrepôt."
+          },
+          {
+            "id": "F138-13",
+            "label": "Appeler des services d’accès à des ressources multimédia (sons, vidéos…)",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101"],
+            "description": "L’enquêté ou l'enquêteur peut mobiliser des ressources externes type ressources multimédias (vidéo, sons)."
+          },
+          {
+            "id": "F138-14",
+            "label": "Offrir un service de standardisation lors de la collecte de coordonnées",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P01",
+            "products": ["products-P0101", "products-P0102"],
+            "description": "Envisagé - au sein des questionnaires web et enquêteurs et des interfaces de gestion des données personnelles pour les répondants, un service de standardisation/correction de l'adresse postale et/ou mail est mobilisée afin d'aider le répondant à fournir des adresses de qualité."
           },
           {
             "id": "F630-1",
@@ -1037,15 +1037,6 @@
             "idProduct": "products-P04",
             "products": ["products-P0403"],
             "description": "En fin de collecte, à partir des évènements enregistrés pendant la période de collecte (cycle de vie d'une unité enquêtée implémenté dans les outils) des aggrégats renseignant sur le 'résultat de l'opération de collecte' sont construits pour chaque unité enquêtée (à des fins d'alimentation de l'infocentre)."
-          },
-          {
-            "id": "F650-2",
-            "label": "Fournir des indicateurs de performance",
-            "dispo": true,
-            "gsbpm": "gsbpm-5-5",
-            "idProduct": "products-P04",
-            "products": ["products-P0406"],
-            "description": "Un infocentre permet la production d'indicateurs de performance et de contrôle de gestion servant de support au management des enquêteurs."
           },
           {
             "id": "F650-4",

@@ -37,22 +37,22 @@
         {
           "id": "products-P0103",
           "label": "Pogues",
-          "description": "Atelier de conception de questionnaire"
+          "description": "Atelier de conception d’enquêtes"
         },
         {
           "id": "products-P0106",
           "label": "Public Enemy",
-          "description": "Outil de personnalisation d'un instrument de collecte"
+          "description": "Outil de contextualisation d'un instrument de collecte"
         },
         {
           "id": "products-P0102",
           "label": "Queen",
-          "description": "Orchestrateur enquêteur"
+          "description": "Orchestrateur pour la collecte enquêteur (face à face ou téléphone)"
         },
         {
           "id": "products-P0101",
           "label": "Stromae",
-          "description": "Orchestrateur web"
+          "description": "Orchestrateur pour la collecte web"
         }
       ]
     },
@@ -183,10 +183,6 @@
         {
           "id": "products-P0402",
           "label": "Genesis"
-        },
-        {
-          "id": "products-P0406",
-          "label": "Infocentre"
         },
         {
           "id": "products-P0403",
