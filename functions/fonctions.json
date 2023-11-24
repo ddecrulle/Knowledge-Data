@@ -284,70 +284,79 @@
             "gsbpm": "gsbpm-3-1",
             "idProduct": "products-P02",
             "products": ["products-P0201"],
-            "description": "Une interface permet de personnaliser, configurer et visualiser le portail de promotion de son enquête."
+            "description": "Un responsable d’enquête peut personnaliser, configurer et visualiser le portail de promotion de l’enquête qu’il gère via une interface."
           },
-          {
+         {
             "id": "F210-2",
             "label": "Paramétrer l'accès à un questionnaire en fonction d'un contexte d'utilisation",
             "dispo": false,
             "gsbpm": "gsbpm-3-1",
             "idProduct": "products-P02",
             "products": ["products-P0215"],
-            "description": "La page d'authenfication offre des possibilités de contextualisation  (charte graphique, logos, etc., type contexte ménage/entreprise/SSM...)."
+            "description": "La page d'authentification offre des possibilités de contextualisation  (charte graphique, logos, etc., type contexte ménage/entreprise/SSM...)."
           },
-          {
+           {
             "id": "F311-1",
             "label": "Promouvoir la réponse à une enquête",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0201"],
-            "description": "Le portail de promotion contextualisé à chaque enquête est mis à  disposition sur internet. Il ne requiert aucune authentification et à pour vocation à fournir des informations générales sur l'enquête. Le public ciblé en priorité est celui des enquêtés, mais le grand public y a accès."
+            "description": "Le portail de promotion contextualisé à chaque enquête est mis à disposition sur internet. Il ne requiert aucune authentification et à pour vocation à fournir des informations générales sur l'enquête. Le public ciblé en priorité est celui des enquêtés, mais le grand public y a accès."
           },
           {
             "id": "F313",
-            "label": "Visualiser les questionnaires à répondre pour un contexte type entreprise",
+            "label": "Visualiser les questionnaires adressés à des entreprises",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0214"],
-            "description": "Un portail \"Mes Enquêtes\" est mis à disposition sur internet. Il requiert une authentification et permet à un contact de visualiser les questionnaires qu'il a à remplir ou à compléter."
+            "description": "Un portail Mes Enquêtes est mis à disposition sur internet. Il requiert une authentification et permet à un répondant en entreprise de visualiser la liste des questionnaires qu'il doit renseigner."
           },
           {
             "id": "F312-1",
-            "label": "Visualiser les questionnaires à répondre pour un contexte type ménage",
+            "label": "Visualiser les questionnaires adressés à des particuliers",
             "dispo": false,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0214"],
-            "description": "Un portail \"Mes Enquêtes\" est mis à disposition sur internet. Il requiert une authentification et permet la présentation de plusieurs questionnaires, éventuellement de différentes natures (questionnaire internet + carnet de collecte par exemple), pour une même enquête."
+            "description": "Un portail Mes Questionnaires est mis à disposition sur internet. Il requiert une authentification et permet la présentation de plusieurs questionnaires, éventuellement de différentes natures (questionnaire internet + carnet de collecte par exemple), pour une même enquête."
           },
           {
             "id": "F311-2",
-            "label": "Authentifier un répondant",
+            "label": "Authentifier un répondant de type particulier",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0215"],
-            "description": "Des mécanismes d'authentification sont mis en œuvre pour sécuriser l'accès aux enquêtes. Ils reposent sur l'utilisation d'un couple d'identifiant/mot de passe. Des fonctions permettant de réinitialiser automatiquement un mot de passe perdu avec le niveau de sécurité idoine."
+            "description": "Des mécanismes d'authentification sont mis en œuvre pour sécuriser l'accès aux enquêtes. Ils reposent sur l'utilisation d'un couple d'identifiant/mot de passe. Des fonctions permettent de réinitialiser automatiquement un mot de passe perdu avec le niveau de sécurité idoine."
+          },
+          {
+            "id": "F311-4",
+            "label": "Authentifier un répondant de type entreprise",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P02",
+            "products": ["products-P0215"],
+            "description": "Des mécanismes d'authentification sont mis en œuvre pour sécuriser l'accès aux enquêtes. Ils reposent sur l'utilisation d'un couple d'identifiant/mot de passe. Des fonctions permettent de réinitialiser automatiquement un mot de passe perdu avec le niveau de sécurité idoine, de le personnaliser et de récupérer, de manière sécurisée, son identifiant en cas de perte."
           },
           {
             "id": "F311-3",
-            "label": "Mettre à jour ses informations personnelles pour un contexte type ménage",
+            "label": "permettreà un particulier de mettre à jour ses informations personnelles",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0217"],
-            "description": "Le portail \"Mes Enquêtes\" est mis à disposition sur internet. Il requiert une authentification et permet à un enquêté de visualiser et mettre à jour ses informations personnelles utilisées dans les échanges lors du processus d'enquêtes (ouverture, relance, etc.)."
+            "description": "Un enquêté peut, après s’être authentifier, visualiser et mettre à jour ses informations personnelles utilisées dans les échanges lors du processus d'enquêtes (ouverture, relance, etc.)."
           },
           {
             "id": "F313-1",
-            "label": "Mettre à jour les données de contact pour un contexte type entreprise",
-            "dispo": true,
+            "label": "Permettre à un répondant en entreprise de mettre à jour ses informations personnelles",
+            "dispo": false,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0217"],
-            "description": "Le portail \"Mes Enquêtes\" est mis à disposition sur internet. Il requiert une authentification et permet à un contact de visualiser et mettre à jour ses informations utilisées dans les échanges lors du processus d'enquêtes (ouverture, relance, etc.). Dans ce contexte entreprise, les données de contact sont plus riches (par exemple : fonction exercée dans l'entreprise etc.) et sont mutualisées pour l'ensemble des enquêtes."
+            "description": "Le portail Mon Compte, mis à disposition sur internet, et qui requiert une authentification, permet à un contact en entreprise de visualiser et mettre à jour ses informations utilisées dans les échanges avec l’Insee ou les SSM (ouverture, relance, etc.). Les informations sur un répondant en entreprise peuvent être plus riches (par exemple : fonction exercée dans l'entreprise etc.) et sont mutualisées pour l'ensemble des enquêtes adressées au contact."
           },
           {
             "id": "F313-2",
@@ -356,16 +365,16 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0215"],
-            "description": "L'authentification aboutit à l'affichage d'un message contextualisé au protocole et à la temporalité (en l'occurence l'enquêté se présente trop tard) pour le bouton d'accès au questionnaire."
+            "description": "L'authentification aboutit à l'affichage d'un message contextualisé au protocole et à la temporalité (en l'occurrence l'enquêté se présente trop tard) pour le bouton d'accès au questionnaire."
           },
           {
             "id": "F313-3",
             "label": "Envoyer des questionnaires papier",
-            "dispo": true,
+            "dispo": false,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0204"],
-            "description": "Un service intégré avec des services éditiques dédiés permet la personnalisation, l'impression/mise sous pli et l'envoi de questionnaires papier."
+            "description": "Un gestionnaire peut générer un questionnaire personnalisé et l’expédier par courrier (impression/mise sous pli) ou le mettre à disposition des enquêtés."
           },
           {
             "id": "F313-4",
@@ -374,11 +383,74 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0216"],
-            "description": "Un service permettant d'accéder à des questionnaires en ligne, en s'appuyant sur une authentification préalable, et prenant en charge la sauvegarde des réponses fournies."
+            "description": "Un service permet d'accéder à des questionnaires en ligne, en s'appuyant sur une authentification préalable, et prend en charge la sauvegarde des réponses fournies."
           },
           {
             "id": "F313-5",
-            "label": "Permettre l’accès à des questionnaires \"enquêteur\"",
+            "label": "Permettre à un répondant en entreprise de répondre par retrait-dépôt de fichiers (R2D2)",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P02",
+            "products": ["products-P0216"],
+            "description": "Le répondant peut, à partir du tableau /’Mes enquêtes’/ retirer un fichier à renseigner et le déposer une fois renseigné."
+          },
+          {
+            "id": "F313-6",
+            "label": "Fournir à l’enquêté la preuve de sa réponse",
+            "dispo": true,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P02",
+            "products": ["products-P0216"],
+            "description": "Une fois son questionnaire envoyé, l’enquêté reçoit une confirmation de la bonne réception de sa réponse qu’il peut conserver"
+          },
+          {
+            "id": "F313-7",
+            "label": "Fournir à l’enquêté une copie de sa réponse",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P02",
+            "products": ["products-P0216"],
+            "description": "Une fois son questionnaire envoyé, l’enquêté peut demander une copie de sa réponse"
+          },
+          {
+            "id": "F313-8",
+            "label": "Permettre à un répondant en entreprise de gérer son portefeuille d’enquêtes",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P02",
+            "products": ["products-P0216"],
+            "description": "Un répondant en entreprise peut renseigner plusieurs enquêtes sur la même période et doit pouvoir regrouper toutes ces enquêtes sous un même compte de manière à ce qu’elles apparaissent toutes dans le tableau Mes enquêtes relatif au compte retenu"
+          },
+          {
+            "id": "F313-9",
+            "label": "Permettre à un gestionnaire d’assister un répondant en entreprise dans la gestion de son portefeuille d’enquêtes",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P02",
+            "products": ["products-P0216"],
+            "description": "Un contact en entreprise peut renseigner plusieurs enquêtes sur la même période et doit pouvoir regrouper toutes ses enquêtes sous un même compte de manière à ce qu’elles apparaissent toutes dans le tableau Mes enquêtes relatif au compte retenu. S’il rencontre des difficultés pour réaliser l’opération, un gestionnaire doit pouvoir l’assister, voire réaliser l’opération à sa place."
+          },
+          {
+            "id": "F313-10",
+            "label": "Permettre à un répondant en entreprise de gérer la liste des co-répondants pour chacune des enquêtes qu’il doit renseigner",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P02",
+            "products": ["products-P0216"],
+            "description": "Le répondant principal dans une entreprise doit pouvoir désigner un remplaçant et des co-répondants qui auront aussi accès au questionnaire. Il doit pouvoir gérer la liste de tous les répondants à une enquête pour l’unité enquêtée."
+          },
+          {
+            "id": "F313-11",
+            "label": "Permettre à un gestionnaire d’assister un répondant en entreprise dans la gestion des contacts",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P02",
+            "products": ["products-P0216"],
+            "description": " Le répondant principal dans une entreprise doit pouvoir désigner un remplaçant et des co-répondants qui auront aussi accès au questionnaire. Il doit pouvoir gérer la liste de tous les répondants à une enquête pour l’unité enquêtée. S’il rencontre des difficultés pour réaliser l’opération, un gestionnaire doit pouvoir l’assister, voire réaliser l’opération à sa place"
+          },
+          {
+            "id": "F313-12",
+            "label": "Permettre l’accès à des questionnaires enquêteur",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
@@ -386,8 +458,8 @@
             "description": "L’outil du poste Enquêteur (Sabiane collecte) permet d’accéder à des questionnaires d’enquête avec des fonctions de recherche, de tri et de filtres."
           },
           {
-            "id": "F313-6",
-            "label": "Permettre une collecte enquêteur \"hors-ligne\"",
+            "id": "F313-13",
+            "label": "Permettre une collecte enquêteur hors-ligne",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
@@ -401,7 +473,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0203"],
-            "description": "Processus de reprise/modification du questionnaire enquêteur complètement implémenté (processus métier à préciser)."
+            "description": "Visualisation par un enquêteur de l'état du questionnaire disponible dans un mode de collecte différent et processus de reprise modification par un enquêteur du questionnaire renseigné dans un autre mode de collecte (processus métier à préciser)."
           },
           {
             "id": "F320-2",
@@ -410,7 +482,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0203"],
-            "description": "L’application Sabiane collecte offre à l’enquêteur des fonctionnalités dédiées à faciliter la prise de rendez-vous avec le répondant (calendrier, plages de disponibilité, etc.)"
+            "description": "Offrir à l’enquêteur des fonctionnalités dédiées à faciliter la prise de rendez-vous avec le répondant (calendrier, plages de disponibilité, etc.)"
           },
           {
             "id": "F410-1",
@@ -464,7 +536,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0203"],
-            "description": "Le poste de collecte enquêteur permet de demander l'envoi d'une communication ou le réenvoi d'un document de collecte (par courrier papier, par mail ou par SMS) à une unité enquêtée."
+            "description": "Le poste de collecte enquêteur permet aux enquêteurs de demander l'envoi d'une communication ou le réenvoi d'un document de collecte (par courrier papier, par mail ou par SMS) à une unité enquêtée."
           },
           {
             "id": "F511-3",
@@ -473,7 +545,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0203"],
-            "description": "Le poste de collecte enquêteur permet la gestion des cas complexes, tels que les éclatements de budget/ménage ou les regroupements d'unités enquêtés (fusion dans un panel)."
+            "description": "Le poste de collecte enquêteur permet la gestion des cas complexes, tels que les éclatements de budget/ménage ou les regroupements d'unités enquêtés (fusion dans un panel). IL permet également de signaler un déménagement."
           },
           {
             "id": "F511-4",
@@ -482,7 +554,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0201"],
-            "description": "Un ensemble d'outils, type \"foire aux questions\", chatbot, permettent d'offrir des réponses automatiques aux répondants en quête d'assistance lors de la collecte d'une enquête (quelque soit le mode)."
+            "description": "Un ensemble d'outils, type foire aux questions, chatbot, permettent d'offrir des réponses automatiques aux répondants en quête d'assistance lors de la collecte d'une enquête (quelque soit le mode)."
           },
           {
             "id": "F512-1",
@@ -500,7 +572,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0201"],
-            "description": "Une interface permet aux services d'assistance de simplement configurer et alimenter les éléments d'assistance en ligne (foire aux questions, chatbot,...)."
+            "description": "Une interface permet aux responsables d’enquête de  configurer et alimenter les éléments d'assistance en ligne (foire aux questions, chatbot,...)."
           },
           {
             "id": "F512-3",
@@ -509,7 +581,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0212"],
-            "description": "Un serveur vocal interactif (SVI) permet la prise en charge des appels téléphoniques de répondants, en fonction de l'enquête concernée, afin de leur communiquer de l'information ou de les orienter vers l' interlocuteur adéquat dans le circuit d'assistance (assistance technique ou métier notamment)."
+            "description": "Un serveur vocal interactif (SVI) permet la prise en charge des appels téléphoniques des répondants, en fonction de l'enquête concernée, afin de leur communiquer de l'information ou de les orienter vers l'interlocuteur adéquat dans le circuit d'assistance (assistance technique ou métier notamment)."
           },
           {
             "id": "F512-4",
@@ -526,8 +598,17 @@
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
-            "products": ["products-P0203"],
-            "description": "Des services d'assistance, organisés en deux niveaux (premier niveau : questions techniques et d'accès aux outils, deuxième niveau : questions sur le questionnaire ou l'enquête), permettent de répondre aux répondants les plus en difficultés. Ils sont joignables par mail au travers d'un formulaire d'assistance accessible sur le portail Platine, ou par téléphone (les modalités de contact par téléphone pouvant varier selon les protocoles d'enquête)."
+            "products": ["products-P0201" , "products-P0216"],
+            "description": "Des services d'assistance, organisés en deux niveaux (premier niveau : questions générales sur le fonctionnement du site, le cadre juridique et sur l’Insee ; second niveau : interrogations sur le questionnaire et/ou l'enquête), permettent d’assister les répondants les plus en difficultés. Ils sont joignables par courriel au travers d'un formulaire d'assistance accessible sur le portail Platine, ou par téléphone (les modalités de contact par téléphone pouvant varier selon les protocoles d'enquête). "
+          },
+          {
+            "id": "F512-10",
+            "label": "Proposer une assistance personnalisée par plusieurs services gestionnaires",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P02",
+            "products": ["products-P0201" , "products-P0216"],
+            "description": "Des services d'assistance, organisés en deux niveaux (premier niveau : questions générales sur le fonctionnement du site, le cadre juridique et sur l’Insee ; second niveau : interrogations sur le questionnaire et/ou l'enquête), permettent d’assister les répondants les plus en difficultés. Ils sont joignables par courriel au travers d'un formulaire d'assistance accessible sur le portail Platine, ou par téléphone (les modalités de contact par téléphone pouvant varier selon les protocoles d'enquête) Les services gestionnaires peuvent être différents par enquête."
           },
           {
             "id": "F512-6",
@@ -536,25 +617,34 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202"],
-            "description": "L'outil Moog permet de modifier le statut d'une unité enquêtée par internet (unitairement et en \"masse\")."
+            "description": "Un gestionnaire peut consulter et/ou modifier le statut d'une unité enquêtée par internet (unitairement et en masse)."
           },
           {
             "id": "F512-7",
-            "label": "Visualiser les données de contact",
+            "label": "Visualiser les données de contact d’un particulier",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202"],
-            "description": "L’outil Moog permet d’afficher les données de contact d’une d’une unité enquêtée par internet (civilité, adresse, mail)."
+            "description": "Un gestionnaire peut afficher les données de contact d’uneunité enquêtée par internet (civilité, commune, adresse de messagerie)."
+          },
+          {
+            "id": "F512-9",
+            "label": "Visualiser et modifier les données de contact d’un répondant en entreprise",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P02",
+            "products": ["products-P0202"],
+            "description": "Un gestionnaire peut afficher les coordonnées d’un répondant en entreprise pour une unité enquêtée par internet et les modifier à la demande du contact."
           },
           {
             "id": "F512-8",
-            "label": "Afficher l'historique des statuts d'une unité enquêtée à des fins d'assistance",
+            "label": "Afficher l'historique des statuts d'une unité enquêtéeà des fins d'assistance",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202"],
-            "description": "L'outil Moog permet d'afficher des informations relatives à une unité enquêtée aux services d'assistance."
+            "description": "Les services d’assistance peuvent afficher des informations relatives à une unité enquêtée."
           },
           {
             "id": "F521-1",
@@ -563,7 +653,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202"],
-            "description": "L'application de suivi national (Moog) offre des fonctions d'export (utilisation manuelle et unitaire) des informations de gestion d'une collecte par internet pour des traitements en \"self\" (type constitution des relances)."
+            "description": "Un gestionnaire peut extraire (utilisation manuelle et unitaire) des informations de gestion d'une collecte par internet pour des traitements en self (type constitution des relances)."
           },
           {
             "id": "F522-1",
@@ -572,7 +662,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202"],
-            "description": "L'application de suivi national (Moog) fournit automatiquement des extractions des données de suivi d'une collecte par internet pour des traitements en \"self\"."
+            "description": "Des données de suivi d'une collecte par internet  sont automatiquement extraites pour des traitements en self."
           },
           {
             "id": "F515",
@@ -581,25 +671,16 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202", "products-P0209"],
-            "description": "Une fonctionnalité de type \"site miroir\" permet aux gestionnaires de visualiser un questionnaire internet d'un répondant sans le modifier, à des fins d'accompagnement du répondant."
-          },
-          {
-            "id": "F523-1",
-            "label": "Automatiser la réinitialisation du mot de passe",
-            "dispo": true,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0201", "products-P0214"],
-            "description": "Un service de réinitialisation du mot de passe est proposé au répondant en cas d'oubli de celui-ci. Le nouveau lui est transmis automatiquement par messagerie ou par courrier postal."
+            "description": "Une fonctionnalité de type site miroir permet aux gestionnaires de visualiser un questionnaire internet d'un répondant sans le modifier, à des fins d’assistance du répondant."
           },
           {
             "id": "F523-2",
-            "label": "Permettre la réinitialisation du mot de passe d’un répondant",
+            "label": "Permettre la réinitialisation par un gestionnaire du mot de passe d’un répondant",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202"],
-            "description": "A partir de Moog, l'assistance ou un gestionnaire dispose d'une fonctionnalité pour réinitialiser le mot de passe d'un enquêté, le nouveau étant transmis automatiquement par message ou par courrier postal."
+            "description": "Un répondant peut demander à l'assistance ou à un gestionnaire de réinitialiser son mot de passe ; le nouveau mot de passe est transmis automatiquement par courriel ou par courrier postal."
           },
           {
             "id": "F524-1",
@@ -621,21 +702,12 @@
           },
           {
             "id": "F524-4",
-            "label": "Relire des questionnaires « enquêteurs » sans possibilité de modification",
+            "label": "Relire des questionnaires «enquêteurs» sans possibilité de modification",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0206"],
-            "description": "Le questionnaire enquêteur dispose d’un mode « lecture seule » qui empêche les modifications mais permet une relecture par un gestionnaire, ou tout autre utilisateur habilité."
-          },
-          {
-            "id": "F525-1",
-            "label": "Relire des questionnaires issus d’une collecte web sans possibilité de modification",
-            "dispo": false,
-            "gsbpm": "gsbpm-4-3",
-            "idProduct": "products-P02",
-            "products": ["products-P0206"],
-            "description": "Le questionnaire issu d'une collecte web dispose d’un mode « lecture seule » qui empêche les modifications mais permet une relecture par un gestionnaire, ou tout autre utilisateur habilité."
+            "description": "Le questionnaire enquêteur dispose d’un mode «lecture seule» qui empêche les modifications mais permet une relecture par un gestionnaire, ou tout autre utilisateur habilité."
           },
           {
             "id": "F525-2",
@@ -644,7 +716,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0206"],
-            "description": "Sabiane gestion permet de sélectionner, rechercher et filtrer les unités enquêtées des enquêteurs, et d'en afficher l'état (préparée/repérée/contactée/enquêtée/mode de réponse...) pour les modes de collecte \"téléphonique\" ou \"face-à-face\"."
+            "description": "Sabiane gestion permet de sélectionner, rechercher et filtrer les unités enquêtées des enquêteurs, et d'en afficher l'état (préparée/repérée/contactée/enquêtée/mode de réponse...) pour les modes de collecte téléphonique ou face-à-face."
           },
           {
             "id": "F525-3",
@@ -653,7 +725,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0206"],
-            "description": "Sabiane Gestion propose des tableaux de bord et indicateurs (taux d'avancement, taux de collecte) standards (proposés à l'identique à toutes les enquêtes) pour permettre le suivi des collectes d'enquêtes  à protocole simple (sans multimode \"concurrentiel\", sans suivi par strate, sans carnet de collecte, etc.) mobilisant des enquêteurs par téléphone ou en face-à-face."
+            "description": "Sabiane Gestion propose des tableaux de bord et indicateurs (taux d'avancement, taux de collecte) standards (proposés à l'identique à toutes les enquêtes) pour permettre le suivi des collectes d'enquêtes  à protocole simple (sans multimode concurrentiel, sans suivi par strate, sans carnet de collecte, etc.) mobilisant des enquêteurs par téléphone ou en face-à-face."
           },
           {
             "id": "F524-5",
@@ -662,16 +734,16 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0206"],
-            "description": "Sabiane Gestion propose des tableaux de bord et indicateurs (taux d'avancement, taux de collecte) standards (proposer à l'identique à toutes les enquêtes) pour permettre le suivi des collectes d'enquêtes à protocole complexe (avec multimode \"concurrentiel\" ou carnet de collecte, etc.) mobilisant des enquêteurs."
+            "description": "Sabiane Gestion propose des tableaux de bord et indicateurs (taux d'avancement, taux de collecte) standards (proposer à l'identique à toutes les enquêtes) pour permettre le suivi des collectes d'enquêtes à protocole complexe (avec multimode concurrentiel ou carnet de collecte, etc.) mobilisant des enquêteurs."
           },
-          {
+            {
             "id": "F525-4",
             "label": "Consulter les tableaux standards de suivi pour une enquête par internet à protocole simple",
             "dispo": true,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202"],
-            "description": "L'application de suivi national (Moog) permet de visualiser des tableaux standards de suivi national pour des collectes par internet à protocole simple (sans collecte avec enquêteur, ou \"multiple\" questionnaires type carnet de collecte)."
+            "description": "Le responsable d’enquête peut visualiser des tableaux standards de suivi national pour des collectes par internet à protocole simple (sans collecte avec enquêteur, ou multiple questionnaires type carnet de collecte)."
           },
           {
             "id": "F525-5",
@@ -680,25 +752,25 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202"],
-            "description": "L'application de suivi national (Moog) permet de visualiser des tableaux standards de suivi national pour des collectes par internet à protocole complexe (avec collecte par enquêteur, ou \"multiple\" questionnaires type carnet de collecte)."
+            "description": "Le responsable d’enquête peut visualiser des tableaux standards de suivi national pour des collectes par internet à protocole complexe (avec collecte par enquêteur, ou multiple questionnaires type carnet de collecte)."
           },
           {
             "id": "F525-6",
-            "label": "Offrir un suivi de l'envoi de courriers pour des collectes internet",
+            "label": "Offrir un suivi de l'envoi de courriers pour les collectes par internet",
             "dispo": false,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202"],
-            "description": "L'application de suivi national (Moog) permet de suivre l'envoi de courrier pour des collectes internet."
+            "description": "Le responsable d’enquête peutsuivre l'envoi de courriers pour les collectes par internet."
           },
           {
             "id": "F525-7",
-            "label": "Offrir un suivi de l'envoi de mails pour des collectes internet",
+            "label": "Offrir un suivi de l'envoi de courriels pour les collectes par internet",
             "dispo": false,
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202"],
-            "description": "L'application de suivi national (Moog) permet de suivre l'envoi de mails pour des collectes internet."
+            "description": "Le responsable d’enquête peut suivre l'envoi de courriels pour les collectes par internet."
           },
           {
             "id": "F525-8",
@@ -707,7 +779,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0203"],
-            "description": "L'application Sabiane collecte permet à l'enquêteur de suivre l'envoi de courriers pour ses UE."
+            "description": "L'application Sabiane collecte permet à l'enquêteur de suivre l'envoi de courriers pour ses unités enquêtées."
           },
           {
             "id": "F525-9",
@@ -716,7 +788,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0203"],
-            "description": "L'application Sabiane collecte permet à l'enquêteur de suivre l'envoi de mails pour ses UE."
+            "description": "L'application Sabiane collecte permet à l'enquêteur de suivre l'envoi de mails pour ses unités enquêtées."
           },
           {
             "id": "F525-10",
@@ -725,7 +797,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0202"],
-            "description": "L'application de suivi national (Moog) permet de suivre les questionnaires papier pour une enquête internet avec un protocole papier."
+            "description": "Le responsable d’enquête peut suivre la collecte des questionnaires papier pour une enquête internet avec un protocole papier."
           },
           {
             "id": "F525-11",
@@ -734,7 +806,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0204"],
-            "description": "Un module de communication dédié permet l'envoi de communication \"en masse\" quel qu'en soit le type, courriers papiers, mails ou SMS.."
+            "description": "Un module de communication dédié permet l'envoi de communication en masse quel qu'en soit le type, courriers papiers, courriels ou SMS.."
           },
           {
             "id": "F525-12",
@@ -743,7 +815,7 @@
             "gsbpm": "gsbpm-4-3",
             "idProduct": "products-P02",
             "products": ["products-P0204"],
-            "description": "Avant lancement de la production éditique, les chaînes applicatives sollicitent un service externe (RNVP) garantissant la normalisation des adresses conformément aux normes postales (norme Afnor) et offrant des services de correction/standardisation pour en améliorer la qualité."
+            "description": "Avant lancement de la production des courriers, le service externe RNVP qui garantit la normalisation des adresses conformément aux normes postales (norme Afnor) et offre des services de correction/standardisation pour en améliorer la qualité est sollicité."
           },
           {
             "id": "F525-13",
@@ -772,14 +844,23 @@
             "products": ["products-P0203", "products-P0206"],
             "description": "Les outils de collecte Sabiane Gestion et Sabiane Collecte sont mis à jour automatiquement à partir du référentiel des enquêteurs."
           },
-          {
+         {
             "id": "F610-1",
-            "label": "Numériser des questionnaires papier",
+            "label": "Numériser des questionnaires papier renseignés par des particuliers",
             "dispo": true,
             "gsbpm": "gsbpm-4-4",
             "idProduct": "products-P02",
             "products": ["products-P0205"],
-            "description": "Le PENM, soit à partir des outils offerts par son atelier de numérisation, soit par le dialogue avec un prestataire, fournit aux maîtrises d'œuvre d'enquête, dans un format exploitable, la liste des questionnaires saisis."
+            "description": "Le PENM, soit à partir des services offerts par son atelier de numérisation, soit par recours à un prestataire, fournit aux maîtrises d'œuvre d'enquête la liste des questionnaires numérisés."
+          },
+          {
+            "id": "F610-9",
+            "label": "Numériser des questionnaires papier renseignées par des entreprises",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-4",
+            "idProduct": "products-P02",
+            "products": ["products-P0205"],
+            "description": "La numérisation des questionnaires permet la mise à disposition des responsables d’enquêtes des données collectées et de la liste des unités enquêtés pour lesquelles une réponse a été reçue."
           },
           {
             "id": "F610-2",
@@ -788,7 +869,7 @@
             "gsbpm": "gsbpm-4-4",
             "idProduct": "products-P02",
             "products": ["products-P0217"],
-            "description": "Platine fournit les données collectées d'une collecte web pour permettre les traitements post collecte."
+            "description": "Les données collectées par internet sont transmises aux responsables d’enquêtes pour permettre les traitements post collecte."
           },
           {
             "id": "F610-3",
@@ -806,16 +887,16 @@
             "gsbpm": "gsbpm-4-4",
             "idProduct": "products-P02",
             "products": ["products-P0205"],
-            "description": "à compléter"
+            "description": "Les données issues de la numérisation des questionnaires papier sont supprimées après transmission aux responsables d’enquêtes pour traitements post-collecte"
           },
           {
             "id": "F610-5",
-            "label": "Nettoyer les données de collecte et de suivi issues d'une collecte web",
+            "label": "Supression des données de collecte et de suivi d'une collecte web",
             "dispo": false,
             "gsbpm": "gsbpm-4-4",
             "idProduct": "products-P02",
             "products": ["products-P0217"],
-            "description": "à compléter"
+            "description": "Les données collectées et les données de suivi de la collecte sur internet sont supprimées après transmission aux responsables d’enquêtes pour traitement post-collecte"
           },
           {
             "id": "F610-6",
@@ -824,7 +905,7 @@
             "gsbpm": "gsbpm-4-4",
             "idProduct": "products-P02",
             "products": ["products-P0206"],
-            "description": "à compléter"
+            "description": "A l'issue d'une collecte, lorsque tous les traitements de collecte et de gestion ont été réalisés et après sauvergarde des données, l'ensemble des données est supprimé de l'outils de gestion (processus métier à définir) "
           },
           {
             "id": "F610-7",
