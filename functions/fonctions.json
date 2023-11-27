@@ -1023,6 +1023,15 @@
             "description": "L'outil d'administration de la collecte Protools permet de déclencher les traitement visant à clore une collecte à partir de métadonnées (fermeture des accès, nettoyage des données etc.)"
           },
           {
+            "id": "F844-5",
+            "label": "Automatiser l'envoi de communications",
+            "dispo": false,
+            "gsbpm": "gsbpm-4-3",
+            "idProduct": "products-P03",
+            "products": ["products-P0302"],
+            "description": "L'outil d'administration de la collecte Protools permet d'automatiser l'envoi de communications mail et/ou papier."
+          },
+          {
             "id": "F845-1",
             "label": "Initialiser une collecte",
             "dispo": true,
